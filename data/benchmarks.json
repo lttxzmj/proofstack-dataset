@@ -1,0 +1,220 @@
+{
+  "generated_at": "2026-09-03T17:38:06.952Z",
+  "source": "https://proof-stack-lake.vercel.app/benchmarks",
+  "license": "CC BY 4.0",
+  "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
+  "overall": {
+    "sample_size": 43,
+    "paid_sample_size": 31,
+    "free_tier_count": 34,
+    "first_paid_median": 19,
+    "first_paid_min": 4.99,
+    "first_paid_max": 149,
+    "gate_tallies": [
+      {
+        "label": "Team seats and permissions",
+        "count": 15
+      },
+      {
+        "label": "Usage limits (items, runs, storage)",
+        "count": 14
+      },
+      {
+        "label": "Automation and workflows",
+        "count": 10
+      },
+      {
+        "label": "API and integrations",
+        "count": 9
+      },
+      {
+        "label": "Advanced analytics",
+        "count": 7
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "AI Tools",
+      "benchmark": {
+        "sample_size": 8,
+        "paid_sample_size": 6,
+        "free_tier_count": 6,
+        "first_paid_median": 17.5,
+        "first_paid_min": 9,
+        "first_paid_max": 99,
+        "gate_tallies": [
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 6
+          },
+          {
+            "label": "API and integrations",
+            "count": 3
+          },
+          {
+            "label": "Automation and workflows",
+            "count": 2
+          },
+          {
+            "label": "Export and downloads",
+            "count": 2
+          },
+          {
+            "label": "Remove branding",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "Developer Tools",
+      "benchmark": {
+        "sample_size": 4,
+        "paid_sample_size": 3,
+        "free_tier_count": 3,
+        "first_paid_median": 25,
+        "first_paid_min": 25,
+        "first_paid_max": 49,
+        "gate_tallies": [
+          {
+            "label": "Team seats and permissions",
+            "count": 3
+          },
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 2
+          },
+          {
+            "label": "API and integrations",
+            "count": 1
+          },
+          {
+            "label": "Automation and workflows",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "Productivity",
+      "benchmark": {
+        "sample_size": 8,
+        "paid_sample_size": 4,
+        "free_tier_count": 6,
+        "first_paid_median": 9.75,
+        "first_paid_min": 5.59,
+        "first_paid_max": 15,
+        "gate_tallies": [
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 2
+          },
+          {
+            "label": "Team seats and permissions",
+            "count": 2
+          },
+          {
+            "label": "Advanced analytics",
+            "count": 2
+          },
+          {
+            "label": "API and integrations",
+            "count": 1
+          },
+          {
+            "label": "Automation and workflows",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "Creator Tools",
+      "benchmark": {
+        "sample_size": 7,
+        "paid_sample_size": 6,
+        "free_tier_count": 7,
+        "first_paid_median": 31,
+        "first_paid_min": 6,
+        "first_paid_max": 149,
+        "gate_tallies": [
+          {
+            "label": "Automation and workflows",
+            "count": 4
+          },
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 2
+          },
+          {
+            "label": "Team seats and permissions",
+            "count": 2
+          },
+          {
+            "label": "Advanced analytics",
+            "count": 2
+          },
+          {
+            "label": "Export and downloads",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "category": "Micro SaaS",
+      "benchmark": {
+        "sample_size": 4,
+        "paid_sample_size": 4,
+        "free_tier_count": 3,
+        "first_paid_median": 20,
+        "first_paid_min": 9,
+        "first_paid_max": 29,
+        "gate_tallies": [
+          {
+            "label": "Team seats and permissions",
+            "count": 4
+          },
+          {
+            "label": "Remove branding",
+            "count": 2
+          },
+          {
+            "label": "Custom domain",
+            "count": 2
+          },
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 1
+          },
+          {
+            "label": "API and integrations",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "SaaS",
+      "benchmark": {
+        "sample_size": 5,
+        "paid_sample_size": 2,
+        "free_tier_count": 5,
+        "first_paid_median": 8.44,
+        "first_paid_min": 4.99,
+        "first_paid_max": 11.88,
+        "gate_tallies": [
+          {
+            "label": "Export and downloads",
+            "count": 1
+          },
+          {
+            "label": "SSO and compliance",
+            "count": 1
+          }
+        ]
+      }
+    }
+  ]
+}
