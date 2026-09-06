@@ -6,7 +6,7 @@ Audited indie product business cases and pricing benchmarks, released as open da
 
 | File | Contents |
 |---|---|
-| `data/cases.json` | 43 audited business cases: pricing tiers, revenue disclosures, market analysis, acquisition operations, what-to-copy / what-not-to-copy, and **a source URL for every figure** |
+| `data/cases.json` | 40+ audited business cases (count grows weekly; see `generated_at` in the data files): pricing tiers, revenue disclosures, market analysis, acquisition operations, what-to-copy / what-not-to-copy, and **a source URL for every figure** |
 | `data/benchmarks.json` | Pricing benchmarks overall and per category: median first paid tier, price range, free-tier prevalence, paywall-capability distribution |
 | `data/benchmarks.csv` | The benchmark table in CSV for spreadsheets |
 
