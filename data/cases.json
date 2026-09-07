@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T07:02:04.916Z",
+  "generated_at": "2026-09-07T07:15:07.311Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 43,
+  "count": 47,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -199,6 +199,432 @@
         "retention_mechanism_en": "",
         "first_traffic_source_en": "",
         "free_to_paid_trigger_en": "The free tier likely limits the number of AI features or access to premium templates, but specific limits are not stated on the page.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
+    },
+    {
+      "id": "appflowy",
+      "slug": "appflowy",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_github_377496562-1",
+          "url": "https://appflowy.com/",
+          "notes": "Direct real-time crawl of https://appflowy.com/ used for structured commercial extraction.",
+          "title": "AppFlowy Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_github_377496562-2",
+          "url": "https://appflowy.com/pricing",
+          "notes": "Direct real-time crawl of https://appflowy.com/pricing used for structured commercial extraction.",
+          "title": "AppFlowy Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_github_377496562-3",
+          "url": "https://appflowy.com/about",
+          "notes": "Direct real-time crawl of https://appflowy.com/about used for structured commercial extraction.",
+          "title": "AppFlowy Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "Developer Tools",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-08-12T05:28:08.440Z",
+      "summary_en": "AppFlowy is an open-source, privacy-focused AI workspace combining projects, wikis, and team collaboration. It offers a free tier and monetizes through paid subscriptions like Pro, AI MAX, and Vault, providing advanced AI models, unlimited storage, and local AI. Its business model is open-source core with paid cloud services, emphasizing data ownership and self-hosting.",
+      "summary_zh": "AppFlowy 是一个开源、注重隐私的 AI 工作空间，结合项目、维基和团队协作。它提供免费层级，并通过 Pro、AI MAX 和 Vault 等付费订阅盈利，提供高级 AI 模型、无限存储和本地 AI 功能。其商业模式是开源核心加付费云服务，强调数据所有权和自托管。",
+      "updated_at": "2026-09-06T12:26:56.756Z",
+      "launch_year": 0,
+      "website_url": "https://appflowy.com/",
+      "founder_name": "",
+      "founder_type": "VC-backed",
+      "product_name": "AppFlowy",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费版限制：1个工作区、最多2名成员、5GB存储、10次AI响应、2张AI图片、智能搜索、移动应用、实时协作。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "features": [
+              "1 collaborative workspace",
+              "up to 2 members",
+              "Unlimited pages & blocks",
+              "5 GB storage",
+              "Intelligent search",
+              "10 AI responses"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Pro",
+            "price": "$10",
+            "features": [
+              "Everything in Free",
+              "Unlimited storage",
+              "Up to 50 workspace members",
+              "Up to 100 guest editors",
+              "Unlimited AI responses",
+              "50 AI images per month"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "AppFlowy AI MAX",
+            "price": "$8",
+            "features": [
+              "Unlimited AI responses",
+              "Unlimited file uploads",
+              "50 AI images per month",
+              "Access to GPT-5, Gemini 2.5 Pro, Claude 3.7 Sonnet"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Vault",
+            "price": "$6",
+            "features": [
+              "Private and offline",
+              "AI runs locally",
+              "Unlimited AI responses & file size for AI Chat"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "Free plan limits: 1 workspace, up to 2 members, 5GB storage, 10 AI responses, 2 AI images, intelligent search, mobile app, real-time collaboration.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Freemium",
+          "Subscription",
+          "Open source + paid cloud"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 0,
+        "total_urls": 21,
+        "observed_at": "2026-09-07T05:43:13.849Z",
+        "path_groups": [
+          {
+            "count": 4,
+            "segment": "/compare"
+          },
+          {
+            "count": 3,
+            "segment": "/templates"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/about"
+          },
+          {
+            "count": 1,
+            "segment": "/appflowy-blocks"
+          },
+          {
+            "count": 1,
+            "segment": "/contact"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 3,
+        "comparison_pages": [
+          "https://appflowy.com/compare/notion-vs-appflowy",
+          "https://appflowy.com/compare/appflowy-vs-affine",
+          "https://appflowy.com/compare/appflowy-vs-docmost",
+          "https://appflowy.com/compare/appflowy-vs-outline"
+        ],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "AppFlowy",
+        "signals": [
+          {
+            "score": 39,
+            "keyword": "appflowy vs notion",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vs",
+              "notion"
+            ],
+            "best_position": 1,
+            "independent_sources": 3
+          },
+          {
+            "score": 37,
+            "keyword": "appflowy self hosted",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "self",
+              "hosted"
+            ],
+            "best_position": 3,
+            "independent_sources": 3
+          },
+          {
+            "score": 37,
+            "keyword": "appflowy docker",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "docker"
+            ],
+            "best_position": 3,
+            "independent_sources": 3
+          },
+          {
+            "score": 29,
+            "keyword": "appflowy github",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "github"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
+            "keyword": "appflowy vs obsidian",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vs",
+              "obsidian"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
+            "keyword": "appflowy templates",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "templates"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
+            "keyword": "appflowy mcp",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "mcp"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 16,
+            "keyword": "appflowy review",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "review"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "appflowy cloud",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "cloud"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "appflowy ai",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "ai"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-07T05:43:12.231Z"
+      },
+      "last_checked_at": "2026-09-06T12:26:56.756Z",
+      "market_analysis": {
+        "market_risk": "面临Notion、Airtable等成熟产品的竞争，以及AI功能可能被大厂复制。",
+        "alternatives": [
+          "Notion",
+          "Airtable"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Growth",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Faces competition from mature products like Notion and Airtable, and AI features may be replicated by big players.",
+        "buyer_intent_en": "",
+        "differentiation": "强调数据隐私和自托管，提供本地AI模型运行，以及开源社区驱动。",
+        "market_category": "Developer Tools",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Emphasizes data privacy and self-hosting, offers local AI model running, and is open-source community-driven.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "为用户提供一个安全、可定制、数据自主可控的AI工作空间，用于项目管理、知识管理和团队协作。",
+        "data_moat": "用户数据存储在AppFlowy云或自托管环境中，随着时间积累，数据迁移成本增加。",
+        "aha_moment": "当用户使用AI快速生成内容或从数据库中获得洞察，并意识到数据完全由自己控制时。",
+        "onboarding": "新用户下载应用或注册云服务，创建或导入工作区，然后通过模板或空白页开始创建页面和数据库。",
+        "core_job_en": "Provide users with a secure, customizable, and data-controlled AI workspace for project management, knowledge management, and team collaboration.",
+        "data_moat_en": "User data stored in AppFlowy cloud or self-hosted environments accumulates over time, increasing switching costs.",
+        "product_risk": "复制者可能难以匹敌其AI模型集成和本地AI能力，以及社区生态和品牌信任。",
+        "aha_moment_en": "When a user uses AI to quickly generate content or gain insights from databases, and realizes their data is fully under their control.",
+        "onboarding_en": "New users download the app or sign up for cloud, create or import a workspace, then start creating pages and databases via templates or blank pages.",
+        "paid_features": [
+          "无限存储",
+          "无限AI响应",
+          "高级AI模型（GPT-5、Gemini 2.5 Pro、Claude 3.7 Sonnet）",
+          "本地AI（Vault）"
+        ],
+        "product_risk_en": "Copycats may struggle to match its AI model integrations and local AI capabilities, as well as community ecosystem and brand trust.",
+        "usage_frequency": "daily",
+        "workflow_lockin": "用户将项目、维基和团队协作集中在一个工作区，并依赖AI辅助，形成工作流依赖。",
+        "paid_features_en": [
+          "Unlimited storage",
+          "Unlimited AI responses",
+          "Advanced AI models (GPT-5, Gemini 2.5 Pro, Claude 3.7 Sonnet)",
+          "Local AI (Vault)"
+        ],
+        "must_have_features": [
+          "无限页面和块",
+          "实时协作",
+          "移动应用",
+          "智能搜索"
+        ],
+        "workflow_lockin_en": "Users centralize projects, wikis, and team collaboration in one workspace and rely on AI assistance, creating workflow dependency.",
+        "must_have_features_en": [
+          "Unlimited pages & blocks",
+          "Real-time collaboration",
+          "Mobile app",
+          "Intelligent search"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合有技术能力、希望建立社区并实现可持续盈利的开发者团队。",
+        "best_for_en": "Ideal for developer teams with technical skills who want to build a community and achieve sustainable monetization.",
+        "mvp_version": "一个基本的开源工作空间，支持页面、块、数据库和实时协作，并集成一个AI助手（如GPT-5）提供基础问答和内容生成。",
+        "pattern_name": "开源核心加付费云服务",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "开源核心加付费云服务的模式；强调数据隐私和自托管；提供免费层级以吸引用户；社区驱动开发；提供模板和集成。",
+        "why_it_works": "通过开源建立信任和社区，吸引开发者；通过付费云服务提供便利和高级功能，实现盈利。",
+        "mvp_version_en": "A basic open-source workspace with pages, blocks, databases, and real-time collaboration, plus an AI assistant (e.g., GPT-5) for basic Q&A and content generation.",
+        "pattern_name_en": "Open-source core with paid cloud services",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Open-source core with paid cloud services; emphasize data privacy and self-hosting; offer a free tier to attract users; community-driven development; provide templates and integrations.",
+        "why_it_works_en": "Open-source builds trust and community, attracting developers; paid cloud services offer convenience and advanced features, generating revenue.",
+        "what_not_to_copy": "庞大的社区和贡献者基础（10K社区成员、400贡献者）；知名投资者的支持（OSS Capital、HongShan等）；成熟的品牌和信任；跨平台原生应用开发能力。",
+        "suggested_channel": "Open Source",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Large community and contributor base (10K community members, 400 contributors); backing from notable investors (OSS Capital, HongShan, etc.); established brand and trust; cross-platform native app development capability.",
+        "suggested_channel_en": "Open Source",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Monetizes via subscription plans for cloud and self-hosted AI workspace, leveraging open-source core for trust and data control.",
+      "one_line_insight_zh": "通过开源核心加付费云服务，提供数据自主可控的AI工作空间，以订阅制盈利。",
+      "acquisition_operations": {
+        "seo_strategy": "网站包含模板、博客、比较页面（如“Compare vs Notion”）和开发者文档，可能通过SEO吸引搜索流量。",
+        "content_format": [],
+        "conversion_path": "访客免费注册或下载，使用免费版，遇到限制（如存储、AI次数）后升级到付费计划。",
+        "primary_channel": "Open Source",
+        "seo_strategy_en": "The site includes templates, blog, comparison pages (e.g., 'Compare vs Notion'), and developer docs, likely attracting search traffic via SEO.",
+        "social_strategy": "社区通过Discord、Twitter、GitHub等平台运营，可能通过社区互动和内容分享吸引用户。",
+        "operation_tactics": [
+          "提供免费层级吸引用户",
+          "社区驱动开发",
+          "提供模板和集成"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors sign up for free or download, use the free tier, encounter limits (e.g., storage, AI credits), then upgrade to paid plans.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Community is managed via Discord, Twitter, GitHub, etc., likely attracting users through community engagement and content sharing.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费版限制：1个工作区、最多2名成员、5GB存储、10次AI响应、2张AI图片、智能搜索、移动应用、实时协作。",
+        "operation_tactics_en": [
+          "Offer free tier to attract users",
+          "Community-driven development",
+          "Provide templates and integrations"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "Free plan limits: 1 workspace, up to 2 members, 5GB storage, 10 AI responses, 2 AI images, intelligent search, mobile app, real-time collaboration.",
         "founder_brand_dependency": false
       },
       "replication_difficulty": "High"
@@ -1443,7 +1869,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Beehiiv bundles newsletter writing, websites, referrals, ads, and paid subscriptions. It contrasts with Substack through a 0% subscription take rate while monetizing through SaaS plans and ad-network products.",
       "summary_zh": "Beehiiv 把 newsletter 写作、网站、推荐增长、广告变现和付费订阅放在一个系统里。它用“0% 订阅抽成”对比 Substack，用 SaaS 套餐和广告网络收费。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-06T14:10:01.461Z",
       "launch_year": 2021,
       "website_url": "https://www.beehiiv.com",
       "founder_name": "Tyler Denk, Benjamin Hargett, and Jake Hurd",
@@ -1454,7 +1880,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "超过免费规模、需要广告网络、Boosts、付费订阅、自动化、去品牌或多刊物运营时升级。",
-        "revenue_type": "MRR",
+        "revenue_type": "ARR",
         "pricing_tiers": [
           {
             "name": "Scale",
@@ -1478,9 +1904,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$1M–3M MRR",
+        "revenue_range": "~$30M annualized · Sacra estimate 2025-06",
         "renewal_reason": "持续使用核心工作流和历史数据，迁移成本随时间提高。",
-        "revenue_amount": 2300000,
+        "revenue_amount": 2500000,
         "paid_trigger_en": "Upgrade triggers include larger lists, ad network, Boosts, paid subscriptions, automations, white label, and multiple publications.",
         "renewal_reason_en": "Ongoing workflow usage and retained historical data increase switching costs over time.",
         "monetization_model": [
@@ -1683,7 +2109,7 @@
         ],
         "observed_at": "2026-08-24T05:04:27.874Z"
       },
-      "last_checked_at": "2026-09-03T08:08:36.050Z",
+      "last_checked_at": "2026-09-06T14:10:01.461Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -2237,7 +2663,7 @@
       "created_at": "2026-07-07T12:00:00.000Z",
       "summary_en": "Buffer is a social media scheduling SaaS. Founder Joel Gascoigne launched the initial MVP in just 7 weeks. Buffer earned global acclaim and organic traffic loops by implementing 'Radical Transparency'—publicly publishing everyone's salaries, historical ARR dashboards, and investor sheets. Combined with massive guest-blogging and evergreen SEO, it scaled to $20M+ in recurring ARR.",
       "summary_zh": "Buffer 是一款领先的社交媒体排程与管理 SaaS 工具。早期创始人 Joel Gascoigne 仅用 7 周便开发并发布了最简版 MVP。Buffer 凭借将公司内部所有员工薪酬、实时 ARR、产品规划图、甚至是投资协议完全向全网公开的‘极端透明’文化获得了全球科技界的瞩目和极大的口碑红利。结合极富成效的常青内容营销，成功地成长为一家年营收达两千万美元级别的常青软件帝国。",
-      "updated_at": "2026-07-07T12:00:00.000Z",
+      "updated_at": "2026-09-06T14:10:00.451Z",
       "launch_year": 2010,
       "website_url": "https://www.buffer.com",
       "founder_name": "Joel Gascoigne",
@@ -2282,9 +2708,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$15M–20M ARR",
+        "revenue_range": "$24.5M ARR · live transparency dashboard 2026-09",
         "renewal_reason": "社交媒体发布属于刚性、日常、繁重的工作，一旦团队将发布计划与 Buffer 绑定，其高昂的迁移成本（重设发布账号、导入团队排班）使得用户极少主动退订。",
-        "revenue_amount": 1600000,
+        "revenue_amount": 2000000,
         "paid_trigger_en": "Free users face limits on total social profiles (3) and queued posts (10). Professional queuing, analytics, and agency workflows trigger essentials/team tiers.",
         "renewal_reason_en": "Social publishing is a daily, critical routine. Once teams wire editorial calendars and log secure agency tokens into Buffer, the friction to switch holds them secure.",
         "monetization_model": [
@@ -2476,7 +2902,7 @@
         ],
         "observed_at": "2026-08-24T05:04:28.142Z"
       },
-      "last_checked_at": "2026-09-03T08:08:35.452Z",
+      "last_checked_at": "2026-09-06T14:10:00.451Z",
       "market_analysis": {
         "market_risk": "各大社交平台原生排程功能（如 Twitter 网页版自带排程、Instagram 自带排程）不断完善，免费分流了大量单账号轻度用户的付费需求。",
         "alternatives": [
@@ -3428,6 +3854,410 @@
         "founder_brand_dependency": true
       },
       "replication_difficulty": "Medium"
+    },
+    {
+      "id": "coasty",
+      "slug": "coasty",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_y_combinator_33738-1",
+          "url": "https://coasty.ai/",
+          "notes": "Direct real-time crawl of https://coasty.ai/ used for structured commercial extraction.",
+          "title": "Coasty Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_y_combinator_33738-2",
+          "url": "https://coasty.ai/llms.txt",
+          "notes": "Direct real-time crawl of https://coasty.ai/llms.txt used for structured commercial extraction.",
+          "title": "Coasty Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_y_combinator_33738-3",
+          "url": "https://coasty.ai/pricing",
+          "notes": "Direct real-time crawl of https://coasty.ai/pricing used for structured commercial extraction.",
+          "title": "Coasty Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_y_combinator_33738-4",
+          "url": "https://www.ycombinator.com/companies/coasty",
+          "notes": "Direct real-time crawl of https://www.ycombinator.com/companies/coasty used for structured commercial extraction.",
+          "title": "Coasty Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "AI Tools",
+      "logo_url": "",
+      "team_size": 2,
+      "created_at": "2026-08-12T05:24:28.578Z",
+      "summary_en": "Coasty is a Y Combinator-backed computer-use AI agent platform offering cloud-hosted services that operate screens via vision rather than selectors. It provides a REST API, MCP server, and native apps, with BYOK and managed models. Pricing is usage-based, covering API calls, sessions, machine runs, etc. Free sandbox keys allow testing.",
+      "summary_zh": "Coasty 是一个由 Y Combinator 支持的计算机使用 AI 代理平台，提供云托管服务，通过视觉而非选择器来操作屏幕。它提供 REST API、MCP 服务器和原生应用，支持 BYOK 和托管模型。定价基于使用量，包括 API 调用、会话、机器运行等。免费沙盒密钥允许测试。",
+      "updated_at": "2026-09-06T12:26:56.720Z",
+      "launch_year": 2026,
+      "website_url": "http://coasty.ai/",
+      "founder_name": "",
+      "founder_type": "duo",
+      "product_name": "Coasty",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费沙盒密钥（sk-coasty-test-…）允许测试，但功能受限（模拟机器，不收费）；实际使用需要付费。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "features": [
+              "Sandbox API keys",
+              "Mock machines",
+              "No billing",
+              "Parse actions free"
+            ],
+            "interval": "one-time"
+          },
+          {
+            "name": "Pay-as-you-go",
+            "price": "Usage-based",
+            "features": [
+              "Predict $0.05 per call",
+              "Session create $0.10",
+              "Session step $0.04",
+              "Ground $0.03",
+              "Agent run $0.05/step (v3/v4/v5)",
+              "Agent run $0.08/step (v1)"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "Free sandbox keys (sk-coasty-test-…) allow testing but are limited (mock machines, no billing); actual usage requires payment.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Usage-based",
+          "Freemium"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 1000,
+        "total_urls": 1083,
+        "observed_at": "2026-09-07T05:43:12.441Z",
+        "path_groups": [
+          {
+            "count": 1001,
+            "segment": "/blog"
+          },
+          {
+            "count": 31,
+            "segment": "/computer-use"
+          },
+          {
+            "count": 14,
+            "segment": "/compare"
+          },
+          {
+            "count": 14,
+            "segment": "/use-cases"
+          },
+          {
+            "count": 2,
+            "segment": "/docs"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [
+          "https://coasty.ai/compare",
+          "https://coasty.ai/blog/synthetic-data-vs-real-data-for-training-ai-agents",
+          "https://coasty.ai/blog/low-code-rpa-vs-prompt-driven-ai-agents-for-enterprise",
+          "https://coasty.ai/blog/buy-vs-build-synthetic-data-pipeline",
+          "https://coasty.ai/blog/stateful-sessions-vs-stateless-predict-computer-use-api",
+          "https://coasty.ai/blog/power-automate-desktop-vs-computer-use-agents-when-to-switch",
+          "https://coasty.ai/blog/new-hire-onboarding-vs-sop-automation",
+          "https://coasty.ai/blog/computer-use-agents-vs-api-automation-in-legacy-enterprises"
+        ],
+        "integration_count": 4
+      },
+      "keyword_profile": {
+        "seed": "Coasty",
+        "signals": [
+          {
+            "score": 29,
+            "keyword": "coasty swim",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "swim"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 29,
+            "keyword": "coasty ai",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "coastyreef",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 7,
+            "independent_sources": 2
+          },
+          {
+            "score": 20,
+            "keyword": "coasty girl",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "girl"
+            ],
+            "best_position": 0,
+            "independent_sources": 1
+          },
+          {
+            "score": 19,
+            "keyword": "coastyiii name your sorrows",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "name",
+              "sorrows"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "coasty carts",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "carts"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "coastyle homes",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "homes"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "coastyle weddings",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "weddings"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "coasty picker",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "picker"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "coasty catering",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "catering"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-07T05:43:12.222Z"
+      },
+      "last_checked_at": "2026-09-06T12:26:56.720Z",
+      "market_analysis": {
+        "market_risk": "计算机使用代理市场竞争激烈，包括 OpenAI、Anthropic 等大厂，以及众多初创公司。",
+        "alternatives": [
+          "OpenAI Operator",
+          "Claude Sonnet",
+          "Blue Prism",
+          "Power Automate"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "The computer-use agent market is competitive, with major players like OpenAI, Anthropic, and many startups.",
+        "buyer_intent_en": "",
+        "differentiation": "Coasty 强调其 OSWorld 基准测试的高分（85.6%），提供 VM 级隔离，支持 BYOK，并有 1000+ 原生应用集成。",
+        "market_category": "AI Tools",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Coasty emphasizes its high OSWorld benchmark score (85.6%), offers VM-level isolation, supports BYOK, and has 1000+ native app integrations.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让开发者能够通过 API 自动化任何计算机任务，无需编写脆弱的脚本。",
+        "data_moat": "Coasty 积累了大量真实世界任务的轨迹数据，用于改进模型。",
+        "aha_moment": "用户第一次通过 API 成功自动化一个真实任务，看到代理在屏幕上执行操作。",
+        "onboarding": "用户注册后获得 API 密钥，阅读快速入门文档，调用 /v1/predict 发送截图和指令，获得动作。",
+        "core_job_en": "Enables developers to automate any computer task via API without writing brittle scripts.",
+        "data_moat_en": "Coasty accumulates trajectory data from real-world tasks, which improves its models.",
+        "product_risk": "依赖第三方模型（如 OpenAI、Anthropic）的可用性和定价，以及模型性能的波动。",
+        "aha_moment_en": "The moment a user successfully automates a real task via the API and sees the agent operate on screen.",
+        "onboarding_en": "Users sign up, get an API key, read the quickstart, call /v1/predict with a screenshot and instruction, and receive actions.",
+        "paid_features": [
+          "托管模型调用",
+          "会话管理",
+          "机器实例",
+          "调度和触发器"
+        ],
+        "product_risk_en": "Dependence on third-party models (e.g., OpenAI, Anthropic) for availability and pricing, and variability in model performance.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "用户将 Coasty 集成到他们的自动化工作流中，依赖其 API 和调度功能，难以迁移。",
+        "paid_features_en": [
+          "Managed model calls",
+          "Session management",
+          "Machine instances",
+          "Schedules and triggers"
+        ],
+        "must_have_features": [
+          "屏幕截图输入",
+          "结构化动作输出",
+          "免费沙盒密钥",
+          "REST API"
+        ],
+        "workflow_lockin_en": "Users integrate Coasty into their automation workflows, relying on its API and scheduling, making it hard to switch.",
+        "must_have_features_en": [
+          "Screenshot input",
+          "Structured action output",
+          "Free sandbox keys",
+          "REST API"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合构建 API 优先的开发者工具，目标用户是技术团队。",
+        "best_for_en": "Best for building API-first developer tools targeting technical teams.",
+        "mvp_version": "构建一个简单的 API，接受截图和指令，返回坐标动作；提供免费沙盒密钥和基础文档。",
+        "pattern_name": "开发者工具 + 按使用量计费",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "提供免费沙盒密钥以降低试用门槛；提供清晰的按使用量计费；提供详细的 API 文档和快速入门指南；强调基准测试成绩和可验证的审计追踪。",
+        "why_it_works": "开发者需要灵活、可预测的定价，按使用量计费降低了入门门槛，并随使用量增长而扩展。",
+        "mvp_version_en": "Build a simple API that accepts screenshots and instructions, returns coordinate actions; provide free sandbox keys and basic documentation.",
+        "pattern_name_en": "Developer tool + usage-based pricing",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Offer free sandbox keys to lower trial barriers; provide transparent usage-based pricing; offer detailed API docs and quickstart guides; emphasize benchmark scores and verifiable audit trails.",
+        "why_it_works_en": "Developers need flexible, predictable pricing; usage-based billing lowers entry barriers and scales with usage.",
+        "what_not_to_copy": "难以复制的是其 OSWorld 基准测试的高分（85.6%）、Y Combinator 的支持、以及大量的原生应用集成（1000+）。",
+        "suggested_channel": "Developer Ecosystem",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate are its high OSWorld benchmark scores (85.6%), Y Combinator backing, and extensive native app integrations (1000+).",
+        "suggested_channel_en": "Developer Ecosystem",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Coasty generates revenue by charging usage-based fees for its vision-based computer-use API, enabling developers to automate any desktop or browser task.",
+      "one_line_insight_zh": "Coasty 通过提供基于视觉的计算机使用 API，按使用量收费，让开发者能够自动化任何桌面或浏览器任务，从而创造收入。",
+      "acquisition_operations": {
+        "seo_strategy": "网站有定价页、文档、博客、用例、比较页面，以及 llms.txt 文件，可能用于 SEO。",
+        "content_format": [],
+        "conversion_path": "访客注册获得免费沙盒密钥，试用 API，然后升级到付费使用。",
+        "primary_channel": "Developer Ecosystem",
+        "seo_strategy_en": "The site has pricing, docs, blog, use cases, comparison pages, and an llms.txt file, which may be used for SEO.",
+        "social_strategy": "内容中未提及社交媒体策略。",
+        "operation_tactics": [
+          "提供免费沙盒密钥",
+          "提供快速入门指南",
+          "强调基准测试成绩"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors sign up for free sandbox keys, try the API, then upgrade to paid usage.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "No social media strategy mentioned in the content.",
+        "retention_mechanism": "",
+        "first_traffic_source": "Y Combinator 发布",
+        "free_to_paid_trigger": "免费沙盒密钥（sk-coasty-test-…）允许测试，但功能受限（模拟机器，不收费）；实际使用需要付费。",
+        "operation_tactics_en": [
+          "Offer free sandbox keys",
+          "Provide quickstart guides",
+          "Emphasize benchmark scores"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "Y Combinator launch",
+        "free_to_paid_trigger_en": "Free sandbox keys (sk-coasty-test-…) allow testing but are limited (mock machines, no billing); actual usage requires payment.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
     },
     {
       "id": "crisp",
@@ -5320,7 +6150,7 @@
       "created_at": "2026-08-06T06:52:42.194Z",
       "summary_en": "Ghost is an open-source content publishing platform offering website building, newsletters, and membership subscriptions. Its business model primarily relies on subscription fees for Ghost(Pro) managed hosting, with tiers like Starter, Publisher, Business, and Custom, starting at $18/month. The platform emphasizes no transaction fees, custom domains, advanced analytics, and claims to generate over $100 million in revenue annually for publications.",
       "summary_zh": "Ghost是一个开源的内容发布平台，提供网站建设、新闻通讯、会员订阅等功能。其商业模式主要是通过Ghost(Pro)托管服务收取订阅费，分为Starter、Publisher、Business和Custom等不同层级，价格从每月18美元起。平台强调无交易费用、自定义域名、高级分析等功能，并声称每年为出版物创造超过1亿美元的收入。",
-      "updated_at": "2026-08-06T06:53:06.243Z",
+      "updated_at": "2026-09-06T14:09:59.926Z",
       "launch_year": 0,
       "website_url": "https://ghost.org/",
       "founder_name": "",
@@ -5330,7 +6160,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "免费试用14天，之后需选择付费计划才能继续使用。",
-        "revenue_type": "unknown",
+        "revenue_type": "ARR",
         "pricing_tiers": [
           {
             "name": "Starter",
@@ -5382,9 +6212,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "unknown",
+        "revenue_range": "$11.1M ARR · live public dashboard 2026-09",
         "renewal_reason": "",
-        "revenue_amount": 0,
+        "revenue_amount": 924970,
         "paid_trigger_en": "14-day free trial, after which a paid plan is required to continue.",
         "renewal_reason_en": "",
         "monetization_model": [
@@ -5590,7 +6420,7 @@
         ],
         "observed_at": "2026-08-31T05:20:39.754Z"
       },
-      "last_checked_at": "2026-09-03T08:08:37.297Z",
+      "last_checked_at": "2026-09-06T14:09:59.926Z",
       "market_analysis": {
         "market_risk": "市场上有许多免费或低成本的替代品，如WordPress、Substack等，可能影响付费转化。",
         "alternatives": [
@@ -6484,6 +7314,310 @@
       "replication_difficulty": "Medium"
     },
     {
+      "id": "hyperprobe",
+      "slug": "hyperprobe",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49185389-1",
+          "url": "https://www.hyperprobe.co/",
+          "notes": "Direct real-time crawl of https://www.hyperprobe.co/ used for structured commercial extraction.",
+          "title": "HyperProbe Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49185389-2",
+          "url": "https://www.hyperprobe.co/pricing",
+          "notes": "Direct real-time crawl of https://www.hyperprobe.co/pricing used for structured commercial extraction.",
+          "title": "HyperProbe Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49185389-3",
+          "url": "https://news.ycombinator.com/item?id=49185389",
+          "notes": "Direct real-time crawl of https://news.ycombinator.com/item?id=49185389 used for structured commercial extraction.",
+          "title": "HyperProbe Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-08-12T05:21:41.183Z",
+      "summary_en": "HyperProbe is an AI-powered production debugging tool that lets coding agents (like Cursor, Claude Code) place read-only probes on running services to capture live variable state without redeployment. It addresses the problem of logs and traces lacking sufficient context, reducing root cause analysis time from hours to minutes. Pricing is per service, with a free tier (1 service) and a Professional tier ($99 per service per month), and Enterprise for self-hosting.",
+      "summary_zh": "HyperProbe 是一个 AI 驱动的生产调试工具，允许编码代理（如 Cursor、Claude Code）在运行中的服务上放置只读探针，捕获实时变量状态，无需重新部署。它解决了日志和追踪无法提供足够上下文的问题，将根因分析时间从数小时缩短至几分钟。定价按服务收费，提供免费层（1 个服务）和专业层（每服务每月 99 美元），企业版支持自托管。",
+      "updated_at": "2026-09-06T12:25:34.176Z",
+      "launch_year": 0,
+      "website_url": "https://www.hyperprobe.co/",
+      "founder_name": "",
+      "founder_type": "VC-backed",
+      "product_name": "HyperProbe",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费层限制为 1 个服务，且捕获历史仅保留 7 天；专业层解锁无限服务、30 天捕获历史、团队级探针策略和 RBAC。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "features": [
+              "1 service",
+              "Unlimited probes and captures",
+              "Full probe configuration: TTL, rate limit, hit expiry",
+              "MCP server for Cursor, Claude Code, Codex, opencode",
+              "All supported runtimes",
+              "7-day capture history"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Professional",
+            "price": "$99",
+            "features": [
+              "Everything in Free",
+              "Unlimited services",
+              "30-day capture history",
+              "Team-level probe policy: TTL, rate limit, hit expiry",
+              "RBAC",
+              "Google and GitHub SSO"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Everything in Professional",
+              "Self-hosted or private VPC",
+              "Data residency in your chosen region",
+              "Custom capture history retention",
+              "Org-level probe policy: max TTL, mandatory expiry, per-namespace allow lists",
+              "Approval gates before a probe arms"
+            ],
+            "interval": "year"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "The free tier is limited to 1 service and 7-day capture history; Professional unlocks unlimited services, 30-day capture history, team-level probe policy, and RBAC.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Subscription",
+          "Freemium"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 0,
+        "total_urls": 0,
+        "observed_at": "2026-09-07T05:43:12.238Z",
+        "path_groups": [],
+        "sitemap_found": false,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "HyperProbe",
+        "signals": [
+          {
+            "score": 19,
+            "keyword": "hyperprobe yc",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "yc"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "hyperprobe hexagon",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "hexagon"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "hyperprobe project",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "project"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "hyperprobe com",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "com"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "jeol hyperprobe",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "jeol"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-07T05:43:12.240Z"
+      },
+      "last_checked_at": "2026-09-06T12:25:34.176Z",
+      "market_analysis": {
+        "market_risk": "市场风险：开发者可能对在生产环境中使用探针持谨慎态度，担心性能和安全问题。此外，现有监控工具可能增加类似功能。",
+        "alternatives": [
+          "AppSignal",
+          "Rollbar",
+          "Embrace"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Market risk: developers may be cautious about using probes in production due to performance and security concerns. Also, existing monitoring tools may add similar features.",
+        "buyer_intent_en": "",
+        "differentiation": "与日志和追踪工具不同，HyperProbe 捕获日志中不存在的精确变量状态，提供确凿证据而非推断。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "Medium",
+        "differentiation_en": "Unlike log and trace tools, HyperProbe captures exact variable state that logs don't have, providing concrete evidence rather than inference.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "核心工作：在生产环境中快速、安全地找到根本原因，无需重新部署或猜测。",
+        "data_moat": "没有明显的数据护城河；该工具不积累用户数据，而是提供实时捕获。",
+        "aha_moment": "当用户看到探针在实时流量上触发，并捕获到日志中缺失的确切变量值时，他们意识到无需重新部署就能找到根本原因。",
+        "onboarding": "新用户通过将安装提示粘贴到他们的编码代理中开始，该代理安装 SDK、配置入口点并注册 MCP 服务器。大多数团队在 15 分钟内开始捕获。",
+        "core_job_en": "Core job: quickly and safely find the root cause in production without redeployment or guesswork.",
+        "data_moat_en": "No obvious data moat; the tool does not accumulate user data, it provides real-time captures.",
+        "product_risk": "产品风险：在热门路径上放置探针可能引入性能开销，尽管声称开销低于 1%。此外，安全性和信任至关重要；任何数据泄露都可能破坏采用。",
+        "aha_moment_en": "When users see a probe fire on live traffic and capture the exact variable value that logs were missing, they realize they can find root cause without redeploying.",
+        "onboarding_en": "New users start by pasting an installation prompt into their coding agent, which installs the SDK, wires the entrypoint, and registers the MCP server. Most teams are capturing within 15 minutes.",
+        "paid_features": [
+          "无限服务",
+          "30 天捕获历史",
+          "团队级探针策略",
+          "RBAC 和 SSO"
+        ],
+        "product_risk_en": "Product risk: placing probes on hot paths could introduce performance overhead, though they claim under 1%. Also, security and trust are paramount; any data leak could break adoption.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "用户通过编码代理使用该工具，代理通过 MCP 驱动探针，因此它成为调试工作流程的一部分。",
+        "paid_features_en": [
+          "Unlimited services",
+          "30-day capture history",
+          "Team-level probe policy",
+          "RBAC and SSO"
+        ],
+        "must_have_features": [
+          "只读探针（虚拟断点）",
+          "实时变量捕获",
+          "与编码代理集成（MCP）",
+          "PII 编辑"
+        ],
+        "workflow_lockin_en": "Users interact with the tool through their coding agent, which drives probes via MCP, making it part of the debugging workflow.",
+        "must_have_features_en": [
+          "Read-only probes (virtual breakpoints)",
+          "Live variable capture",
+          "Integration with coding agents (MCP)",
+          "PII redaction"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合构建开发者工具、拥有深厚技术专长并希望利用 AI 代理趋势的创始人。",
+        "best_for_en": "Best for founders building developer tools with deep technical expertise and leveraging the AI agent trend.",
+        "mvp_version": "最小可行版本：为 Node.js 或 Python 构建一个 SDK，允许在运行中的服务上放置只读探针，捕获变量状态，并通过 MCP 服务器与编码代理集成。",
+        "pattern_name": "开发者工具免费增值模式",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "可以复制的是：针对开发者痛点的清晰定位（如“日志不够用”）、免费试用以展示价值、按服务而非按席位定价、与现有开发者工具（如 MCP）集成。",
+        "why_it_works": "免费层提供真实价值（1 个服务），让开发者体验“啊哈”时刻，而付费层按服务收费，可随使用量增长。",
+        "mvp_version_en": "Minimum viable version: build an SDK for Node.js or Python that allows placing read-only probes on running services, capturing variable state, and integrating with coding agents via an MCP server.",
+        "pattern_name_en": "Developer tool freemium",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "What can be replicated: clear positioning around a developer pain point (e.g., 'logs are not enough'), free trial to demonstrate value, pricing per service rather than per seat, and integration with existing developer tools (like MCP).",
+        "why_it_works_en": "The free tier provides real value (1 service) to let developers experience the 'aha' moment, while paid tiers scale per service as usage grows.",
+        "what_not_to_copy": "难以复制的是：深度技术壁垒（如在不暂停服务的情况下安全捕获变量状态）、对生产环境安全性的信任（如只读、审计日志、PII 编辑）、以及 Y Combinator 的支持和品牌背书。",
+        "suggested_channel": "Developer Ecosystem",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "What cannot be easily replicated: deep technical moat (safely capturing variable state without pausing services), trust in production safety (read-only, audit logs, PII redaction), and Y Combinator backing and brand endorsement.",
+        "suggested_channel_en": "Developer Ecosystem",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "HyperProbe monetizes by charging per service subscription, enabling AI agents to perform read-only debugging in production, reducing root cause analysis time from hours to minutes.",
+      "one_line_insight_zh": "HyperProbe 通过按服务订阅收费，让 AI 代理在生产环境中进行只读调试，从而将根因分析时间从数小时缩短至几分钟。",
+      "acquisition_operations": {
+        "seo_strategy": "网站有定价页面和文档，但没有明显的 SEO 策略，如博客或模板页面。",
+        "content_format": [],
+        "conversion_path": "访客通过免费试用（安装 SDK）体验价值，然后升级到专业版以获取更多服务和功能。",
+        "primary_channel": "Developer Ecosystem",
+        "seo_strategy_en": "The site has pricing and docs pages, but no obvious SEO strategy like blog or template pages.",
+        "social_strategy": "在 Hacker News 上发布“Launch HN”帖子，这是主要的社交/社区渠道。",
+        "operation_tactics": [
+          "在 Hacker News 上发布 Launch HN",
+          "提供免费试用",
+          "强调 Y Combinator 背书"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors experience value through a free trial (install SDK), then upgrade to Professional for more services and features.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Launch HN post on Hacker News is the primary social/community channel.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费层限制为 1 个服务，且捕获历史仅保留 7 天；专业层解锁无限服务、30 天捕获历史、团队级探针策略和 RBAC。",
+        "operation_tactics_en": [
+          "Launch HN post on Hacker News",
+          "Offer free trial",
+          "Highlight Y Combinator backing"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "The free tier is limited to 1 service and 7-day capture history; Professional unlocks unlimited services, 30-day capture history, team-level probe policy, and RBAC.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "Medium"
+    },
+    {
       "id": "inoreader",
       "slug": "inoreader",
       "market": "Global",
@@ -7240,7 +8374,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Kit started with creator email list management and expanded into an operating system for creator businesses. The free tier lowers migration friction while paid tiers gate automations, support, referrals, and analytics.",
       "summary_zh": "Kit 从创作者邮件列表管理切入，逐步扩展为“创作者经营系统”。免费层降低迁移门槛，付费层把自动化、支持、推荐网络和高级数据作为升级触发。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-06T14:10:00.955Z",
       "launch_year": 2013,
       "website_url": "https://kit.com",
       "founder_name": "Nathan Barry",
@@ -7251,7 +8385,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "列表规模扩大、需要多步自动化、实时支持、高级报告和推荐网络时升级付费。",
-        "revenue_type": "MRR",
+        "revenue_type": "ARR",
         "pricing_tiers": [
           {
             "name": "Creator",
@@ -7275,9 +8409,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$2M+ MRR",
+        "revenue_range": "$45M/yr · founder-reported 2024",
         "renewal_reason": "持续使用核心工作流和历史数据，迁移成本随时间提高。",
-        "revenue_amount": 2500000,
+        "revenue_amount": 3750000,
         "paid_trigger_en": "Upgrade triggers include larger lists, multi-step automations, live support, advanced reporting, and recommendation networks.",
         "renewal_reason_en": "Ongoing workflow usage and retained historical data increase switching costs over time.",
         "monetization_model": [
@@ -7435,7 +8569,7 @@
         ],
         "observed_at": "2026-08-31T05:20:39.752Z"
       },
-      "last_checked_at": "2026-09-03T08:08:37.879Z",
+      "last_checked_at": "2026-09-06T14:10:00.955Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -8104,7 +9238,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 5,
-        "observed_at": "2026-08-17T05:08:23.088Z",
+        "observed_at": "2026-09-07T05:43:14.677Z",
         "path_groups": [
           {
             "count": 1,
@@ -8151,7 +9285,7 @@
             "independent_sources": 2
           },
           {
-            "score": 27,
+            "score": 28,
             "keyword": "magma drawing",
             "sources": [
               "google",
@@ -8162,7 +9296,7 @@
             "new_concepts": [
               "drawing"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -8180,18 +9314,47 @@
             "independent_sources": 2
           },
           {
-            "score": 25,
+            "score": 24,
             "keyword": "magma vs lava",
             "sources": [
               "google",
               "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "vs",
               "lava"
             ],
-            "best_position": 5,
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "magmar pokemon",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "pokemon"
+            ],
+            "best_position": 7,
+            "independent_sources": 2
+          },
+          {
+            "score": 22,
+            "keyword": "magma stone terraria",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "stone",
+              "terraria"
+            ],
+            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -8220,48 +9383,17 @@
           },
           {
             "score": 18,
-            "keyword": "magma cube farm",
+            "keyword": "magmamusen",
             "sources": [
               "youtube"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "cube",
-              "farm"
-            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 2,
             "independent_sources": 1
           },
           {
             "score": 18,
-            "keyword": "magma art",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "art"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "magma chamber veigar",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "chamber",
-              "veigar"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
             "keyword": "magma grills",
             "sources": [
               "bing",
@@ -8271,11 +9403,11 @@
             "new_concepts": [
               "grills"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.061Z"
+        "observed_at": "2026-09-07T05:43:14.639Z"
       },
       "market_analysis": {
         "market_risk": "市场可能较小，且数据提供方可能担心隐私问题。",
@@ -8429,7 +9561,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 112,
-        "observed_at": "2026-08-10T05:55:14.577Z",
+        "observed_at": "2026-09-07T05:43:14.074Z",
         "path_groups": [
           {
             "count": 92,
@@ -8505,19 +9637,6 @@
             "independent_sources": 2
           },
           {
-            "score": 29,
-            "keyword": "matterhackers",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 2
-          },
-          {
             "score": 27,
             "keyword": "matterhorn disneyland",
             "sources": [
@@ -8532,45 +9651,32 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
+            "keyword": "matter of haav",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "haav"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
             "keyword": "matterhorn switzerland",
             "sources": [
               "google",
               "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "switzerland"
             ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "matter of haav",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "haav"
-            ],
             "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 22,
-            "keyword": "matter of fact",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "fact"
-            ],
-            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -8588,6 +9694,22 @@
           },
           {
             "score": 16,
+            "keyword": "matter cannot be created or destroyed",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "cannot",
+              "be",
+              "created",
+              "destroyed"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
             "keyword": "matter of time laufey",
             "sources": [
               "youtube"
@@ -8599,9 +9721,21 @@
             ],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "matterhackers",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 4,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:14.042Z"
+        "observed_at": "2026-09-07T05:43:13.916Z"
       },
       "market_analysis": {
         "market_risk": "市场已饱和，用户可能难以从现有应用迁移。",
@@ -8755,12 +9889,12 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 15,
-        "total_urls": 40,
-        "observed_at": "2026-08-10T05:55:14.791Z",
+        "blog_count": 34,
+        "total_urls": 69,
+        "observed_at": "2026-09-07T05:43:14.348Z",
         "path_groups": [
           {
-            "count": 16,
+            "count": 35,
             "segment": "/blog"
           },
           {
@@ -8768,8 +9902,12 @@
             "segment": "/help"
           },
           {
-            "count": 6,
+            "count": 7,
             "segment": "/tools"
+          },
+          {
+            "count": 7,
+            "segment": "/compare"
           },
           {
             "count": 1,
@@ -8778,22 +9916,41 @@
           {
             "count": 1,
             "segment": "/meet-sophia"
-          },
-          {
-            "count": 1,
-            "segment": "/changelog"
           }
         ],
         "sitemap_found": true,
         "template_count": 0,
         "comparison_pages": [
-          "https://metriq.fitness/blog/cardio-vs-strength"
+          "https://metriq.fitness/compare",
+          "https://metriq.fitness/blog/cardio-vs-strength",
+          "https://metriq.fitness/compare/macrofactor",
+          "https://metriq.fitness/compare/simple",
+          "https://metriq.fitness/compare/myfitnesspal",
+          "https://metriq.fitness/compare/zing",
+          "https://metriq.fitness/compare/alma",
+          "https://metriq.fitness/compare/noom"
         ],
         "integration_count": 0
       },
       "keyword_profile": {
         "seed": "MetrIQ",
         "signals": [
+          {
+            "score": 39,
+            "keyword": "metriqe solutions",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "solutions"
+            ],
+            "best_position": 1,
+            "independent_sources": 3
+          },
           {
             "score": 30,
             "keyword": "metriq cancer registry",
@@ -8812,36 +9969,6 @@
           },
           {
             "score": 29,
-            "keyword": "metriqe solutions",
-            "sources": [
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "solutions"
-            ],
-            "best_position": 1,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
-            "keyword": "metriq valuation",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "valuation"
-            ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
             "keyword": "metriqe",
             "sources": [
               "google",
@@ -8850,21 +9977,8 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 2
-          },
-          {
-            "score": 20,
-            "keyword": "metrique rust",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "rust"
-            ],
-            "best_position": 0,
-            "independent_sources": 1
           },
           {
             "score": 19,
@@ -8879,33 +9993,47 @@
           },
           {
             "score": 17,
-            "keyword": "metriq cancer registry software",
+            "keyword": "metriq health",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "cancer",
-              "registry"
+              "health"
             ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 17,
-            "keyword": "metriques",
+            "keyword": "metriq valuation",
             "sources": [
               "bing",
               "duckduckgo"
             ],
-            "unexpected": false,
-            "new_concepts": [],
+            "unexpected": true,
+            "new_concepts": [
+              "valuation"
+            ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 16,
-            "keyword": "metriquin",
+            "keyword": "metrique rust",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "rust"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "metriques",
             "sources": [
               "bing",
               "duckduckgo"
@@ -8916,20 +10044,30 @@
             "independent_sources": 1
           },
           {
-            "score": 14,
-            "keyword": "metriq health",
+            "score": 15,
+            "keyword": "metriq software",
             "sources": [
               "google"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "health"
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "metriquin",
+            "sources": [
+              "bing",
+              "duckduckgo"
             ],
-            "best_position": 6,
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:14.042Z"
+        "observed_at": "2026-09-07T05:43:14.186Z"
       },
       "market_analysis": {
         "market_risk": "Platform integration",
@@ -9424,46 +10562,46 @@
       "evidence_level": "A",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 191,
-        "total_urls": 1426,
-        "observed_at": "2026-08-10T05:55:15.111Z",
+        "blog_count": 202,
+        "total_urls": 1538,
+        "observed_at": "2026-09-07T05:43:14.542Z",
         "path_groups": [
           {
-            "count": 300,
+            "count": 295,
             "segment": "/es"
           },
           {
-            "count": 298,
+            "count": 293,
             "segment": "/de"
           },
           {
-            "count": 192,
+            "count": 203,
             "segment": "/blog"
           },
           {
-            "count": 101,
+            "count": 105,
+            "segment": "/100-best-product-pages"
+          },
+          {
+            "count": 104,
             "segment": "/inside-photoroom"
           },
           {
-            "count": 91,
+            "count": 92,
             "segment": "/glossary"
-          },
-          {
-            "count": 77,
-            "segment": "/tools"
           }
         ],
         "sitemap_found": true,
         "template_count": 39,
         "comparison_pages": [
-          "https://www.photoroom.com/de/comparisons",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-openai",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-higgsfield",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-bria",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-spyne",
           "https://www.photoroom.com/de/comparisons/photoroom-vs-smartly",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-midjourney",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-picsart"
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-evoto",
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-nano-banana",
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-fotor",
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-adobe-express",
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-bria",
+          "https://www.photoroom.com/de/comparisons/photoroom-vs-magic-studio",
+          "https://www.photoroom.com/de/comparisons"
         ],
         "integration_count": 16
       },
@@ -9485,7 +10623,7 @@
             "independent_sources": 3
           },
           {
-            "score": 37,
+            "score": 36,
             "keyword": "photoroom ai",
             "sources": [
               "google",
@@ -9497,32 +10635,29 @@
             "new_concepts": [
               "ai"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 3
           },
           {
-            "score": 33,
-            "keyword": "photoroom ai photo editor",
+            "score": 27,
+            "keyword": "photoroom background",
             "sources": [
               "google",
-              "youtube",
               "bing"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
-              "ai",
-              "editor"
+              "background"
             ],
-            "best_position": 7,
-            "independent_sources": 3
+            "best_position": 3,
+            "independent_sources": 2
           },
           {
             "score": 25,
             "keyword": "photoroom sas",
             "sources": [
               "google",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -9532,7 +10667,7 @@
             "independent_sources": 2
           },
           {
-            "score": 22,
+            "score": 24,
             "keyword": "photoroom remove bg",
             "sources": [
               "google",
@@ -9543,22 +10678,38 @@
               "remove",
               "bg"
             ],
-            "best_position": 8,
+            "best_position": 6,
             "independent_sources": 2
           },
           {
-            "score": 21,
-            "keyword": "photoroom pro",
+            "score": 23,
+            "keyword": "photoroom ai photo editor",
             "sources": [
-              "youtube",
+              "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "pro"
+              "ai",
+              "editor"
             ],
-            "best_position": 9,
+            "best_position": 7,
             "independent_sources": 2
+          },
+          {
+            "score": 19,
+            "keyword": "photoroom background remover",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "background",
+              "remover"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
           },
           {
             "score": 18,
@@ -9574,34 +10725,6 @@
             "independent_sources": 1
           },
           {
-            "score": 18,
-            "keyword": "photoroom background remover",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "background",
-              "remover"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "photoroom backgrounds",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "backgrounds"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
             "score": 16,
             "keyword": "photoroom ghost mannequin",
             "sources": [
@@ -9614,9 +10737,23 @@
             ],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "photoroom ai model",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai",
+              "model"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:14.861Z"
+        "observed_at": "2026-09-07T05:43:14.186Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
@@ -10156,6 +11293,460 @@
       "replication_difficulty": "High"
     },
     {
+      "id": "prized",
+      "slug": "prized",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49109721-1",
+          "url": "https://prized.dev/",
+          "notes": "Direct real-time crawl of https://prized.dev/ used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-2",
+          "url": "https://app.prized.dev/sign-in?from=%2Fllms.txt",
+          "notes": "Direct real-time crawl of https://app.prized.dev/sign-in?from=%2Fllms.txt used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-3",
+          "url": "https://prized.dev/pricing",
+          "notes": "Direct real-time crawl of https://prized.dev/pricing used for structured commercial extraction.",
+          "title": "Prized Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-4",
+          "url": "https://app.prized.dev/sign-in?from=%2Fplans",
+          "notes": "Direct real-time crawl of https://app.prized.dev/sign-in?from=%2Fplans used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-5",
+          "url": "https://app.prized.dev/sign-in?from=%2Ffeatures",
+          "notes": "Direct real-time crawl of https://app.prized.dev/sign-in?from=%2Ffeatures used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-6",
+          "url": "https://app.prized.dev/sign-in?from=%2Fabout",
+          "notes": "Direct real-time crawl of https://app.prized.dev/sign-in?from=%2Fabout used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-7",
+          "url": "https://app.prized.dev/sign-in?from=%2Ffaq",
+          "notes": "Direct real-time crawl of https://app.prized.dev/sign-in?from=%2Ffaq used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49109721-8",
+          "url": "https://news.ycombinator.com/item?id=49109721",
+          "notes": "Direct real-time crawl of https://news.ycombinator.com/item?id=49109721 used for structured commercial extraction.",
+          "title": "Prized Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-08-12T05:21:22.301Z",
+      "summary_en": "Prized is an AI-powered internal tool builder that lets non-technical employees create secure internal tools by describing them in natural language, connected to company data and behind company sign-in. It offers a free plan (1 tool, 200 credits) and paid plans (Teams at $50/month with 4000 credits and more features; Enterprise custom). Revenue comes from subscriptions and optional pay-as-you-go overage.",
+      "summary_zh": "Prized 是一个 AI 驱动的内部工具构建平台，允许非技术员工通过自然语言描述来创建安全的内部工具，这些工具连接到公司数据并遵循公司登录和权限。它提供免费套餐（包含一个工具和 200 积分）和付费套餐（Teams 每月 50 美元，包含 4000 积分和更多功能；Enterprise 为自定义定价）。收入来自订阅和可选的按量付费超额使用。",
+      "updated_at": "2026-09-06T12:25:33.376Z",
+      "launch_year": 0,
+      "website_url": "https://prized.dev/",
+      "founder_name": "",
+      "founder_type": "duo",
+      "product_name": "Prized",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费套餐包含 1 个工具和 200 积分；升级以添加更多工具和获得更多功能。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "features": [
+              "1 tool included",
+              "200 credits for your tool",
+              "Single-member workspace",
+              "Live preview sandboxes",
+              "Browse the full connector catalog",
+              "Your deployed tool stays live"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Teams",
+            "price": "$50",
+            "features": [
+              "Everything in Free",
+              "Unlimited seats",
+              "4,000 credits a month",
+              "10 most-used connectors, including Postgres, Slack, and Stripe",
+              "Custom domain for every tool",
+              "Optional pay-as-you-go extra usage"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Everything in Teams",
+              "Unlimited tools (fair use)",
+              "All connectors, plus custom connector requests",
+              "Unlimited seats",
+              "SSO/SAML",
+              "Audit log, RBAC, and role-scoped connectors"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "Free plan includes 1 tool and 200 credits; upgrade to add more tools and access more features.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Subscription",
+          "Usage-based",
+          "Freemium"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 1,
+        "total_urls": 35,
+        "observed_at": "2026-09-07T05:43:14.126Z",
+        "path_groups": [
+          {
+            "count": 31,
+            "segment": "/docs"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/pricing"
+          },
+          {
+            "count": 1,
+            "segment": "/comparison"
+          },
+          {
+            "count": 1,
+            "segment": "/blog"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [
+          "https://prized.dev/comparison"
+        ],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "Prized",
+        "signals": [
+          {
+            "score": 40,
+            "keyword": "prized possession",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession"
+            ],
+            "best_position": 0,
+            "independent_sources": 3
+          },
+          {
+            "score": 30,
+            "keyword": "prized health",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health"
+            ],
+            "best_position": 0,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "prized health reston",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health",
+              "reston"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 20,
+            "keyword": "prized health reston va",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health",
+              "reston",
+              "va"
+            ],
+            "best_position": 0,
+            "independent_sources": 1
+          },
+          {
+            "score": 19,
+            "keyword": "prized possession isley brothers",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession",
+              "isley",
+              "brothers"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "prizedice",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "prized possession latto instrumental",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession",
+              "latto",
+              "instrumental"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "prized possession latto slowed",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession",
+              "latto",
+              "slowed"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "prized synonym",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "synonym"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "prized possession latto reaction",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession",
+              "latto",
+              "reaction"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-07T05:43:13.915Z"
+      },
+      "last_checked_at": "2026-09-06T12:25:33.376Z",
+      "market_analysis": {
+        "market_risk": "大型 AI 模型提供商可能内置类似功能，或现有工具如 Retool 可能增加 AI 功能。",
+        "alternatives": [
+          "Lovable",
+          "Retool"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Large AI model providers may build similar features, or existing tools like Retool may add AI capabilities.",
+        "buyer_intent_en": "",
+        "differentiation": "Prized 将 AI 工具生成与安全治理相结合，提供审计日志、角色作用域和网络级限制，使其区别于 Lovable 和 Retool。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "Medium",
+        "differentiation_en": "Prized combines AI tool generation with security governance, offering audit logs, role-scoped access, and network-level restrictions, differentiating it from Lovable and Retool.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让非技术员工无需工程帮助即可构建安全、可用的内部工具。",
+        "data_moat": "随着用户构建更多工具，工作区成为工具库，可能形成网络效应。",
+        "aha_moment": "当用户描述一个工具并看到它立即构建并部署，连接到真实数据时。",
+        "onboarding": "新用户通过 Google 登录，然后可以立即开始描述他们的第一个工具；免费套餐包含一个工具和 200 积分。",
+        "core_job_en": "Enable non-technical employees to build secure, functional internal tools without engineering help.",
+        "data_moat_en": "As users build more tools, the workspace becomes a library of tools, potentially creating network effects.",
+        "product_risk": "AI 生成工具的安全性和可靠性风险，以及 LLM 判断器可能被绕过。",
+        "aha_moment_en": "When a user describes a tool and sees it instantly built and deployed, connected to real data.",
+        "onboarding_en": "New users sign in with Google and can immediately start describing their first tool; the free plan includes one tool and 200 credits.",
+        "paid_features": [
+          "无限席位",
+          "更多连接器（Teams 包含 10 个最常用连接器）",
+          "自定义域名",
+          "按量付费超额使用"
+        ],
+        "product_risk_en": "Security and reliability risks of AI-generated tools, and the LLM judge could be bypassed.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "用户构建的工具成为团队工作流程的一部分，并可在工作区内共享和复用。",
+        "paid_features_en": [
+          "Unlimited seats",
+          "More connectors (Teams includes 10 most-used)",
+          "Custom domain",
+          "Pay-as-you-go overage"
+        ],
+        "must_have_features": [
+          "自然语言工具构建",
+          "预连接的数据连接器",
+          "审计日志",
+          "基于角色的访问控制"
+        ],
+        "workflow_lockin_en": "Tools built become part of team workflows and can be shared and reused within the workspace.",
+        "must_have_features_en": [
+          "Natural language tool building",
+          "Pre-connected data connectors",
+          "Audit log",
+          "Role-based access control"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合希望进入 AI 应用构建领域并专注于安全和治理的开发者。",
+        "best_for_en": "Best for developers looking to enter the AI app-building space with a focus on security and governance.",
+        "mvp_version": "一个最小可行版本可以是一个简单的 Web 应用，允许用户描述工具，使用 AI 生成代码，并部署到沙箱环境，并具备基本的连接器（如 Postgres）和审计日志。",
+        "pattern_name": "AI 驱动的内部工具平台（免费增值 + 订阅）",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "可以复制其免费增值模式、基于积分的计量、安全功能（如审计日志和角色作用域）以及以用例为导向的营销页面。",
+        "why_it_works": "它解决了非技术员工对内部工具的未满足需求，同时通过安全功能解决企业的担忧。免费增值模式降低了采用门槛，而订阅和按量付费则创造了收入。",
+        "mvp_version_en": "A minimal viable version could be a simple web app that lets users describe a tool, uses AI to generate code, and deploys to a sandbox with basic connectors like Postgres and an audit log.",
+        "pattern_name_en": "AI-powered internal tool platform (freemium + subscription)",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Replicate the freemium model, credit-based metering, security features like audit logs and role-scoped access, and use-case-driven marketing pages.",
+        "why_it_works_en": "It addresses the unmet need for internal tools among non-technical employees while addressing enterprise concerns with security features. The freemium model lowers adoption barriers, while subscriptions and usage-based pricing generate revenue.",
+        "what_not_to_copy": "难以复制的是其安全基础设施（如网络层限制、代理注入凭据、LLM 判断器）以及 Y Combinator 的支持和品牌背书。",
+        "suggested_channel": "",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate is the security infrastructure (network-level restrictions, proxy-injected credentials, LLM judge) and the Y Combinator backing and brand endorsement.",
+        "suggested_channel_en": "",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Prized monetizes by offering a secure AI-powered internal tool builder with workspace-based subscriptions and a freemium model.",
+      "one_line_insight_zh": "Prized 通过提供安全的 AI 驱动的内部工具构建平台，按工作区订阅收费，并采用免费增值模式吸引用户。",
+      "acquisition_operations": {
+        "seo_strategy": "网站包含定价页面和用例页面，但没有明显的 SEO 策略。",
+        "content_format": [],
+        "conversion_path": "访客注册免费套餐，构建一个工具，然后升级到 Teams 以添加更多工具和功能。",
+        "primary_channel": "",
+        "seo_strategy_en": "The site includes pricing and use-case pages, but no clear SEO strategy is evident.",
+        "social_strategy": "在 Hacker News 上发布，但没有其他社交策略的证据。",
+        "operation_tactics": [
+          "在 Hacker News 上发布",
+          "提供免费套餐",
+          "展示用例"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors sign up for the free plan, build a tool, then upgrade to Teams to add more tools and features.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Launched on Hacker News, but no other social strategy is evident.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费套餐包含 1 个工具和 200 积分；升级以添加更多工具和获得更多功能。",
+        "operation_tactics_en": [
+          "Launch on Hacker News",
+          "Offer a free plan",
+          "Showcase use cases"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "Free plan includes 1 tool and 200 credits; upgrade to add more tools and access more features.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "Medium"
+    },
+    {
       "id": "raindrop.io",
       "slug": "raindrop.io",
       "market": "Global",
@@ -10205,7 +11796,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 5,
-        "observed_at": "2026-08-10T05:55:15.090Z",
+        "observed_at": "2026-09-07T05:43:14.393Z",
         "path_groups": [
           {
             "count": 2,
@@ -10238,7 +11829,8 @@
             "sources": [
               "google",
               "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -10262,17 +11854,32 @@
           },
           {
             "score": 24,
-            "keyword": "raindrop.io obsidian",
+            "keyword": "raindrop.io api",
             "sources": [
-              "youtube",
+              "google",
               "bing",
               "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [
-              "obsidian"
+              "api"
             ],
             "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "raindrop.io alternatives",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "alternatives"
+            ],
+            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -10342,7 +11949,7 @@
           },
           {
             "score": 16,
-            "keyword": "raindrop.io shfwz",
+            "keyword": "raindrop.io/shfwz",
             "sources": [
               "bing",
               "duckduckgo"
@@ -10353,22 +11960,9 @@
             ],
             "best_position": 4,
             "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "raindrop.io alternatives",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "alternatives"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:14.862Z"
+        "observed_at": "2026-09-07T05:43:14.187Z"
       },
       "market_analysis": {
         "market_risk": "书签管理市场竞争激烈，用户可能转向免费替代品。",
@@ -10625,6 +12219,190 @@
         "gross_margin_estimate": "Not disclosed"
       },
       "evidence_level": "B",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 0,
+        "total_urls": 9,
+        "observed_at": "2026-09-07T05:43:13.965Z",
+        "path_groups": [
+          {
+            "count": 2,
+            "segment": "/pricing"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/read"
+          },
+          {
+            "count": 1,
+            "segment": "/cli"
+          },
+          {
+            "count": 1,
+            "segment": "/mcp"
+          },
+          {
+            "count": 1,
+            "segment": "/openclaw"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "Readwise",
+        "signals": [
+          {
+            "score": 39,
+            "keyword": "readwise reader",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "reader"
+            ],
+            "best_position": 1,
+            "independent_sources": 3
+          },
+          {
+            "score": 38,
+            "keyword": "readwise app",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 3
+          },
+          {
+            "score": 37,
+            "keyword": "readwise obsidian",
+            "sources": [
+              "google",
+              "youtube",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "obsidian"
+            ],
+            "best_position": 3,
+            "independent_sources": 3
+          },
+          {
+            "score": 27,
+            "keyword": "readwise alternative",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "alternative"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
+            "keyword": "readwise api",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "readwise pricing",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 18,
+            "keyword": "readwise mcp",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "mcp"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "readwise review",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "review"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "readwise reader mcp",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "reader",
+              "mcp"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "readwise notion",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "notion"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-07T05:43:13.914Z"
+      },
       "last_checked_at": "2026-09-02T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "创始人自己的原话是这个市场\"tiny, non-venture scale\"（2022 公测文脚注甚至写 \"Would not recommend\"）：天花板低、历史上免费与付费玩家都大批死亡；上游还高度依赖 Kindle 等平台的导出通道，平台收紧即伤根基。",
@@ -10831,7 +12609,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-10T05:55:15.249Z",
+        "observed_at": "2026-09-07T05:43:16.015Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -10858,7 +12636,7 @@
             "independent_sources": 3
           },
           {
-            "score": 28,
+            "score": 29,
             "keyword": "starter story youtube",
             "sources": [
               "google",
@@ -10869,23 +12647,7 @@
             "new_concepts": [
               "youtube"
             ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
-            "keyword": "starter story case studies",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "case",
-              "studies"
-            ],
-            "best_position": 4,
+            "best_position": 1,
             "independent_sources": 2
           },
           {
@@ -10893,7 +12655,8 @@
             "keyword": "starter story review",
             "sources": [
               "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -10927,6 +12690,20 @@
             "independent_sources": 1
           },
           {
+            "score": 17,
+            "keyword": "starter story scam",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "scam"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
             "score": 16,
             "keyword": "starter story hubspot",
             "sources": [
@@ -10955,33 +12732,34 @@
           },
           {
             "score": 15,
-            "keyword": "starter story scam",
+            "keyword": "starter story case studies",
             "sources": [
               "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
-              "scam"
+              "case",
+              "studies"
             ],
             "best_position": 5,
             "independent_sources": 1
           },
           {
             "score": 14,
-            "keyword": "starter story sold",
+            "keyword": "starter story founder",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "sold"
+              "founder"
             ],
             "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:15.189Z"
+        "observed_at": "2026-09-07T05:43:14.638Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
@@ -11484,16 +13262,16 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 419,
-        "total_urls": 3322,
-        "observed_at": "2026-08-10T05:55:15.514Z",
+        "blog_count": 422,
+        "total_urls": 3443,
+        "observed_at": "2026-09-07T05:43:14.799Z",
         "path_groups": [
           {
-            "count": 2562,
+            "count": 2682,
             "segment": "/docs"
           },
           {
-            "count": 419,
+            "count": 422,
             "segment": "/blog"
           },
           {
@@ -11505,7 +13283,7 @@
             "segment": "/features"
           },
           {
-            "count": 43,
+            "count": 44,
             "segment": "/customers"
           },
           {
@@ -11525,7 +13303,7 @@
           "https://supabase.com/blog/github-copilot-extension-for-vs-code",
           "https://supabase.com/blog/mongodb-realm-and-device-sync-alternatives"
         ],
-        "integration_count": 19
+        "integration_count": 20
       },
       "keyword_profile": {
         "seed": "Supabase",
@@ -11597,7 +13375,8 @@
             "keyword": "supabase careers",
             "sources": [
               "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -11622,17 +13401,17 @@
             "independent_sources": 2
           },
           {
-            "score": 23,
-            "keyword": "supabase free tier",
+            "score": 22,
+            "keyword": "supabase status",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "tier"
+              "status"
             ],
-            "best_position": 7,
+            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -11676,7 +13455,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-10T05:55:15.185Z"
+        "observed_at": "2026-09-07T05:43:14.637Z"
       },
       "last_checked_at": "2026-09-03T08:08:38.451Z",
       "market_analysis": {
@@ -11844,7 +13623,7 @@
       "created_at": "2026-07-08T06:57:42.702Z",
       "summary_en": "Tally Forms is a minimalist, beautiful online form builder that operates like a Notion document using slash commands. It disrupts traditional form builders like Typeform and Jotform by offering 99% of its features—including conditional logic, Stripe payments, e-signatures, and unlimited responses—completely free. Driven by a viral 'Made with Tally' badge on free forms, this bootstrapped 2-person team has scaled to over $100k+ MRR.",
       "summary_zh": "Tally Forms 是一款极简且美观的在线表单构建器，采用类似 Notion 的文档式斜杠命令编辑体验。它打破了传统表单工具对收集数量和高级功能的收费限制，提供 99% 功能完全免费且无限制回复的模式。通过免费表单底部的 'Made with Tally' 品牌水印实现强大的病毒式有机传播，目前已实现超过 100k+ 美元的月经常性收入（MRR），完全由 2 人团队自筹资金独立运营。",
-      "updated_at": "2026-07-08T08:23:57.540Z",
+      "updated_at": "2026-09-06T14:09:59.385Z",
       "launch_year": 2020,
       "website_url": "https://tally.so",
       "founder_name": "Marie Martens & Filip Minev",
@@ -11854,7 +13633,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "当用户需要去除表单底部的 'Made with Tally' 品牌水印、使用自定义域名、进行团队协作、捕获未完成的表单（部分提交）、注入自定义 CSS 样式或取消 10MB 文件上传限制时，会触发升级到每月 29 美元的 Tally Pro 订阅。",
-        "revenue_type": "MRR",
+        "revenue_type": "ARR",
         "pricing_tiers": [
           {
             "name": "Free Plan",
@@ -11884,9 +13663,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$100k+ MRR",
+        "revenue_range": "$5M ARR · founder-reported 2026-04",
         "renewal_reason": "Automated credit card renewal",
-        "revenue_amount": 100000,
+        "revenue_amount": 422000,
         "paid_trigger_en": "Upgrading to the $29/month Tally Pro tier is triggered when users need to remove the 'Made with Tally' branding watermark, use custom domains, collaborate in team workspaces, capture partial/abandoned form submissions, inject custom CSS, or bypass the 10MB file upload limit.",
         "renewal_reason_en": "Automated recurring subscription billing",
         "monetization_model": [
@@ -12078,7 +13857,7 @@
         ],
         "observed_at": "2026-08-17T05:08:23.062Z"
       },
-      "last_checked_at": "2026-09-03T08:08:39.724Z",
+      "last_checked_at": "2026-09-06T14:09:59.385Z",
       "market_analysis": {
         "market_risk": "1. Notion 自身构建原生表单块（Form blocks）的潜在竞争风险；2. 依赖有机口碑传播，若病毒式传播系数下降，获客增速可能放缓；3. 免费用户规模过大带来的服务器带宽与滥用防范成本上升。",
         "alternatives": [
@@ -12234,8 +14013,8 @@
       "team_size": 1,
       "created_at": "2026-07-07T12:00:00.000Z",
       "summary_en": "TrustMRR is a verified startup MRR database and acquisition marketplace connected via read-only Stripe and Paddle API endpoints. By eliminating self-reported metric fraud, all listed startups feature real-time physical audit data. It leverages 'absolute revenue integrity' to secure premium buyer and seller placements, monetizing deal matches.",
-      "summary_zh": "TrustMRR 是一款基于真实支付数据流（Stripe、Paddle 等）进行实时在线验证的初创企业 MRR 数据库及并购交易平台。用户无需信任创始人的口头描述，所有上榜和挂牌交易的项目的财务报表都经过了只读 API API 的物理校验。该产品成功地将‘收入真实性’作为最强的信任溢价，吸引了大量高净值买家与卖家的入驻。",
-      "updated_at": "2026-07-07T12:00:00.000Z",
+      "summary_zh": "TrustMRR 是一款基于真实支付数据流（Stripe、Paddle 等）进行实时在线验证的初创企业 MRR 数据库及并购交易平台。用户无需信任创始人的口头描述，所有上榜和挂牌交易的项目的财务报表都经过了只读 API 的物理校验。该产品成功地将‘收入真实性’作为最强的信任溢价，吸引了大量高净值买家与卖家的入驻。",
+      "updated_at": "2026-09-06T06:34:46.431Z",
       "launch_year": 2023,
       "website_url": "https://www.trustmrr.com",
       "founder_name": "Daniel Vassallo",
