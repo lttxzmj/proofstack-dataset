@@ -31,6 +31,10 @@ https://proof-stack-lake.vercel.app/mcp
 
 Docs: [proofstack-mcp](https://github.com/lttxzmj/proofstack-mcp)
 
+## Related free tool
+
+[AI-visibility check](https://proof-stack-lake.vercel.app/ai-check) — test whether AI crawlers can actually read your site; results get a shareable scorecard and README badge.
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may share and adapt this data for any purpose, including commercially, **with attribution**: credit "ProofStack" and link to https://proof-stack-lake.vercel.app.
