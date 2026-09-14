@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-07T07:15:07.311Z",
+  "generated_at": "2026-09-14T07:49:29.067Z",
   "source": "https://proof-stack-lake.vercel.app/benchmarks",
   "license": "CC BY 4.0",
   "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
   "overall": {
-    "sample_size": 47,
-    "paid_sample_size": 34,
-    "free_tier_count": 38,
+    "sample_size": 50,
+    "paid_sample_size": 36,
+    "free_tier_count": 40,
     "first_paid_median": 22,
     "first_paid_min": 4.99,
     "first_paid_max": 149,
     "gate_tallies": [
       {
         "label": "Team seats and permissions",
-        "count": 18
+        "count": 20
       },
       {
         "label": "Usage limits (items, runs, storage)",
-        "count": 16
+        "count": 18
       },
       {
         "label": "Automation and workflows",
-        "count": 10
+        "count": 11
       },
       {
         "label": "API and integrations",
@@ -99,31 +99,31 @@
     {
       "category": "Productivity",
       "benchmark": {
-        "sample_size": 8,
-        "paid_sample_size": 4,
-        "free_tier_count": 6,
-        "first_paid_median": 9.75,
+        "sample_size": 9,
+        "paid_sample_size": 5,
+        "free_tier_count": 7,
+        "first_paid_median": 12,
         "first_paid_min": 5.59,
         "first_paid_max": 15,
         "gate_tallies": [
           {
             "label": "Usage limits (items, runs, storage)",
-            "count": 2
+            "count": 3
           },
           {
             "label": "Team seats and permissions",
-            "count": 2
+            "count": 3
           },
           {
             "label": "Advanced analytics",
             "count": 2
           },
           {
-            "label": "API and integrations",
-            "count": 1
+            "label": "SSO and compliance",
+            "count": 2
           },
           {
-            "label": "Automation and workflows",
+            "label": "API and integrations",
             "count": 1
           }
         ]
@@ -198,15 +198,19 @@
     {
       "category": "SaaS",
       "benchmark": {
-        "sample_size": 7,
-        "paid_sample_size": 4,
-        "free_tier_count": 7,
-        "first_paid_median": 30.94,
+        "sample_size": 9,
+        "paid_sample_size": 5,
+        "free_tier_count": 8,
+        "first_paid_median": 50,
         "first_paid_min": 4.99,
         "first_paid_max": 99,
         "gate_tallies": [
           {
             "label": "Team seats and permissions",
+            "count": 3
+          },
+          {
+            "label": "Usage limits (items, runs, storage)",
             "count": 2
           },
           {
@@ -218,11 +222,7 @@
             "count": 1
           },
           {
-            "label": "Usage limits (items, runs, storage)",
-            "count": 1
-          },
-          {
-            "label": "Export and downloads",
+            "label": "Automation and workflows",
             "count": 1
           }
         ]

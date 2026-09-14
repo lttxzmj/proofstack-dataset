@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T07:15:07.311Z",
+  "generated_at": "2026-09-14T07:49:29.067Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 47,
+  "count": 50,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -723,54 +723,54 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 629,
-        "total_urls": 1208,
-        "observed_at": "2026-08-17T05:08:29.880Z",
+        "blog_count": 543,
+        "total_urls": 1265,
+        "observed_at": "2026-09-14T05:43:13.675Z",
         "path_groups": [
           {
-            "count": 629,
-            "segment": "/blog"
-          },
-          {
-            "count": 517,
+            "count": 697,
             "segment": "/docs"
           },
           {
-            "count": 18,
-            "segment": "/partners"
+            "count": 545,
+            "segment": "/blog"
           },
           {
-            "count": 7,
+            "count": 6,
             "segment": "/products"
           },
           {
-            "count": 4,
-            "segment": "/(init)"
+            "count": 1,
+            "segment": "/affiliates"
           },
           {
-            "count": 3,
-            "segment": "/startups"
+            "count": 1,
+            "segment": "/assets"
+          },
+          {
+            "count": 1,
+            "segment": "/baa"
           }
         ],
         "sitemap_found": true,
         "template_count": 11,
         "comparison_pages": [
-          "https://appwrite.io/blog/category/comparisons",
+          "https://appwrite.io/blog/categories/comparisons",
           "https://appwrite.io/blog/post/5-vs-code-extensions-that-replace-entire-dev-tools",
-          "https://appwrite.io/blog/post/agentic-ai-vs-generative-ai",
-          "https://appwrite.io/blog/post/appwrite-server-sdk-vs-client-sdk",
           "https://appwrite.io/blog/post/appwrite-vs-auth0-b2c",
-          "https://appwrite.io/blog/post/appwrite-vs-auth0",
-          "https://appwrite.io/blog/post/appwrite-vs-cloudflare-stateful-ai-agents",
-          "https://appwrite.io/blog/post/appwrite-vs-cloudinary"
+          "https://appwrite.io/blog/post/appwrite-vs-cloudinary",
+          "https://appwrite.io/blog/post/appwrite-vs-firebase-vs-supabase-functions-comparison",
+          "https://appwrite.io/blog/post/appwrite-vs-vercel-vs-netlify",
+          "https://appwrite.io/blog/post/baas-vs-custom-backend",
+          "https://appwrite.io/blog/post/best-postman-alternative-options"
         ],
-        "integration_count": 14
+        "integration_count": 49
       },
       "keyword_profile": {
         "seed": "Appwrite",
         "signals": [
           {
-            "score": 39,
+            "score": 38,
             "keyword": "appwrite vs supabase",
             "sources": [
               "google",
@@ -782,38 +782,8 @@
               "vs",
               "supabase"
             ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 35,
-            "keyword": "appwrite sites",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "sites"
-            ],
-            "best_position": 5,
-            "independent_sources": 3
-          },
-          {
-            "score": 28,
-            "keyword": "appwrite github",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "github"
-            ],
             "best_position": 2,
-            "independent_sources": 2
+            "independent_sources": 3
           },
           {
             "score": 28,
@@ -832,7 +802,7 @@
           },
           {
             "score": 27,
-            "keyword": "appwrite docs",
+            "keyword": "appwrite github",
             "sources": [
               "google",
               "bing",
@@ -840,7 +810,7 @@
             ],
             "unexpected": true,
             "new_concepts": [
-              "docs"
+              "github"
             ],
             "best_position": 3,
             "independent_sources": 2
@@ -861,33 +831,57 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
+            "keyword": "appwrite sites",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "sites"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
             "keyword": "appwrite pricing",
             "sources": [
               "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 19,
+            "keyword": "appwrite 2.0",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "appwrite docs",
+            "sources": [
               "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
-              "pricing"
+              "docs"
             ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "appwrite database",
-            "sources": [
-              "youtube",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "database"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
+            "best_position": 3,
+            "independent_sources": 1
           },
           {
             "score": 16,
@@ -905,19 +899,17 @@
           },
           {
             "score": 15,
-            "keyword": "appwrite careers",
+            "keyword": "appwriter",
             "sources": [
               "google"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "careers"
-            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:28.241Z"
+        "observed_at": "2026-09-14T05:43:13.123Z"
       },
       "market_analysis": {
         "market_risk": "市场竞争激烈，已有 Firebase、Supabase 等成熟玩家，以及新兴的 BaaS 提供商。",
@@ -2109,7 +2101,7 @@
         ],
         "observed_at": "2026-08-24T05:04:27.874Z"
       },
-      "last_checked_at": "2026-09-06T14:10:01.461Z",
+      "last_checked_at": "2026-09-09T01:47:11.379Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -2902,7 +2894,7 @@
         ],
         "observed_at": "2026-08-24T05:04:28.142Z"
       },
-      "last_checked_at": "2026-09-06T14:10:00.451Z",
+      "last_checked_at": "2026-09-09T01:47:10.813Z",
       "market_analysis": {
         "market_risk": "各大社交平台原生排程功能（如 Twitter 网页版自带排程、Instagram 自带排程）不断完善，免费分流了大量单账号轻度用户的付费需求。",
         "alternatives": [
@@ -3504,15 +3496,25 @@
           "source_type": "official",
           "collected_at": "2026-07-09",
           "evidence_level": "C"
+        },
+        {
+          "id": "src-research-carrd-1",
+          "url": "https://themakingof.carrd.co/",
+          "title": "AJ: The Making of Carrd — founder-written long-form history (launch, PH, year-one data)"
+        },
+        {
+          "id": "src-research-carrd-2",
+          "url": "https://usefathom.com/blog/bootstrapped-to-venture-capital",
+          "title": "Fathom blog: Kim Kardashian turned a small business into a VC-backed company (2021-08 interview-based account of Carrd)"
         }
       ],
       "category": "No-Code",
       "logo_url": "https://www.google.com/s2/favicons?domain=carrd.co&sz=128",
-      "team_size": 1,
+      "team_size": 2,
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Carrd stays tightly scoped around one-page sites. The free tier drives distribution while low-priced Pro tiers unlock domains, forms, embeds, and more sites. It is a classic compounding indie software case.",
       "summary_zh": "Carrd 把“只做单页网站”做得非常彻底，免费层负责传播，低价 Pro 层解锁自定义域名、表单、嵌入和更多站点。它是独立开发者长期复利的经典案例。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-09T01:47:19.264Z",
       "launch_year": 2016,
       "website_url": "https://carrd.co",
       "founder_name": "AJ",
@@ -3523,7 +3525,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "用户需要去品牌、自定义域名、表单、嵌入组件或管理多个站点时付费。",
-        "revenue_type": "MRR",
+        "revenue_type": "ARR",
         "pricing_tiers": [
           {
             "name": "Pro Lite",
@@ -3557,9 +3559,9 @@
             "interval": "year"
           }
         ],
-        "revenue_range": "$50k–250k MRR",
+        "revenue_range": "$1M+ ARR · reported 2021-08 (interview-based)",
         "renewal_reason": "持续使用核心工作流和历史数据，迁移成本随时间提高。",
-        "revenue_amount": 100000,
+        "revenue_amount": 83334,
         "paid_trigger_en": "Users pay when they need no branding, custom domains, forms, embeds, or multiple sites.",
         "renewal_reason_en": "Ongoing workflow usage and retained historical data increase switching costs over time.",
         "monetization_model": [
@@ -3724,7 +3726,7 @@
         ],
         "observed_at": "2026-08-24T05:04:28.141Z"
       },
-      "last_checked_at": "2026-07-09T00:00:00.000Z",
+      "last_checked_at": "2026-09-09T01:47:19.264Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -3812,7 +3814,7 @@
       "one_line_insight_en": "Carrd is a one-page website builder monetized through low-cost annual Pro subscriptions, differentiated by very low learning curve, fast publishing, and creator-friendly pricing.",
       "one_line_insight_zh": "Carrd 是一个通过低价年度 Pro 订阅变现的单页网站构建器，以极低学习成本、极快发布和创作者友好定价形成差异化。",
       "acquisition_operations": {
-        "seo_strategy": "围绕替代品、定价、用例、迁移指南和细分行业关键词建立长期页面。",
+        "seo_strategy": "Carrd 可能是全库最强的反 SEO 案例：十年至今没有 sitemap（301→404，2026-08 实测）、无博客、无对比页——而这毫不妨碍它增长。创始人一手记录的发布组合是受众 + Product Hunt：AJ 于 2016 年 3 月在 Twitter 向多年做免费 HTML5 UP 模板攒下的粉丝发布，一位粉丝抢先把它发上 Product Hunt，9 天后被 feature 拿下 1000+ 票科技榜第一——创始人自述该效应「延续至今」，并把转化归功于无需注册即可试用。复利层是产品本身：每个免费站页脚带「Made with Carrd」徽章（去徽章是付费特性，2026 年实测仍在），当亚文化圈层——K-pop 粉圈、动森玩家、BLM 行动者——成风采用时，每个被分享的页面都是获客页。2020 年 5 月 Kim Kardashian 转发一个 Carrd 制作的 BLM 资源页后，新增注册从每天数百跳到数千。年营收在 $9–19/年 的定价下过了 $1M ARR（2021 年采访转述口径），团队两个人。Carrd 从未有过 HN 时刻（历史最高 20 分且是第三方发的）——它的环路根本不走开发者渠道。",
         "content_format": [
           "Comparison pages",
           "Use-case guides",
@@ -3820,8 +3822,8 @@
           "Documentation"
         ],
         "conversion_path": "搜索/社媒发现 -> 免费或试用体验 -> 命中工作流限制 -> 升级订阅或按交易付费。",
-        "primary_channel": "SEO",
-        "seo_strategy_en": "Build durable pages around alternatives, pricing, use cases, migration guides, and niche industry keywords.",
+        "primary_channel": "'Made with Carrd' badge viral loop + Product Hunt/Twitter launch + subculture word-of-mouth",
+        "seo_strategy_en": "Carrd is arguably the strongest anti-SEO case in this library: ten years in, it still has no sitemap (301 to 404, tested 2026-08), no blog, no comparison pages — and it doesn't matter. The founder-documented launch stack was audience + Product Hunt: AJ launched on Twitter in March 2016 to followers built over years of shipping free HTML5 UP templates, a fan posted it to Product Hunt before he could, and the feature nine days later hit 1,000+ upvotes and #1 in tech — an effect AJ said \"persists even to this day,\" crediting the no-signup-required trial for converting the tidal wave. The compounding layer is the product itself: every free site carries a \"Made with Carrd\" footer badge (removal is a paid feature, still true in 2026), so when subcultures adopted it — K-pop stans, Animal Crossing players, Black Lives Matter organizers — every shared page was an acquisition page. When Kim Kardashian tweeted a Carrd-built BLM resource page in May 2020, signups jumped from hundreds to thousands per day. Revenue crossed $1M ARR (per a 2021 interview-based account) on $9–19/year pricing, run by two people. Carrd never had a Hacker News moment (all-time high: 20 points, third-party) — its loops simply don't run through developer channels.",
         "social_strategy": "通过公开构建、客户案例、产品更新和创始人观点持续建立信任。",
         "operation_tactics": [
           "Publish transparent pricing",
@@ -3839,7 +3841,7 @@
         ],
         "social_strategy_en": "Use build-in-public, customer examples, product updates, and founder opinions to build trust.",
         "retention_mechanism": "历史数据、团队工作流、集成配置和公开页面形成持续留存。",
-        "first_traffic_source": "SEO",
+        "first_traffic_source": "创始人多年经营 HTML5 UP 免费模板攒下的 Twitter 受众（2016-03 发布）；Product Hunt 帖为粉丝抢先代发，9 天后被 feature 拿下 1000+ 票科技榜第一",
         "free_to_paid_trigger": "用户需要去品牌、自定义域名、表单、嵌入组件或管理多个站点时付费。",
         "operation_tactics_en": [
           "Publish transparent pricing",
@@ -3849,7 +3851,7 @@
         "affiliate_strategy_en": "Selective partner and creator referrals",
         "community_strategy_en": "Gather early users through product feedback, templates, open source, or creator communities.",
         "retention_mechanism_en": "Historical data, team workflows, integrations, and published assets create retention.",
-        "first_traffic_source_en": "SEO",
+        "first_traffic_source_en": "Twitter audience built over years of shipping free HTML5 UP templates (Mar 2016 launch); a fan posted it to Product Hunt first, and the feature nine days later hit 1,000+ upvotes and #1 in tech",
         "free_to_paid_trigger_en": "Users pay when they need no branding, custom domains, forms, embeds, or multiple sites.",
         "founder_brand_dependency": true
       },
@@ -4983,7 +4985,7 @@
         ],
         "observed_at": "2026-08-24T05:04:28.737Z"
       },
-      "last_checked_at": "2026-09-03T08:08:40.307Z",
+      "last_checked_at": "2026-09-09T01:47:15.423Z",
       "market_analysis": {
         "market_risk": "电子签名市场竞争激烈，DocuSign 等巨头占据主导，开源替代品可能难以获得主流企业客户。",
         "alternatives": [
@@ -6420,7 +6422,7 @@
         ],
         "observed_at": "2026-08-31T05:20:39.754Z"
       },
-      "last_checked_at": "2026-09-06T14:09:59.926Z",
+      "last_checked_at": "2026-09-09T01:47:12.616Z",
       "market_analysis": {
         "market_risk": "市场上有许多免费或低成本的替代品，如WordPress、Substack等，可能影响付费转化。",
         "alternatives": [
@@ -7312,6 +7314,425 @@
         "founder_brand_dependency": true
       },
       "replication_difficulty": "Medium"
+    },
+    {
+      "id": "hoplite",
+      "slug": "hoplite",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49157997-1",
+          "url": "https://hoplite.sh/",
+          "notes": "Direct real-time crawl of https://hoplite.sh/ used for structured commercial extraction.",
+          "title": "Hoplite Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49157997-2",
+          "url": "https://hoplite.sh/llms.txt",
+          "notes": "Direct real-time crawl of https://hoplite.sh/llms.txt used for structured commercial extraction.",
+          "title": "Hoplite Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49157997-3",
+          "url": "https://hoplite.sh/pricing",
+          "notes": "Direct real-time crawl of https://hoplite.sh/pricing used for structured commercial extraction.",
+          "title": "Hoplite Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49157997-4",
+          "url": "https://news.ycombinator.com/item?id=49157997",
+          "notes": "Direct real-time crawl of https://news.ycombinator.com/item?id=49157997 used for structured commercial extraction.",
+          "title": "Hoplite Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-08-12T05:35:13.475Z",
+      "summary_en": "Hoplite is a cloud coding-agent platform that lets developers import their local setup, run multiple AI agents in isolated sandboxes, and automate tasks like bug fixes, feature development, and QA in GitHub repos. It offers video previews, Slack/Linear integrations, and per-seat subscription pricing (Pro and Scale) with credits and resource limits.",
+      "summary_zh": "Hoplite是一个云编码代理平台，允许开发者将本地开发环境导入云端，在隔离的沙箱中运行多个AI代理，自动处理GitHub仓库中的任务，如修复bug、实现功能、运行QA等。它提供视频预览、与Slack/Linear等集成，并按席位订阅（Pro和Scale）收费，包含积分和资源限制。",
+      "updated_at": "2026-09-08T06:02:55.044Z",
+      "launch_year": 0,
+      "website_url": "https://hoplite.sh/",
+      "founder_name": "",
+      "founder_type": "VC-backed",
+      "product_name": "Hoplite",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": false,
+        "paid_trigger": "免费试用：提供$100免费积分（使用代码HACKERNEWS），但未明确说明免费层级的功能限制。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Pro",
+            "price": "99",
+            "features": [
+              "Pooled sandboxes 25/seat",
+              "New Threads 100/rolling hour",
+              "Enabled automations 25/workspace",
+              "Fastest schedule every 5 minutes",
+              "Retained sandboxes 2x pooled capacity",
+              "Included credits $100/seat/mo"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Scale",
+            "price": "299",
+            "features": [
+              "Pooled sandboxes 150/seat",
+              "New Threads 500/rolling hour",
+              "Enabled automations 100/workspace",
+              "Fastest schedule every minute",
+              "Retained sandboxes 2x pooled capacity",
+              "Included credits $100/seat/mo"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Sandbox capacity custom",
+              "Security & governance advanced",
+              "Networking & retention private",
+              "Support contractual SLAs",
+              "Architecture review included",
+              "Agreement annual"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "Free trial: $100 free credits with code HACKERNEWS, but no explicit free tier limitations are stated.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Subscription"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 3,
+        "total_urls": 12,
+        "observed_at": "2026-09-14T05:43:11.393Z",
+        "path_groups": [
+          {
+            "count": 4,
+            "segment": "/blog"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/pricing"
+          },
+          {
+            "count": 1,
+            "segment": "/changelog"
+          },
+          {
+            "count": 1,
+            "segment": "/about"
+          },
+          {
+            "count": 1,
+            "segment": "/team"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "Hoplite",
+        "signals": [
+          {
+            "score": 40,
+            "keyword": "hoplite ip",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ip"
+            ],
+            "best_position": 0,
+            "independent_sources": 3
+          },
+          {
+            "score": 38,
+            "keyword": "hoplite minecraft",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "minecraft"
+            ],
+            "best_position": 2,
+            "independent_sources": 3
+          },
+          {
+            "score": 28,
+            "keyword": "hoplite codes",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "codes"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "hoplite armor",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "armor"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
+            "keyword": "hoplite server ip",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "server",
+              "ip"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "hoplite group",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "group"
+            ],
+            "best_position": 7,
+            "independent_sources": 2
+          },
+          {
+            "score": 22,
+            "keyword": "hoplite ip bedrock",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "ip",
+              "bedrock"
+            ],
+            "best_position": 8,
+            "independent_sources": 2
+          },
+          {
+            "score": 19,
+            "keyword": "hoplite trapping",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "trapping"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "hoplite vfx",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vfx"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "hoplite discord",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "discord"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-14T05:43:11.361Z"
+      },
+      "last_checked_at": "2026-09-08T06:02:55.044Z",
+      "market_analysis": {
+        "market_risk": "市场竞争激烈，存在Claude Code、Devin等替代品，且用户可能选择自建基础设施。",
+        "alternatives": [
+          "Claude Code",
+          "Devin",
+          "OpenCode",
+          "Aider"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Market is competitive with alternatives like Claude Code and Devin, and users may choose to self-host.",
+        "buyer_intent_en": "",
+        "differentiation": "与现有解决方案相比，Hoplite强调云原生优势：每个线程都有真实机器，支持并行运行数百个代理，并提供视频预览和QA库。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Compared to existing solutions, Hoplite emphasizes cloud-native advantages: each thread gets a real machine, supports running hundreds of agents in parallel, and offers video previews and QA library.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让开发者能够轻松部署、并行运行和审查AI编码代理，自动化软件开发任务。",
+        "data_moat": "积累的QA库和用户工作流数据，以及代理运行的历史记录，可能形成数据优势。",
+        "aha_moment": "当用户看到代理自动完成一个任务并生成视频预览，无需手动检查代码时。",
+        "onboarding": "用户通过连接GitHub仓库开始，Hoplite导入本地配置（会话、MCP服务器、CLI等），然后用户可以在沙箱中启动代理。",
+        "core_job_en": "Enable developers to easily deploy, run in parallel, and review AI coding agents to automate software development tasks.",
+        "data_moat_en": "Accumulated QA library and user workflow data, plus agent run history, may form a data advantage.",
+        "product_risk": "主要风险是代理在复杂真实项目中的可靠性，以及用户对云基础设施的信任和安全性担忧。",
+        "aha_moment_en": "When a user sees an agent complete a task and generate a video preview without manual code review.",
+        "onboarding_en": "Users start by connecting a GitHub repo; Hoplite imports local config (sessions, MCP servers, CLIs), then users can launch agents in sandboxes.",
+        "paid_features": [
+          "更多沙箱容量",
+          "更多并发线程",
+          "更频繁的自动化调度",
+          "更大沙箱规格和优先支持"
+        ],
+        "product_risk_en": "Main risk is agent reliability on complex real-world projects, and user trust/security concerns with cloud infrastructure.",
+        "usage_frequency": "daily",
+        "workflow_lockin": "用户将工作流程（如Sentry问题、Linear任务）与Hoplite集成，并依赖其视频预览和审批流程，形成习惯。",
+        "paid_features_en": [
+          "More sandbox capacity",
+          "More concurrent threads",
+          "More frequent automation schedules",
+          "Larger sandbox specs and priority support"
+        ],
+        "must_have_features": [
+          "连接GitHub仓库",
+          "导入本地配置",
+          "在隔离沙箱中运行代理",
+          "视频预览和审批"
+        ],
+        "workflow_lockin_en": "Users integrate their workflows (e.g., Sentry issues, Linear tasks) with Hoplite and rely on its video preview and approval flow, creating habit.",
+        "must_have_features_en": [
+          "Connect GitHub repos",
+          "Import local setup",
+          "Run agents in isolated sandboxes",
+          "Video preview and approval"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合构建面向开发者的SaaS工具，特别是AI代理或自动化领域。",
+        "best_for_en": "Suitable for building developer-facing SaaS tools, especially in AI agents or automation.",
+        "mvp_version": "2-4周内可构建的最小版本：一个简单的Web应用，允许用户连接GitHub仓库，在云端沙箱中运行一个编码代理，并提供基本的预览和审批流程。",
+        "pattern_name": "开发者工具订阅制",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "可以复制其核心功能：导入本地配置、并行沙箱、视频预览、与Slack/Linear集成，以及按席位定价模式。",
+        "why_it_works": "开发者愿意为节省时间的工具付费，按席位定价简单透明，且云服务提供可扩展性。",
+        "mvp_version_en": "MVP in 2-4 weeks: a simple web app that lets users connect a GitHub repo, run a coding agent in a cloud sandbox, and provide basic preview and approval flow.",
+        "pattern_name_en": "Developer tool subscription",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Replicate core features: local config import, parallel sandboxes, video previews, Slack/Linear integrations, and per-seat pricing.",
+        "why_it_works_en": "Developers are willing to pay for time-saving tools; per-seat pricing is simple and transparent, and cloud service offers scalability.",
+        "what_not_to_copy": "难以复制：YC背景、大规模基础设施（AWS、Temporal、Modal、Planetscale）、定制代理框架、以及品牌信任。",
+        "suggested_channel": "Product Hunt",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate: YC backing, large-scale infrastructure (AWS, Temporal, Modal, Planetscale), custom agent harness, and brand trust.",
+        "suggested_channel_en": "Product Hunt",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Hoplite monetizes by offering a cloud platform for deploying, running, and reviewing AI coding agents in parallel, charging per-seat subscriptions.",
+      "one_line_insight_zh": "Hoplite通过提供云端的编码代理平台，让开发者能够轻松部署、并行运行和审查AI编码代理，并按席位订阅收费。",
+      "acquisition_operations": {
+        "seo_strategy": "网站有定价页、文档和llms.txt，但未明确展示SEO策略。",
+        "content_format": [],
+        "conversion_path": "免费试用（提供$100积分）→ 使用后达到限制 → 升级到付费计划。",
+        "primary_channel": "Product Hunt",
+        "seo_strategy_en": "Site has pricing, docs, and llms.txt, but no explicit SEO strategy is evident.",
+        "social_strategy": "通过Hacker News上的Launch HN帖子进行社区推广。",
+        "operation_tactics": [
+          "提供免费试用积分",
+          "在Hacker News上发布Launch HN",
+          "提供演示视频"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Free trial (with $100 credits) → usage limits reached → upgrade to paid plan.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Community promotion via Launch HN post on Hacker News.",
+        "retention_mechanism": "",
+        "first_traffic_source": "Product Hunt（通过Launch HN帖子）",
+        "free_to_paid_trigger": "免费试用：提供$100免费积分（使用代码HACKERNEWS），但未明确说明免费层级的功能限制。",
+        "operation_tactics_en": [
+          "Offer free trial credits",
+          "Post Launch HN on Hacker News",
+          "Provide demo video"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "Product Hunt (via Launch HN post)",
+        "free_to_paid_trigger_en": "Free trial: $100 free credits with code HACKERNEWS, but no explicit free tier limitations are stated.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
     },
     {
       "id": "hyperprobe",
@@ -8569,7 +8990,7 @@
         ],
         "observed_at": "2026-08-31T05:20:39.752Z"
       },
-      "last_checked_at": "2026-09-06T14:10:00.955Z",
+      "last_checked_at": "2026-09-09T01:47:13.161Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -10182,6 +10603,710 @@
       "replication_difficulty": "High"
     },
     {
+      "id": "miget",
+      "slug": "miget",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49095544-1",
+          "url": "https://news.ycombinator.com/item?id=49095544",
+          "notes": "Direct real-time crawl of https://news.ycombinator.com/item?id=49095544 used for structured commercial extraction.",
+          "title": "Miget Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-08-12T05:34:57.512Z",
+      "summary_en": "Miget offers free cloud hosting (Hobby 5 plan, worth $25/mo) to open-source projects with no star or contributor minimums, just a valid open-source license. It's a way to give back to the OSS community while potentially attracting developers to its paid offerings.",
+      "summary_zh": "Miget 为开源项目提供免费的云托管服务（Hobby 5 计划，价值 $25/月），没有星标或贡献者数量要求，只需保持有效的开源许可证。这是一种回馈开源社区的方式，同时可能吸引开发者关注其付费产品。",
+      "updated_at": "2026-09-08T06:02:54.874Z",
+      "launch_year": 0,
+      "website_url": "https://miget.com/open-source-program",
+      "founder_name": "",
+      "founder_type": "",
+      "product_name": "Miget",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费计划要求项目保持有效的开源许可证，并可能要求放置反向链接。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Hobby 5",
+            "price": "0",
+            "features": [
+              "Free for open-source projects",
+              "No star minimums",
+              "No contributor minimums",
+              "Requires valid open-source license"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "The free plan requires the project to maintain a valid open-source license and possibly a backlink.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Freemium"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 142,
+        "total_urls": 167,
+        "observed_at": "2026-09-14T05:43:12.214Z",
+        "path_groups": [
+          {
+            "count": 143,
+            "segment": "/blog"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/plans"
+          },
+          {
+            "count": 1,
+            "segment": "/enterprise"
+          },
+          {
+            "count": 1,
+            "segment": "/compare"
+          },
+          {
+            "count": 1,
+            "segment": "/migrate"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [
+          "https://miget.com/compare",
+          "https://miget.com/blog/category/comparison",
+          "https://miget.com/blog/self-hosted-slack-alternatives",
+          "https://miget.com/blog/mintlify-alternatives",
+          "https://miget.com/blog/notion-alternatives-self-hosted",
+          "https://miget.com/blog/retool-alternatives-self-hosted",
+          "https://miget.com/blog/airtable-alternatives-self-hosted",
+          "https://miget.com/blog/docusign-alternatives-open-source"
+        ],
+        "integration_count": 0
+      },
+      "keyword_profile": {
+        "seed": "Miget",
+        "signals": [
+          {
+            "score": 16,
+            "keyword": "migetech",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "migetechrd",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "migettuwatte gunananda himi",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "gunananda",
+              "himi"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "migette",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 10,
+            "keyword": "migettuwatte gunananda thero",
+            "sources": [
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "gunananda",
+              "thero"
+            ],
+            "best_position": 11,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-14T05:43:11.365Z"
+      },
+      "last_checked_at": "2026-09-08T06:02:54.874Z",
+      "market_analysis": {
+        "market_risk": "云托管市场竞争激烈，免费层可能吸引大量低价值用户。",
+        "alternatives": [],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Cloud hosting market is competitive; free tier may attract many low-value users.",
+        "buyer_intent_en": "",
+        "differentiation": "没有星标或贡献者数量要求，只需有效的开源许可证。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "Medium",
+        "differentiation_en": "No star or contributor minimums, just a valid open-source license.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "为开源项目提供免费、可靠的云托管服务。",
+        "data_moat": "",
+        "aha_moment": "当用户成功部署项目并看到它在线运行，且无需支付任何费用时。",
+        "onboarding": "用户注册并提供开源许可证，然后部署项目。",
+        "core_job_en": "Provides free, reliable cloud hosting for open-source projects.",
+        "data_moat_en": "",
+        "product_risk": "免费层可能被滥用，导致成本过高；或者免费用户难以转化为付费用户。",
+        "aha_moment_en": "When a user successfully deploys their project and sees it live without paying anything.",
+        "onboarding_en": "User signs up, provides open-source license, then deploys project.",
+        "paid_features": [],
+        "product_risk_en": "Free tier could be abused, leading to high costs; or free users may not convert to paid.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "",
+        "paid_features_en": [],
+        "must_have_features": [
+          "免费托管",
+          "开源许可证验证",
+          "反向链接要求"
+        ],
+        "workflow_lockin_en": "",
+        "must_have_features_en": [
+          "Free hosting",
+          "Open-source license verification",
+          "Backlink requirement"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合希望建立开发者社区并长期转化付费用户的云服务提供商。",
+        "best_for_en": "Suitable for cloud service providers looking to build a developer community and convert to paid over time.",
+        "mvp_version": "一个简单的云托管平台，提供免费层，要求开源许可证验证，并设置反向链接跟踪。",
+        "pattern_name": "开源社区回馈式免费增值",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "为特定人群（如开源项目）提供免费增值服务，以换取品牌曝光和社区口碑。",
+        "why_it_works": "通过免费提供价值来建立信任和品牌忠诚度，同时利用开源社区的传播效应。",
+        "mvp_version_en": "A simple cloud hosting platform with a free tier, requiring open-source license verification and backlink tracking.",
+        "pattern_name_en": "Open-source community give-back freemium",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Offer a freemium tier to a specific niche (like open-source projects) in exchange for brand exposure and community word-of-mouth.",
+        "why_it_works_en": "Builds trust and brand loyalty by offering value for free, leveraging the open-source community's word-of-mouth.",
+        "what_not_to_copy": "难以复制的是其与开源社区的深度联系和信任，以及可能已有的基础设施和客户基础。",
+        "suggested_channel": "Community",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate is the deep connection and trust with the open-source community, as well as existing infrastructure and customer base.",
+        "suggested_channel_en": "Community",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Offers free cloud hosting to open-source projects to acquire users, expecting brand exposure and word-of-mouth to convert them to paid customers.",
+      "one_line_insight_zh": "通过为开源项目提供免费云托管来获取用户，并期望通过品牌曝光和口碑传播转化为付费客户。",
+      "acquisition_operations": {
+        "seo_strategy": "",
+        "content_format": [],
+        "conversion_path": "免费使用开源项目托管，可能通过升级到付费计划或推荐他人来转化。",
+        "primary_channel": "Community",
+        "seo_strategy_en": "",
+        "social_strategy": "在 Hacker News 上发布 Show HN 帖子。",
+        "operation_tactics": [
+          "在 Hacker News 上发布 Show HN",
+          "强调无星标要求以吸引开源项目"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Free hosting for open-source projects, possibly converting through upgrades or referrals.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Posted Show HN on Hacker News.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费计划要求项目保持有效的开源许可证，并可能要求放置反向链接。",
+        "operation_tactics_en": [
+          "Posted Show HN on Hacker News",
+          "Emphasized no star minimums to attract open-source projects"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "The free plan requires the project to maintain a valid open-source license and possibly a backlink.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "Medium"
+    },
+    {
+      "id": "missive",
+      "slug": "missive",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_4ae41ba65666ad77-1",
+          "url": "https://missiveapp.com/",
+          "notes": "Direct real-time crawl of https://missiveapp.com/ used for structured commercial extraction.",
+          "title": "Missive Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_4ae41ba65666ad77-2",
+          "url": "https://missiveapp.com/pricing",
+          "notes": "Direct real-time crawl of https://missiveapp.com/pricing used for structured commercial extraction.",
+          "title": "Missive Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_4ae41ba65666ad77-3",
+          "url": "https://missiveapp.com/features",
+          "notes": "Direct real-time crawl of https://missiveapp.com/features used for structured commercial extraction.",
+          "title": "Missive Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_4ae41ba65666ad77-4",
+          "url": "https://missiveapp.com/about",
+          "notes": "Direct real-time crawl of https://missiveapp.com/about used for structured commercial extraction.",
+          "title": "Missive Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_4ae41ba65666ad77-5",
+          "url": "https://missiveapp.com/docs",
+          "notes": "Direct real-time crawl of https://missiveapp.com/docs used for structured commercial extraction.",
+          "title": "Missive Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-08-12",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "Productivity",
+      "logo_url": "",
+      "team_size": 17,
+      "created_at": "2026-08-12T05:31:19.699Z",
+      "summary_en": "Missive is a collaborative email client for teams, offering shared inboxes, internal discussions, task assignment, and automation. It provides a free trial and three paid tiers (Starter, Productive, Business) billed per user monthly or yearly. Its value proposition is enabling teams to handle email efficiently without switching apps, enhanced by rules, AI, and integrations.",
+      "summary_zh": "Missive 是一款面向团队的协作式电子邮件客户端，支持共享收件箱、内部讨论、任务分配和自动化。它提供免费试用和三个付费层级（Starter、Productive、Business），按用户按月或年收费。其价值主张是让团队无需切换应用即可高效处理邮件，并通过规则、AI 和集成增强工作流程。",
+      "updated_at": "2026-09-08T06:02:54.663Z",
+      "launch_year": 0,
+      "website_url": "https://missiveapp.com/",
+      "founder_name": "",
+      "founder_type": "small team",
+      "product_name": "Missive",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费试用 30 天，无需信用卡；试用结束后需选择付费计划才能继续使用。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Starter",
+            "price": "$14",
+            "features": [
+              "Up to 5 users",
+              "Email, SMS, social accounts",
+              "Team spaces and inboxes",
+              "Conversations and tasks",
+              "SOC 2 Type II compliance"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Productive",
+            "price": "$24",
+            "features": [
+              "Everything in Starter",
+              "Up to 50 users",
+              "Integrations with external tools",
+              "Rules & automations",
+              "Basic analytics & reporting",
+              "API access"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Business",
+            "price": "$36",
+            "features": [
+              "Everything in Productive",
+              "SAML SSO",
+              "IP restriction",
+              "Advanced analytics & reporting",
+              "Personalized team onboarding"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "30-day free trial without credit card; after trial, must choose a paid plan to continue.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Subscription",
+          "Freemium"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 121,
+        "total_urls": 608,
+        "observed_at": "2026-09-14T05:43:11.516Z",
+        "path_groups": [
+          {
+            "count": 335,
+            "segment": "/changelog"
+          },
+          {
+            "count": 122,
+            "segment": "/blog"
+          },
+          {
+            "count": 48,
+            "segment": "/customers"
+          },
+          {
+            "count": 40,
+            "segment": "/integrations"
+          },
+          {
+            "count": 15,
+            "segment": "/partners"
+          },
+          {
+            "count": 10,
+            "segment": "/compare"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 5,
+        "comparison_pages": [
+          "https://missiveapp.com/compare/best-superhuman-alternative",
+          "https://missiveapp.com/compare/frontapp-vs-missive",
+          "https://missiveapp.com/compare/help-scout-vs-missive",
+          "https://missiveapp.com/compare/missive-helpwise-alternative",
+          "https://missiveapp.com/compare/missive-vs-gmelius-alternative",
+          "https://missiveapp.com/compare/missive-vs-hiver-alternative",
+          "https://missiveapp.com/compare/office-365-shared-mailbox",
+          "https://missiveapp.com/compare/shortwave-email-vs-missive"
+        ],
+        "integration_count": 40
+      },
+      "keyword_profile": {
+        "seed": "Missive",
+        "signals": [
+          {
+            "score": 37,
+            "keyword": "missive email",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "email"
+            ],
+            "best_position": 3,
+            "independent_sources": 3
+          },
+          {
+            "score": 29,
+            "keyword": "missive app",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 29,
+            "keyword": "missive from the lost days",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "from",
+              "lost",
+              "days"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "missive synonym",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "synonym"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 20,
+            "keyword": "missives destiny 2",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "destiny"
+            ],
+            "best_position": 0,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "missives fallen saber",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "fallen",
+              "saber"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "missive crossword clue",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "crossword",
+              "clue"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "missive def",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "def"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "missives insight terminus",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "insight",
+              "terminus"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "missive pit of heresy",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "pit",
+              "heresy"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-14T05:43:11.363Z"
+      },
+      "last_checked_at": "2026-09-08T06:02:54.663Z",
+      "market_analysis": {
+        "market_risk": "电子邮件协作市场竞争激烈，存在 Front、Hiver 等成熟产品，以及 Slack 等替代方案。",
+        "alternatives": [
+          "Front",
+          "Gmelius",
+          "Help Scout",
+          "Hiver"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Mature",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "The email collaboration market is competitive, with established products like Front, Hiver, and alternatives like Slack.",
+        "buyer_intent_en": "",
+        "differentiation": "与竞争对手相比，Missive 强调将协作功能深度集成到电子邮件客户端中，而不是作为附加组件。",
+        "market_category": "Productivity",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Compared to competitors, Missive emphasizes deep integration of collaboration features into the email client itself, rather than as an add-on.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让团队无需切换应用即可协作处理电子邮件，提高效率并减少混乱。",
+        "data_moat": "积累的邮件历史、团队协作数据和自动化规则形成数据壁垒。",
+        "aha_moment": "当用户第一次在共享收件箱中看到同事的评论和任务分配，意识到无需转发邮件即可协作时。",
+        "onboarding": "新用户通过免费试用开始，可以邀请团队成员，连接邮箱账户，并探索共享收件箱和协作功能。",
+        "core_job_en": "Enable teams to collaborate on email without switching apps, improving efficiency and reducing chaos.",
+        "data_moat_en": "Accumulated email history, team collaboration data, and automation rules create a data moat.",
+        "product_risk": "复制品可能难以达到同样的集成深度和稳定性，且用户对邮件客户端切换有较高粘性。",
+        "aha_moment_en": "When a user first sees a colleague's comment and task assignment in a shared inbox, realizing they can collaborate without forwarding emails.",
+        "onboarding_en": "New users start with a free trial, can invite team members, connect email accounts, and explore shared inbox and collaboration features.",
+        "paid_features": [
+          "高级集成",
+          "API 访问",
+          "SAML SSO",
+          "高级分析"
+        ],
+        "product_risk_en": "A copycat may struggle to match integration depth and stability, and users have high switching costs for email clients.",
+        "usage_frequency": "daily",
+        "workflow_lockin": "团队将日常邮件处理、内部沟通和任务管理都集中在 Missive 中，形成习惯，难以迁移。",
+        "paid_features_en": [
+          "Advanced integrations",
+          "API access",
+          "SAML SSO",
+          "Advanced analytics"
+        ],
+        "must_have_features": [
+          "共享收件箱",
+          "内部评论",
+          "任务分配",
+          "规则自动化"
+        ],
+        "workflow_lockin_en": "Teams centralize daily email handling, internal communication, and task management in Missive, creating habit and making migration difficult.",
+        "must_have_features_en": [
+          "Shared inbox",
+          "Internal comments",
+          "Task assignment",
+          "Rule automation"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合构建面向团队的生产力工具，特别是那些能解决现有工作流程痛点的产品。",
+        "best_for_en": "Best for builders creating team productivity tools that solve existing workflow pain points.",
+        "mvp_version": "2-4 周内可构建的最小版本：一个支持共享收件箱、内部评论、任务分配和基本规则自动化的电子邮件客户端。",
+        "pattern_name": "协作工具订阅模式",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "可以复制其核心功能：共享收件箱、内部评论、任务分配、规则自动化，以及通过集成（如 CRM、存储）增强工作流程。",
+        "why_it_works": "该模式有效，因为电子邮件是业务关键工具，团队愿意为提升效率的协作功能付费。",
+        "mvp_version_en": "Minimum version in 2-4 weeks: an email client with shared inbox, internal comments, task assignment, and basic rule automation.",
+        "pattern_name_en": "Collaborative tool subscription model",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Replicate core features: shared inbox, internal comments, task assignment, rule automation, and workflow enhancement via integrations (e.g., CRM, storage).",
+        "why_it_works_en": "This pattern works because email is mission-critical, and teams are willing to pay for collaboration features that boost efficiency.",
+        "what_not_to_copy": "难以复制的是其成熟的品牌、庞大的用户群（5000+ 公司）、丰富的集成生态、SOC 2 合规性以及多年的产品打磨。",
+        "suggested_channel": "",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate is its established brand, large user base (5000+ companies), extensive integration ecosystem, SOC 2 compliance, and years of product refinement.",
+        "suggested_channel_en": "",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Missive monetizes by embedding team collaboration directly into an email client, charging a subscription for teams that rely on email.",
+      "one_line_insight_zh": "Missive 通过将团队协作功能直接嵌入电子邮件客户端，以订阅制收费，为依赖邮件沟通的团队提供高效协作工具。",
+      "acquisition_operations": {
+        "seo_strategy": "网站包含比较页面（如 vs. Front）、行业页面（如法律、房地产）和博客，可能用于 SEO 吸引搜索流量。",
+        "content_format": [],
+        "conversion_path": "访客通过免费试用注册，体验核心功能，达到用户数或功能限制后升级到付费计划。",
+        "primary_channel": "",
+        "seo_strategy_en": "The site includes comparison pages (e.g., vs. Front), industry pages (e.g., law, real estate), and a blog, likely for SEO to attract search traffic.",
+        "social_strategy": "内容中未明确提及社交媒体策略。",
+        "operation_tactics": [
+          "提供免费试用",
+          "展示客户案例",
+          "提供比较页面"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors sign up for a free trial, experience core features, and upgrade to a paid plan when hitting user or feature limits.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "No explicit social media strategy mentioned in the content.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费试用 30 天，无需信用卡；试用结束后需选择付费计划才能继续使用。",
+        "operation_tactics_en": [
+          "Offer free trial",
+          "Showcase customer stories",
+          "Provide comparison pages"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "30-day free trial without credit card; after trial, must choose a paid plan to continue.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
+    },
+    {
       "id": "opencut",
       "slug": "opencut",
       "market": "Global",
@@ -10982,12 +12107,12 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 104,
-        "total_urls": 156,
-        "observed_at": "2026-08-17T05:08:23.158Z",
+        "blog_count": 106,
+        "total_urls": 162,
+        "observed_at": "2026-09-14T05:43:12.360Z",
         "path_groups": [
           {
-            "count": 105,
+            "count": 107,
             "segment": "/blog"
           },
           {
@@ -11090,6 +12215,20 @@
             "independent_sources": 2
           },
           {
+            "score": 19,
+            "keyword": "plausible analytics cve",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "cve"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
             "score": 17,
             "keyword": "plausible analytics careers",
             "sources": [
@@ -11103,7 +12242,18 @@
             "independent_sources": 1
           },
           {
-            "score": 16,
+            "score": 15,
+            "keyword": "plausible analytics free",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
             "keyword": "plausible analytics community edition",
             "sources": [
               "bing",
@@ -11114,18 +12264,20 @@
               "community",
               "edition"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 1
           },
           {
-            "score": 13,
-            "keyword": "plausible analytics free",
+            "score": 14,
+            "keyword": "plausible analytics api",
             "sources": [
               "google"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 7,
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 6,
             "independent_sources": 1
           },
           {
@@ -11141,36 +12293,9 @@
             ],
             "best_position": 8,
             "independent_sources": 1
-          },
-          {
-            "score": 12,
-            "keyword": "open source plausible analytics",
-            "sources": [
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "open",
-              "source"
-            ],
-            "best_position": 8,
-            "independent_sources": 1
-          },
-          {
-            "score": 11,
-            "keyword": "plausible analytics api",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 9,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.063Z"
+        "observed_at": "2026-09-14T05:43:12.280Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -13457,7 +14582,7 @@
         ],
         "observed_at": "2026-09-07T05:43:14.637Z"
       },
-      "last_checked_at": "2026-09-03T08:08:38.451Z",
+      "last_checked_at": "2026-09-09T01:47:13.722Z",
       "market_analysis": {
         "market_risk": "市场竞争激烈，包括 Firebase、AWS Amplify 等，以及新兴的 Postgres 托管服务。",
         "alternatives": [
@@ -13677,15 +14802,15 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 422,
-        "observed_at": "2026-08-17T05:08:23.608Z",
+        "total_urls": 428,
+        "observed_at": "2026-09-14T05:43:12.769Z",
         "path_groups": [
           {
-            "count": 198,
+            "count": 199,
             "segment": "/help"
           },
           {
-            "count": 175,
+            "count": 180,
             "segment": "/templates"
           },
           {
@@ -13706,16 +14831,16 @@
           }
         ],
         "sitemap_found": true,
-        "template_count": 186,
+        "template_count": 191,
         "comparison_pages": [
-          "https://tally.so/help/how-to-create-a-comparison-tool-for-your-saas",
           "https://tally.so/help/compare",
           "https://tally.so/help/tally-a-free-notion-forms-alternative",
           "https://tally.so/help/tally-a-free-typeform-alternative",
           "https://tally.so/help/tally-a-free-and-powerful-google-forms-alternative",
           "https://tally.so/help/tally-a-free-jotform-alternative",
           "https://tally.so/help/tally-a-free-paperform-alternative",
-          "https://tally.so/help/tally-a-free-fillout-alternative"
+          "https://tally.so/help/tally-a-free-fillout-alternative",
+          "https://tally.so/help/tally-a-free-microsoft-forms-alternative"
         ],
         "integration_count": 21
       },
@@ -13734,20 +14859,6 @@
               "review"
             ],
             "best_position": 1,
-            "independent_sources": 2
-          },
-          {
-            "score": 22,
-            "keyword": "tally forms templates",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "templates"
-            ],
-            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -13779,7 +14890,7 @@
           },
           {
             "score": 17,
-            "keyword": "tally forms free",
+            "keyword": "tally forms app",
             "sources": [
               "google"
             ],
@@ -13818,7 +14929,7 @@
           },
           {
             "score": 16,
-            "keyword": "tally forms app",
+            "keyword": "tally forms free",
             "sources": [
               "google"
             ],
@@ -13853,11 +14964,22 @@
             ],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "tally forms examples",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.062Z"
+        "observed_at": "2026-09-14T05:43:12.280Z"
       },
-      "last_checked_at": "2026-09-06T14:09:59.385Z",
+      "last_checked_at": "2026-09-09T01:47:14.860Z",
       "market_analysis": {
         "market_risk": "1. Notion 自身构建原生表单块（Form blocks）的潜在竞争风险；2. 依赖有机口碑传播，若病毒式传播系数下降，获客增速可能放缓；3. 免费用户规模过大带来的服务器带宽与滥用防范成本上升。",
         "alternatives": [
@@ -14062,32 +15184,32 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 5751,
-        "observed_at": "2026-08-17T05:08:24.069Z",
+        "total_urls": 6000,
+        "observed_at": "2026-09-14T05:43:13.022Z",
         "path_groups": [
           {
-            "count": 5300,
+            "count": 5753,
             "segment": "/founder"
-          },
-          {
-            "count": 119,
-            "segment": "/country"
           },
           {
             "count": 104,
             "segment": "/tech"
           },
           {
-            "count": 91,
-            "segment": "/compete"
-          },
-          {
             "count": 39,
             "segment": "/channels"
           },
           {
-            "count": 35,
+            "count": 37,
             "segment": "/newsletter"
+          },
+          {
+            "count": 32,
+            "segment": "/category"
+          },
+          {
+            "count": 5,
+            "segment": "/compare"
           }
         ],
         "sitemap_found": true,
@@ -14097,10 +15219,7 @@
           "https://trustmrr.com/compare/trustmrr-vs-acquire",
           "https://trustmrr.com/compare/trustmrr-vs-empire-flippers",
           "https://trustmrr.com/compare/trustmrr-vs-flippa",
-          "https://trustmrr.com/compare/trustmrr-vs-microns",
-          "https://trustmrr.com/compete/bazzly-vs-trustmrr-49768",
-          "https://trustmrr.com/compete/trustmrr-vs-post-bridge-vs-capgo-vs-datafast-18141",
-          "https://trustmrr.com/compete/leadshark-vs-datafast-vs-superx-vs-post-bridge-61432"
+          "https://trustmrr.com/compare/trustmrr-vs-microns"
         ],
         "integration_count": 0
       },
@@ -14123,7 +15242,7 @@
             "independent_sources": 2
           },
           {
-            "score": 27,
+            "score": 26,
             "keyword": "trustmrr alternative",
             "sources": [
               "google",
@@ -14134,18 +15253,18 @@
             "new_concepts": [
               "alternative"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
             "score": 18,
-            "keyword": "trustmrr openclaw",
+            "keyword": "trustmrr api",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "openclaw"
+              "api"
             ],
             "best_position": 2,
             "independent_sources": 1
@@ -14166,28 +15285,42 @@
           },
           {
             "score": 17,
-            "keyword": "trustmrr api",
+            "keyword": "trustmrr openclaw",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "api"
+              "openclaw"
             ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 15,
+            "score": 17,
+            "keyword": "trustmrr com",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "com"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
             "keyword": "trustmrr mcp",
             "sources": [
               "google"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "mcp"
             ],
-            "best_position": 5,
+            "best_position": 6,
             "independent_sources": 1
           },
           {
@@ -14218,7 +15351,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.670Z"
+        "observed_at": "2026-09-14T05:43:12.826Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
@@ -14459,7 +15592,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-17T05:08:23.998Z",
+        "observed_at": "2026-09-14T05:43:12.691Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -14503,6 +15636,21 @@
           },
           {
             "score": 27,
+            "keyword": "typebot pricing",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
             "keyword": "typebot whatsapp",
             "sources": [
               "google",
@@ -14531,21 +15679,6 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "typebot pricing",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "pricing"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
             "score": 23,
             "keyword": "typebot documentation",
             "sources": [
@@ -14557,21 +15690,6 @@
               "documentation"
             ],
             "best_position": 7,
-            "independent_sources": 2
-          },
-          {
-            "score": 22,
-            "keyword": "typebot open source",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "open",
-              "source"
-            ],
-            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -14602,6 +15720,20 @@
           },
           {
             "score": 16,
+            "keyword": "typebot docs",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "docs"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
             "keyword": "typebot ai",
             "sources": [
               "google"
@@ -14610,11 +15742,11 @@
             "new_concepts": [
               "ai"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.666Z"
+        "observed_at": "2026-09-14T05:43:12.279Z"
       },
       "market_analysis": {
         "market_risk": "聊天机器人市场拥挤，存在许多成熟和新兴的竞争对手，且免费开源替代品可能蚕食市场份额。",
@@ -14802,12 +15934,12 @@
       "evidence_level": "Unknown",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 56,
-        "total_urls": 104,
-        "observed_at": "2026-08-17T05:08:23.715Z",
+        "blog_count": 58,
+        "total_urls": 106,
+        "observed_at": "2026-09-14T05:43:12.887Z",
         "path_groups": [
           {
-            "count": 57,
+            "count": 59,
             "segment": "/blog"
           },
           {
@@ -14854,8 +15986,7 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -14865,7 +15996,7 @@
             "independent_sources": 3
           },
           {
-            "score": 35,
+            "score": 36,
             "keyword": "umami burger",
             "sources": [
               "google",
@@ -14876,11 +16007,11 @@
             "new_concepts": [
               "burger"
             ],
-            "best_position": 5,
+            "best_position": 4,
             "independent_sources": 3
           },
           {
-            "score": 29,
+            "score": 28,
             "keyword": "umami flavor",
             "sources": [
               "google",
@@ -14890,11 +16021,25 @@
             "new_concepts": [
               "flavor"
             ],
-            "best_position": 1,
+            "best_position": 2,
             "independent_sources": 2
           },
           {
-            "score": 28,
+            "score": 27,
+            "keyword": "umami seasoning",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "seasoning"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
             "keyword": "umami sushi",
             "sources": [
               "google",
@@ -14905,36 +16050,21 @@
             "new_concepts": [
               "sushi"
             ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "umami seasoning",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "seasoning"
-            ],
             "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 25,
+            "score": 24,
             "keyword": "umami taste",
             "sources": [
               "google",
               "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "taste"
             ],
-            "best_position": 5,
+            "best_position": 6,
             "independent_sources": 2
           },
           {
@@ -14965,6 +16095,20 @@
             "independent_sources": 1
           },
           {
+            "score": 19,
+            "keyword": "umami tavern",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "tavern"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
             "score": 17,
             "keyword": "umami grove",
             "sources": [
@@ -14976,25 +16120,11 @@
             ],
             "best_position": 3,
             "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "umami restaurant",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "restaurant"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:23.676Z"
+        "observed_at": "2026-09-14T05:43:12.836Z"
       },
-      "last_checked_at": "2026-09-03T08:08:40.845Z",
+      "last_checked_at": "2026-09-09T01:47:15.951Z",
       "market_analysis": {
         "market_risk": "市场竞争激烈，存在许多免费和付费的分析工具。",
         "alternatives": [],
@@ -15630,7 +16760,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 30,
-        "observed_at": "2026-08-17T05:08:24.290Z",
+        "observed_at": "2026-09-14T05:43:13.063Z",
         "path_groups": [
           {
             "count": 10,
@@ -15708,6 +16838,18 @@
             "independent_sources": 2
           },
           {
+            "score": 25,
+            "keyword": "localsend android",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
             "score": 24,
             "keyword": "localsend mac",
             "sources": [
@@ -15746,17 +16888,6 @@
           },
           {
             "score": 15,
-            "keyword": "localsend android",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 5,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
             "keyword": "localsend not working",
             "sources": [
               "youtube"
@@ -15770,21 +16901,18 @@
             "independent_sources": 1
           },
           {
-            "score": 15,
-            "keyword": "localsend github",
+            "score": 14,
+            "keyword": "localsend iphone to pc",
             "sources": [
-              "bing",
-              "duckduckgo"
+              "youtube"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "github"
-            ],
-            "best_position": 5,
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:24.122Z"
+        "observed_at": "2026-09-14T05:43:12.836Z"
       },
       "market_analysis": {
         "market_risk": "面临来自平台内置功能（如 AirDrop）和商业工具的竞争，且缺乏付费功能可能限制收入。",
@@ -16015,17 +17143,9 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 43,
-        "total_urls": 890,
-        "observed_at": "2026-08-17T05:08:24.265Z",
+        "total_urls": 78,
+        "observed_at": "2026-09-14T05:43:13.643Z",
         "path_groups": [
-          {
-            "count": 698,
-            "segment": "/plugins"
-          },
-          {
-            "count": 51,
-            "segment": "/tutorials"
-          },
           {
             "count": 43,
             "segment": "/blog"
@@ -16035,16 +17155,12 @@
             "segment": "/agents"
           },
           {
-            "count": 20,
-            "segment": "/solutions"
-          },
-          {
-            "count": 13,
-            "segment": "/craft"
+            "count": 12,
+            "segment": "/alternatives"
           }
         ],
         "sitemap_found": true,
-        "template_count": 120,
+        "template_count": 0,
         "comparison_pages": [
           "https://open-design.ai/alternatives/bolt/",
           "https://open-design.ai/alternatives/claude-design/",
@@ -16101,32 +17217,19 @@
           },
           {
             "score": 16,
-            "keyword": "open-design repo",
+            "keyword": "open-design claude",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "repo"
+              "claude"
             ],
             "best_position": 4,
             "independent_sources": 1
           },
           {
             "score": 14,
-            "keyword": "open-design claude",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "claude"
-            ],
-            "best_position": 6,
-            "independent_sources": 1
-          },
-          {
-            "score": 13,
             "keyword": "open-design appimage",
             "sources": [
               "google"
@@ -16134,6 +17237,34 @@
             "unexpected": false,
             "new_concepts": [
               "appimage"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "open-design repo",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "repo"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "open-design claude code",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "claude",
+              "code"
             ],
             "best_position": 7,
             "independent_sources": 1
@@ -16152,7 +17283,20 @@
             "independent_sources": 1
           },
           {
-            "score": 12,
+            "score": 11,
+            "keyword": "open-design mcp",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "mcp"
+            ],
+            "best_position": 9,
+            "independent_sources": 1
+          },
+          {
+            "score": 10,
             "keyword": "open-design-main",
             "sources": [
               "bing"
@@ -16161,25 +17305,11 @@
             "new_concepts": [
               "main"
             ],
-            "best_position": 8,
-            "independent_sources": 1
-          },
-          {
-            "score": 11,
-            "keyword": "open-design claude skill",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "claude",
-              "skill"
-            ],
-            "best_position": 9,
+            "best_position": 10,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:24.132Z"
+        "observed_at": "2026-09-14T05:43:13.124Z"
       },
       "market_analysis": {
         "market_risk": "面临来自 Claude Design、Figma、Lovable、Bolt、v0、Framer 等成熟产品的竞争，以及用户对本地安装和 BYOK 的接受度。",
@@ -16374,7 +17504,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 6000,
-        "observed_at": "2026-08-17T05:08:28.128Z",
+        "observed_at": "2026-09-14T05:43:17.484Z",
         "path_groups": [
           {
             "count": 170,
@@ -16449,6 +17579,20 @@
           },
           {
             "score": 28,
+            "keyword": "remove.bg video",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "video"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
             "keyword": "remove.bg upload",
             "sources": [
               "google",
@@ -16464,21 +17608,6 @@
           },
           {
             "score": 27,
-            "keyword": "remove.bg video",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "video"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
             "keyword": "remove.bg app",
             "sources": [
               "google",
@@ -16486,21 +17615,8 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 2
-          },
-          {
-            "score": 19,
-            "keyword": "remove.bg/upload",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "upload"
-            ],
-            "best_position": 1,
-            "independent_sources": 1
           },
           {
             "score": 18,
@@ -16525,6 +17641,19 @@
             "unexpected": false,
             "new_concepts": [],
             "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "remove.bg/upload",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "upload"
+            ],
+            "best_position": 4,
             "independent_sources": 1
           },
           {
@@ -16555,7 +17684,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:24.131Z"
+        "observed_at": "2026-09-14T05:43:13.125Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
