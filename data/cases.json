@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:49:29.067Z",
+  "generated_at": "2026-09-21T07:53:12.911Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
   "count": 50,
@@ -1123,12 +1123,12 @@
       "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 490,
-        "total_urls": 1192,
-        "observed_at": "2026-08-17T05:08:28.468Z",
+        "blog_count": 505,
+        "total_urls": 1334,
+        "observed_at": "2026-09-21T05:43:12.314Z",
         "path_groups": [
           {
-            "count": 490,
+            "count": 504,
             "segment": "/blog"
           },
           {
@@ -1140,31 +1140,31 @@
             "segment": "/help"
           },
           {
+            "count": 115,
+            "segment": "/v5"
+          },
+          {
             "count": 91,
             "segment": "/use-cases"
           },
           {
-            "count": 28,
+            "count": 37,
             "segment": "/changelog"
-          },
-          {
-            "count": 15,
-            "segment": "/tools"
           }
         ],
         "sitemap_found": true,
-        "template_count": 359,
+        "template_count": 369,
         "comparison_pages": [
-          "https://www.bannerbear.com/blog/midjourney-vs-dall-e-a-style-by-style-image-comparison-in-2025/",
-          "https://www.bannerbear.com/blog/webhook-vs-api-explained-when-to-use-each-for-third-party-integration/",
-          "https://www.bannerbear.com/blog/how-to-compare-puppeteer-screenshots-using-imagemagick/",
-          "https://www.bannerbear.com/blog/bannerbear-vs-canva-choosing-the-best-tool-for-you/",
-          "https://www.bannerbear.com/blog/5-project-management-alternatives-to-airtable-2022/",
+          "https://www.bannerbear.com/blog/mcp-vs-api-whats-the-difference/",
+          "https://www.bannerbear.com/blog/5-zapier-alternatives-2022-free-paid/",
+          "https://www.bannerbear.com/blog/google-cloud-functions-vs-aws-lambda/",
           "https://www.bannerbear.com/blog/video-webhooks-vs-apis-explained-with-a-real-world-example/",
-          "https://www.bannerbear.com/blog/10-best-postman-alternatives-for-api-testing-and-development-in-2024/",
-          "https://www.bannerbear.com/blog/google-cloud-functions-vs-aws-lambda/"
+          "https://www.bannerbear.com/blog/nano-banana-vs-nano-banana-pro-which-google-ai-image-generator-is-better/",
+          "https://www.bannerbear.com/blog/how-to-compare-puppeteer-screenshots-using-imagemagick/",
+          "https://www.bannerbear.com/blog/webhook-vs-api-explained-when-to-use-each-for-third-party-integration/",
+          "https://www.bannerbear.com/blog/midjourney-vs-dall-e-a-style-by-style-image-comparison-in-2025/"
         ],
-        "integration_count": 10
+        "integration_count": 12
       },
       "keyword_profile": {
         "seed": "Bannerbear",
@@ -1205,7 +1205,8 @@
             "keyword": "bannerbear n8n",
             "sources": [
               "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -1229,6 +1230,20 @@
           },
           {
             "score": 18,
+            "keyword": "bannerbear certificate",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "certificate"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
             "keyword": "bannerbear vs placid",
             "sources": [
               "bing",
@@ -1239,34 +1254,7 @@
               "vs",
               "placid"
             ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "bannerbear certificate",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "certificate"
-            ],
             "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "bannerbear ai",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "ai"
-            ],
-            "best_position": 4,
             "independent_sources": 1
           },
           {
@@ -1285,13 +1273,14 @@
           },
           {
             "score": 15,
-            "keyword": "bannerbear alternative",
+            "keyword": "bannerbear certificate generator",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "alternative"
+              "certificate",
+              "generator"
             ],
             "best_position": 5,
             "independent_sources": 1
@@ -1309,9 +1298,23 @@
             ],
             "best_position": 5,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "bannerbear templates",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "templates"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:28.246Z"
+        "observed_at": "2026-09-21T05:43:12.116Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -1536,7 +1539,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 174,
-        "observed_at": "2026-08-24T05:04:27.932Z",
+        "observed_at": "2026-09-21T05:43:12.762Z",
         "path_groups": [],
         "sitemap_found": true,
         "template_count": 0,
@@ -1685,7 +1688,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:27.877Z"
+        "observed_at": "2026-09-21T05:43:12.703Z"
       },
       "market_analysis": {
         "market_risk": "项目管理市场竞争激烈，存在许多功能更丰富或更便宜的替代品。",
@@ -1912,7 +1915,7 @@
         "llms_txt": true,
         "blog_count": 1,
         "total_urls": 6000,
-        "observed_at": "2026-08-24T05:04:28.041Z",
+        "observed_at": "2026-09-21T05:43:12.272Z",
         "path_groups": [
           {
             "count": 5781,
@@ -2048,7 +2051,7 @@
             "independent_sources": 2
           },
           {
-            "score": 19,
+            "score": 18,
             "keyword": "beehiiv website",
             "sources": [
               "bing",
@@ -2056,7 +2059,7 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 1,
+            "best_position": 2,
             "independent_sources": 1
           },
           {
@@ -2099,7 +2102,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:27.874Z"
+        "observed_at": "2026-09-21T05:43:12.143Z"
       },
       "last_checked_at": "2026-09-09T01:47:11.379Z",
       "market_analysis": {
@@ -2327,11 +2330,11 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 974,
-        "observed_at": "2026-08-24T05:04:28.056Z",
+        "total_urls": 978,
+        "observed_at": "2026-09-21T05:43:12.922Z",
         "path_groups": [
           {
-            "count": 209,
+            "count": 213,
             "segment": "/posts"
           },
           {
@@ -2359,13 +2362,13 @@
         "template_count": 5,
         "comparison_pages": [
           "https://bentonow.com/docs/deliverability/marketing-vs-transactional",
+          "https://bentonow.com/posts/klaviyo-alternatives",
           "https://bentonow.com/posts/hubspot-alternatives",
           "https://bentonow.com/posts/transactional-vs-marketing-email-differences",
           "https://bentonow.com/posts/transactional-vs-bulk-email",
           "https://bentonow.com/posts/accepted-vs-delivered-email",
           "https://bentonow.com/posts/mailchimp-alternatives",
-          "https://bentonow.com/posts/bento-alternatives",
-          "https://bentonow.com/posts/klaviyo-vs-mailchimp"
+          "https://bentonow.com/posts/bento-alternatives"
         ],
         "integration_count": 54
       },
@@ -2402,6 +2405,19 @@
               "clay"
             ],
             "best_position": 3,
+            "independent_sources": 3
+          },
+          {
+            "score": 35,
+            "keyword": "bentonville",
+            "sources": [
+              "google",
+              "youtube",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
             "independent_sources": 3
           },
           {
@@ -2462,27 +2478,14 @@
             "independent_sources": 2
           },
           {
-            "score": 25,
-            "keyword": "bentonville",
+            "score": 18,
+            "keyword": "bentonite",
             "sources": [
-              "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 5,
-            "independent_sources": 2
-          },
-          {
-            "score": 18,
-            "keyword": "benton nissan",
-            "sources": [
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "nissan"
-            ],
             "best_position": 2,
             "independent_sources": 1
           },
@@ -2500,18 +2503,21 @@
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "bentonite",
+            "score": 16,
+            "keyword": "bento box asmr",
             "sources": [
-              "bing"
+              "youtube"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 3,
+            "unexpected": true,
+            "new_concepts": [
+              "box",
+              "asmr"
+            ],
+            "best_position": 4,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:27.883Z"
+        "observed_at": "2026-09-21T05:43:12.682Z"
       },
       "market_analysis": {
         "market_risk": "邮件营销市场竞争激烈，存在Klvaviyo、Mailchimp等成熟对手。",
@@ -2712,17 +2718,17 @@
       },
       "evidence_level": "A",
       "search_profile": {
-        "llms_txt": false,
+        "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 223,
-        "observed_at": "2026-08-24T05:04:28.420Z",
+        "total_urls": 224,
+        "observed_at": "2026-09-21T05:43:13.245Z",
         "path_groups": [
           {
             "count": 104,
             "segment": "/social-media-terms"
           },
           {
-            "count": 26,
+            "count": 27,
             "segment": "/free-tools"
           },
           {
@@ -2758,8 +2764,7 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -2785,6 +2790,31 @@
           },
           {
             "score": 28,
+            "keyword": "bufferbloat",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "bufferin",
+            "sources": [
+              "google",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "buffer careers",
             "sources": [
               "google",
@@ -2795,20 +2825,7 @@
             "new_concepts": [
               "careers"
             ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "bufferbloat",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
@@ -2823,32 +2840,6 @@
               "solution"
             ],
             "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "buffering",
-            "sources": [
-              "google",
-              "youtube"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 22,
-            "keyword": "buffered etfs",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "etfs"
-            ],
-            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -2890,9 +2881,22 @@
             ],
             "best_position": 3,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "bufferless ar15",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ar15"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.142Z"
+        "observed_at": "2026-09-21T05:43:13.010Z"
       },
       "last_checked_at": "2026-09-09T01:47:10.813Z",
       "market_analysis": {
@@ -3139,12 +3143,20 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 699,
-        "total_urls": 1100,
-        "observed_at": "2026-08-24T05:04:28.678Z",
+        "blog_count": 2163,
+        "total_urls": 3366,
+        "observed_at": "2026-09-21T05:43:13.115Z",
         "path_groups": [
           {
-            "count": 699,
+            "count": 1122,
+            "segment": "/de"
+          },
+          {
+            "count": 1122,
+            "segment": "/fr"
+          },
+          {
+            "count": 721,
             "segment": "/blog"
           },
           {
@@ -3158,14 +3170,6 @@
           {
             "count": 13,
             "segment": "/scheduling"
-          },
-          {
-            "count": 11,
-            "segment": "/features"
-          },
-          {
-            "count": 11,
-            "segment": "/customers"
           }
         ],
         "sitemap_found": true,
@@ -3173,14 +3177,14 @@
         "comparison_pages": [
           "https://cal.com/scheduling/calcom-vs-calendly",
           "https://cal.com/calcom-vs-calendly",
-          "https://cal.com/routing/routing-for-alternative-medicine",
           "https://cal.com/workflows/workflows-for-alternative-medicine",
+          "https://cal.com/routing/routing-for-alternative-medicine",
           "https://cal.com/wiki/round-robin-scheduling-vs-other-scheduling-methods",
-          "https://cal.com/blog/manual-scheduling-vs-scheduling-app",
-          "https://cal.com/blog/calendly-alternatives",
-          "https://cal.com/blog/best-reclaim-ai-alternatives"
+          "https://cal.com/blog/nylas-alternatives",
+          "https://cal.com/blog/doodle-alternatives",
+          "https://cal.com/blog/calendly-api-vs-cal-com-api"
         ],
-        "integration_count": 9
+        "integration_count": 27
       },
       "keyword_profile": {
         "seed": "Cal.com",
@@ -3246,6 +3250,19 @@
             "independent_sources": 2
           },
           {
+            "score": 24,
+            "keyword": "cal.com app",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
             "score": 23,
             "keyword": "cal.com careers",
             "sources": [
@@ -3260,18 +3277,19 @@
             "independent_sources": 2
           },
           {
-            "score": 22,
+            "score": 23,
             "keyword": "cal.com open source",
             "sources": [
               "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [
               "open",
               "source"
             ],
-            "best_position": 8,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -3313,22 +3331,9 @@
             ],
             "best_position": 5,
             "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "cal.com n8n",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "n8n"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.142Z"
+        "observed_at": "2026-09-21T05:43:13.010Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -3574,7 +3579,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-24T05:04:28.178Z",
+        "observed_at": "2026-09-21T05:43:12.728Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -3633,8 +3638,7 @@
             "keyword": "carrd templates free",
             "sources": [
               "google",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -3644,34 +3648,21 @@
             "independent_sources": 2
           },
           {
-            "score": 23,
-            "keyword": "carrd portfolio",
+            "score": 21,
+            "keyword": "carrd pricing",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "portfolio"
+              "pricing"
             ],
-            "best_position": 7,
+            "best_position": 9,
             "independent_sources": 2
           },
           {
-            "score": 13,
-            "keyword": "carrd tut",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "tut"
-            ],
-            "best_position": 7,
-            "independent_sources": 1
-          },
-          {
-            "score": 11,
+            "score": 12,
             "keyword": "carrd pro",
             "sources": [
               "google"
@@ -3680,7 +3671,20 @@
             "new_concepts": [
               "pro"
             ],
-            "best_position": 9,
+            "best_position": 8,
+            "independent_sources": 1
+          },
+          {
+            "score": 12,
+            "keyword": "carrd tut",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "tut"
+            ],
+            "best_position": 8,
             "independent_sources": 1
           },
           {
@@ -3698,33 +3702,34 @@
           },
           {
             "score": 10,
-            "keyword": "carrd landing page",
+            "keyword": "carrd referral code",
             "sources": [
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "landing",
-              "page"
+              "referral",
+              "code"
             ],
             "best_position": 11,
             "independent_sources": 1
           },
           {
             "score": 10,
-            "keyword": "carrd pricing",
+            "keyword": "carrd pro standard",
             "sources": [
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "pricing"
+              "pro",
+              "standard"
             ],
             "best_position": 12,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.141Z"
+        "observed_at": "2026-09-21T05:43:12.679Z"
       },
       "last_checked_at": "2026-09-09T01:47:19.264Z",
       "market_analysis": {
@@ -4364,11 +4369,11 @@
       "search_profile": {
         "llms_txt": false,
         "blog_count": 3,
-        "total_urls": 1623,
-        "observed_at": "2026-08-24T05:04:29.126Z",
+        "total_urls": 1584,
+        "observed_at": "2026-09-21T05:43:13.716Z",
         "path_groups": [
           {
-            "count": 574,
+            "count": 535,
             "segment": "/en"
           },
           {
@@ -4398,7 +4403,7 @@
         "seed": "Crisp",
         "signals": [
           {
-            "score": 40,
+            "score": 39,
             "keyword": "crispr",
             "sources": [
               "google",
@@ -4408,7 +4413,7 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 0,
+            "best_position": 1,
             "independent_sources": 3
           },
           {
@@ -4469,6 +4474,21 @@
             "independent_sources": 2
           },
           {
+            "score": 26,
+            "keyword": "crispi boots",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "boots"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
             "score": 20,
             "keyword": "crispy concords",
             "sources": [
@@ -4508,21 +4528,7 @@
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "crispy pork belly",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pork",
-              "belly"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
+            "score": 18,
             "keyword": "crisp dc",
             "sources": [
               "bing"
@@ -4531,11 +4537,11 @@
             "new_concepts": [
               "dc"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.744Z"
+        "observed_at": "2026-09-21T05:43:13.307Z"
       },
       "last_checked_at": "2026-07-09T00:00:00.000Z",
       "market_analysis": {
@@ -4799,7 +4805,7 @@
         "llms_txt": false,
         "blog_count": 189,
         "total_urls": 270,
-        "observed_at": "2026-08-24T05:04:28.916Z",
+        "observed_at": "2026-09-21T05:43:13.206Z",
         "path_groups": [
           {
             "count": 90,
@@ -4870,6 +4876,20 @@
           },
           {
             "score": 28,
+            "keyword": "documenso pricing",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
             "keyword": "documenso api",
             "sources": [
               "google",
@@ -4883,7 +4903,7 @@
             "independent_sources": 2
           },
           {
-            "score": 28,
+            "score": 27,
             "keyword": "documenso docker",
             "sources": [
               "youtube",
@@ -4893,21 +4913,6 @@
             "unexpected": true,
             "new_concepts": [
               "docker"
-            ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "documenso pricing",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pricing"
             ],
             "best_position": 3,
             "independent_sources": 2
@@ -4929,20 +4934,6 @@
             "independent_sources": 2
           },
           {
-            "score": 22,
-            "keyword": "documenso documentation",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "documentation"
-            ],
-            "best_position": 8,
-            "independent_sources": 2
-          },
-          {
             "score": 15,
             "keyword": "documenso n8n",
             "sources": [
@@ -4953,6 +4944,20 @@
               "n8n"
             ],
             "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "documenso vs docusign",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "vs",
+              "docusign"
+            ],
+            "best_position": 6,
             "independent_sources": 1
           },
           {
@@ -4970,20 +4975,20 @@
           },
           {
             "score": 13,
-            "keyword": "documenso vs docusign",
+            "keyword": "documenso open source",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "vs",
-              "docusign"
+              "open",
+              "source"
             ],
             "best_position": 7,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.737Z"
+        "observed_at": "2026-09-21T05:43:13.009Z"
       },
       "last_checked_at": "2026-09-09T01:47:15.423Z",
       "market_analysis": {
@@ -5188,7 +5193,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-24T05:04:28.784Z",
+        "observed_at": "2026-09-21T05:43:13.375Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -5198,6 +5203,21 @@
       "keyword_profile": {
         "seed": "Fathom Analytics",
         "signals": [
+          {
+            "score": 28,
+            "keyword": "fathom analytics events",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "events"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
           {
             "score": 20,
             "keyword": "fathom analytics demo",
@@ -5238,7 +5258,7 @@
             "independent_sources": 1
           },
           {
-            "score": 18,
+            "score": 17,
             "keyword": "fathom analytics careers",
             "sources": [
               "google"
@@ -5247,11 +5267,11 @@
             "new_concepts": [
               "careers"
             ],
-            "best_position": 2,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 18,
+            "score": 17,
             "keyword": "fathom analytics entries",
             "sources": [
               "bing",
@@ -5261,11 +5281,11 @@
             "new_concepts": [
               "entries"
             ],
-            "best_position": 2,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 17,
+            "score": 16,
             "keyword": "fathom analytics revenue",
             "sources": [
               "google"
@@ -5274,11 +5294,11 @@
             "new_concepts": [
               "revenue"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 1
           },
           {
-            "score": 17,
+            "score": 16,
             "keyword": "fathom analytics unique visitors",
             "sources": [
               "bing",
@@ -5289,7 +5309,7 @@
               "unique",
               "visitors"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 1
           },
           {
@@ -5317,22 +5337,9 @@
             ],
             "best_position": 6,
             "independent_sources": 1
-          },
-          {
-            "score": 13,
-            "keyword": "fathom analytics dashboard",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "dashboard"
-            ],
-            "best_position": 7,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:28.742Z"
+        "observed_at": "2026-09-21T05:43:13.309Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -5890,7 +5897,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 126,
-        "observed_at": "2026-08-24T05:04:29.676Z",
+        "observed_at": "2026-09-21T05:43:13.868Z",
         "path_groups": [
           {
             "count": 41,
@@ -5949,7 +5956,7 @@
             "independent_sources": 1
           },
           {
-            "score": 18,
+            "score": 17,
             "keyword": "fillout create",
             "sources": [
               "bing",
@@ -5959,11 +5966,11 @@
             "new_concepts": [
               "create"
             ],
-            "best_position": 2,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 16,
+            "score": 15,
             "keyword": "filloutliers",
             "sources": [
               "bing",
@@ -5971,7 +5978,7 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 1
           },
           {
@@ -5989,7 +5996,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-24T05:04:29.187Z"
+        "observed_at": "2026-09-21T05:43:13.309Z"
       },
       "market_analysis": {
         "market_risk": "表单构建器市场竞争激烈，存在Typeform、Google Forms等成熟对手。",
@@ -17931,7 +17938,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-17T05:08:28.722Z",
+        "observed_at": "2026-09-21T05:43:12.623Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -18066,19 +18073,21 @@
             "independent_sources": 1
           },
           {
-            "score": 16,
-            "keyword": "rustdesk web",
+            "score": 15,
+            "keyword": "rustdesk self hosted",
             "sources": [
-              "bing",
-              "duckduckgo"
+              "youtube"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
+            "unexpected": true,
+            "new_concepts": [
+              "self",
+              "hosted"
+            ],
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-17T05:08:28.245Z"
+        "observed_at": "2026-09-21T05:43:12.118Z"
       },
       "market_analysis": {
         "market_risk": "远程桌面市场竞争激烈，存在TeamViewer、AnyDesk等强大对手，以及免费开源替代品，需要持续创新和差异化。",
