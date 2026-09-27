@@ -29,6 +29,8 @@ AI assistants can query this data directly (with citations) via the official MCP
 https://proof-stack-lake.vercel.app/mcp
 ```
 
+Also listed on: [TensorBlock MCP Index](https://tensorblock.co/mcp/servers/proof-stack-lake-vercel-app-mcp-b24b957a) (install configs + shareable badge).
+
 Docs: [proofstack-mcp](https://github.com/lttxzmj/proofstack-mcp)
 
 ## Related free tool
