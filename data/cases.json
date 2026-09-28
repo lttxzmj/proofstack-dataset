@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T07:53:12.911Z",
+  "generated_at": "2026-09-28T08:34:49.619Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 50,
+  "count": 51,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -51,7 +51,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 498,
-        "observed_at": "2026-08-31T05:20:39.570Z",
+        "observed_at": "2026-09-28T05:43:14.273Z",
         "path_groups": [
           {
             "count": 476,
@@ -88,7 +88,7 @@
       "keyword_profile": {
         "seed": "AI Resume Optimization Tool for Specific Job Positions",
         "signals": [],
-        "observed_at": "2026-08-31T05:20:39.571Z"
+        "observed_at": "2026-09-28T05:43:14.273Z"
       },
       "market_analysis": {
         "market_risk": "市场竞争激烈，用户可能转向免费或更便宜的替代品。",
@@ -199,6 +199,385 @@
         "retention_mechanism_en": "",
         "first_traffic_source_en": "",
         "free_to_paid_trigger_en": "The free tier likely limits the number of AI features or access to premium templates, but specific limits are not stated on the page.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
+    },
+    {
+      "id": "academa",
+      "slug": "academa",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49503421-1",
+          "url": "https://academa.ai/",
+          "notes": "Direct real-time crawl of https://academa.ai/ used for structured commercial extraction.",
+          "title": "Academa Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-09-27",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49503421-2",
+          "url": "https://academa.ai/pricing",
+          "notes": "Direct real-time crawl of https://academa.ai/pricing used for structured commercial extraction.",
+          "title": "Academa Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-09-27",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-09-27T02:34:13.179Z",
+      "summary_en": "Academa proposes \"lectures as code\": each teaching action is written as source code, then a compiler with text-to-speech and computer graphics renders the video, making lectures editable and maintainable like software. This lets an LLM generate lectures on essentially any technical subject in 80+ languages, with pause-and-ask interactive answers and personalization. The site offers 66 official lectures free to watch, monetizing on monthly video-generation and in-video chat quotas.",
+      "summary_zh": "Academa 提出“讲座即代码”的理念：把教师讲课的每个动作写成源码，再由编译器配合文本转语音和计算机图形生成视频，因此视频像软件一样可修改、可维护。基于此，LLM 可以为地球上任何技术主题、任何语言生成讲座，并支持暂停提问、实时生成回答视频和个性化课程。官网提供 66 个官方讲座免费观看，付费点在于每月视频生成次数与视频内对话额度。",
+      "updated_at": "2026-09-27T02:35:02.972Z",
+      "launch_year": 0,
+      "website_url": "https://academa.ai/",
+      "founder_name": "",
+      "founder_type": "duo",
+      "product_name": "Academa",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费层限制视频内对话次数，且每月只能生成 1 个视频；想要更多生成次数和更充分的视频对话必须升级到 Plus。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "features": [
+              "Watch every lecture",
+              "Limited chat with videos",
+              "1 video generation each month"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Plus",
+            "price": "$20",
+            "features": [
+              "Watch every lecture",
+              "Extensive chat with videos",
+              "10 video generations each month"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Videos at scale",
+              "API access",
+              "30+ languages"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "The free tier caps in-video chat and allows only 1 video generation per month; more generations and extensive chat require upgrading to Plus.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Freemium",
+          "Subscription",
+          "Usage-based"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 0,
+        "total_urls": 118,
+        "observed_at": "2026-09-28T05:43:13.370Z",
+        "path_groups": [
+          {
+            "count": 67,
+            "segment": "/lectures"
+          },
+          {
+            "count": 12,
+            "segment": "/@sina"
+          },
+          {
+            "count": 7,
+            "segment": "/subjects"
+          },
+          {
+            "count": 2,
+            "segment": "/@adamierymenko"
+          },
+          {
+            "count": 2,
+            "segment": "/@apo"
+          },
+          {
+            "count": 2,
+            "segment": "/@atalay"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 1
+      },
+      "keyword_profile": {
+        "seed": "Academa",
+        "signals": [
+          {
+            "score": 39,
+            "keyword": "academagia",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 3
+          },
+          {
+            "score": 28,
+            "keyword": "academagia the making of mages",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "making",
+              "mages"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "academab",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 17,
+            "keyword": "academae",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "academate vppcoe",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "vppcoe"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "academagia year 2",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "year"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "academa talent",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "talent"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 12,
+            "keyword": "academany",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 8,
+            "independent_sources": 1
+          },
+          {
+            "score": 12,
+            "keyword": "academas leusden",
+            "sources": [
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "leusden"
+            ],
+            "best_position": 8,
+            "independent_sources": 1
+          },
+          {
+            "score": 11,
+            "keyword": "academagia gameplay",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "gameplay"
+            ],
+            "best_position": 9,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-09-28T05:43:11.342Z"
+      },
+      "last_checked_at": "2026-09-27T02:35:02.972Z",
+      "market_analysis": {
+        "market_risk": "在线 STEM 教育已被 Khan Academy、Udemy、Coursera、MIT OpenCourseWare、YouTube 等免费或低价视频库占据，用户是否愿意为“按需生成”付费仍需验证。",
+        "alternatives": [
+          "Khan Academy",
+          "Udemy",
+          "Coursera",
+          "MIT OpenCourseWare"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Online STEM education is already occupied by free or low-cost video libraries such as Khan Academy, Udemy, Coursera, MIT OpenCourseWare and YouTube, so willingness to pay for on-demand generation is still unproven.",
+        "buyer_intent_en": "",
+        "differentiation": "不是录制好的静态视频库，而是把讲座写成可编译的源码，因此可修改、可翻译成 80+ 语言、可交互提问、可按学生水平个性化。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Not a static recorded video library but lectures written as compilable source code, so they are editable, translatable into 80+ languages, interactively question-able and personalizable to each student's level.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让用户用自然语言请求任意技术主题的讲座视频，并在约 25 分钟内拿到可观看、可提问、可个性化的讲解视频。",
+        "data_moat": "官方讲座库与“讲座即代码”的源码资产会随维护和生成不断累积，形成可复用、可翻译、可个性化的内容资产。",
+        "aha_moment": "用户输入一个冷门技术问题，约 25 分钟后收到一段专门为自己生成的讲解视频，并能在视频里暂停提问、立刻得到回答视频。",
+        "onboarding": "访问官网即可免费观看 66 个官方讲座，或直接向 AI 提出一个技术主题请求生成视频；订阅 Plus 后生成次数与对话额度提升。",
+        "core_job_en": "Lets a user request a lecture video on any technical topic in natural language and receive a watchable, questionable, personalized explainer in about 25 minutes.",
+        "data_moat_en": "The official lecture library and the lectures-as-code source assets accumulate through maintenance and generation, forming a reusable, translatable, personalizable content asset.",
+        "product_risk": "核心风险在于生成视频的质量与准确性：LLM 一次性生成的讲座若出现错误，会直接损害教育场景的信任，而修复依赖底层编译器与内容维护能力。",
+        "aha_moment_en": "The user types an obscure technical question and, in about 25 minutes, receives a lecture video made specifically for them, then pauses it to ask a question and gets an answer video instantly.",
+        "onboarding_en": "Visit the site to watch the 66 official lectures for free, or ask the AI for a technical topic to generate a video; subscribing to Plus raises generation and chat quotas.",
+        "paid_features": [
+          "每月 10 次视频生成",
+          "视频内充分对话",
+          "企业版视频规模化生产",
+          "API 访问与 30+ 语言"
+        ],
+        "product_risk_en": "The main risk is the quality and accuracy of generated videos: an error in a one-shot LLM lecture directly damages trust in an education context, and fixing it depends on the underlying compiler and content-maintenance capability.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "讲座以源码形式存在，可持续维护、翻译成 80+ 语言并个性化，用户越依赖定制讲座，越难迁移到静态视频平台。",
+        "paid_features_en": [
+          "10 video generations per month",
+          "Extensive in-video chat",
+          "Enterprise-scale video production",
+          "API access and 30+ languages"
+        ],
+        "must_have_features": [
+          "免费观看全部官方讲座",
+          "视频内有限对话提问",
+          "每月 1 次视频生成",
+          "按学科分类的讲座书架"
+        ],
+        "workflow_lockin_en": "Lectures exist as maintainable source code that can be continuously improved, translated into 80+ languages and personalized, so the more a user relies on custom lectures the harder it is to move to static video platforms.",
+        "must_have_features_en": [
+          "Free access to all official lectures",
+          "Limited in-video chat",
+          "1 video generation per month",
+          "Subject-organized lecture shelves"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合具备编译器/渲染或 DSL 设计能力、愿意长期维护内容资产的技术型独立开发者或小团队。",
+        "best_for_en": "Suits technical indie builders or small teams with compiler/rendering or DSL design skills who are willing to maintain a content asset long term.",
+        "mvp_version": "用 LLM 生成脚本 + TTS 配音 + 简单动画渲染，先做单一学科（如数学）的 10 个讲座视频，网页端免费观看，每月生成 1 个视频免费、订阅后 10 个。",
+        "pattern_name": "内容即代码的 Freemium 生成式订阅",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "把内容生产流程抽象成可编程的中间表示（DSL/源码），让 LLM 直接读写和迭代；用免费内容库建立信任，再把“生成次数”作为可计量的付费闸门。",
+        "why_it_works": "把内容变成 LLM 可直接读写的文本，使边际生产成本趋近于零，从而能用免费内容库获客、用生成次数配额变现，同时覆盖长尾冷门主题。",
+        "mvp_version_en": "Use an LLM to write scripts, TTS for narration and simple animation rendering to ship 10 lectures in one subject (e.g. math), free to watch on the web, with 1 free generation per month and 10 under subscription.",
+        "pattern_name_en": "Content-as-code freemium generative subscription",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Abstract the content-production pipeline into a programmable intermediate representation (DSL/source) that an LLM can read, write and iterate on; build trust with a free content library, then meter \"generation count\" as the paywall.",
+        "why_it_works_en": "Turning content into text an LLM can read and write drives marginal production cost toward zero, enabling a free library for acquisition, generation quotas for monetization, and coverage of long-tail niche topics.",
+        "what_not_to_copy": "“讲座即代码”的编译器、文本转语音与计算机图形渲染管线是长期自研的技术壁垒，加上创始人团队和 66 个已生成讲座的内容资产，个人开发者难以短期复制。",
+        "suggested_channel": "Community",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "The lectures-as-code compiler plus the text-to-speech and computer-graphics rendering pipeline are a long-built technical moat, reinforced by the founding team and a 66-lecture content asset that a solo builder cannot replicate quickly.",
+        "suggested_channel_en": "Community",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Turns lecture videos into compilable code so an LLM can generate a video on any technical topic on demand, monetizing via free viewing and paid monthly video-generation quotas.",
+      "one_line_insight_zh": "把讲座视频变成可编译的代码，用 LLM 按需生成任意技术主题的视频，靠免费观看引流、按每月视频生成次数收费。",
+      "acquisition_operations": {
+        "seo_strategy": "官网按学科（计算机科学、经济学、工程、机器学习、数学、物理、统计）组织讲座书架，形成主题页面矩阵，并以“Technical knowledge, Explained Visually”作为统一标题模板。",
+        "content_format": [],
+        "conversion_path": "免费观看讲座或免费生成 1 个视频 → 触达每月生成次数与视频对话上限 → 升级 Plus（$20/月）获得 10 次生成与充分对话 → 企业客户走 API 与多语言规模化定制。",
+        "primary_channel": "Community",
+        "seo_strategy_en": "The site organizes lecture shelves by subject (Computer Science, Economics, Engineering, Machine Learning, Mathematics, Physics, Statistics), creating a matrix of topic pages under the unified title template \"Technical knowledge, Explained Visually\".",
+        "social_strategy": "通过 Discord 社区、邮件订阅以及 X、LinkedIn、YouTube、Instagram、TikTok 账号做分发与更新通知。",
+        "operation_tactics": [
+          "用 66 个免费官方讲座建立内容信任与自然流量",
+          "以 Discord 社区和邮件订阅承接早期用户并收集反馈",
+          "用“约 25 分钟生成一个讲座视频”的即时体验做传播点"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Watch lectures free or generate 1 free video → hit the monthly generation and in-video chat caps → upgrade to Plus ($20/month) for 10 generations and extensive chat → enterprises go to API and multilingual scale.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Distributes and announces updates through a Discord community, an email newsletter and accounts on X, LinkedIn, YouTube, Instagram and TikTok.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费层限制视频内对话次数，且每月只能生成 1 个视频；想要更多生成次数和更充分的视频对话必须升级到 Plus。",
+        "operation_tactics_en": [
+          "Build content trust and organic traffic with 66 free official lectures",
+          "Use a Discord community and email newsletter to capture early users and feedback",
+          "Use the \"lecture video in ~25 minutes\" instant experience as the shareable hook"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "The free tier caps in-video chat and allows only 1 video generation per month; more generations and extensive chat require upgrading to Plus.",
         "founder_brand_dependency": false
       },
       "replication_difficulty": "High"
@@ -1032,7 +1411,7 @@
         },
         {
           "answer_en": "Evidence level B; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -1075,7 +1454,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Bannerbear serves teams that need automated social images, marketing graphics, and ecommerce assets. It packages design templates, APIs, and no-code integrations into recurring subscriptions, helped by founder build-in-public distribution.",
       "summary_zh": "Bannerbear 服务需要自动生成社交图、营销图和电商素材的团队。它把设计模板、API、Zapier/无代码集成打包成稳定订阅，创始人长期公开建设过程带来第一批高信任用户。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2019,
       "website_url": "https://www.bannerbear.com",
       "founder_name": "Jon Yongfook",
@@ -1806,7 +2185,7 @@
         },
         {
           "answer_en": "Evidence level B; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -1864,7 +2243,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Beehiiv bundles newsletter writing, websites, referrals, ads, and paid subscriptions. It contrasts with Substack through a 0% subscription take rate while monetizing through SaaS plans and ad-network products.",
       "summary_zh": "Beehiiv 把 newsletter 写作、网站、推荐增长、广告变现和付费订阅放在一个系统里。它用“0% 订阅抽成”对比 Substack，用 SaaS 套餐和广告网络收费。",
-      "updated_at": "2026-09-06T14:10:01.461Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2021,
       "website_url": "https://www.beehiiv.com",
       "founder_name": "Tyler Denk, Benjamin Hargett, and Jake Hurd",
@@ -2104,7 +2483,7 @@
         ],
         "observed_at": "2026-09-21T05:43:12.143Z"
       },
-      "last_checked_at": "2026-09-09T01:47:11.379Z",
+      "last_checked_at": "2026-09-27T02:46:25.452Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -2898,7 +3277,7 @@
         ],
         "observed_at": "2026-09-21T05:43:13.010Z"
       },
-      "last_checked_at": "2026-09-09T01:47:10.813Z",
+      "last_checked_at": "2026-09-27T02:46:24.598Z",
       "market_analysis": {
         "market_risk": "各大社交平台原生排程功能（如 Twitter 网页版自带排程、Instagram 自带排程）不断完善，免费分流了大量单账号轻度用户的付费需求。",
         "alternatives": [
@@ -3039,7 +3418,7 @@
         },
         {
           "answer_en": "Evidence level C; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -3082,7 +3461,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Cal.com initially used open source and self-hosting to enter the Calendly category, then monetized team scheduling, routing, workflows, APIs, and enterprise controls. In April 2026 the commercial Cal.com product moved to closed source, while Cal.diy remained a separate community edition for personal self-hosting.",
       "summary_zh": "Cal.com 先用开源和可自托管能力进入 Calendly 类市场，再把团队排期、路由、工作流、API 和企业安全做成付费产品。2026 年 4 月，商用 Cal.com 转为闭源；Cal.diy 继续作为面向个人自托管用户的社区版，两者不能再混为一个开源产品。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2021,
       "website_url": "https://cal.com",
       "founder_name": "Peer Richelsen and Bailey Pumfleet",
@@ -3475,7 +3854,7 @@
         },
         {
           "answer_en": "Evidence level C; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -3519,7 +3898,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Carrd stays tightly scoped around one-page sites. The free tier drives distribution while low-priced Pro tiers unlock domains, forms, embeds, and more sites. It is a classic compounding indie software case.",
       "summary_zh": "Carrd 把“只做单页网站”做得非常彻底，免费层负责传播，低价 Pro 层解锁自定义域名、表单、嵌入和更多站点。它是独立开发者长期复利的经典案例。",
-      "updated_at": "2026-09-09T01:47:19.264Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2016,
       "website_url": "https://carrd.co",
       "founder_name": "AJ",
@@ -3731,7 +4110,7 @@
         ],
         "observed_at": "2026-09-21T05:43:12.679Z"
       },
-      "last_checked_at": "2026-09-09T01:47:19.264Z",
+      "last_checked_at": "2026-09-27T02:46:32.956Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -4277,7 +4656,7 @@
         },
         {
           "answer_en": "Evidence level C; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -4320,7 +4699,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Crisp starts with a website chat widget and bundles inbox, automation, knowledge base, status pages, and CRM into affordable subscriptions for small teams. The free widget spreads the product while paid plans gate team and automation needs.",
       "summary_zh": "Crisp 从网站聊天小组件切入，把客服收件箱、自动化、知识库、状态页和 CRM 打包为中小团队可承担的订阅。免费层负责嵌入传播，付费层解锁团队和自动化需求。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2015,
       "website_url": "https://crisp.chat",
       "founder_name": "Valerian Saliou and Baptiste Jamin",
@@ -4990,7 +5369,7 @@
         ],
         "observed_at": "2026-09-21T05:43:13.009Z"
       },
-      "last_checked_at": "2026-09-09T01:47:15.423Z",
+      "last_checked_at": "2026-09-27T02:46:31.379Z",
       "market_analysis": {
         "market_risk": "电子签名市场竞争激烈，DocuSign 等巨头占据主导，开源替代品可能难以获得主流企业客户。",
         "alternatives": [
@@ -5109,7 +5488,7 @@
         },
         {
           "answer_en": "Evidence level C; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 C，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -5152,7 +5531,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Fathom sells a simple privacy-first analytics dashboard to teams that want useful traffic data without ad-tech tracking. It avoids a free surveillance-data model and charges sustainable subscription fees that scale with pageviews.",
       "summary_zh": "Fathom 用一个极简网站分析仪表盘切入对隐私合规敏感的团队，拒绝免费广告数据模式，直接向客户收取可持续订阅费。其定价按月访问量阶梯增长，适合代理商、内容站和 SaaS 团队长期保留历史数据。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2018,
       "website_url": "https://usefathom.com",
       "founder_name": "Jack Ellis (Paul Jarvis exited in 2024)",
@@ -5521,7 +5900,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 3970,
-        "observed_at": "2026-08-24T05:04:31.289Z",
+        "observed_at": "2026-09-28T05:43:12.745Z",
         "path_groups": [
           {
             "count": 3970,
@@ -5555,36 +5934,7 @@
             "independent_sources": 3
           },
           {
-            "score": 36,
-            "keyword": "feedly vs inoreader",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "vs",
-              "inoreader"
-            ],
-            "best_position": 4,
-            "independent_sources": 3
-          },
-          {
-            "score": 27,
-            "keyword": "feedly app",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
+            "score": 29,
             "keyword": "feedly rss",
             "sources": [
               "google",
@@ -5595,11 +5945,24 @@
             "new_concepts": [
               "rss"
             ],
-            "best_position": 4,
+            "best_position": 1,
             "independent_sources": 2
           },
           {
-            "score": 25,
+            "score": 28,
+            "keyword": "feedly app",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "feedly news reader",
             "sources": [
               "google",
@@ -5610,6 +5973,20 @@
             "new_concepts": [
               "news",
               "reader"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "feedly news",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "news"
             ],
             "best_position": 5,
             "independent_sources": 2
@@ -5631,6 +6008,21 @@
           },
           {
             "score": 24,
+            "keyword": "feedly rss reader",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "rss",
+              "reader"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
             "keyword": "feedly pro",
             "sources": [
               "youtube",
@@ -5644,45 +6036,35 @@
             "independent_sources": 2
           },
           {
-            "score": 22,
-            "keyword": "feedly free",
+            "score": 23,
+            "keyword": "feedly pricing",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 8,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 7,
             "independent_sources": 2
           },
           {
-            "score": 17,
-            "keyword": "feedly news",
+            "score": 22,
+            "keyword": "feedly alternative",
             "sources": [
-              "google"
+              "google",
+              "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
-              "news"
+              "alternative"
             ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "feedly review",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "review"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
+            "best_position": 8,
+            "independent_sources": 2
           }
         ],
-        "observed_at": "2026-08-24T05:04:29.239Z"
+        "observed_at": "2026-09-28T05:43:11.341Z"
       },
       "market_analysis": {
         "market_risk": "安全市场可能被大型厂商主导，且客户对数据隐私和准确性要求高。",
@@ -6238,7 +6620,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 175,
-        "observed_at": "2026-08-31T05:20:40.236Z",
+        "observed_at": "2026-09-28T05:43:14.795Z",
         "path_groups": [
           {
             "count": 109,
@@ -6284,22 +6666,6 @@
         "signals": [
           {
             "score": 39,
-            "keyword": "ghost rider",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "rider"
-            ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 39,
             "keyword": "ghost of yotei",
             "sources": [
               "google",
@@ -6329,21 +6695,7 @@
             "independent_sources": 3
           },
           {
-            "score": 37,
-            "keyword": "ghostface",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 3,
-            "independent_sources": 3
-          },
-          {
-            "score": 37,
+            "score": 38,
             "keyword": "ghost of tsushima",
             "sources": [
               "google",
@@ -6355,11 +6707,26 @@
             "new_concepts": [
               "tsushima"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 3
           },
           {
-            "score": 27,
+            "score": 30,
+            "keyword": "ghost rider",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "rider"
+            ],
+            "best_position": 0,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "ghost in the shell",
             "sources": [
               "google",
@@ -6369,11 +6736,11 @@
             "new_concepts": [
               "shell"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 23,
+            "score": 24,
             "keyword": "ghost whisperer",
             "sources": [
               "google",
@@ -6383,24 +6750,40 @@
             "new_concepts": [
               "whisperer"
             ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
+            "keyword": "ghost adventures",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "adventures"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "ghost energy drink",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "energy",
+              "drink"
+            ],
             "best_position": 7,
             "independent_sources": 2
           },
           {
             "score": 17,
-            "keyword": "ghostbusters song",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "song"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
             "keyword": "ghost rider movies",
             "sources": [
               "google"
@@ -6410,11 +6793,11 @@
               "rider",
               "movies"
             ],
-            "best_position": 5,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 15,
+            "score": 17,
             "keyword": "ghost hunting",
             "sources": [
               "youtube"
@@ -6423,13 +6806,13 @@
             "new_concepts": [
               "hunting"
             ],
-            "best_position": 5,
+            "best_position": 3,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:39.754Z"
+        "observed_at": "2026-09-28T05:43:14.336Z"
       },
-      "last_checked_at": "2026-09-09T01:47:12.616Z",
+      "last_checked_at": "2026-09-27T02:46:27.076Z",
       "market_analysis": {
         "market_risk": "市场上有许多免费或低成本的替代品，如WordPress、Substack等，可能影响付费转化。",
         "alternatives": [
@@ -6649,17 +7032,25 @@
       "evidence_level": "B",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 0,
-        "total_urls": 56,
-        "observed_at": "2026-08-31T05:20:39.898Z",
+        "blog_count": 154,
+        "total_urls": 220,
+        "observed_at": "2026-09-28T05:43:14.530Z",
         "path_groups": [
           {
-            "count": 28,
+            "count": 110,
             "segment": "/fr"
+          },
+          {
+            "count": 78,
+            "segment": "/blog"
           },
           {
             "count": 1,
             "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/demo"
           },
           {
             "count": 1,
@@ -6668,36 +7059,54 @@
           {
             "count": 1,
             "segment": "/general-terms"
-          },
-          {
-            "count": 1,
-            "segment": "/privacy-policy"
-          },
-          {
-            "count": 1,
-            "segment": "/legal-notice"
           }
         ],
         "sitemap_found": true,
-        "template_count": 0,
-        "comparison_pages": [],
+        "template_count": 2,
+        "comparison_pages": [
+          "https://gojiberry.ai/blog/best-unify-alternatives",
+          "https://gojiberry.ai/blog/trigify-alternatives",
+          "https://gojiberry.ai/blog/heyreach-alternatives",
+          "https://gojiberry.ai/blog/alternatives-11-x",
+          "https://gojiberry.ai/blog/alternative-to-zoominfo-2f9f2",
+          "https://gojiberry.ai/blog/instantly-alternatives",
+          "https://gojiberry.ai/blog/apollo-alternatives",
+          "https://gojiberry.ai/blog/alternatives-clay"
+        ],
         "integration_count": 0
       },
       "keyword_profile": {
         "seed": "Gojiberry AI",
         "signals": [
           {
-            "score": 19,
+            "score": 29,
             "keyword": "gojiberry ai reviews",
             "sources": [
-              "google"
+              "google",
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
               "reviews"
             ],
             "best_position": 1,
-            "independent_sources": 1
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "gojiberry ai pricing",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
           },
           {
             "score": 19,
@@ -6712,7 +7121,7 @@
             "independent_sources": 1
           },
           {
-            "score": 18,
+            "score": 17,
             "keyword": "gojiberry ai features",
             "sources": [
               "bing",
@@ -6721,19 +7130,6 @@
             "unexpected": true,
             "new_concepts": [
               "features"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "gojiberry ai pricing",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pricing"
             ],
             "best_position": 3,
             "independent_sources": 1
@@ -6753,13 +7149,13 @@
           },
           {
             "score": 14,
-            "keyword": "gojiberry ai careers",
+            "keyword": "gojiberry ai yc",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "careers"
+              "yc"
             ],
             "best_position": 6,
             "independent_sources": 1
@@ -6780,32 +7176,32 @@
           },
           {
             "score": 12,
-            "keyword": "gojiberry ai revenue",
+            "keyword": "gojiberry ai careers",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "revenue"
+              "careers"
             ],
             "best_position": 8,
             "independent_sources": 1
           },
           {
             "score": 11,
-            "keyword": "gojiberry ai yc",
+            "keyword": "gojiberry ai founder",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "yc"
+              "founder"
             ],
             "best_position": 9,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:39.758Z"
+        "observed_at": "2026-09-28T05:43:14.335Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -6957,7 +7353,7 @@
         },
         {
           "answer_en": "Evidence level B; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -6992,6 +7388,16 @@
           "source_type": "third-party",
           "collected_at": "2026-07-09",
           "evidence_level": "B"
+        },
+        {
+          "id": "src-research-gumroad-1",
+          "url": "https://sahillavingia.com/reflecting",
+          "title": "Sahil Lavingia: Reflecting on My Failure to Build a Billion-Dollar Company (2019-02, founder first-party, month-by-month financials)"
+        },
+        {
+          "id": "src-research-gumroad-2",
+          "url": "https://news.ycombinator.com/item?id=2406614",
+          "title": "Show HN: Gumroad (2011-04, 396 points, founder answering 26 comments and changing pricing in-thread)"
         }
       ],
       "category": "Marketplace",
@@ -7000,7 +7406,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Gumroad lets creators sell ebooks, courses, templates, memberships, and files from a link. It starts without monthly fees and monetizes when creators make sales, aligning platform revenue with seller revenue.",
       "summary_zh": "Gumroad 让创作者用链接销售电子书、课程、模板和会员产品。它不靠月费起步，而是在创作者实际成交时抽成，把平台收入和卖家收入绑定。",
-      "updated_at": "2026-07-09T00:00:00.000Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2011,
       "website_url": "https://gumroad.com",
       "founder_name": "Sahil Lavingia",
@@ -7041,7 +7447,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-31T05:20:40.304Z",
+        "observed_at": "2026-09-28T05:43:14.868Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -7124,13 +7530,14 @@
           },
           {
             "score": 17,
-            "keyword": "gumroad for beginners",
+            "keyword": "gumroad digital products",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "beginners"
+              "digital",
+              "products"
             ],
             "best_position": 3,
             "independent_sources": 1
@@ -7163,14 +7570,13 @@
           },
           {
             "score": 16,
-            "keyword": "gumroad vs payhip",
+            "keyword": "gumroad for beginners",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "vs",
-              "payhip"
+              "beginners"
             ],
             "best_position": 4,
             "independent_sources": 1
@@ -7191,9 +7597,9 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:40.289Z"
+        "observed_at": "2026-09-28T05:43:14.858Z"
       },
-      "last_checked_at": "2026-07-09T00:00:00.000Z",
+      "last_checked_at": "2026-09-27T02:46:34.527Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -7279,7 +7685,7 @@
       "one_line_insight_en": "Gumroad is a digital product platform monetized through creator sales fees, differentiated by low-friction storefronts, built-in payments, and audience tools.",
       "one_line_insight_zh": "Gumroad 是一个通过创作者销售抽成变现的数字商品平台，以极低开店门槛、内置支付和创作者受众工具形成差异化。",
       "acquisition_operations": {
-        "seo_strategy": "围绕替代品、定价、用例、迁移指南和细分行业关键词建立长期页面。",
+        "seo_strategy": "Gumroad 的获客引擎从来不是 SEO——它写在产品定义里：创作者用一条简单链接直接卖给自己的受众，不需要店面。创作者在 Twitter 或私信里分享的每条链接都是一个 Gumroad 结账页，创作者的受众就是获客面——这是「Creator Network」渠道最字面的形态（交易环，与 Tally 的徽章环、Documenso 的收件人环同族）。发布是 2011 年 4 月创始人自发的 Show HN（396 分，创始人自述首日 52,000 访问），19 岁的 Sahil Lavingia 在帖内答复 26 条评论并当场根据反馈调整了定价模型。其余是他 2019 年长文里第一人称讲述的市场课：2012 年累计融资 $800 万+、2014 年 11 月见顶后增长停滞、裁员 75%、从 2015 年 6 月净亏 $35.1 万/月磨到 2016 年 6 月净利 $1 万/月、2017 年领投方 KPCB 以 $1 回售股份。2018 年 4 月起他逐月公开财务，并自述透明本身带来了主动上门的投资人、贡献者与创作者忠诚。他最直白的渠道结论：有没有销售团队，月增长曲线一模一样——「你所在的市场决定你的大部分增长」。截至 2019 年 2 月，Gumroad 累计付给创作者 $1.78 亿。",
         "content_format": [
           "Comparison pages",
           "Use-case guides",
@@ -7288,7 +7694,7 @@
         ],
         "conversion_path": "搜索/社媒发现 -> 免费或试用体验 -> 命中工作流限制 -> 升级订阅或按交易付费。",
         "primary_channel": "Creator Network",
-        "seo_strategy_en": "Build durable pages around alternatives, pricing, use cases, migration guides, and niche industry keywords.",
+        "seo_strategy_en": "Gumroad's acquisition engine was never SEO — it is written into the product's definition: creators sell directly to their audiences with quick, simple links, no storefront. Every creator link shared on Twitter or IM is a Gumroad checkout page, so the creators' audiences are the acquisition surface — the Creator Network channel in its literal form (a transaction loop, sibling to Tally's badge loop and Documenso's recipient loop). The launch was a founder-posted Show HN in April 2011 (396 points, 52,000 first-day visitors by the founder's own account) where 19-year-old Sahil Lavingia answered 26 comments and changed the pricing model in-thread. The rest is a market lesson told in first person in his 2019 essay: $8M+ raised by 2012, growth stalled at the November 2014 peak, 75% layoffs, a grind from -$351K/month net (June 2015) to +$10K/month (June 2016), and lead investor KPCB selling its stake back for $1 in 2017. From April 2018 he published monthly financials publicly and reports the transparency itself generated inbound investors, contributors and creator loyalty. His bluntest channel finding: with or without a sales team, the monthly growth curve looked identical — \"the market you're in will determine most of your growth.\" By February 2019 Gumroad had sent $178M to creators.",
         "social_strategy": "通过公开构建、客户案例、产品更新和创始人观点持续建立信任。",
         "operation_tactics": [
           "Publish transparent pricing",
@@ -8133,16 +8539,16 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 357,
-        "total_urls": 3603,
-        "observed_at": "2026-08-31T05:20:39.661Z",
+        "blog_count": 359,
+        "total_urls": 3607,
+        "observed_at": "2026-09-28T05:43:13.907Z",
         "path_groups": [
           {
-            "count": 2877,
+            "count": 2879,
             "segment": "/feed"
           },
           {
-            "count": 357,
+            "count": 359,
             "segment": "/blog"
           },
           {
@@ -8213,19 +8619,18 @@
             "independent_sources": 3
           },
           {
-            "score": 36,
+            "score": 35,
             "keyword": "inoreader rss",
             "sources": [
               "google",
               "youtube",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
               "rss"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 3
           },
           {
@@ -8258,9 +8663,10 @@
             "independent_sources": 2
           },
           {
-            "score": 18,
+            "score": 28,
             "keyword": "inoreader review",
             "sources": [
+              "google",
               "youtube"
             ],
             "unexpected": true,
@@ -8268,7 +8674,7 @@
               "review"
             ],
             "best_position": 2,
-            "independent_sources": 1
+            "independent_sources": 2
           },
           {
             "score": 17,
@@ -8297,16 +8703,15 @@
             "independent_sources": 1
           },
           {
-            "score": 12,
-            "keyword": "inoreader mcp",
+            "score": 13,
+            "keyword": "inoreader free",
             "sources": [
-              "google"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "mcp"
-            ],
-            "best_position": 8,
+            "new_concepts": [],
+            "best_position": 7,
             "independent_sources": 1
           },
           {
@@ -8323,7 +8728,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:39.197Z"
+        "observed_at": "2026-09-28T05:43:13.430Z"
       },
       "market_analysis": {
         "market_risk": "RSS阅读器市场竞争激烈，用户可能转向免费替代品或大型平台。",
@@ -8480,7 +8885,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-31T05:20:40.925Z",
+        "observed_at": "2026-09-28T05:43:15.439Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -8521,18 +8926,19 @@
             "independent_sources": 3
           },
           {
-            "score": 28,
-            "keyword": "instapaper vs readwise",
+            "score": 29,
+            "keyword": "instapaper chrome extension",
             "sources": [
               "google",
-              "youtube"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
-              "vs",
-              "readwise"
+              "chrome",
+              "extension"
             ],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 2
           },
           {
@@ -8551,21 +8957,7 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
-            "keyword": "instapaper api",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
+            "score": 27,
             "keyword": "instapaper kindle",
             "sources": [
               "google",
@@ -8575,7 +8967,21 @@
             "new_concepts": [
               "kindle"
             ],
-            "best_position": 4,
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "instapaper review",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "review"
+            ],
+            "best_position": 3,
             "independent_sources": 2
           },
           {
@@ -8594,33 +9000,6 @@
             "independent_sources": 2
           },
           {
-            "score": 19,
-            "keyword": "instapaper extension chrome",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "extension",
-              "chrome"
-            ],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "instapaper review",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "review"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
             "score": 16,
             "keyword": "instapaper edge extension",
             "sources": [
@@ -8634,9 +9013,37 @@
             ],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "instapaper vs readwise",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "vs",
+              "readwise"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "instapaper edge",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "edge"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:40.290Z"
+        "observed_at": "2026-09-28T05:43:14.859Z"
       },
       "market_analysis": {
         "market_risk": "",
@@ -8734,7 +9141,7 @@
         },
         {
           "answer_en": "Evidence level B; sources include public pricing pages, official documentation, and public reporting or founder-published materials.",
-          "answer_zh": "证据等级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
+          "answer_zh": "证据分级为 B，主要依据为公开定价页、官方说明和公开报道/创始人公开资料。",
           "question_en": "Can this case evidence be trusted?",
           "question_zh": "这个案例的证据可信吗？"
         }
@@ -8802,7 +9209,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Kit started with creator email list management and expanded into an operating system for creator businesses. The free tier lowers migration friction while paid tiers gate automations, support, referrals, and analytics.",
       "summary_zh": "Kit 从创作者邮件列表管理切入，逐步扩展为“创作者经营系统”。免费层降低迁移门槛，付费层把自动化、支持、推荐网络和高级数据作为升级触发。",
-      "updated_at": "2026-09-06T14:10:00.955Z",
+      "updated_at": "2026-09-27T04:15:13.244Z",
       "launch_year": 2013,
       "website_url": "https://kit.com",
       "founder_name": "Nathan Barry",
@@ -8853,7 +9260,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-08-31T05:20:39.837Z",
+        "observed_at": "2026-09-28T05:43:14.498Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -8865,7 +9272,21 @@
         "signals": [
           {
             "score": 30,
-            "keyword": "kith",
+            "keyword": "kit connor",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "connor"
+            ],
+            "best_position": 0,
+            "independent_sources": 2
+          },
+          {
+            "score": 30,
+            "keyword": "kitco",
             "sources": [
               "google",
               "bing",
@@ -8878,7 +9299,7 @@
           },
           {
             "score": 29,
-            "keyword": "kitsch",
+            "keyword": "kith",
             "sources": [
               "google",
               "bing",
@@ -8887,6 +9308,19 @@
             "unexpected": false,
             "new_concepts": [],
             "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "kitsch",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -8917,6 +9351,19 @@
           },
           {
             "score": 26,
+            "keyword": "kitty",
+            "sources": [
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
             "keyword": "kitchen cabinets",
             "sources": [
               "google",
@@ -8927,11 +9374,11 @@
             "new_concepts": [
               "cabinets"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 21,
+            "score": 23,
             "keyword": "kitchenaid mixer",
             "sources": [
               "google",
@@ -8941,7 +9388,7 @@
             "new_concepts": [
               "mixer"
             ],
-            "best_position": 9,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -8956,48 +9403,11 @@
             ],
             "best_position": 0,
             "independent_sources": 1
-          },
-          {
-            "score": 20,
-            "keyword": "kiteworks",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 0,
-            "independent_sources": 1
-          },
-          {
-            "score": 20,
-            "keyword": "kitco",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 0,
-            "independent_sources": 1
-          },
-          {
-            "score": 19,
-            "keyword": "kitty play",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "play"
-            ],
-            "best_position": 1,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:39.752Z"
+        "observed_at": "2026-09-28T05:43:14.335Z"
       },
-      "last_checked_at": "2026-09-09T01:47:13.161Z",
+      "last_checked_at": "2026-09-27T02:46:27.866Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -11356,14 +11766,10 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 1,
-        "total_urls": 6,
-        "observed_at": "2026-08-31T05:20:40.330Z",
+        "blog_count": 0,
+        "total_urls": 4,
+        "observed_at": "2026-09-28T05:43:14.884Z",
         "path_groups": [
-          {
-            "count": 2,
-            "segment": "/blog"
-          },
           {
             "count": 1,
             "segment": "/"
@@ -11407,6 +11813,20 @@
           },
           {
             "score": 38,
+            "keyword": "opencut app",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 3
+          },
+          {
+            "score": 38,
             "keyword": "opencutlist",
             "sources": [
               "google",
@@ -11436,18 +11856,6 @@
           },
           {
             "score": 28,
-            "keyword": "opencut app",
-            "sources": [
-              "google",
-              "youtube"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
             "keyword": "opencut video editor",
             "sources": [
               "google",
@@ -11462,7 +11870,7 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
             "keyword": "opencutlist sketchup",
             "sources": [
               "google",
@@ -11473,20 +11881,19 @@
             "new_concepts": [
               "sketchup"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 23,
+            "score": 22,
             "keyword": "opencut-app/opencut",
             "sources": [
               "google",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 7,
+            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -11527,7 +11934,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:40.300Z"
+        "observed_at": "2026-09-28T05:43:14.859Z"
       },
       "market_analysis": {
         "market_risk": "视频编辑市场已有众多成熟产品，新进入者难以获得市场份额。",
@@ -14098,7 +14505,7 @@
         "llms_txt": true,
         "blog_count": 29,
         "total_urls": 68,
-        "observed_at": "2026-08-24T05:04:29.225Z",
+        "observed_at": "2026-09-28T05:43:11.389Z",
         "path_groups": [
           {
             "count": 29,
@@ -14138,7 +14545,7 @@
       "keyword_profile": {
         "seed": "StashDog",
         "signals": [],
-        "observed_at": "2026-08-24T05:04:29.225Z"
+        "observed_at": "2026-09-28T05:43:11.389Z"
       },
       "market_analysis": {
         "market_risk": "Platform integration",
@@ -14589,7 +14996,7 @@
         ],
         "observed_at": "2026-09-07T05:43:14.637Z"
       },
-      "last_checked_at": "2026-09-09T01:47:13.722Z",
+      "last_checked_at": "2026-09-27T02:46:28.768Z",
       "market_analysis": {
         "market_risk": "市场竞争激烈，包括 Firebase、AWS Amplify 等，以及新兴的 Postgres 托管服务。",
         "alternatives": [
@@ -14986,7 +15393,7 @@
         ],
         "observed_at": "2026-09-14T05:43:12.280Z"
       },
-      "last_checked_at": "2026-09-09T01:47:14.860Z",
+      "last_checked_at": "2026-09-27T02:46:30.467Z",
       "market_analysis": {
         "market_risk": "1. Notion 自身构建原生表单块（Form blocks）的潜在竞争风险；2. 依赖有机口碑传播，若病毒式传播系数下降，获客增速可能放缓；3. 免费用户规模过大带来的服务器带宽与滥用防范成本上升。",
         "alternatives": [
@@ -16131,7 +16538,7 @@
         ],
         "observed_at": "2026-09-14T05:43:12.836Z"
       },
-      "last_checked_at": "2026-09-09T01:47:15.951Z",
+      "last_checked_at": "2026-09-27T02:46:32.154Z",
       "market_analysis": {
         "market_risk": "市场竞争激烈，存在许多免费和付费的分析工具。",
         "alternatives": [],
@@ -16275,7 +16682,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 3,
-        "observed_at": "2026-08-31T05:20:39.505Z",
+        "observed_at": "2026-09-28T05:43:13.709Z",
         "path_groups": [
           {
             "count": 1,
@@ -16298,7 +16705,7 @@
       "keyword_profile": {
         "seed": "Vimgolf.ai",
         "signals": [],
-        "observed_at": "2026-08-31T05:20:39.505Z"
+        "observed_at": "2026-09-28T05:43:13.709Z"
       },
       "market_analysis": {
         "market_risk": "Vim 学习市场可能较小，且存在许多免费资源。",
@@ -16397,6 +16804,16 @@
           "title": "hoppscotch Official Link (Unreachable)",
           "collected_at": "2026-08-07T00:00:00.000Z",
           "evidence_level": "Unknown"
+        },
+        {
+          "id": "src-research-hoppscotch-1",
+          "url": "https://dev.to/liyasthomas/i-created-postwoman-an-online-open-source-api-request-builder-41md",
+          "title": "Founder's dev.to launch post (2019-08-22, first-party, incl. DEV co-founder's same-day endorsement)"
+        },
+        {
+          "id": "src-research-hoppscotch-2",
+          "url": "https://github.com/hoppscotch/hoppscotch",
+          "title": "Hoppscotch repository — 80.5K stars, MIT; README documents cloud sync and enterprise self-host monetization lines"
         }
       ],
       "category": "Developer Tools",
@@ -16615,6 +17032,7 @@
         ],
         "observed_at": "2026-08-31T05:20:40.983Z"
       },
+      "last_checked_at": "2026-09-27T02:46:33.724Z",
       "market_analysis": {
         "market_risk": "API 开发工具市场竞争激烈，已有 Postman 等成熟产品。",
         "alternatives": [],
@@ -16694,11 +17112,11 @@
       "one_line_insight_en": "Attracts developers with a free open-source tool, then monetizes through cloud hosting and team collaboration features.",
       "one_line_insight_zh": "通过开源免费工具吸引开发者，再以云端托管和团队协作功能实现商业化。",
       "acquisition_operations": {
-        "seo_strategy": "",
+        "seo_strategy": "Hoppscotch 的分发是纯开源社区飞轮，但冷启动带着全库独有的转折：它始于 dev.to 而非 Hacker News。创始人 Liyas Thomas 是科钦一家小初创的全栈开发，因低配电脑跑不动 Postman 的 Electron 应用而做了纯 Web 替代品，并在建仓次日（2019-08-22）在 dev.to 发了第一人称发布长文。DEV 联合创始人 Ben Halpern 当天留言、用 PayPal 捐款并建议将其商业化——平台创始人的背书本身成了发布资产。HN 侧的模式对 Umami/listmonk 的「社区代发规律」构成半印证：创始人一周后自发的 Show HN 确实成了（280 分），但更大的爆发全部来自第三方代发——2019 年 248 分、2022 年历史最高 668 分（创始人在帖内做了 AMA）、2025 年 177 分。2020 年从 Postwoman 更名 Hoppscotch，现 GitHub 80.5K stars（MIT）。变现是标准 COSS 形态——README 有 Cloud 同步与企业自托管功能的文字证据——但定价与营收均无法核验：官网是静态不可抓的 SPA 空壳，也没有可查证的博客或 SEO 面。",
         "content_format": [],
         "conversion_path": "",
         "primary_channel": "Open Source",
-        "seo_strategy_en": "",
+        "seo_strategy_en": "Hoppscotch's distribution is a pure open-source community flywheel, with a cold-start twist unique in this library: it began on dev.to, not Hacker News. Liyas Thomas, a full-stack developer at a small Kochi startup whose low-end PC couldn't run Postman's Electron app, shipped a web-based alternative and posted a first-person launch article on dev.to (2019-08-22, one day after creating the repo). DEV's own co-founder Ben Halpern commented the same day, sent a PayPal donation, and suggested turning it into a business — platform-founder endorsement as a launch asset. On HN the pattern half-confirms the community-repost rule seen in Umami and listmonk: the founder's own Show HN a week later actually worked (280 points), but every bigger hit was third-party — 248 points (2019), the all-time-high 668 points (2022, where the founder ran an in-thread AMA), and 177 points (2025). Renamed from Postwoman to Hoppscotch in 2020; now 80.5K GitHub stars (MIT). Monetization follows the standard COSS shape — cloud sync and enterprise self-host features are documented in the README — but no pricing or revenue disclosure could be verified: the marketing site is an SPA shell that resists static crawling, and no blog or SEO surface is in evidence.",
         "social_strategy": "",
         "operation_tactics": [],
         "affiliate_strategy": "",

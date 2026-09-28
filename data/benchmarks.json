@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T07:53:12.911Z",
+  "generated_at": "2026-09-28T08:34:49.619Z",
   "source": "https://proof-stack-lake.vercel.app/benchmarks",
   "license": "CC BY 4.0",
   "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
   "overall": {
-    "sample_size": 50,
-    "paid_sample_size": 36,
-    "free_tier_count": 40,
-    "first_paid_median": 22,
+    "sample_size": 51,
+    "paid_sample_size": 37,
+    "free_tier_count": 41,
+    "first_paid_median": 20,
     "first_paid_min": 4.99,
     "first_paid_max": 149,
     "gate_tallies": [
@@ -17,7 +17,7 @@
       },
       {
         "label": "Usage limits (items, runs, storage)",
-        "count": 18
+        "count": 19
       },
       {
         "label": "Automation and workflows",
@@ -62,6 +62,39 @@
           },
           {
             "label": "Remove branding",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "SaaS",
+      "benchmark": {
+        "sample_size": 10,
+        "paid_sample_size": 6,
+        "free_tier_count": 9,
+        "first_paid_median": 35,
+        "first_paid_min": 4.99,
+        "first_paid_max": 99,
+        "gate_tallies": [
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 3
+          },
+          {
+            "label": "Team seats and permissions",
+            "count": 3
+          },
+          {
+            "label": "SSO and compliance",
+            "count": 2
+          },
+          {
+            "label": "Custom domain",
+            "count": 1
+          },
+          {
+            "label": "Automation and workflows",
             "count": 1
           }
         ]
@@ -190,39 +223,6 @@
           },
           {
             "label": "API and integrations",
-            "count": 1
-          }
-        ]
-      }
-    },
-    {
-      "category": "SaaS",
-      "benchmark": {
-        "sample_size": 9,
-        "paid_sample_size": 5,
-        "free_tier_count": 8,
-        "first_paid_median": 50,
-        "first_paid_min": 4.99,
-        "first_paid_max": 99,
-        "gate_tallies": [
-          {
-            "label": "Team seats and permissions",
-            "count": 3
-          },
-          {
-            "label": "Usage limits (items, runs, storage)",
-            "count": 2
-          },
-          {
-            "label": "SSO and compliance",
-            "count": 2
-          },
-          {
-            "label": "Custom domain",
-            "count": 1
-          },
-          {
-            "label": "Automation and workflows",
             "count": 1
           }
         ]
