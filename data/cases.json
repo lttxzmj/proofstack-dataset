@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:34:49.619Z",
+  "generated_at": "2026-10-05T08:49:21.583Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
   "count": 51,
@@ -697,21 +697,21 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 0,
-        "total_urls": 21,
-        "observed_at": "2026-09-07T05:43:13.849Z",
+        "blog_count": 99,
+        "total_urls": 181,
+        "observed_at": "2026-10-05T05:43:14.275Z",
         "path_groups": [
           {
-            "count": 4,
-            "segment": "/compare"
+            "count": 100,
+            "segment": "/blog"
           },
           {
-            "count": 3,
+            "count": 62,
             "segment": "/templates"
           },
           {
-            "count": 1,
-            "segment": "/"
+            "count": 5,
+            "segment": "/compare"
           },
           {
             "count": 1,
@@ -727,12 +727,16 @@
           }
         ],
         "sitemap_found": true,
-        "template_count": 3,
+        "template_count": 65,
         "comparison_pages": [
-          "https://appflowy.com/compare/notion-vs-appflowy",
           "https://appflowy.com/compare/appflowy-vs-affine",
+          "https://appflowy.com/compare/appflowy-vs-confluence",
           "https://appflowy.com/compare/appflowy-vs-docmost",
-          "https://appflowy.com/compare/appflowy-vs-outline"
+          "https://appflowy.com/compare/appflowy-vs-outline",
+          "https://appflowy.com/compare/notion-vs-appflowy",
+          "https://appflowy.com/blog/Proprietary-vs-Open-Source-Which-Is-More-Secure-for-Teams",
+          "https://appflowy.com/blog/What-Are-The-Best-AI-powered-OneNote-Alternatives-in-2025",
+          "https://appflowy.com/blog/appflowy-vs-affine-enterprise-teams"
         ],
         "integration_count": 0
       },
@@ -762,8 +766,7 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -820,35 +823,6 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "appflowy templates",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "templates"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "appflowy mcp",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "mcp"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
             "score": 16,
             "keyword": "appflowy review",
             "sources": [
@@ -862,7 +836,7 @@
             "independent_sources": 1
           },
           {
-            "score": 15,
+            "score": 16,
             "keyword": "appflowy cloud",
             "sources": [
               "bing",
@@ -871,6 +845,19 @@
             "unexpected": true,
             "new_concepts": [
               "cloud"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "appflowy mcp",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "mcp"
             ],
             "best_position": 5,
             "independent_sources": 1
@@ -887,9 +874,23 @@
             ],
             "best_position": 6,
             "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "appflowy alternative",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "alternative"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:12.231Z"
+        "observed_at": "2026-10-05T05:43:12.639Z"
       },
       "last_checked_at": "2026-09-06T12:26:56.756Z",
       "market_analysis": {
@@ -4343,7 +4344,7 @@
         "llms_txt": true,
         "blog_count": 1000,
         "total_urls": 1083,
-        "observed_at": "2026-09-07T05:43:12.441Z",
+        "observed_at": "2026-10-05T05:43:12.791Z",
         "path_groups": [
           {
             "count": 1001,
@@ -4374,15 +4375,15 @@
         "template_count": 0,
         "comparison_pages": [
           "https://coasty.ai/compare",
-          "https://coasty.ai/blog/synthetic-data-vs-real-data-for-training-ai-agents",
-          "https://coasty.ai/blog/low-code-rpa-vs-prompt-driven-ai-agents-for-enterprise",
+          "https://coasty.ai/blog/onboarding-new-hire-vs-deploying-ai-agent",
+          "https://coasty.ai/blog/v3-vs-v4-choosing-a-computer-use-model",
           "https://coasty.ai/blog/buy-vs-build-synthetic-data-pipeline",
-          "https://coasty.ai/blog/stateful-sessions-vs-stateless-predict-computer-use-api",
+          "https://coasty.ai/blog/rpa-vs-ai-agents-2026",
+          "https://coasty.ai/blog/rip-and-replace-vs-run-in-parallel-migrating-off-rpa-safely",
           "https://coasty.ai/blog/power-automate-desktop-vs-computer-use-agents-when-to-switch",
-          "https://coasty.ai/blog/new-hire-onboarding-vs-sop-automation",
-          "https://coasty.ai/blog/computer-use-agents-vs-api-automation-in-legacy-enterprises"
+          "https://coasty.ai/blog/rpa-vs-computer-use-ai-agents-an-honest-enterprise-comparison"
         ],
-        "integration_count": 4
+        "integration_count": 7
       },
       "keyword_profile": {
         "seed": "Coasty",
@@ -4403,7 +4404,7 @@
             "independent_sources": 2
           },
           {
-            "score": 29,
+            "score": 28,
             "keyword": "coasty ai",
             "sources": [
               "google",
@@ -4414,7 +4415,7 @@
             "new_concepts": [
               "ai"
             ],
-            "best_position": 1,
+            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -4457,6 +4458,20 @@
             "independent_sources": 1
           },
           {
+            "score": 19,
+            "keyword": "coasty catering",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "catering"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
             "score": 18,
             "keyword": "coasty carts",
             "sources": [
@@ -4467,33 +4482,6 @@
               "carts"
             ],
             "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 18,
-            "keyword": "coastyle homes",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "homes"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "coastyle weddings",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "weddings"
-            ],
-            "best_position": 3,
             "independent_sources": 1
           },
           {
@@ -4511,20 +4499,29 @@
           },
           {
             "score": 17,
-            "keyword": "coasty catering",
+            "keyword": "coastyle",
             "sources": [
               "bing",
               "duckduckgo"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "catering"
-            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "coastyexplores",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 4,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:12.222Z"
+        "observed_at": "2026-10-05T05:43:12.639Z"
       },
       "last_checked_at": "2026-09-06T12:26:56.720Z",
       "market_analysis": {
@@ -8255,7 +8252,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-07T05:43:12.238Z",
+        "observed_at": "2026-10-05T05:43:12.644Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -8280,19 +8277,6 @@
           },
           {
             "score": 18,
-            "keyword": "hyperprobe hexagon",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "hexagon"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
             "keyword": "hyperprobe project",
             "sources": [
               "google"
@@ -8301,11 +8285,11 @@
             "new_concepts": [
               "project"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 1
           },
           {
-            "score": 16,
+            "score": 17,
             "keyword": "hyperprobe com",
             "sources": [
               "google"
@@ -8313,6 +8297,19 @@
             "unexpected": true,
             "new_concepts": [
               "com"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "hyperprobe hexagon",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "hexagon"
             ],
             "best_position": 4,
             "independent_sources": 1
@@ -8331,7 +8328,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:12.240Z"
+        "observed_at": "2026-10-05T05:43:12.639Z"
       },
       "last_checked_at": "2026-09-06T12:25:34.176Z",
       "market_analysis": {
@@ -9582,12 +9579,16 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 79,
-        "observed_at": "2026-08-31T05:20:41.081Z",
+        "total_urls": 129,
+        "observed_at": "2026-10-05T05:43:12.573Z",
         "path_groups": [
           {
-            "count": 22,
+            "count": 46,
             "segment": "/templates"
+          },
+          {
+            "count": 21,
+            "segment": "/engines"
           },
           {
             "count": 11,
@@ -9604,23 +9605,23 @@
           {
             "count": 11,
             "segment": "/real-analysis"
-          },
-          {
-            "count": 11,
-            "segment": "/measure-theory"
           }
         ],
         "sitemap_found": true,
-        "template_count": 22,
+        "template_count": 46,
         "comparison_pages": [
-          "https://latex.to/real-analysis/direct-comparison-test/"
+          "https://latex.to/overleaf-alternatives/",
+          "https://latex.to/real-analysis/direct-comparison-test/",
+          "https://latex.to/engines/pdflatex-vs-xelatex-vs-lualatex/",
+          "https://latex.to/engines/bibtex-vs-biblatex/",
+          "https://latex.to/engines/tikz-vs-pstricks/"
         ],
         "integration_count": 0
       },
       "keyword_profile": {
         "seed": "Latex.to",
         "signals": [],
-        "observed_at": "2026-08-31T05:20:41.081Z"
+        "observed_at": "2026-10-05T05:43:12.573Z"
       },
       "market_analysis": {
         "market_risk": "市场上有许多免费的 LaTeX 编辑器（如 Overleaf），竞争激烈，且用户可能对免费工具的可靠性存疑。",
@@ -9766,7 +9767,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 2,
-        "observed_at": "2026-08-31T05:20:40.993Z",
+        "observed_at": "2026-10-05T05:43:12.483Z",
         "path_groups": [
           {
             "count": 1,
@@ -9817,23 +9818,7 @@
             "independent_sources": 3
           },
           {
-            "score": 38,
-            "keyword": "listmonk vs mautic",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "vs",
-              "mautic"
-            ],
-            "best_position": 2,
-            "independent_sources": 3
-          },
-          {
-            "score": 35,
+            "score": 34,
             "keyword": "listmonk docker",
             "sources": [
               "google",
@@ -9841,11 +9826,11 @@
               "bing",
               "duckduckgo"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "docker"
             ],
-            "best_position": 5,
+            "best_position": 6,
             "independent_sources": 3
           },
           {
@@ -9864,17 +9849,33 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 28,
+            "keyword": "listmonk vs mautic",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vs",
+              "mautic"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
             "keyword": "listmonk templates",
             "sources": [
               "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
               "templates"
             ],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 2
           },
           {
@@ -9932,7 +9933,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:40.987Z"
+        "observed_at": "2026-10-05T05:43:12.406Z"
       },
       "market_analysis": {
         "market_risk": "邮件营销市场竞争激烈，存在许多成熟和免费替代品。",
@@ -10399,7 +10400,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 112,
-        "observed_at": "2026-09-07T05:43:14.074Z",
+        "observed_at": "2026-10-05T05:43:14.722Z",
         "path_groups": [
           {
             "count": 92,
@@ -10475,46 +10476,44 @@
             "independent_sources": 2
           },
           {
-            "score": 27,
+            "score": 26,
             "keyword": "matterhorn disneyland",
             "sources": [
-              "youtube",
-              "bing"
+              "google",
+              "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "disneyland"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 25,
-            "keyword": "matter of haav",
+            "score": 26,
+            "keyword": "matterhackers",
             "sources": [
               "google",
               "bing",
               "duckduckgo"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "haav"
-            ],
-            "best_position": 5,
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "matterhorn switzerland",
+            "score": 23,
+            "keyword": "matter of fact",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "switzerland"
+              "fact"
             ],
-            "best_position": 6,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -10531,23 +10530,7 @@
             "independent_sources": 1
           },
           {
-            "score": 16,
-            "keyword": "matter cannot be created or destroyed",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "cannot",
-              "be",
-              "created",
-              "destroyed"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
+            "score": 17,
             "keyword": "matter of time laufey",
             "sources": [
               "youtube"
@@ -10557,23 +10540,39 @@
               "time",
               "laufey"
             ],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 16,
-            "keyword": "matterhackers",
+            "score": 15,
+            "keyword": "matters of opinion crossword clue",
             "sources": [
-              "bing",
-              "duckduckgo"
+              "google"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
+            "unexpected": true,
+            "new_concepts": [
+              "opinion",
+              "crossword",
+              "clue"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "matter salish",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "salish"
+            ],
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:13.916Z"
+        "observed_at": "2026-10-05T05:43:14.339Z"
       },
       "market_analysis": {
         "market_risk": "市场已饱和，用户可能难以从现有应用迁移。",
@@ -10727,12 +10726,12 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 34,
-        "total_urls": 69,
-        "observed_at": "2026-09-07T05:43:14.348Z",
+        "blog_count": 38,
+        "total_urls": 73,
+        "observed_at": "2026-10-05T05:43:15.529Z",
         "path_groups": [
           {
-            "count": 35,
+            "count": 39,
             "segment": "/blog"
           },
           {
@@ -10760,13 +10759,13 @@
         "template_count": 0,
         "comparison_pages": [
           "https://metriq.fitness/compare",
+          "https://metriq.fitness/blog/protein-per-kg-vs-per-pound",
           "https://metriq.fitness/blog/cardio-vs-strength",
           "https://metriq.fitness/compare/macrofactor",
           "https://metriq.fitness/compare/simple",
           "https://metriq.fitness/compare/myfitnesspal",
           "https://metriq.fitness/compare/zing",
-          "https://metriq.fitness/compare/alma",
-          "https://metriq.fitness/compare/noom"
+          "https://metriq.fitness/compare/alma"
         ],
         "integration_count": 0
       },
@@ -10790,10 +10789,22 @@
             "independent_sources": 3
           },
           {
-            "score": 30,
-            "keyword": "metriq cancer registry",
+            "score": 28,
+            "keyword": "metriqe",
             "sources": [
               "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 20,
+            "keyword": "metriq cancer registry",
+            "sources": [
               "bing",
               "duckduckgo"
             ],
@@ -10803,20 +10814,20 @@
               "registry"
             ],
             "best_position": 0,
-            "independent_sources": 2
+            "independent_sources": 1
           },
           {
-            "score": 29,
-            "keyword": "metriqe",
+            "score": 19,
+            "keyword": "metriq health",
             "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
+              "google"
             ],
-            "unexpected": false,
-            "new_concepts": [],
+            "unexpected": true,
+            "new_concepts": [
+              "health"
+            ],
             "best_position": 1,
-            "independent_sources": 2
+            "independent_sources": 1
           },
           {
             "score": 19,
@@ -10831,28 +10842,26 @@
           },
           {
             "score": 17,
-            "keyword": "metriq health",
+            "keyword": "metriqe accounting",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "health"
+              "accounting"
             ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 17,
-            "keyword": "metriq valuation",
+            "keyword": "metriques",
             "sources": [
               "bing",
               "duckduckgo"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "valuation"
-            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 3,
             "independent_sources": 1
           },
@@ -10871,25 +10880,16 @@
           },
           {
             "score": 16,
-            "keyword": "metriques",
+            "keyword": "metriq valuation",
             "sources": [
               "bing",
               "duckduckgo"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "metriq software",
-            "sources": [
-              "google"
+            "unexpected": true,
+            "new_concepts": [
+              "valuation"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 5,
+            "best_position": 4,
             "independent_sources": 1
           },
           {
@@ -10905,7 +10905,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:14.186Z"
+        "observed_at": "2026-10-05T05:43:14.781Z"
       },
       "market_analysis": {
         "market_risk": "Platform integration",
@@ -12101,48 +12101,19 @@
       "evidence_level": "A",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 202,
-        "total_urls": 1538,
-        "observed_at": "2026-09-07T05:43:14.542Z",
+        "blog_count": 0,
+        "total_urls": 144,
+        "observed_at": "2026-10-05T05:43:14.968Z",
         "path_groups": [
           {
-            "count": 295,
-            "segment": "/es"
-          },
-          {
-            "count": 293,
-            "segment": "/de"
-          },
-          {
-            "count": 203,
-            "segment": "/blog"
-          },
-          {
-            "count": 105,
-            "segment": "/100-best-product-pages"
-          },
-          {
-            "count": 104,
-            "segment": "/inside-photoroom"
-          },
-          {
-            "count": 92,
-            "segment": "/glossary"
+            "count": 144,
+            "segment": "/pt-pt"
           }
         ],
         "sitemap_found": true,
-        "template_count": 39,
-        "comparison_pages": [
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-smartly",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-evoto",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-nano-banana",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-fotor",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-adobe-express",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-bria",
-          "https://www.photoroom.com/de/comparisons/photoroom-vs-magic-studio",
-          "https://www.photoroom.com/de/comparisons"
-        ],
-        "integration_count": 16
+        "template_count": 1,
+        "comparison_pages": [],
+        "integration_count": 0
       },
       "keyword_profile": {
         "seed": "PhotoRoom",
@@ -12162,7 +12133,7 @@
             "independent_sources": 3
           },
           {
-            "score": 36,
+            "score": 37,
             "keyword": "photoroom ai",
             "sources": [
               "google",
@@ -12174,11 +12145,42 @@
             "new_concepts": [
               "ai"
             ],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 3
           },
           {
-            "score": 27,
+            "score": 33,
+            "keyword": "photoroom ai photo editor",
+            "sources": [
+              "google",
+              "youtube",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "ai",
+              "editor"
+            ],
+            "best_position": 7,
+            "independent_sources": 3
+          },
+          {
+            "score": 26,
+            "keyword": "photoroom sas",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "sas"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
             "keyword": "photoroom background",
             "sources": [
               "google",
@@ -12187,20 +12189,6 @@
             "unexpected": true,
             "new_concepts": [
               "background"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
-            "keyword": "photoroom sas",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "sas"
             ],
             "best_position": 5,
             "independent_sources": 2
@@ -12218,21 +12206,6 @@
               "bg"
             ],
             "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 23,
-            "keyword": "photoroom ai photo editor",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "ai",
-              "editor"
-            ],
-            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -12292,7 +12265,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:14.186Z"
+        "observed_at": "2026-10-05T05:43:14.779Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
@@ -12984,11 +12957,11 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 1,
-        "total_urls": 35,
-        "observed_at": "2026-09-07T05:43:14.126Z",
+        "total_urls": 37,
+        "observed_at": "2026-10-05T05:43:14.518Z",
         "path_groups": [
           {
-            "count": 31,
+            "count": 33,
             "segment": "/docs"
           },
           {
@@ -13035,8 +13008,36 @@
             "independent_sources": 3
           },
           {
-            "score": 30,
+            "score": 29,
             "keyword": "prized health",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "prized pig",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pig"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "prized wear",
             "sources": [
               "google",
               "bing",
@@ -13044,24 +13045,24 @@
             ],
             "unexpected": true,
             "new_concepts": [
-              "health"
+              "wear"
             ],
-            "best_position": 0,
+            "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 27,
-            "keyword": "prized health reston",
+            "score": 21,
+            "keyword": "prized pelt mhr",
             "sources": [
               "google",
               "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
-              "health",
-              "reston"
+              "pelt",
+              "mhr"
             ],
-            "best_position": 3,
+            "best_position": 9,
             "independent_sources": 2
           },
           {
@@ -13082,6 +13083,17 @@
           },
           {
             "score": 19,
+            "keyword": "prizedice",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 19,
             "keyword": "prized possession isley brothers",
             "sources": [
               "youtube"
@@ -13093,17 +13105,6 @@
               "brothers"
             ],
             "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 18,
-            "keyword": "prizedice",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 2,
             "independent_sources": 1
           },
           {
@@ -13122,51 +13123,22 @@
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "prized possession latto slowed",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "possession",
-              "latto",
-              "slowed"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "prized synonym",
+            "score": 18,
+            "keyword": "prized violins crossword",
             "sources": [
               "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
-              "synonym"
+              "violins",
+              "crossword"
             ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "prized possession latto reaction",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "possession",
-              "latto",
-              "reaction"
-            ],
-            "best_position": 4,
+            "best_position": 2,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:13.915Z"
+        "observed_at": "2026-10-05T05:43:14.335Z"
       },
       "last_checked_at": "2026-09-06T12:25:33.376Z",
       "market_analysis": {
@@ -13335,7 +13307,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 5,
-        "observed_at": "2026-09-07T05:43:14.393Z",
+        "observed_at": "2026-10-05T05:43:15.185Z",
         "path_groups": [
           {
             "count": 2,
@@ -13368,8 +13340,7 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -13392,33 +13363,18 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "raindrop.io api",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 23,
+            "score": 25,
             "keyword": "raindrop.io alternatives",
             "sources": [
               "google",
               "bing",
               "duckduckgo"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
               "alternatives"
             ],
-            "best_position": 7,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
@@ -13488,7 +13444,7 @@
           },
           {
             "score": 16,
-            "keyword": "raindrop.io/shfwz",
+            "keyword": "raindrop.io shfwz",
             "sources": [
               "bing",
               "duckduckgo"
@@ -13499,9 +13455,23 @@
             ],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "raindrop.io vs readwise",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vs",
+              "readwise"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:14.187Z"
+        "observed_at": "2026-10-05T05:43:14.785Z"
       },
       "market_analysis": {
         "market_risk": "书签管理市场竞争激烈，用户可能转向免费替代品。",
@@ -13762,7 +13732,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 9,
-        "observed_at": "2026-09-07T05:43:13.965Z",
+        "observed_at": "2026-10-05T05:43:14.416Z",
         "path_groups": [
           {
             "count": 2,
@@ -13828,51 +13798,7 @@
             "independent_sources": 3
           },
           {
-            "score": 37,
-            "keyword": "readwise obsidian",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "obsidian"
-            ],
-            "best_position": 3,
-            "independent_sources": 3
-          },
-          {
-            "score": 27,
-            "keyword": "readwise alternative",
-            "sources": [
-              "google",
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "alternative"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
-            "keyword": "readwise api",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
+            "score": 28,
             "keyword": "readwise pricing",
             "sources": [
               "google",
@@ -13883,21 +13809,80 @@
             "new_concepts": [
               "pricing"
             ],
-            "best_position": 5,
+            "best_position": 2,
             "independent_sources": 2
           },
           {
-            "score": 18,
+            "score": 27,
+            "keyword": "readwise obsidian",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "obsidian"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "readwise mcp",
             "sources": [
-              "google"
+              "google",
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
               "mcp"
             ],
-            "best_position": 2,
-            "independent_sources": 1
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "readwise extension",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "extension"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
+            "keyword": "readwise alternative",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "alternative"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
+          },
+          {
+            "score": 24,
+            "keyword": "readwise api",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 6,
+            "independent_sources": 2
           },
           {
             "score": 18,
@@ -13913,34 +13898,21 @@
             "independent_sources": 1
           },
           {
-            "score": 16,
-            "keyword": "readwise reader mcp",
+            "score": 15,
+            "keyword": "readwise chrome extension",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "reader",
-              "mcp"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "readwise notion",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "notion"
+              "chrome",
+              "extension"
             ],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-07T05:43:13.914Z"
+        "observed_at": "2026-10-05T05:43:14.334Z"
       },
       "last_checked_at": "2026-09-02T00:00:00.000Z",
       "market_analysis": {
@@ -16848,20 +16820,20 @@
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
-        "total_urls": 30,
-        "observed_at": "2026-08-31T05:20:41.007Z",
+        "total_urls": 44,
+        "observed_at": "2026-10-05T05:43:12.423Z",
         "path_groups": [
           {
-            "count": 8,
+            "count": 19,
             "segment": "/admin"
+          },
+          {
+            "count": 7,
+            "segment": "/orgs"
           },
           {
             "count": 5,
             "segment": "/realtime"
-          },
-          {
-            "count": 4,
-            "segment": "/orgs"
           },
           {
             "count": 3,
@@ -16885,7 +16857,7 @@
         "seed": "hoppscotch",
         "signals": [
           {
-            "score": 37,
+            "score": 36,
             "keyword": "hoppscotch vs postman",
             "sources": [
               "google",
@@ -16898,24 +16870,8 @@
               "vs",
               "postman"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 3
-          },
-          {
-            "score": 29,
-            "keyword": "hoppscotch browser extension",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "browser",
-              "extension"
-            ],
-            "best_position": 1,
-            "independent_sources": 2
           },
           {
             "score": 28,
@@ -16930,6 +16886,20 @@
               "api"
             ],
             "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "hoppscotch comic",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "comic"
+            ],
+            "best_position": 3,
             "independent_sources": 2
           },
           {
@@ -16961,21 +16931,22 @@
             "independent_sources": 2
           },
           {
-            "score": 25,
-            "keyword": "hoppscotch comic",
+            "score": 23,
+            "keyword": "hoppscotch browser extension",
             "sources": [
               "google",
-              "youtube"
+              "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
-              "comic"
+              "browser",
+              "extension"
             ],
-            "best_position": 5,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
-            "score": 23,
+            "score": 21,
             "keyword": "hoppscotch docker",
             "sources": [
               "youtube",
@@ -16985,8 +16956,21 @@
             "new_concepts": [
               "docker"
             ],
-            "best_position": 7,
+            "best_position": 9,
             "independent_sources": 2
+          },
+          {
+            "score": 16,
+            "keyword": "hoppscotch portland",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "portland"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
           },
           {
             "score": 15,
@@ -17014,23 +16998,9 @@
             ],
             "best_position": 5,
             "independent_sources": 1
-          },
-          {
-            "score": 13,
-            "keyword": "hoppscotch vs bruno",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "vs",
-              "bruno"
-            ],
-            "best_position": 7,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-08-31T05:20:40.983Z"
+        "observed_at": "2026-10-05T05:43:12.395Z"
       },
       "last_checked_at": "2026-09-27T02:46:33.724Z",
       "market_analysis": {
