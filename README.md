@@ -1,12 +1,12 @@
 # ProofStack Open Dataset
 
-Audited indie product business cases and pricing benchmarks, released as open data by [ProofStack](https://proof-stack-lake.vercel.app).
+Evidence-linked indie product business cases and pricing benchmarks, released as open data by [ProofStack](https://proof-stack-lake.vercel.app).
 
 ## What's inside
 
 | File | Contents |
 |---|---|
-| `data/cases.json` | 40+ audited business cases (count grows weekly; see `generated_at` in the data files): pricing tiers, revenue disclosures, market analysis, acquisition operations, what-to-copy / what-not-to-copy, and **a source URL for every figure** |
+| `data/cases.json` | Published business cases (53 in the 2026-10-10 export; see `count` and `generated_at` in the data files): pricing tiers, revenue disclosures, market analysis, acquisition operations, what-to-copy / what-not-to-copy, and linked public sources and evidence limits |
 | `data/benchmarks.json` | Pricing benchmarks overall and per category: median first paid tier, price range, free-tier prevalence, paywall-capability distribution |
 | `data/benchmarks.csv` | The benchmark table in CSV for spreadsheets |
 
@@ -16,6 +16,10 @@ Audited indie product business cases and pricing benchmarks, released as open da
 - Revenue that is not publicly disclosed is recorded as `unknown` — **never estimated**.
 - Acquisition narratives come from first-party sources; cases not yet researched say so explicitly instead of carrying template text.
 - Benchmarks are counted from pricing pages we opened and verified; products without a public price are excluded from the statistics.
+
+## Scope and limits
+
+These records are research summaries, not financial audits. A case being published does not establish revenue, customers, or successful replication. Source coverage and translation completeness vary in historical records; follow each record’s evidence limits and links, and treat missing facts as unknown. Benchmark sample sizes are reported separately from the case count.
 
 ## Freshness
 

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T08:49:21.583Z",
+  "generated_at": "2026-10-10T10:33:10.106Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 51,
+  "count": 53,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -7072,6 +7072,30 @@
         ],
         "integration_count": 0
       },
+      "display_locales": {
+        "en": {
+          "sources.gojiberry-yc.title": "Y Combinator company profile and launch disclosure",
+          "sources.gojiberry-help.title": "Gojiberry product mechanism documentation",
+          "sources.gojiberry-privacy.title": "Gojiberry privacy and lead-data policy",
+          "market_analysis.demand_signals.0": "2,000+ customers reported on Y Combinator",
+          "market_analysis.demand_signals.1": "2-5x higher positive reply rates reported by the company",
+          "market_analysis.demand_signals.2": "Customers replacing fragmented enrichment and outbound stacks",
+          "sources.gojiberry-indie-hackers.title": "Indie Hackers founder interview: validating via services",
+          "acquisition_operations.primary_channel": "Founder-led content and intent-based outbound",
+          "sources.gojiberry-official-pricing.title": "Gojiberry AI official product and pricing page"
+        },
+        "zh": {
+          "sources.gojiberry-yc.title": "Y Combinator 公司档案与产品发布披露",
+          "sources.gojiberry-help.title": "Gojiberry 产品机制文档",
+          "sources.gojiberry-privacy.title": "Gojiberry 隐私与线索数据政策",
+          "market_analysis.demand_signals.0": "Y Combinator 页面披露有 2,000 多位客户",
+          "market_analysis.demand_signals.1": "公司自述正向回复率提高至 2–5 倍",
+          "market_analysis.demand_signals.2": "客户用该产品替代分散的数据补全与主动获客工具",
+          "sources.gojiberry-indie-hackers.title": "Indie Hackers 创始人访谈：先用服务验证需求",
+          "acquisition_operations.primary_channel": "创始人内容与基于意向信号的主动触达",
+          "sources.gojiberry-official-pricing.title": "Gojiberry AI 官方产品与定价页"
+        }
+      },
       "keyword_profile": {
         "seed": "Gojiberry AI",
         "signals": [
@@ -7323,7 +7347,7 @@
         ],
         "social_strategy_en": "Founders publish growth numbers and experiments, combining LinkedIn inbound content with intent-led outbound from their own product; one viral video was reported to add about $30K MRR.",
         "retention_mechanism": "意向信号监测、活动回复、统一收件箱与 CRM 同步进入日常销售流程，且需要持续补充新线索。",
-        "first_traffic_source": "Founder-led manual service and founder network",
+        "first_traffic_source": "创始人主导的人工服务与人脉网络",
         "free_to_paid_trigger": "在试用中快速展示合格线索和回复机会，再对持续代理运行、更多触达和团队协作收费。",
         "operation_tactics_en": [
           "Validate as a manual service before software",
@@ -12805,6 +12829,234 @@
       "replication_difficulty": "High"
     },
     {
+      "id": "pristmax",
+      "slug": "pristmax",
+      "market": "Chinese",
+      "status": "published",
+      "sources": [
+        {
+          "id": "pristmax-homepage",
+          "url": "https://jiangchenghehe.top/",
+          "notes": "Positioning, local-console illustration, API beta claim and MIT label; marketing statements, not audited outcomes.",
+          "title": "Pristmax official homepage",
+          "source_type": "official",
+          "collected_at": "2026-10-10T00:00:00.000Z",
+          "evidence_level": "C"
+        },
+        {
+          "id": "pristmax-deployment",
+          "url": "https://jiangchenghehe.top/docs.html",
+          "notes": "Pre-release wording, no formal package claim, demo statistics disclosure, recovery and net-storage acceptance criteria.",
+          "title": "Pristmax deployment notes",
+          "source_type": "official",
+          "collected_at": "2026-10-10T00:00:00.000Z",
+          "evidence_level": "C"
+        },
+        {
+          "id": "pristmax-download",
+          "url": "https://jiangchenghehe.top/download.html",
+          "notes": "Windows v1.2.0 and release download link observed; binary availability and execution not verified.",
+          "title": "Pristmax download page",
+          "source_type": "official",
+          "collected_at": "2026-10-10T00:00:00.000Z",
+          "evidence_level": "C"
+        },
+        {
+          "id": "pristmax-repository",
+          "url": "https://github.com/chunchengzheng58-ctrl/pristmax",
+          "notes": "Apache 2.0 core, separately licensed commercial components, CLI/API/MCP declarations and placeholder licensing contact; 7 stars observed, not demand proof.",
+          "title": "Pristmax public repository README",
+          "source_type": "official",
+          "collected_at": "2026-10-10T00:00:00.000Z",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "DevTools",
+      "logo_url": "https://jiangchenghehe.top/favicon.ico",
+      "team_size": 0,
+      "created_at": "2026-10-10T00:00:00.000Z",
+      "summary_en": "As of October 10, 2026, the website and public repository position Pristmax as local enterprise storage optimization with analysis, duplicate detection, CLI, REST API and MCP integration. The README describes an Apache 2.0 open core and separately licensed H.265 and video-analysis components, while the website still says MIT; component licenses need checking. The transferable hypothesis is to prove net savings and recovery in a small read-only pilot before selling licenses, deployment or support; the latter two are recommendations, not confirmed offerings. Release messages conflict: the homepage announces an API beta, deployment notes say no formal package is available, and the download page lists Windows v1.2.0. No software was downloaded or executed, and production readiness is unverified. Documentation acknowledges demo statistics. Revenue, customers, pricing and real net savings remain unverified; the team count is unknown. This is an early commercialization and trust-building observation, not a validated profitable business.",
+      "summary_zh": "截至 2026-10-10，官网和公开仓库将 Pristmax 定位为本地运行的企业存储优化工具，展示存储分析、重复文件检测、CLI、REST API 与 MCP 集成。仓库 README 声明开源核心采用 Apache 2.0，H.265 编码与视频分析为独立授权的商业组件；官网仍出现 MIT 字样，具体权利须按组件许可证核对。商业启示是先用只读扫描和可恢复试点证明净节省，再销售授权、部署或支持（后两项为建议，并非已确认业务）。官网发布状态相互矛盾：主页称 API 公测发布，部署文档称正式安装包未发布，下载页列 Windows v1.2.0；未下载或执行软件，不确认生产就绪。文档承认部分统计为演示数据。未发现可核验营收、客户、定价或真实净节省率；团队人数未知。该案例适合观察开源商业化与信任建设，不宜当作已验证的盈利成功案例。",
+      "updated_at": "2026-10-10T00:00:00.000Z",
+      "launch_year": 2026,
+      "website_url": "https://jiangchenghehe.top/",
+      "founder_name": "Not disclosed; repository owner: chunchengzheng58-ctrl",
+      "founder_type": "small team",
+      "product_name": "Pristmax",
+      "product_type": "Self-hosted enterprise storage optimization / open core",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "仓库声明 H.265 编码和视频分析使用独立商业授权；未找到公开价格、结账入口或已成交证据。",
+        "revenue_type": "Not disclosed",
+        "pricing_tiers": [],
+        "revenue_range": "unknown",
+        "renewal_reason": "推断：持续升级、兼容性维护和支持可能形成续费理由；未确认订阅或续费合同。",
+        "revenue_amount": 0,
+        "paid_trigger_en": "The README separates commercial H.265 and video analysis licensing; no public prices, checkout or completed sales were verified.",
+        "renewal_reason_en": "Hypothesis: upgrades, compatibility maintenance and support could support renewals; no subscription or renewal contract was confirmed.",
+        "monetization_model": [
+          "Open core",
+          "Commercial component licensing (declared; sales unverified)"
+        ],
+        "gross_margin_estimate": "Unknown; no revenue or delivery-cost evidence"
+      },
+      "evidence_level": "C",
+      "display_locales": {
+        "en": {
+          "founder_name": "Founder not disclosed; repository maintainer: chunchengzheng58-ctrl",
+          "sources.pristmax-download.title": "Pristmax download page",
+          "sources.pristmax-homepage.title": "Pristmax official homepage",
+          "market_analysis.demand_signals.0": "Public GitHub repository had 7 stars on 2026-10-10; attention only, not proof of customer demand",
+          "market_analysis.demand_signals.1": "The homepage promotes local deployment and sample-based storage verification",
+          "market_analysis.demand_signals.2": "No verified paying-customer, retention or storage-savings evidence",
+          "sources.pristmax-deployment.title": "Pristmax deployment notes",
+          "sources.pristmax-repository.title": "Pristmax public repository README",
+          "revenue_model.monetization_model.0": "Open core",
+          "revenue_model.monetization_model.1": "Commercial component licensing (declared; sales unverified)",
+          "revenue_model.gross_margin_estimate": "Unknown; revenue and delivery costs are not disclosed",
+          "acquisition_operations.primary_channel": "Public website and GitHub (observed entry points; acquisition attribution unknown)"
+        },
+        "zh": {
+          "founder_name": "未披露；仓库维护者：chunchengzheng58-ctrl",
+          "sources.pristmax-download.title": "Pristmax 下载页",
+          "sources.pristmax-homepage.title": "Pristmax 官方产品页",
+          "market_analysis.demand_signals.0": "2026-10-10 观察到公开 GitHub 仓库有 7 个收藏；这只是关注信号，不是客户需求证明",
+          "market_analysis.demand_signals.1": "官网介绍本地部署与基于样本的存储验证流程",
+          "market_analysis.demand_signals.2": "未发现可验证的付费客户、留存或存储节省数据",
+          "sources.pristmax-deployment.title": "Pristmax 部署与试点说明",
+          "sources.pristmax-repository.title": "Pristmax 公开仓库与项目说明",
+          "revenue_model.monetization_model.0": "开源核心与商业扩展",
+          "revenue_model.monetization_model.1": "商业组件授权（项目声明，销售未验证）",
+          "revenue_model.gross_margin_estimate": "未知；未披露营收或交付成本",
+          "acquisition_operations.primary_channel": "官网与 GitHub 公开入口（已观察；获客归因未知）"
+        }
+      },
+      "last_checked_at": "2026-10-10T00:00:00.000Z",
+      "market_analysis": {
+        "market_risk": "企业存储厂商可能已有去重功能；客户还要承担试点、恢复演练、迁移和维护成本，节省容量不等于节省总成本。",
+        "alternatives": [
+          "Existing NAS/storage vendor features",
+          "Backup and deduplication tools",
+          "Manual duplicate-file cleanup",
+          "Additional storage capacity"
+        ],
+        "buyer_intent": "推断：数据量大且需要本地控制的 IT 团队可能为可验证的净容量节省、可恢复性与较低运维成本付费。",
+        "market_stage": "Early",
+        "timing_reason": "推断：AI 助手接口可降低存储管理的操作门槛，但不能代替可靠性与经济性验证。",
+        "demand_signals": [
+          "Public GitHub repository observed with 7 stars on 2026-10-10; attention only, not customer demand",
+          "Homepage promotes local deployment and sample-based storage verification",
+          "No verified paying-customer, retention or storage-savings evidence"
+        ],
+        "market_risk_en": "Existing vendors may already offer deduplication; pilot, recovery, migration and maintenance costs mean capacity savings do not necessarily lower total cost.",
+        "buyer_intent_en": "Hypothesis: IT teams with large datasets and local-control requirements may pay for verified net savings, recovery and lower operating costs.",
+        "differentiation": "声明的差异是本地部署、存储分析与 API/MCP 接口，以及无损去重和视频降量的分路径验收；尚无性能优势验证。",
+        "market_category": "Enterprise storage optimization / data management",
+        "timing_reason_en": "Hypothesis: AI interfaces may make storage management easier, but cannot substitute for reliability and economic validation.",
+        "competitor_density": "High",
+        "differentiation_en": "Declared differentiation combines local deployment, analysis, API/MCP interfaces and separate validation for lossless deduplication and video reduction; performance advantages are unverified.",
+        "localization_opportunity": "建议聚焦一种存储环境与文件类型，提供中文部署、恢复验收和可核算成本报告，先验证需求。",
+        "localization_opportunity_en": "Recommendation: focus on one storage environment and file type, with localized deployment, recovery acceptance and cost reports; validate demand first."
+      },
+      "product_breakdown": {
+        "core_job": "帮助企业识别存储冗余，并在自己环境里评估可恢复的容量优化；实际效果尚未独立验证。",
+        "data_moat": "没有已验证的数据壁垒；自部署数据不应被假设为厂商可获得的训练数据。",
+        "aha_moment": "建议的价值时刻：用自己的代表性样本得到包含索引、副本与元数据的净节省报告，并逐字节恢复无损文件。",
+        "onboarding": "公开路径是查看部署文档、获取源码或下载页入口，在隔离环境准备 Python/依赖，选样本评估；此研究未执行安装。",
+        "core_job_en": "Help enterprises identify storage redundancy and evaluate recoverable capacity optimization locally; actual outcomes are not independently verified.",
+        "data_moat_en": "No data moat is verified; self-hosted customer data must not be assumed available to the vendor for training.",
+        "product_risk": "发布状态和许可证文案不一致，文档承认演示统计；无损归档与视频有损处理必须分开验收，生产安全和恢复可靠性尚未验证。",
+        "aha_moment_en": "Suggested value moment: obtain a net-savings report including indexes, replicas and metadata on representative data, and restore lossless files byte for byte.",
+        "onboarding_en": "Public onboarding points to deployment notes, source or downloads, Python/dependencies and isolated sample evaluation; no installation was performed in this research.",
+        "paid_features": [
+          "H.265 编码商业组件（README 声明）",
+          "视频分析商业组件（README 声明）"
+        ],
+        "product_risk_en": "Release and license messages conflict, and documentation acknowledges demo statistics; lossless archiving and lossy video processing need separate acceptance, while production security and recovery reliability remain unverified.",
+        "usage_frequency": "occasional",
+        "workflow_lockin": "推断：策略配置、历史索引与集成可能增加迁移工作量；不应以牺牲数据可导出和恢复能力制造锁定。",
+        "paid_features_en": [
+          "Commercial H.265 encoder (README declaration)",
+          "Commercial video analysis (README declaration)"
+        ],
+        "must_have_features": [
+          "目录扫描与分类统计",
+          "重复文件检测",
+          "可恢复性校验",
+          "权限和任务边界",
+          "CLI/API 接口（仓库声明）"
+        ],
+        "workflow_lockin_en": "Hypothesis: policies, historical indexes and integrations may add migration effort; export and recovery must remain possible.",
+        "must_have_features_en": [
+          "Directory scanning and classification",
+          "Duplicate detection",
+          "Recovery verification",
+          "Permission and task boundaries",
+          "CLI/API interfaces (repository claims)"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "了解企业存储运维、能承担恢复验证和长期维护的技术团队；不适合只想快速套壳收费的个人项目。",
+        "best_for_en": "Technical teams experienced in enterprise storage operations, recovery verification and long-term maintenance.",
+        "mvp_version": "建议：支持一种本地目录，只读检测重复并导出包含哈希与容量基线的报告；获得人工确认后才对副本做无损归档，自动校验恢复。",
+        "pattern_name": "开源评估入口 → 可复核试点 → 商业组件授权（待验证）",
+        "risk_warning": "商业化前统一版本、许可证和支持边界，确认数据恢复与权限隔离；独立核对编码器授权，先确认授权可销售，再设计收费。",
+        "what_to_copy": "先做只读扫描和可复核报告，限定文件类型与存储环境，用少量试点验证恢复、安全和总成本，再扩展功能。",
+        "why_it_works": "假设：公开核心降低试用成本，本地部署降低数据外传顾虑，验收报告把容量节省转成可讨论的采购价值；尚未证明能转化为订单。",
+        "mvp_version_en": "Recommendation: support one local-directory workflow, detect duplicates read-only, export hashes and capacity baselines, then archive copies only after human approval and verify recovery automatically.",
+        "pattern_name_en": "Open evaluation -> auditable pilot -> commercial licensing (unvalidated)",
+        "risk_warning_en": "Before commercialization, align versions, licenses and support scope, validate recovery and access isolation, and check encoder rights before selling licenses.",
+        "what_to_copy_en": "Start with read-only scans and auditable reports, limit file types and storage environments, and validate recovery, security and total cost in a few pilots before expanding.",
+        "why_it_works_en": "Hypothesis: public core lowers trial costs, local deployment reduces data-transfer concerns, and acceptance reports translate savings into procurement value; order conversion remains unproven.",
+        "what_not_to_copy": "不要把演示统计、GitHub stars 或下载链接当成节省率与付费需求证明；不要照搬矛盾的发行和许可证文案，也不要承诺未经恢复验证的企业级可靠性。",
+        "suggested_channel": "建议从熟悉的 IT/NAS 运维团队和存储服务商拿少量代表性试点，用可公开的验收结果建立信任。",
+        "suggested_pricing": "建议先按固定范围试点报价，再按年度商业授权与支持范围收费；金额需由真实净节省和交付成本验证，非当前官网价格。",
+        "what_not_to_copy_en": "Do not treat demo statistics, GitHub stars or download links as savings or paying-demand proof; avoid conflicting release/license messages and untested enterprise reliability promises.",
+        "suggested_channel_en": "Recommendation: obtain representative pilots through known IT/NAS operators and storage providers, then build trust with publishable acceptance results.",
+        "suggested_pricing_en": "Recommendation: quote fixed-scope pilots first, then annual commercial licensing and support; amounts need validation against real net savings and delivery costs, and are not current website prices."
+      },
+      "one_line_insight_en": "Pristmax is a self-hosted enterprise storage project exploring an open core and separately licensed commercial components; revenue and paying customers remain unverified.",
+      "one_line_insight_zh": "Pristmax 是一个面向企业自部署的存储优化项目，尝试用开源核心与独立商业组件授权连接免费试用和企业付费；营收与付费客户尚未公开验证。",
+      "acquisition_operations": {
+        "seo_strategy": "已观察到产品、部署和下载页面；未获取排名、搜索流量或转化数据。",
+        "content_format": [
+          "Documentation",
+          "README",
+          "Download page"
+        ],
+        "conversion_path": "建议路径：官网/仓库 → 只读扫描 → 代表性样本试点 → 净节省与恢复验收 → 商业授权沟通；当前授权联系方式仍为占位，付费闭环未验证。",
+        "primary_channel": "Public website and GitHub (observed entry points; attribution unknown)",
+        "seo_strategy_en": "Product, deployment and download pages are visible; rankings, search traffic and conversions were not measured.",
+        "social_strategy": "未验证社交账号或社交获客效果。",
+        "operation_tactics": [
+          "用公开源码降低评估门槛（已观察）",
+          "用小样本净节省与恢复报告建立信任（建议）",
+          "补齐商业授权联系方式和报价入口（建议）"
+        ],
+        "affiliate_strategy": "未发现已核验的联盟计划。",
+        "community_strategy": "公开仓库提供 Issues 和贡献入口；7 stars 仅为当日关注快照，不能替代活跃使用或商业需求。",
+        "conversion_path_en": "Suggested funnel: website/repository -> read-only scan -> representative pilot -> net-savings and recovery acceptance -> commercial licensing discussion; the licensing contact is a placeholder and the payment funnel is unverified.",
+        "publishing_cadence": "Unknown",
+        "secondary_channels": [],
+        "social_strategy_en": "No social account or social acquisition results were verified.",
+        "retention_mechanism": "推断：定期扫描、任务策略与企业集成可能形成持续使用，但未有留存数据。",
+        "first_traffic_source": "未知；公开网站与 GitHub 入口不能证明首批客户来源。",
+        "free_to_paid_trigger": "建议围绕商业模块授权和明确交付责任收费；目前未确认价格或套餐。",
+        "operation_tactics_en": [
+          "Lower evaluation friction with public code (observed)",
+          "Build trust through net-savings and recovery reports (recommended)",
+          "Complete licensing contact and quote entry points (recommended)"
+        ],
+        "affiliate_strategy_en": "No verified affiliate program was found.",
+        "community_strategy_en": "The public repository offers Issues and contribution links; 7 stars are a dated attention snapshot, not evidence of usage or commercial demand.",
+        "retention_mechanism_en": "Hypothesis: recurring scans, policies and enterprise integrations may support repeat use; retention data is unavailable.",
+        "first_traffic_source_en": "Unknown; public website and GitHub entry points do not establish first-customer acquisition.",
+        "free_to_paid_trigger_en": "Recommendation: charge for commercial-module rights and defined delivery responsibility; current prices and plans are unconfirmed.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
+    },
+    {
       "id": "prized",
       "slug": "prized",
       "market": "Global",
@@ -13256,6 +13508,274 @@
         "founder_brand_dependency": false
       },
       "replication_difficulty": "Medium"
+    },
+    {
+      "id": "radius",
+      "slug": "radius",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_49777539-1",
+          "url": "https://radius.to/",
+          "notes": "Direct real-time crawl of https://radius.to/ used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-2",
+          "url": "https://radius.to/llms.txt",
+          "notes": "Direct real-time crawl of https://radius.to/llms.txt used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-3",
+          "url": "https://radius.to/pricing",
+          "notes": "Direct real-time crawl of https://radius.to/pricing used for structured commercial extraction.",
+          "title": "Radius Pricing & Plans Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-4",
+          "url": "https://radius.to/",
+          "notes": "Direct real-time crawl of https://radius.to/ used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-5",
+          "url": "https://radius.to/",
+          "notes": "Direct real-time crawl of https://radius.to/ used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-6",
+          "url": "https://radius.to/about",
+          "notes": "Direct real-time crawl of https://radius.to/about used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_hn_49777539-7",
+          "url": "https://radius.to/faq",
+          "notes": "Direct real-time crawl of https://radius.to/faq used for structured commercial extraction.",
+          "title": "Radius Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-05",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-10-05T08:02:29.803Z",
+      "summary_en": "Radius is a local community platform positioned as a Meetup alternative for groups, events, and informal activities. Joining and attending is always free; organizers get a free tier up to 100 members per group, while Pro costs £12 (shown as $15) per month per group for unlimited members, private groups, group analytics, and 3+ organizers. Network and Enterprise plans offer 5%–10% discounts based on group count. It emphasizes no ads, no algorithms, location-centric discovery, plus calendar subscriptions, embed widgets, an Events API, and data exports.",
+      "summary_zh": "Radius 是一个本地社群平台，定位为 Meetup 的替代品，支持群组、活动和轻量聚会。加入和参加活动始终免费，组织者免费版每组最多 100 名成员；Pro 版每组每月 £12（页面显示 $15），提供无限成员、私密群组、群组分析和 3 名以上组织者。还提供 Network 与 Enterprise 方案，按群组数量给予 5%–10% 折扣。产品强调无广告、无算法、本地化发现，并支持日历订阅、嵌入组件、Events API 和数据导出。",
+      "updated_at": "2026-10-06T08:20:31.775Z",
+      "launch_year": 0,
+      "website_url": "https://radius.to/",
+      "founder_name": "",
+      "founder_type": "solo",
+      "product_name": "Radius",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费版每组最多 100 名成员；超过 100 名成员、需要私密群组、群组分析或 3 名以上组织者时，必须升级到 Pro。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "0",
+            "features": [
+              "Up to 100 members per group",
+              "Create and publish events",
+              "RSVP limits + waiting list",
+              "Up to 2 organisers",
+              "Invite members",
+              "Event reminder & scheduled emails"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Pro",
+            "price": "15",
+            "features": [
+              "Unlimited members",
+              "Group analytics",
+              "Private groups",
+              "3+ organisers",
+              "Enhanced support",
+              "Automations (Soon)"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Network",
+            "price": "unknown",
+            "features": [
+              "For organisations managing many groups",
+              "50–99 groups: 5% off total invoice",
+              "100+ groups: 10% off total invoice",
+              "Organisation-level billing",
+              "Centralised group management",
+              "Priority support"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "unknown",
+            "features": [
+              "Running multiple groups or a large organisation",
+              "Supports large, multi-group communities",
+              "Help transitioning from Meetup Pro without paying more"
+            ],
+            "interval": "month"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "Free tier caps each group at 100 members; exceeding 100 members, or needing private groups, group analytics, or 3+ organizers, requires upgrading to Pro.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Freemium",
+          "Subscription"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "last_checked_at": "2026-10-06T08:20:31.775Z",
+      "market_analysis": {
+        "market_risk": "市场风险在于 Meetup、Eventbrite、Facebook Events 等成熟平台已占据用户心智和活动供给，且本地社群工具的用户获取高度依赖城市密度，扩张缓慢。",
+        "alternatives": [
+          "Meetup",
+          "Eventbrite",
+          "Facebook Events"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Market risk: established platforms like Meetup, Eventbrite, and Facebook Events already own mindshare and event supply, and local community tools depend heavily on city density, making expansion slow.",
+        "buyer_intent_en": "",
+        "differentiation": "定位为草根组织者的简单、快速、友好的 Meetup 替代品，强调无广告、无算法、不卖数据，并以本地地点为中心做发现，而非纯线上社交。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Positioned as a simple, fast, friendly Meetup alternative for grassroots organizers, emphasizing no ads, no algorithms, no data selling, and location-centric discovery rather than purely online social networking.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "帮助本地社群组织者创建群组、发布活动并管理 RSVP，同时让附近的人通过兴趣发现并加入线下聚会。",
+        "data_moat": "本地网络效应：500+ 社群、1,000+ 早期用户、120+ 城市覆盖，以及按城市和兴趣组织的活动与群组数据。",
+        "aha_moment": "组织者发布第一个活动或聚会后，看到附近有共同兴趣的人点击加入或报名 RSVP 的那一刻。",
+        "onboarding": "新用户注册后添加兴趣，浏览活动动态或成员地图，加入现有群组或活动；组织者可在 60 秒内免费创建群组并发布活动。",
+        "core_job_en": "Helps local community organizers create groups, publish events, and manage RSVPs, while letting nearby people discover and join in-person gatherings through shared interests.",
+        "data_moat_en": "Local network effects: 500+ communities, 1,000+ early users, 120+ cities, and city- and interest-organized event and group data.",
+        "product_risk": "主要产品风险是冷启动的双边网络效应：没有本地用户密度，活动动态和成员地图就没有价值；同时面临 Meetup、Eventbrite、Facebook Events 等成熟平台的竞争。",
+        "aha_moment_en": "The moment an organizer posts their first event or hangout and sees nearby people with shared interests tap to join or RSVP.",
+        "onboarding_en": "A new user signs up, adds interests, browses the activity feed or members map, and joins an existing group or event; organizers can create a group and publish an event for free in 60 seconds.",
+        "paid_features": [
+          "无限成员",
+          "群组分析",
+          "私密群组",
+          "3 名以上组织者与增强支持"
+        ],
+        "product_risk_en": "The main product risk is the cold-start two-sided network effect: without local user density, the activity feed and members map have little value; it also competes with established platforms like Meetup, Eventbrite, and Facebook Events.",
+        "usage_frequency": "weekly",
+        "workflow_lockin": "群组成员、活动历史、讨论帖、RSVP 记录和日历订阅一旦积累，迁移成本较高；组织者与成员的关系沉淀在群组内。",
+        "paid_features_en": [
+          "Unlimited members",
+          "Group analytics",
+          "Private groups",
+          "3+ organizers and enhanced support"
+        ],
+        "must_have_features": [
+          "创建并发布活动，支持 RSVP 上限与等待名单",
+          "创建群组并邀请成员（最多 2 名组织者）",
+          "日历订阅（.ics）与可嵌入的活动组件",
+          "导出群组数据（ZIP）与成员邮箱（CSV）"
+        ],
+        "workflow_lockin_en": "Once group members, event history, discussion posts, RSVP records, and calendar subscriptions accumulate, switching costs rise; the organizer-member relationship is embedded in the group.",
+        "must_have_features_en": [
+          "Create and publish events with RSVP limits and waitlists",
+          "Create groups and invite members (up to 2 organizers)",
+          "Calendar subscriptions (.ics) and embeddable events widget",
+          "Export group data (ZIP) and member emails (CSV)"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合熟悉本地社群或活动组织、能接受慢速网络效应增长、愿意用 SEO 和文档内容做长期获客的独立开发者或小团队。",
+        "best_for_en": "Suits indie developers or small teams familiar with local communities or event organizing, comfortable with slow network-effect growth, and willing to use SEO and documentation content for long-term acquisition.",
+        "mvp_version": "2–4 周 MVP：群组创建页（名称、城市、描述、主题、Logo、公开 URL）、活动创建页（时间、地点、图片、公开活动页）、RSVP 与等待名单、成员邀请链接、活动日历 .ics 订阅、基础成员/出席者 CSV 导出。",
+        "pattern_name": "Freemium 社群工具 + 按群组订阅",
+        "risk_warning": "Server computation cost",
+        "what_to_copy": "可复制的点：以“免费小群组 + 按群组订阅”的清晰付费墙切入被大平台忽视的草根组织者；用 llms.txt 和文档页做机器可读的产品摘要；围绕“Meetup 替代品”“Eventbrite 替代品”等对比关键词建页面；把日历订阅、嵌入组件、API 和数据导出作为免费获客钩子。",
+        "why_it_works": "免费版覆盖小型群组，降低组织者尝试门槛并带来网络效应；当群组增长超过 100 人或需要私密与数据分析时，自然触发按群组付费，付费意愿与群组规模直接挂钩。",
+        "mvp_version_en": "2–4 week MVP: group creation page (name, city, description, theme, logo, public URL), event creation page (time, place, images, public event page), RSVPs with waitlist, member invite links, .ics calendar subscription, and basic member/attendee CSV export.",
+        "pattern_name_en": "Freemium community tool with per-group subscription",
+        "risk_warning_en": "Server computation cost",
+        "what_to_copy_en": "Replicable: a clear paywall of 'free small groups + per-group subscription' targeting grassroots organizers ignored by big platforms; a machine-readable product summary via llms.txt and docs; comparison pages around 'Meetup alternative' and 'Eventbrite alternative'; and free hooks like calendar subscriptions, embed widgets, API, and data exports.",
+        "why_it_works_en": "The free tier covers small groups, lowering the barrier for organizers and driving network effects; when a group exceeds 100 members or needs privacy and analytics, per-group payment is naturally triggered, tying willingness to pay directly to group size.",
+        "what_not_to_copy": "难以复制的是：Radius 已积累的 500+ 社群、1,000+ 早期用户和 120+ 城市覆盖所形成的本地网络效应；以及“无广告、无算法、不卖数据”的信任定位和长期 SEO 内容资产。",
+        "suggested_channel": "SEO",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate: the local network effects from Radius's existing 500+ communities, 1,000+ early users, and 120+ cities; plus the trust positioning of 'no ads, no algorithms, no data selling' and its accumulated SEO content assets.",
+        "suggested_channel_en": "SEO",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "Monetizes grassroots community organizers by offering a free tier up to 100 members, then charging a per-group Pro subscription (£12/$15 per month) for unlimited members, private groups, and analytics.",
+      "one_line_insight_zh": "通过免费吸引小型社群组织者，再按群组收取 Pro 订阅费（每群每月 £12/$15），实现无限成员、私密群组与数据分析变现。",
+      "acquisition_operations": {
+        "seo_strategy": "通过 llms.txt 提供机器可读的产品摘要，建立文档、FAQ、博客和截图页，并围绕“Meetup.com alternative”“Eventbrite alternative”“Facebook Events alternative”以及“Migrate from Meetup”等对比与迁移关键词建页面，同时用城市页（如纽约、伦敦、多伦多）覆盖本地搜索。",
+        "content_format": [],
+        "conversion_path": "访客免费创建群组或发布活动 → 群组增长到 100 名成员上限或需要私密群组/分析 → 升级到 Pro（每组每月 £12/$15）→ 多群组组织者进入 Network 或 Enterprise 方案。",
+        "primary_channel": "SEO",
+        "seo_strategy_en": "Uses llms.txt for a machine-readable product summary, builds documentation, FAQ, blog, and screenshots pages, creates comparison and migration pages around 'Meetup.com alternative', 'Eventbrite alternative', 'Facebook Events alternative', and 'Migrate from Meetup', and covers local search with city pages (e.g., New York, London, Toronto).",
+        "social_strategy": "首页展示实时活动动态、成员加入和新建群组信息，并引用用户评价（如 York Photography Network 的 Steve E），用社区活跃度做社会证明。",
+        "operation_tactics": [
+          "用 llms.txt 和文档页做机器可读的产品摘要，便于 AI 与搜索引擎抓取",
+          "围绕 Meetup/Eventbrite/Facebook Events 替代品和迁移指南建 SEO 页面",
+          "用免费日历订阅、嵌入组件、API 和数据导出作为获客钩子"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitor creates a group or posts an activity for free → group hits the 100-member cap or needs private groups/analytics → upgrades to Pro (£12/$15 per month per group) → multi-group organizers move to Network or Enterprise.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "The homepage shows a live activity feed of member joins and new groups, and quotes user testimonials (e.g., Steve E of York Photography Network), using community activity as social proof.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费版每组最多 100 名成员；超过 100 名成员、需要私密群组、群组分析或 3 名以上组织者时，必须升级到 Pro。",
+        "operation_tactics_en": [
+          "Use llms.txt and documentation pages as a machine-readable product summary for AI and search engines",
+          "Build SEO pages around Meetup/Eventbrite/Facebook Events alternatives and migration guides",
+          "Use free calendar subscriptions, embed widgets, API, and data exports as acquisition hooks"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "Free tier caps each group at 100 members; exceeding 100 members, or needing private groups, group analytics, or 3+ organizers, requires upgrading to Pro.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
     },
     {
       "id": "raindrop.io",
@@ -13764,6 +14284,58 @@
         "comparison_pages": [],
         "integration_count": 0
       },
+      "display_locales": {
+        "en": {
+          "sources.pocket-farewell.title": "Pocket official farewell page (shutdown, 2025)",
+          "sources.readwise-pricing.title": "Readwise pricing page",
+          "sources.inoreader-pricing.title": "Inoreader pricing page (surviving paid competitor)",
+          "sources.omnivore-shutdown.title": "Omnivore shutdown announcement (2024-10-31, Web Archive copy; original site now 404)",
+          "market_analysis.demand_signals.0": "Omnivore's October 2024 shutdown notice officially recommended Readwise Reader as the migration path",
+          "market_analysis.demand_signals.1": "Pocket's 2025 shutdown sent category refugees looking for paid alternatives; the founder walked them through migration on HN",
+          "market_analysis.demand_signals.2": "A Sean Ellis/Superhuman-style PMF survey run for three straight years returned 50% 'very disappointed' (company-reported, 2021-09)",
+          "sources.readwise-reader-page.title": "Readwise Reader product page and pricing FAQ",
+          "revenue_model.pricing_tiers.1.price": "$9.99 (annual) / $12.99 (monthly)",
+          "sources.readwise-show-hn-2017.title": "Show HN: Readwise – Review and retain your Kindle highlights (2017-09-26, 90 points)",
+          "sources.readwise-show-hn-2022.title": "Show HN: Readwise Reader, an all-in-one reading app (2022-12-15, 326 points)",
+          "acquisition_operations.primary_channel": "Integration ecosystem and word of mouth (inferred)",
+          "revenue_model.pricing_tiers.0.interval": "month (billed annually)",
+          "revenue_model.pricing_tiers.0.features.0": "Daily review of best highlights (email and app)",
+          "revenue_model.pricing_tiers.0.features.1": "For users who only want the daily email and light review",
+          "revenue_model.pricing_tiers.1.features.0": "Full web app: tagging, notes, export to Notion/Obsidian and more",
+          "revenue_model.pricing_tiers.1.features.1": "Readwise Reader app: read-it-later, RSS, newsletters, PDF, EPUB and YouTube",
+          "revenue_model.pricing_tiers.1.features.2": "Early access to new features",
+          "revenue_model.pricing_tiers.1.features.3": "Lock in your price for life",
+          "revenue_model.pricing_tiers.1.features.4": "50% student/academic discount via email",
+          "sources.readwise-reader-beta-essay.title": "Reader public beta announcement (2022-12-14, founder-signed)",
+          "sources.readwise-reading-app-essay.title": "Readwise Reader manifesto (2021-09-08, founder-signed)",
+          "sources.readwise-bootstrapping-essay.title": "Why We're Bootstrapping Readwise (2018-07-24, founder-signed)"
+        },
+        "zh": {
+          "sources.pocket-farewell.title": "Pocket 官方告别页（2025 年停服）",
+          "sources.readwise-pricing.title": "Readwise 定价页",
+          "sources.inoreader-pricing.title": "Inoreader 定价页（仍在运营的付费竞品）",
+          "sources.omnivore-shutdown.title": "Omnivore 停服公告（2024-10-31，网页存档；原站已失效）",
+          "market_analysis.demand_signals.0": "Omnivore 在 2024 年 10 月的停服公告中推荐迁移至 Readwise Reader",
+          "market_analysis.demand_signals.1": "Pocket 在 2025 年停服后，用户寻找付费替代品；创始人在 Hacker News 指导迁移",
+          "market_analysis.demand_signals.2": "公司于 2021-09 自述：连续三年的产品市场匹配调查中，50% 的用户表示停用后会“非常失望”",
+          "sources.readwise-reader-page.title": "Readwise Reader 产品页与定价问答",
+          "revenue_model.pricing_tiers.1.price": "$9.99（年付）／$12.99（月付）",
+          "sources.readwise-show-hn-2017.title": "Show HN：Readwise，回顾并记住 Kindle 划线（2017-09-26，90 积分）",
+          "sources.readwise-show-hn-2022.title": "Show HN：Readwise Reader，一体化阅读应用（2022-12-15，326 积分）",
+          "acquisition_operations.primary_channel": "集成生态与口碑传播（推断）",
+          "revenue_model.pricing_tiers.0.interval": "月（按年付费）",
+          "revenue_model.pricing_tiers.0.features.0": "通过邮件与应用每日回顾精选划线",
+          "revenue_model.pricing_tiers.0.features.1": "适合仅需每日邮件和轻量回顾的用户",
+          "revenue_model.pricing_tiers.1.features.0": "完整网页应用：标签、笔记及导出至 Notion、Obsidian 等工具",
+          "revenue_model.pricing_tiers.1.features.1": "包含 Readwise Reader：稍后读、RSS、邮件简报、PDF、EPUB 与 YouTube",
+          "revenue_model.pricing_tiers.1.features.2": "提前体验新功能",
+          "revenue_model.pricing_tiers.1.features.3": "终身锁定订阅价格",
+          "revenue_model.pricing_tiers.1.features.4": "学生与学术用户通过邮件申请五折优惠",
+          "sources.readwise-reader-beta-essay.title": "Reader 公测公告（2022-12-14，创始人署名）",
+          "sources.readwise-reading-app-essay.title": "Readwise Reader 产品理念（2021-09-08，创始人署名）",
+          "sources.readwise-bootstrapping-essay.title": "为什么 Readwise 选择自筹资金（2018-07-24，创始人署名）"
+        }
+      },
       "keyword_profile": {
         "seed": "Readwise",
         "signals": [
@@ -14019,7 +14591,7 @@
           "先算清市场天花板，再选 bootstrap + paid-only 的反直觉组合",
           "竞品关停时第一时间出 importer 并到场（HN/公告评论区）承接难民"
         ],
-        "affiliate_strategy": "无联盟计划的证据。唯一可见的增长机制设计是定价页 FAQ 里的推荐返免费月（refer friends for additional free months）。",
+        "affiliate_strategy": "无联盟计划的证据。唯一可见的增长机制设计是定价页问答中的推荐奖励：推荐朋友可获得额外免费使用月数。",
         "community_strategy": "非运营式的社区存在感：产品被写进 PKM 社区（Notion/Obsidian/Roam 用户）的工作流教程本身就是获客面；创始人在 HN 的长期实名在场积累了信任，但没有证据显示存在系统性社区运营。",
         "conversion_path_en": "PKM tutorials / word-of-mouth / HN or a competitor-shutdown migration -> website -> 30-day full-featured free trial -> full paywall at trial expiry -> choose Lite (daily review only) or Full (web app + Reader + exports).",
         "publishing_cadence": "Infrequent: a handful of landmark founder essays over nine years, not a content treadmill",
@@ -14031,7 +14603,7 @@
         ],
         "social_strategy_en": "No documented social media strategy exists. What is observable: founder Tristan Homsi answers questions under his own name in every relevant HN thread (the 2017 launch, the 2019 resurfacing of the bootstrap essay, the 2022 Reader beta, the 2025 Pocket shutdown), and the PKM/tools-for-thought community produces abundant unsolicited recommendations (atmospheric, unquantifiable evidence). Paid acquisition is a documented negative: in 2022 the founder said on HN they had experimented with Meta/Google ad pixels but 'don't use them anymore'.",
         "retention_mechanism": "三重锁定：多年高亮档案（2022-12 自述累计处理近 10 亿条）、每日回顾的邮件习惯、以及作为上下游集成中间层的管道位置；Full 订户还有\"锁价终身\"承诺降低流失动机。",
-        "first_traffic_source": "Show HN (2017-09-26, 90 points): Kindle highlights + daily email",
+        "first_traffic_source": "Show HN 发布（2017-09-26，90 积分）：Kindle 划线与每日邮件",
         "free_to_paid_trigger": "试用期内让高亮档案和每日回顾习惯成型，到期后无免费档可退——2018 年决策文原话承认 paid-only 在 consumer SaaS 里\"很疼\"，但被拒绝的用户\"本来就不是我们服务的对象\"。",
         "operation_tactics_en": [
           "Wire two-sided integrations into user workflows so other people's tutorials become the acquisition surface",

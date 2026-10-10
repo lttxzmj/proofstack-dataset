@@ -1,7 +1,7 @@
 category,sample_size,paid_sample_size,first_paid_median_usd,first_paid_min_usd,first_paid_max_usd,free_tier_count
-ALL,51,37,20,4.99,149,41
+ALL,53,38,19.5,4.99,149,43
 "AI Tools",9,6,17.5,9,99,7
-"SaaS",10,6,35,4.99,99,9
+"SaaS",11,7,20,4.99,99,10
 "Developer Tools",5,4,25,6,49,4
 "Productivity",9,5,12,5.59,15,7
 "Creator Tools",7,6,31,6,149,7

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-05T08:49:21.583Z",
+  "generated_at": "2026-10-10T10:33:10.106Z",
   "source": "https://proof-stack-lake.vercel.app/benchmarks",
   "license": "CC BY 4.0",
   "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
   "overall": {
-    "sample_size": 51,
-    "paid_sample_size": 37,
-    "free_tier_count": 41,
-    "first_paid_median": 20,
+    "sample_size": 53,
+    "paid_sample_size": 38,
+    "free_tier_count": 43,
+    "first_paid_median": 19.5,
     "first_paid_min": 4.99,
     "first_paid_max": 149,
     "gate_tallies": [
       {
         "label": "Team seats and permissions",
-        "count": 20
+        "count": 21
       },
       {
         "label": "Usage limits (items, runs, storage)",
@@ -21,7 +21,7 @@
       },
       {
         "label": "Automation and workflows",
-        "count": 11
+        "count": 12
       },
       {
         "label": "API and integrations",
@@ -29,7 +29,7 @@
       },
       {
         "label": "Advanced analytics",
-        "count": 7
+        "count": 9
       }
     ]
   },
@@ -70,20 +70,24 @@
     {
       "category": "SaaS",
       "benchmark": {
-        "sample_size": 10,
-        "paid_sample_size": 6,
-        "free_tier_count": 9,
-        "first_paid_median": 35,
+        "sample_size": 11,
+        "paid_sample_size": 7,
+        "free_tier_count": 10,
+        "first_paid_median": 20,
         "first_paid_min": 4.99,
         "first_paid_max": 99,
         "gate_tallies": [
+          {
+            "label": "Team seats and permissions",
+            "count": 4
+          },
           {
             "label": "Usage limits (items, runs, storage)",
             "count": 3
           },
           {
-            "label": "Team seats and permissions",
-            "count": 3
+            "label": "Automation and workflows",
+            "count": 2
           },
           {
             "label": "SSO and compliance",
@@ -91,10 +95,6 @@
           },
           {
             "label": "Custom domain",
-            "count": 1
-          },
-          {
-            "label": "Automation and workflows",
             "count": 1
           }
         ]
