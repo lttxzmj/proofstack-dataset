@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:33:10.106Z",
+  "generated_at": "2026-10-12T09:01:25.495Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
   "count": 53,
@@ -12901,6 +12901,17 @@
         "gross_margin_estimate": "Unknown; no revenue or delivery-cost evidence"
       },
       "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 0,
+        "total_urls": 0,
+        "observed_at": "2026-10-12T05:43:15.128Z",
+        "path_groups": [],
+        "sitemap_found": false,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
       "display_locales": {
         "en": {
           "founder_name": "Founder not disclosed; repository maintainer: chunchengzheng58-ctrl",
@@ -12930,6 +12941,11 @@
           "revenue_model.gross_margin_estimate": "未知；未披露营收或交付成本",
           "acquisition_operations.primary_channel": "官网与 GitHub 公开入口（已观察；获客归因未知）"
         }
+      },
+      "keyword_profile": {
+        "seed": "Pristmax",
+        "signals": [],
+        "observed_at": "2026-10-12T05:43:15.128Z"
       },
       "last_checked_at": "2026-10-10T00:00:00.000Z",
       "market_analysis": {
