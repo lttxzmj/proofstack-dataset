@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-19T07:37:48.202Z",
+  "generated_at": "2026-10-26T07:41:15.449Z",
   "source": "https://proof-stack-lake.vercel.app/benchmarks",
   "license": "CC BY 4.0",
   "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
   "overall": {
-    "sample_size": 55,
-    "paid_sample_size": 39,
-    "free_tier_count": 44,
-    "first_paid_median": 19,
+    "sample_size": 57,
+    "paid_sample_size": 41,
+    "free_tier_count": 46,
+    "first_paid_median": 20,
     "first_paid_min": 0.09,
     "first_paid_max": 149,
     "gate_tallies": [
       {
         "label": "Team seats and permissions",
-        "count": 21
+        "count": 22
       },
       {
         "label": "Usage limits (items, runs, storage)",
@@ -21,7 +21,7 @@
       },
       {
         "label": "Automation and workflows",
-        "count": 11
+        "count": 12
       },
       {
         "label": "API and integrations",
@@ -37,10 +37,10 @@
     {
       "category": "AI Tools",
       "benchmark": {
-        "sample_size": 10,
-        "paid_sample_size": 7,
-        "free_tier_count": 7,
-        "first_paid_median": 16,
+        "sample_size": 11,
+        "paid_sample_size": 8,
+        "free_tier_count": 8,
+        "first_paid_median": 17.5,
         "first_paid_min": 0.09,
         "first_paid_max": 99,
         "gate_tallies": [
@@ -70,16 +70,16 @@
     {
       "category": "SaaS",
       "benchmark": {
-        "sample_size": 11,
-        "paid_sample_size": 7,
-        "free_tier_count": 10,
-        "first_paid_median": 20,
+        "sample_size": 12,
+        "paid_sample_size": 8,
+        "free_tier_count": 11,
+        "first_paid_median": 35,
         "first_paid_min": 4.99,
         "first_paid_max": 99,
         "gate_tallies": [
           {
             "label": "Team seats and permissions",
-            "count": 4
+            "count": 5
           },
           {
             "label": "Usage limits (items, runs, storage)",
@@ -87,7 +87,7 @@
           },
           {
             "label": "Automation and workflows",
-            "count": 2
+            "count": 3
           },
           {
             "label": "SSO and compliance",

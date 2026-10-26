@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T07:37:48.202Z",
+  "generated_at": "2026-10-26T07:41:15.449Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 55,
+  "count": 57,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -1151,48 +1151,48 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 543,
-        "total_urls": 1265,
-        "observed_at": "2026-09-14T05:43:13.675Z",
+        "blog_count": 507,
+        "total_urls": 1266,
+        "observed_at": "2026-10-26T05:43:13.035Z",
         "path_groups": [
           {
-            "count": 697,
+            "count": 714,
             "segment": "/docs"
           },
           {
-            "count": 545,
+            "count": 509,
             "segment": "/blog"
           },
           {
-            "count": 6,
+            "count": 13,
+            "segment": "/alternative-to"
+          },
+          {
+            "count": 10,
             "segment": "/products"
           },
           {
             "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
             "segment": "/affiliates"
-          },
-          {
-            "count": 1,
-            "segment": "/assets"
-          },
-          {
-            "count": 1,
-            "segment": "/baa"
           }
         ],
         "sitemap_found": true,
-        "template_count": 11,
+        "template_count": 7,
         "comparison_pages": [
-          "https://appwrite.io/blog/categories/comparisons",
-          "https://appwrite.io/blog/post/5-vs-code-extensions-that-replace-entire-dev-tools",
-          "https://appwrite.io/blog/post/appwrite-vs-auth0-b2c",
-          "https://appwrite.io/blog/post/appwrite-vs-cloudinary",
-          "https://appwrite.io/blog/post/appwrite-vs-firebase-vs-supabase-functions-comparison",
-          "https://appwrite.io/blog/post/appwrite-vs-vercel-vs-netlify",
-          "https://appwrite.io/blog/post/baas-vs-custom-backend",
-          "https://appwrite.io/blog/post/best-postman-alternative-options"
+          "https://appwrite.io/alternative-to/amplify",
+          "https://appwrite.io/alternative-to/auth0",
+          "https://appwrite.io/alternative-to/clerk",
+          "https://appwrite.io/alternative-to/cloudinary",
+          "https://appwrite.io/alternative-to/convex",
+          "https://appwrite.io/alternative-to/firebase",
+          "https://appwrite.io/alternative-to/neon",
+          "https://appwrite.io/alternative-to/netlify"
         ],
-        "integration_count": 49
+        "integration_count": 57
       },
       "display_locales": {
         "en": {},
@@ -1223,20 +1223,34 @@
         "seed": "Appwrite",
         "signals": [
           {
-            "score": 38,
+            "score": 29,
             "keyword": "appwrite vs supabase",
             "sources": [
               "google",
-              "youtube",
-              "bing"
+              "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "vs",
               "supabase"
             ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "appwrite github",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "github"
+            ],
             "best_position": 2,
-            "independent_sources": 3
+            "independent_sources": 2
           },
           {
             "score": 28,
@@ -1255,7 +1269,7 @@
           },
           {
             "score": 27,
-            "keyword": "appwrite github",
+            "keyword": "appwrite docs",
             "sources": [
               "google",
               "bing",
@@ -1263,7 +1277,7 @@
             ],
             "unexpected": true,
             "new_concepts": [
-              "github"
+              "docs"
             ],
             "best_position": 3,
             "independent_sources": 2
@@ -1284,6 +1298,20 @@
             "independent_sources": 2
           },
           {
+            "score": 26,
+            "keyword": "appwrite pricing",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
             "score": 25,
             "keyword": "appwrite sites",
             "sources": [
@@ -1298,41 +1326,13 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "appwrite pricing",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "pricing"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 19,
+            "score": 17,
             "keyword": "appwrite 2.0",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "appwrite docs",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "docs"
-            ],
             "best_position": 3,
             "independent_sources": 1
           },
@@ -1351,18 +1351,21 @@
             "independent_sources": 1
           },
           {
-            "score": 15,
-            "keyword": "appwriter",
+            "score": 14,
+            "keyword": "appwrite self host",
             "sources": [
               "google"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 5,
+            "new_concepts": [
+              "self",
+              "host"
+            ],
+            "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:13.123Z"
+        "observed_at": "2026-10-26T05:43:12.100Z"
       },
       "market_analysis": {
         "market_risk": "市场竞争激烈，已有 Firebase、Supabase 等成熟玩家，以及新兴的 BaaS 提供商。",
@@ -1576,12 +1579,12 @@
       "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 505,
-        "total_urls": 1334,
-        "observed_at": "2026-09-21T05:43:12.314Z",
+        "blog_count": 530,
+        "total_urls": 1365,
+        "observed_at": "2026-10-26T05:43:13.132Z",
         "path_groups": [
           {
-            "count": 504,
+            "count": 529,
             "segment": "/blog"
           },
           {
@@ -1593,7 +1596,7 @@
             "segment": "/help"
           },
           {
-            "count": 115,
+            "count": 120,
             "segment": "/v5"
           },
           {
@@ -1606,15 +1609,15 @@
           }
         ],
         "sitemap_found": true,
-        "template_count": 369,
+        "template_count": 372,
         "comparison_pages": [
-          "https://www.bannerbear.com/blog/mcp-vs-api-whats-the-difference/",
-          "https://www.bannerbear.com/blog/5-zapier-alternatives-2022-free-paid/",
-          "https://www.bannerbear.com/blog/google-cloud-functions-vs-aws-lambda/",
-          "https://www.bannerbear.com/blog/video-webhooks-vs-apis-explained-with-a-real-world-example/",
-          "https://www.bannerbear.com/blog/nano-banana-vs-nano-banana-pro-which-google-ai-image-generator-is-better/",
-          "https://www.bannerbear.com/blog/how-to-compare-puppeteer-screenshots-using-imagemagick/",
           "https://www.bannerbear.com/blog/webhook-vs-api-explained-when-to-use-each-for-third-party-integration/",
+          "https://www.bannerbear.com/blog/nano-banana-vs-nano-banana-pro-which-google-ai-image-generator-is-better/",
+          "https://www.bannerbear.com/blog/bannerbear-vs-pixelixe/",
+          "https://www.bannerbear.com/blog/bannerbear-vs-robolly/",
+          "https://www.bannerbear.com/blog/5-project-management-alternatives-to-airtable-2022/",
+          "https://www.bannerbear.com/blog/mcp-vs-api-whats-the-difference/",
+          "https://www.bannerbear.com/blog/bannerbear-vs-orshot/",
           "https://www.bannerbear.com/blog/midjourney-vs-dall-e-a-style-by-style-image-comparison-in-2025/"
         ],
         "integration_count": 12
@@ -1737,14 +1740,13 @@
           },
           {
             "score": 15,
-            "keyword": "bannerbear certificate generator",
+            "keyword": "bannerbear ai",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "certificate",
-              "generator"
+              "ai"
             ],
             "best_position": 5,
             "independent_sources": 1
@@ -1778,7 +1780,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-21T05:43:12.116Z"
+        "observed_at": "2026-10-26T05:43:13.111Z"
       },
       "last_checked_at": "2026-07-29T00:00:00.000Z",
       "market_analysis": {
@@ -2401,15 +2403,19 @@
         "llms_txt": true,
         "blog_count": 1,
         "total_urls": 6000,
-        "observed_at": "2026-09-21T05:43:12.272Z",
+        "observed_at": "2026-10-26T05:43:17.079Z",
         "path_groups": [
           {
-            "count": 5781,
+            "count": 5768,
             "segment": "/virtual-events"
           },
           {
-            "count": 108,
+            "count": 107,
             "segment": "/newsletter-glossary"
+          },
+          {
+            "count": 29,
+            "segment": "/integrations"
           },
           {
             "count": 22,
@@ -2422,25 +2428,21 @@
           {
             "count": 9,
             "segment": "/quiz"
-          },
-          {
-            "count": 5,
-            "segment": "/features"
           }
         ],
         "sitemap_found": true,
         "template_count": 50,
         "comparison_pages": [
           "https://www.beehiiv.com/comparisons",
+          "https://www.beehiiv.com/comparisons/kit",
           "https://www.beehiiv.com/comparisons/mailjet",
           "https://www.beehiiv.com/comparisons/sailthru",
           "https://www.beehiiv.com/comparisons/highlevel",
           "https://www.beehiiv.com/comparisons/getresponse",
           "https://www.beehiiv.com/comparisons/drip",
-          "https://www.beehiiv.com/comparisons/aweber",
-          "https://www.beehiiv.com/comparisons/constant-contact"
+          "https://www.beehiiv.com/comparisons/aweber"
         ],
-        "integration_count": 2
+        "integration_count": 30
       },
       "display_locales": {
         "en": {},
@@ -2468,6 +2470,22 @@
         "signals": [
           {
             "score": 39,
+            "keyword": "beehiiv newsletter",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "newsletter"
+            ],
+            "best_position": 1,
+            "independent_sources": 3
+          },
+          {
+            "score": 38,
             "keyword": "beehiiv vs substack",
             "sources": [
               "google",
@@ -2480,42 +2498,11 @@
               "vs",
               "substack"
             ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 38,
-            "keyword": "beehiiv newsletter",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "newsletter"
-            ],
             "best_position": 2,
             "independent_sources": 3
           },
           {
-            "score": 27,
-            "keyword": "beehiiv pricing",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pricing"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
+            "score": 26,
             "keyword": "beehiiv careers",
             "sources": [
               "google",
@@ -2526,11 +2513,26 @@
             "new_concepts": [
               "careers"
             ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "beehiiv pricing",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
             "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 23,
+            "score": 24,
             "keyword": "beehiiv reviews",
             "sources": [
               "google",
@@ -2540,11 +2542,11 @@
             "new_concepts": [
               "reviews"
             ],
-            "best_position": 7,
+            "best_position": 6,
             "independent_sources": 2
           },
           {
-            "score": 22,
+            "score": 23,
             "keyword": "beehiiv mcp",
             "sources": [
               "google",
@@ -2554,11 +2556,11 @@
             "new_concepts": [
               "mcp"
             ],
-            "best_position": 8,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
-            "score": 18,
+            "score": 19,
             "keyword": "beehiiv website",
             "sources": [
               "bing",
@@ -2566,7 +2568,7 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 1
           },
           {
@@ -2596,20 +2598,21 @@
             "independent_sources": 1
           },
           {
-            "score": 14,
-            "keyword": "beehiiv newsletter examples",
+            "score": 13,
+            "keyword": "beehiiv vs kit",
             "sources": [
-              "google"
+              "youtube"
             ],
             "unexpected": false,
             "new_concepts": [
-              "newsletter"
+              "vs",
+              "kit"
             ],
-            "best_position": 6,
+            "best_position": 7,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-21T05:43:12.143Z"
+        "observed_at": "2026-10-26T05:43:16.946Z"
       },
       "last_checked_at": "2026-09-27T02:46:25.452Z",
       "market_analysis": {
@@ -4483,7 +4486,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-21T05:43:12.728Z",
+        "observed_at": "2026-10-26T05:43:17.008Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -4532,7 +4535,7 @@
             "independent_sources": 3
           },
           {
-            "score": 27,
+            "score": 28,
             "keyword": "carrd website",
             "sources": [
               "google",
@@ -4541,11 +4544,26 @@
             ],
             "unexpected": false,
             "new_concepts": [],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "carrd templates free",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "templates"
+            ],
             "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
             "keyword": "carrd website builder",
             "sources": [
               "google",
@@ -4556,36 +4574,21 @@
             "new_concepts": [
               "builder"
             ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
-            "keyword": "carrd templates free",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "templates"
-            ],
             "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 21,
-            "keyword": "carrd pricing",
+            "score": 13,
+            "keyword": "carrd tut",
             "sources": [
-              "google",
-              "bing"
+              "youtube"
             ],
             "unexpected": false,
             "new_concepts": [
-              "pricing"
+              "tut"
             ],
-            "best_position": 9,
-            "independent_sources": 2
+            "best_position": 7,
+            "independent_sources": 1
           },
           {
             "score": 12,
@@ -4601,20 +4604,20 @@
             "independent_sources": 1
           },
           {
-            "score": 12,
-            "keyword": "carrd tut",
+            "score": 11,
+            "keyword": "carrd portfolio",
             "sources": [
-              "youtube"
+              "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "tut"
+              "portfolio"
             ],
-            "best_position": 8,
+            "best_position": 9,
             "independent_sources": 1
           },
           {
-            "score": 11,
+            "score": 10,
             "keyword": "carrd inspo",
             "sources": [
               "bing"
@@ -4623,7 +4626,20 @@
             "new_concepts": [
               "inspo"
             ],
-            "best_position": 9,
+            "best_position": 10,
+            "independent_sources": 1
+          },
+          {
+            "score": 10,
+            "keyword": "carrd dashboard",
+            "sources": [
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "dashboard"
+            ],
+            "best_position": 11,
             "independent_sources": 1
           },
           {
@@ -4637,25 +4653,11 @@
               "referral",
               "code"
             ],
-            "best_position": 11,
-            "independent_sources": 1
-          },
-          {
-            "score": 10,
-            "keyword": "carrd pro standard",
-            "sources": [
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "pro",
-              "standard"
-            ],
             "best_position": 12,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-21T05:43:12.679Z"
+        "observed_at": "2026-10-26T05:43:17.054Z"
       },
       "last_checked_at": "2026-09-27T02:46:32.956Z",
       "market_analysis": {
@@ -13694,6 +13696,272 @@
       "replication_difficulty": "High"
     },
     {
+      "id": "pocketty",
+      "slug": "pocketty",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_hn_50009634-1",
+          "url": "https://pocketty.app/",
+          "notes": "Direct real-time crawl of https://pocketty.app/ used for structured commercial extraction.",
+          "title": "Pocketty Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-19",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "AI Tools",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-10-19T08:02:31.907Z",
+      "summary_en": "Pocketty is an SSH terminal for iPhone and iPad built for herdr. It lets developers see live agent states (working, blocked, done) for Claude Code, Codex and others, reply with real keystrokes, review per-turn diffs and preview localhost ports. Terminal traffic goes end-to-end to your own computer; notifications are sealed with HPKE and relayed unreadable. Pricing is a 14-day free trial, then a one-time $99 (launch price, normally $129).",
+      "summary_zh": "Pocketty 是一款面向 iPhone 和 iPad 的 SSH 终端，专为 herdr 打造。它让开发者在手机上实时看到 Claude Code、Codex 等代理的工作、阻塞、完成状态，并通过真实终端按键回复代理、查看本轮 diff、预览本地端口。终端流量端到端直连自己的电脑，通知经 HPKE 密封后由中继转发，服务端无法读取。定价为 14 天免费试用，之后一次性 $99（原价 $129 的发布价）。",
+      "updated_at": "2026-10-20T06:53:30.265Z",
+      "launch_year": 0,
+      "website_url": "https://pocketty.app/",
+      "founder_name": "",
+      "founder_type": "",
+      "product_name": "Pocketty",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "14 天免费试用期结束后，需一次性付费 $99（发布价，原价 $129）才能继续使用。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Free trial",
+            "price": "0",
+            "features": [
+              "14 days of full access",
+              "No account or sign-up required"
+            ],
+            "interval": "one-time"
+          },
+          {
+            "name": "Launch price",
+            "price": "$99",
+            "features": [
+              "Full app after the 14-day trial",
+              "SSH terminal for iPhone and iPad",
+              "herdr agent states and Pane list",
+              "Sealed agent notifications"
+            ],
+            "interval": "one-time"
+          },
+          {
+            "name": "Regular price",
+            "price": "$129",
+            "features": [
+              "Full app after the 14-day trial",
+              "SSH terminal for iPhone and iPad",
+              "herdr agent states and Pane list",
+              "Sealed agent notifications"
+            ],
+            "interval": "one-time"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "After the 14-day free trial ends, a one-time payment of $99 (launch price, normally $129) is required to keep using the app.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "One-time"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": false,
+        "blog_count": 0,
+        "total_urls": 0,
+        "observed_at": "2026-10-26T05:43:11.442Z",
+        "path_groups": [],
+        "sitemap_found": false,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
+      "display_locales": {
+        "en": {
+          "sources.src-cand_hn_50009634-1.title": "Pocketty Official Landing Page",
+          "revenue_model.pricing_tiers.0.features.0": "14 days of full access",
+          "revenue_model.pricing_tiers.0.features.1": "No account or sign-up required",
+          "revenue_model.pricing_tiers.1.features.0": "Full app after the 14-day trial",
+          "revenue_model.pricing_tiers.1.features.1": "SSH terminal for iPhone and iPad",
+          "revenue_model.pricing_tiers.1.features.2": "herdr agent states and Pane list",
+          "revenue_model.pricing_tiers.1.features.3": "Sealed agent notifications",
+          "revenue_model.pricing_tiers.2.features.0": "Full app after the 14-day trial",
+          "revenue_model.pricing_tiers.2.features.1": "SSH terminal for iPhone and iPad",
+          "revenue_model.pricing_tiers.2.features.2": "herdr agent states and Pane list",
+          "revenue_model.pricing_tiers.2.features.3": "Sealed agent notifications"
+        },
+        "zh": {
+          "sources.src-cand_hn_50009634-1.title": "Pocketty 官方来源页面",
+          "revenue_model.pricing_tiers.0.features.0": "14 天完整功能试用",
+          "revenue_model.pricing_tiers.0.features.1": "无需账号或注册",
+          "revenue_model.pricing_tiers.1.features.0": "14 天试用后的完整 App",
+          "revenue_model.pricing_tiers.1.features.1": "iPhone 与 iPad 的 SSH 终端",
+          "revenue_model.pricing_tiers.1.features.2": "herdr 代理状态与 Pane 列表",
+          "revenue_model.pricing_tiers.1.features.3": "密封的代理通知",
+          "revenue_model.pricing_tiers.2.features.0": "14 天试用后的完整 App",
+          "revenue_model.pricing_tiers.2.features.1": "iPhone 与 iPad 的 SSH 终端",
+          "revenue_model.pricing_tiers.2.features.2": "herdr 代理状态与 Pane 列表",
+          "revenue_model.pricing_tiers.2.features.3": "密封的代理通知"
+        }
+      },
+      "keyword_profile": {
+        "seed": "Pocketty",
+        "signals": [
+          {
+            "score": 30,
+            "keyword": "pockettype",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 0,
+            "independent_sources": 2
+          },
+          {
+            "score": 19,
+            "keyword": "pockettype keyboard",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "keyboard"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-10-26T05:43:11.417Z"
+      },
+      "last_checked_at": "2026-10-20T06:53:30.265Z",
+      "market_analysis": {
+        "market_risk": "目标用户是使用 herdr 的开发者，属于小众细分市场，且 AI 代理厂商可能自行推出官方手机端。",
+        "alternatives": [
+          "tmux",
+          "zellij",
+          "Tailscale"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "The audience is developers using herdr, a narrow niche, and AI agent vendors could ship their own official mobile clients.",
+        "buyer_intent_en": "",
+        "differentiation": "专为 herdr 打造的原生 iOS 客户端：真实终端按键、按代理轮次的 diff、localhost 预览，以及服务端无法读取的密封通知。",
+        "market_category": "AI Tools",
+        "timing_reason_en": "",
+        "competitor_density": "Low",
+        "differentiation_en": "A native iOS client built specifically for herdr: real terminal keys, per-agent-turn diffs, localhost previews, and sealed notifications the relay cannot read.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让开发者在手机上随时掌握并操作运行在电脑上的 AI 编程代理。",
+        "data_moat": "无明显的累积数据或网络效应；优势主要来自 herdr 集成深度与安全架构。",
+        "aha_moment": "手机弹出“claude is blocked”通知，点开后 Face ID 解锁，直接进入那个 Pane 并敲下回车让代理继续。",
+        "onboarding": "在电脑上安装 daemon（一行 curl 脚本），同一 Wi-Fi 下手机自动发现电脑，手机上显示六位验证码并在电脑上输入，密钥写入 Secure Enclave、主机密钥被固定。",
+        "core_job_en": "Let developers monitor and drive AI coding agents running on their computer from their phone.",
+        "data_moat_en": "No evident accumulated-data or network advantage; the edge comes from herdr integration depth and the security architecture.",
+        "product_risk": "高度依赖 herdr 这一单一生态，若 herdr 改变 API 或代理厂商自带手机端，产品价值会被削弱。",
+        "aha_moment_en": "A 'claude is blocked' alert arrives, you tap it, Face ID unlocks, and you land in that exact Pane and hit Return to unblock the agent.",
+        "onboarding_en": "Install the daemon on your computer with a one-line curl script, your phone auto-discovers it on the same Wi-Fi, then type the six-digit code shown on the phone into the computer; the key goes into the Secure Enclave and the host key is pinned.",
+        "paid_features": [
+          "14 天试用后的完整 App 使用权限",
+          "代理阻塞/完成通知（HPKE 密封推送）",
+          "按轮次与按会话的 diff 查看",
+          "localhost 端口预览与文件/照片上传"
+        ],
+        "product_risk_en": "Heavy dependence on the single herdr ecosystem; if herdr changes its API or agent vendors ship their own mobile clients, the value proposition weakens.",
+        "usage_frequency": "daily",
+        "workflow_lockin": "herdr 工作区/Pane 成为手机上的原生列表，SSH 密钥存于 Secure Enclave 且主机密钥被固定，日常代理监控与回复都在这一个入口完成。",
+        "paid_features_en": [
+          "Full app access after the 14-day trial",
+          "Agent blocked/done notifications (HPKE-sealed push)",
+          "Per-turn and per-session diffs",
+          "Localhost port previews and file/photo uploads"
+        ],
+        "must_have_features": [
+          "真实终端（Ghostty 引擎，Metal 渲染）",
+          "herdr 工作区/Pane 原生列表与代理实时状态",
+          "Ctrl、Esc、Tab、方向键等真实按键",
+          "直连电脑的端到端加密 SSH"
+        ],
+        "workflow_lockin_en": "herdr workspaces and Panes become a native list on the phone, the SSH key lives in the Secure Enclave with pinned host keys, and all daily agent monitoring and replying happens through this single entry point.",
+        "must_have_features_en": [
+          "Real terminal (Ghostty engine, Metal rendering)",
+          "Native herdr workspace/Pane list with live agent states",
+          "Real keys: Ctrl, Esc, Tab, arrows",
+          "End-to-end encrypted SSH direct to your computer"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "擅长 iOS 原生开发、能围绕单一开发者生态做深度集成的独立开发者或小团队。",
+        "best_for_en": "Indie developers or small teams strong in native iOS who can build deep integrations around a single developer ecosystem.",
+        "mvp_version": "一个 iOS SSH 客户端，能连接自己的电脑、列出 herdr 的 Pane 并显示代理状态，支持发送 Return/Esc/Ctrl 等真实按键，通知走简单推送。",
+        "pattern_name": "一次性买断的开发者工具原生客户端",
+        "risk_warning": "",
+        "what_to_copy": "抓住一个具体的高频痛点（离开电脑就不知道 AI 代理是否卡住），围绕单一生态（herdr）做原生客户端，用端到端加密与 Secure Enclave 建立信任，并用一次性买断降低决策成本。",
+        "why_it_works": "痛点具体且高频，用户是愿意为效率付费的开发者；一次性买断契合反感订阅的开发者心理，端到端加密又解决了把终端放上手机的安全顾虑。",
+        "mvp_version_en": "An iOS SSH client that connects to your own computer, lists herdr Panes with agent states, sends real keys like Return/Esc/Ctrl, and uses simple push notifications.",
+        "pattern_name_en": "One-time-purchase native client for a developer tool",
+        "risk_warning_en": "",
+        "what_to_copy_en": "Pick one sharp, high-frequency pain (losing sight of AI agents when away from the desk), build a native client around a single ecosystem (herdr), earn trust with end-to-end encryption and Secure Enclave keys, and use a one-time price to lower purchase friction.",
+        "why_it_works_en": "The pain is specific and frequent, the users are developers who pay for efficiency, a one-time price suits subscription-averse developers, and end-to-end encryption answers the security worry of putting a terminal on a phone.",
+        "what_not_to_copy": "难以复制的是对 herdr 内部 API 与代理状态的深度集成、Ghostty 终端引擎加 Metal 渲染的工程量、HPKE/X25519 密封通知与 APNs 通知扩展的完整安全链路，以及 iOS 原生开发与 Secure Enclave 经验。",
+        "suggested_channel": "",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate: deep integration with herdr's internal API and agent states, the Ghostty terminal engine with Metal rendering, the full HPKE/X25519 sealed-notification plus APNs extension security chain, and native iOS/Secure Enclave expertise.",
+        "suggested_channel_en": "",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "It sells a one-time-purchase iPhone/iPad SSH terminal that keeps developers in control of desktop AI coding agents even when away from their computer.",
+      "one_line_insight_zh": "把桌面端 AI 编程代理的状态与终端控制搬到 iPhone/iPad 上，用一次性买断收费，解决开发者离开电脑就失联的痛点。",
+      "acquisition_operations": {
+        "seo_strategy": "站点有功能、安全、对比、文档、定价等页面结构，但抓取内容未显示具体的关键词或内容营销打法。",
+        "content_format": [],
+        "conversion_path": "访问官网了解功能 → 下载 App → 14 天免费试用 → 试用结束前一次性付费 $99（发布价）解锁。",
+        "primary_channel": "",
+        "seo_strategy_en": "The site has feature, security, compare, docs and pricing pages, but the crawl shows no specific keyword or content-marketing play.",
+        "social_strategy": "",
+        "operation_tactics": [
+          "用发布价 $99（原价 $129）制造限时优惠感",
+          "强调“来自 iOS 模拟器的真实截图，不是 mockup”以建立可信度",
+          "用 14 天免费试用降低首次尝试门槛"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visit the site to learn the features, download the app, use the 14-day free trial, then pay a one-time $99 launch price before the trial ends.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "14 天免费试用期结束后，需一次性付费 $99（发布价，原价 $129）才能继续使用。",
+        "operation_tactics_en": [
+          "Use a $99 launch price against a $129 regular price to create urgency",
+          "Emphasize 'the real thing, straight from the iOS simulator, not a mockup' to build credibility",
+          "Offer a 14-day free trial to lower the first-try barrier"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "After the 14-day free trial ends, a one-time payment of $99 (launch price, normally $129) is required to keep using the app.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "Medium"
+    },
+    {
       "id": "pristmax",
       "slug": "pristmax",
       "market": "Chinese",
@@ -17838,10 +18106,10 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 6000,
-        "observed_at": "2026-09-14T05:43:13.022Z",
+        "observed_at": "2026-10-26T05:43:11.728Z",
         "path_groups": [
           {
-            "count": 5753,
+            "count": 5749,
             "segment": "/founder"
           },
           {
@@ -17853,7 +18121,7 @@
             "segment": "/channels"
           },
           {
-            "count": 37,
+            "count": 38,
             "segment": "/newsletter"
           },
           {
@@ -17904,7 +18172,7 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
             "keyword": "trustmrr alternative",
             "sources": [
               "google",
@@ -17915,51 +18183,11 @@
             "new_concepts": [
               "alternative"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
             "score": 18,
-            "keyword": "trustmrr api",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 18,
-            "keyword": "trustmrr pricing",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pricing"
-            ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "trustmrr openclaw",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "openclaw"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
             "keyword": "trustmrr com",
             "sources": [
               "bing",
@@ -17969,51 +18197,106 @@
             "new_concepts": [
               "com"
             ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "trustmrr api",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "api"
+            ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
-            "score": 14,
+            "score": 17,
+            "keyword": "trustmrr pricing",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "pricing"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "trustmrr com acquire",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "com",
+              "acquire"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "trustmrr replymer",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "replymer"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
             "keyword": "trustmrr mcp",
             "sources": [
               "google"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
               "mcp"
             ],
-            "best_position": 6,
+            "best_position": 5,
             "independent_sources": 1
           },
           {
             "score": 13,
-            "keyword": "trustmrr/acquire",
+            "keyword": "trustmrr founder",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "acquire"
+              "founder"
             ],
             "best_position": 7,
             "independent_sources": 1
           },
           {
             "score": 11,
-            "keyword": "trustmrr com acquire",
+            "keyword": "trustmrr api key",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "com",
-              "acquire"
+              "api",
+              "key"
             ],
             "best_position": 9,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:12.826Z"
+        "observed_at": "2026-10-26T05:43:11.399Z"
       },
       "last_checked_at": "2026-07-07T12:00:00.000Z",
       "market_analysis": {
@@ -18627,13 +18910,17 @@
       "evidence_level": "Unknown",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 58,
-        "total_urls": 106,
-        "observed_at": "2026-09-14T05:43:12.887Z",
+        "blog_count": 60,
+        "total_urls": 114,
+        "observed_at": "2026-10-26T05:43:12.188Z",
         "path_groups": [
           {
-            "count": 59,
+            "count": 61,
             "segment": "/blog"
+          },
+          {
+            "count": 15,
+            "segment": "/guides"
           },
           {
             "count": 14,
@@ -18642,10 +18929,6 @@
           {
             "count": 13,
             "segment": "/product"
-          },
-          {
-            "count": 10,
-            "segment": "/guides"
           },
           {
             "count": 1,
@@ -18718,34 +19001,6 @@
           },
           {
             "score": 28,
-            "keyword": "umami flavor",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "flavor"
-            ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "umami seasoning",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "seasoning"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
             "keyword": "umami sushi",
             "sources": [
               "google",
@@ -18756,35 +19011,66 @@
             "new_concepts": [
               "sushi"
             ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "umami flavor",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "flavor"
+            ],
             "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "umami taste",
+            "score": 26,
+            "keyword": "umami seasoning",
             "sources": [
               "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
-              "taste"
+              "seasoning"
             ],
-            "best_position": 6,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 23,
-            "keyword": "umami foods",
+            "score": 25,
+            "keyword": "umami rice",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "rice"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 22,
+            "keyword": "umami tavern",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "foods"
+              "tavern"
             ],
-            "best_position": 7,
+            "best_position": 8,
             "independent_sources": 2
           },
           {
@@ -18801,20 +19087,6 @@
             "independent_sources": 1
           },
           {
-            "score": 19,
-            "keyword": "umami tavern",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "tavern"
-            ],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
             "score": 17,
             "keyword": "umami grove",
             "sources": [
@@ -18826,9 +19098,23 @@
             ],
             "best_position": 3,
             "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "umami rich snack",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "rich",
+              "snack"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:12.836Z"
+        "observed_at": "2026-10-26T05:43:12.101Z"
       },
       "last_checked_at": "2026-09-27T02:46:32.154Z",
       "market_analysis": {
@@ -19089,6 +19375,395 @@
         "founder_brand_dependency": false
       },
       "replication_difficulty": "Medium"
+    },
+    {
+      "id": "voicestudio",
+      "slug": "voicestudio",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "src-cand_github_1206390571-1",
+          "url": "https://voicestudio.sh/",
+          "notes": "Direct real-time crawl of https://voicestudio.sh/ used for structured commercial extraction.",
+          "title": "VoiceStudio Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-19",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_github_1206390571-2",
+          "url": "https://voicestudio.sh/llms.txt",
+          "notes": "Direct real-time crawl of https://voicestudio.sh/llms.txt used for structured commercial extraction.",
+          "title": "VoiceStudio Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-19",
+          "evidence_level": "C"
+        },
+        {
+          "id": "src-cand_github_1206390571-3",
+          "url": "https://voicestudio.sh/faq",
+          "notes": "Direct real-time crawl of https://voicestudio.sh/faq used for structured commercial extraction.",
+          "title": "VoiceStudio Official Landing Page",
+          "source_type": "official",
+          "collected_at": "2026-10-19",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "SaaS",
+      "logo_url": "",
+      "team_size": 0,
+      "created_at": "2026-10-19T08:02:20.328Z",
+      "summary_en": "VoiceStudio (formerly OmniVoice Studio) is a local-first, open-source desktop voice studio for voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation across 646 languages, running on Windows, macOS, Linux and Docker. The AGPL-3.0 open-source edition is free with no account and keeps audio and voiceprints on the user's machine. Monetization comes from a closed-source Pro build at $99 per user/year or $299 one-time, adding a commercial license, 3 devices, remote devices and early access, plus a hosted Cloud service still in waitlist early access.",
+      "summary_zh": "VoiceStudio（原名 OmniVoice Studio）是一款本地优先的开源桌面语音工作室，支持语音克隆、语音设计、视频配音、听写、转写与有声书制作，覆盖 646 种语言，可在 Windows、macOS、Linux 和 Docker 上运行。开源版基于 AGPL-3.0 免费且无需账号，音频与声纹默认留在本机。变现来自闭源 Pro 构建：每用户每年 99 美元或一次性 299 美元，含商业授权、3 台设备、远程设备与抢先体验；另有处于早期等待名单的托管云服务。",
+      "updated_at": "2026-10-20T06:53:30.197Z",
+      "launch_year": 0,
+      "website_url": "https://voicestudio.sh/",
+      "founder_name": "",
+      "founder_type": "solo",
+      "product_name": "VoiceStudio",
+      "product_type": "SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费开源版基于 AGPL-3.0，可用于个人用途；付费墙卡在商业授权与专业工作流上：闭源 Pro 构建提供商业使用许可、每席位 3 台设备、远程设备、抢先体验及后续新功能。",
+        "revenue_type": "unknown",
+        "pricing_tiers": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "features": [
+              "AGPL-3.0 license",
+              "No account required",
+              "Fully local processing",
+              "646 languages"
+            ],
+            "interval": "one-time"
+          },
+          {
+            "name": "Pro",
+            "price": "$99",
+            "features": [
+              "1 user seat",
+              "3 devices",
+              "Commercial License",
+              "Remote devices",
+              "Early access",
+              "7-day refund"
+            ],
+            "interval": "year"
+          },
+          {
+            "name": "Lifetime",
+            "price": "$299",
+            "features": [
+              "1 user seat",
+              "3 devices",
+              "Commercial License",
+              "Remote devices",
+              "Early access",
+              "7-day refund"
+            ],
+            "interval": "one-time"
+          }
+        ],
+        "revenue_range": "unknown",
+        "renewal_reason": "",
+        "revenue_amount": 0,
+        "paid_trigger_en": "The free open-source edition is AGPL-3.0 for personal use; the paywall sits on commercial licensing and pro workflows: the closed-source Pro build grants a Commercial License, 3 devices per seat, remote devices, early access and upcoming features.",
+        "renewal_reason_en": "",
+        "monetization_model": [
+          "Open source + paid cloud",
+          "One-time",
+          "Subscription"
+        ],
+        "gross_margin_estimate": ""
+      },
+      "evidence_level": "C",
+      "search_profile": {
+        "llms_txt": true,
+        "blog_count": 1,
+        "total_urls": 103,
+        "observed_at": "2026-10-26T05:43:12.033Z",
+        "path_groups": [
+          {
+            "count": 50,
+            "segment": "/docs"
+          },
+          {
+            "count": 28,
+            "segment": "/library"
+          },
+          {
+            "count": 8,
+            "segment": "/workflows"
+          },
+          {
+            "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/download"
+          },
+          {
+            "count": 1,
+            "segment": "/omnivoice-studio"
+          }
+        ],
+        "sitemap_found": true,
+        "template_count": 0,
+        "comparison_pages": [],
+        "integration_count": 0
+      },
+      "display_locales": {
+        "en": {
+          "acquisition_operations.primary_channel": "Open Source",
+          "revenue_model.pricing_tiers.0.features.0": "AGPL-3.0 license",
+          "revenue_model.pricing_tiers.0.features.1": "No account required",
+          "revenue_model.pricing_tiers.0.features.2": "Fully local processing",
+          "revenue_model.pricing_tiers.0.features.3": "646 languages",
+          "revenue_model.pricing_tiers.1.features.0": "1 user seat",
+          "revenue_model.pricing_tiers.1.features.1": "3 devices",
+          "revenue_model.pricing_tiers.1.features.2": "Commercial License",
+          "revenue_model.pricing_tiers.1.features.3": "Remote devices",
+          "revenue_model.pricing_tiers.1.features.4": "Early access",
+          "revenue_model.pricing_tiers.1.features.5": "7-day refund",
+          "revenue_model.pricing_tiers.2.features.0": "1 user seat",
+          "revenue_model.pricing_tiers.2.features.1": "3 devices",
+          "revenue_model.pricing_tiers.2.features.2": "Commercial License",
+          "revenue_model.pricing_tiers.2.features.3": "Remote devices",
+          "revenue_model.pricing_tiers.2.features.4": "Early access",
+          "revenue_model.pricing_tiers.2.features.5": "7-day refund",
+          "sources.src-cand_github_1206390571-1.title": "VoiceStudio Official Landing Page",
+          "sources.src-cand_github_1206390571-2.title": "VoiceStudio Official Landing Page",
+          "sources.src-cand_github_1206390571-3.title": "VoiceStudio Official Landing Page"
+        },
+        "zh": {
+          "acquisition_operations.primary_channel": "开源",
+          "revenue_model.pricing_tiers.0.features.0": "AGPL-3.0 许可",
+          "revenue_model.pricing_tiers.0.features.1": "无需账号",
+          "revenue_model.pricing_tiers.0.features.2": "完全本地处理",
+          "revenue_model.pricing_tiers.0.features.3": "646 种语言",
+          "revenue_model.pricing_tiers.1.features.0": "1 个用户席位",
+          "revenue_model.pricing_tiers.1.features.1": "3 台设备",
+          "revenue_model.pricing_tiers.1.features.2": "商业授权",
+          "revenue_model.pricing_tiers.1.features.3": "远程设备",
+          "revenue_model.pricing_tiers.1.features.4": "抢先体验",
+          "revenue_model.pricing_tiers.1.features.5": "7 天退款",
+          "revenue_model.pricing_tiers.2.features.0": "1 个用户席位",
+          "revenue_model.pricing_tiers.2.features.1": "3 台设备",
+          "revenue_model.pricing_tiers.2.features.2": "商业授权",
+          "revenue_model.pricing_tiers.2.features.3": "远程设备",
+          "revenue_model.pricing_tiers.2.features.4": "抢先体验",
+          "revenue_model.pricing_tiers.2.features.5": "7 天退款",
+          "sources.src-cand_github_1206390571-1.title": "VoiceStudio 官方来源页面",
+          "sources.src-cand_github_1206390571-2.title": "VoiceStudio 官方来源页面",
+          "sources.src-cand_github_1206390571-3.title": "VoiceStudio 官方来源页面"
+        }
+      },
+      "keyword_profile": {
+        "seed": "VoiceStudio",
+        "signals": [
+          {
+            "score": 29,
+            "keyword": "voicestudio github",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "github"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 17,
+            "keyword": "voicestudio emotions",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "emotions"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "voicestudio git",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "git"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "voicestudio open source",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "open",
+              "source"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 12,
+            "keyword": "voicestudio debpalash",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "debpalash"
+            ],
+            "best_position": 8,
+            "independent_sources": 1
+          },
+          {
+            "score": 11,
+            "keyword": "voicestudio tts",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "tts"
+            ],
+            "best_position": 9,
+            "independent_sources": 1
+          }
+        ],
+        "observed_at": "2026-10-26T05:43:11.417Z"
+      },
+      "last_checked_at": "2026-10-20T06:53:30.197Z",
+      "market_analysis": {
+        "market_risk": "云端语音 AI 厂商持续降价并强化合规与易用性，可能压缩本地方案的吸引力；同时开源替代品众多，用户对“免费本地”价格锚定很强。",
+        "alternatives": [
+          "ElevenLabs"
+        ],
+        "buyer_intent": "",
+        "market_stage": "Early",
+        "timing_reason": "",
+        "demand_signals": [],
+        "market_risk_en": "Cloud voice AI vendors keep cutting prices and improving compliance and ease of use, which can erode the appeal of local setups; many open-source alternatives also anchor users to a free-local price expectation.",
+        "buyer_intent_en": "",
+        "differentiation": "与 ElevenLabs 等云端服务相比，VoiceStudio 在用户本机运行、音频不出本地、无需 API Key、无按字符计费，且开源版免费；同时覆盖 646 种语言，远多于 ElevenLabs 付费版的 74 种。",
+        "market_category": "SaaS",
+        "timing_reason_en": "",
+        "competitor_density": "High",
+        "differentiation_en": "Versus cloud services like ElevenLabs, VoiceStudio runs on the user's machine, keeps audio local, needs no API key and has no per-character billing, with a free open-source edition; it also covers 646 languages versus 74 on ElevenLabs' paid plans.",
+        "localization_opportunity": "",
+        "localization_opportunity_en": ""
+      },
+      "product_breakdown": {
+        "core_job": "让用户在自己的电脑上完成语音克隆、配音、转写与有声书制作，无需上传音频到云端、无需 API Key、无需按字符付费。",
+        "data_moat": "开源社区贡献、模型库与 646 种语言覆盖构成的工程积累，以及 GitHub 星标与下载量带来的信任资产。",
+        "aha_moment": "用户上传三段秒级音频，几秒后听到克隆出的声音用自己指定的语言说话，且全程离线、音频没有离开本机。",
+        "onboarding": "从官网下载对应平台安装包（Windows、macOS、Linux 或 Docker），本地安装后无需账号即可打开 Launchpad，选择语音克隆、语音设计或配音工作流开始使用。",
+        "core_job_en": "Let users clone voices, dub videos, transcribe audio and produce audiobooks entirely on their own machine, with no cloud upload, no API key and no per-character billing.",
+        "data_moat_en": "Engineering accumulation from the open-source community, the model library and 646-language coverage, plus the trust asset of GitHub stars and download counts.",
+        "product_risk": "本地模型推理对硬件要求高、安装与模型下载体验复杂；同时开源核心可被直接 fork，闭源 Pro 的差异化必须持续靠新功能维持。",
+        "aha_moment_en": "The user drops in a few seconds of audio and moments later hears the cloned voice speaking in a chosen language, all offline with the audio never leaving the machine.",
+        "onboarding_en": "Download the installer for Windows, macOS, Linux or Docker from the site, install locally, then open the Launchpad with no account needed and pick a voice clone, voice design or dubbing workflow.",
+        "paid_features": [
+          "商业使用授权",
+          "每席位 3 台设备",
+          "远程设备",
+          "抢先体验新功能"
+        ],
+        "product_risk_en": "Local inference is hardware-hungry and install/model-download UX is complex; the open-source core can be forked directly, so the closed Pro build must keep differentiating through new features.",
+        "usage_frequency": "weekly",
+        "workflow_lockin": "本地项目、语音档案与模型库沉淀在用户机器上，配合本地 API 与 MCP 接入 Cursor、Claude Code 等工具，切换成本随项目与集成深度上升。",
+        "paid_features_en": [
+          "Commercial License",
+          "3 devices per seat",
+          "Remote devices",
+          "Early access to upcoming features"
+        ],
+        "must_have_features": [
+          "3 秒音频的本地语音克隆",
+          "文本描述生成语音的语音设计",
+          "多语言视频配音并保持时间轴",
+          "音频转写为可搜索文本"
+        ],
+        "workflow_lockin_en": "Local projects, voice profiles and the model library accumulate on the user's machine, and the local API plus MCP integration into tools like Cursor and Claude Code raise switching costs as projects and integrations deepen.",
+        "must_have_features_en": [
+          "Local voice cloning from a 3-second sample",
+          "Voice design from a text description",
+          "Multilingual video dubbing with preserved timing",
+          "Audio-to-searchable-text transcription"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "适合有本地 AI 模型工程能力、愿意长期维护开源社区并靠专业版变现的独立开发者或小团队。",
+        "best_for_en": "Suited to indie developers or small teams with local AI model engineering skills who will maintain an open-source community long-term and monetize through a pro edition.",
+        "mvp_version": "两周到四周可做的最小版本：一个本地桌面应用，支持上传 3 秒音频完成语音克隆、文本转语音和音频转写，内置少量开源模型，导出 WAV/TXT，附一份 AGPL 开源仓库与安装包。",
+        "pattern_name": "开源核心 + 闭源商业授权",
+        "risk_warning": "",
+        "what_to_copy": "用开源核心建立信任与分发，把付费点放在商业授权、多设备与团队协作等专业需求上；用 llms.txt、Markdown 文档和 OpenAPI 规范让 AI 工具与开发者能直接读取产品信息，形成低成本的分发与集成入口。",
+        "why_it_works": "开源版解决了隐私与成本顾虑并带来病毒式传播，而商业用户真正愿意付费的是授权合规、多设备与团队协作，付费点与免费用户的核心诉求不冲突。",
+        "mvp_version_en": "A 2–4 week MVP: a local desktop app that clones a voice from a 3-second sample, does text-to-speech and audio transcription with a couple of open models, exports WAV/TXT, shipped with an AGPL repo and installers.",
+        "pattern_name_en": "Open-source core with paid commercial license",
+        "risk_warning_en": "",
+        "what_to_copy_en": "Build trust and distribution with an open-source core, then place the paywall on professional needs like commercial licensing, multi-device use and team workflows; publish llms.txt, Markdown docs and OpenAPI specs so AI tools and developers can ingest the product directly, creating low-cost distribution and integration entry points.",
+        "why_it_works_en": "The open-source edition removes privacy and cost objections and drives viral spread, while paying customers actually buy licensing compliance, multi-device use and team workflows, so the paywall does not conflict with what free users want.",
+        "what_not_to_copy": "难以复制的是 646 种语言与 14 个语音引擎的本地模型工程积累、跨平台（含 Docker）打包能力、GitHub 5 万星与约 59.6 万次下载形成的社区势能，以及被 MarkTechPost、KDnuggets 等媒体报道带来的品牌背书。",
+        "suggested_channel": "开源社区",
+        "suggested_pricing": "",
+        "what_not_to_copy_en": "Hard to replicate: the local model engineering behind 646 languages and 14 speech engines, cross-platform packaging including Docker, the community momentum of ~50,000 GitHub stars and ~596,000 downloads, and press validation from outlets like MarkTechPost and KDnuggets.",
+        "suggested_channel_en": "Open Source",
+        "suggested_pricing_en": ""
+      },
+      "one_line_insight_en": "It gives away a fully local, open-source voice cloning desktop app to build massive adoption and word-of-mouth, then monetizes professionals who need a commercial license, more devices and remote access via a per-seat closed-source Pro build.",
+      "one_line_insight_zh": "以免费开源的本地语音克隆桌面应用获取海量用户与口碑，再向需要商业授权、多设备和远程协作的专业用户销售按席位付费的闭源 Pro 版本。",
+      "acquisition_operations": {
+        "seo_strategy": "站点提供 llms.txt 与 llms-full.txt、全部文档的 Markdown 版本、OpenAPI 规范、模型库页面，以及与 ElevenLabs 逐行对比的对比页，面向 AI 工具与搜索流量做结构化内容分发。",
+        "content_format": [],
+        "conversion_path": "访客免费下载开源版并本地使用，当需要商业授权、多设备或远程设备时，再前往 Pro 页面按席位购买年付或一次性授权。",
+        "primary_channel": "Open Source",
+        "seo_strategy_en": "The site publishes llms.txt and llms-full.txt, Markdown versions of every docs page, OpenAPI specs, a model library page and a row-by-row comparison page against ElevenLabs, structuring content for AI tools and search traffic.",
+        "social_strategy": "依靠开源社区与社交媒体口碑扩散，页面大量引用 YouTube、X、Instagram、LinkedIn 创作者与 MarkTechPost、KDnuggets 等媒体的评测与推荐。",
+        "operation_tactics": [
+          "用 llms.txt、Markdown 文档与 OpenAPI 规范让 AI 工具和开发者直接读取产品信息",
+          "制作与 ElevenLabs 的逐行对比页，每行标注来源以建立可信度",
+          "在首页集中展示创作者与媒体评价，强化开源替代品定位"
+        ],
+        "affiliate_strategy": "",
+        "community_strategy": "",
+        "conversion_path_en": "Visitors download the free open-source edition and use it locally; when they need a commercial license, more devices or remote devices, they go to the Pro page and buy a per-seat annual or one-time license.",
+        "publishing_cadence": "",
+        "secondary_channels": [],
+        "social_strategy_en": "Growth rides on open-source community and social word-of-mouth, with the page showcasing reviews and endorsements from YouTube, X, Instagram and LinkedIn creators plus outlets like MarkTechPost and KDnuggets.",
+        "retention_mechanism": "",
+        "first_traffic_source": "",
+        "free_to_paid_trigger": "免费开源版基于 AGPL-3.0，可用于个人用途；付费墙卡在商业授权与专业工作流上：闭源 Pro 构建提供商业使用许可、每席位 3 台设备、远程设备、抢先体验及后续新功能。",
+        "operation_tactics_en": [
+          "Publish llms.txt, Markdown docs and OpenAPI specs so AI tools and developers can ingest the product directly",
+          "Build a row-by-row comparison page against ElevenLabs with a cited source per row to build credibility",
+          "Showcase creator and press testimonials on the homepage to reinforce the open-source alternative positioning"
+        ],
+        "affiliate_strategy_en": "",
+        "community_strategy_en": "",
+        "retention_mechanism_en": "",
+        "first_traffic_source_en": "",
+        "free_to_paid_trigger_en": "The free open-source edition is AGPL-3.0 for personal use; the paywall sits on commercial licensing and pro workflows: the closed-source Pro build grants a Commercial License, 3 devices per seat, remote devices, early access and upcoming features.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "High"
     },
     {
       "id": "hoppscotch",
@@ -19489,7 +20164,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 30,
-        "observed_at": "2026-09-14T05:43:13.063Z",
+        "observed_at": "2026-10-26T05:43:12.420Z",
         "path_groups": [
           {
             "count": 10,
@@ -19574,7 +20249,7 @@
           },
           {
             "score": 25,
-            "keyword": "localsend android",
+            "keyword": "localsend mac",
             "sources": [
               "google",
               "bing"
@@ -19585,15 +20260,18 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "localsend mac",
+            "score": 23,
+            "keyword": "localsend github",
             "sources": [
               "google",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 6,
+            "new_concepts": [
+              "github"
+            ],
+            "best_position": 7,
             "independent_sources": 2
           },
           {
@@ -19636,18 +20314,21 @@
             "independent_sources": 1
           },
           {
-            "score": 14,
-            "keyword": "localsend iphone to pc",
+            "score": 15,
+            "keyword": "localsend windows 11",
             "sources": [
-              "youtube"
+              "bing",
+              "duckduckgo"
             ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 6,
+            "unexpected": true,
+            "new_concepts": [
+              "11"
+            ],
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:12.836Z"
+        "observed_at": "2026-10-26T05:43:12.094Z"
       },
       "market_analysis": {
         "market_risk": "面临来自平台内置功能（如 AirDrop）和商业工具的竞争，且缺乏付费功能可能限制收入。",
@@ -19877,34 +20558,46 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 43,
-        "total_urls": 78,
-        "observed_at": "2026-09-14T05:43:13.643Z",
+        "blog_count": 319,
+        "total_urls": 781,
+        "observed_at": "2026-10-26T05:43:13.388Z",
         "path_groups": [
           {
-            "count": 43,
-            "segment": "/blog"
+            "count": 71,
+            "segment": "/de"
           },
           {
-            "count": 23,
-            "segment": "/agents"
+            "count": 71,
+            "segment": "/es"
           },
           {
-            "count": 12,
-            "segment": "/alternatives"
+            "count": 71,
+            "segment": "/fr"
+          },
+          {
+            "count": 71,
+            "segment": "/it"
+          },
+          {
+            "count": 71,
+            "segment": "/ja"
+          },
+          {
+            "count": 71,
+            "segment": "/ko"
           }
         ],
         "sitemap_found": true,
         "template_count": 0,
         "comparison_pages": [
+          "https://open-design.ai/alternatives/base44/",
           "https://open-design.ai/alternatives/bolt/",
+          "https://open-design.ai/alternatives/canva/",
           "https://open-design.ai/alternatives/claude-design/",
+          "https://open-design.ai/alternatives/cursor/",
           "https://open-design.ai/alternatives/figma-make/",
           "https://open-design.ai/alternatives/figma/",
-          "https://open-design.ai/alternatives/framer/",
-          "https://open-design.ai/alternatives/genspark/",
-          "https://open-design.ai/alternatives/lovable/",
-          "https://open-design.ai/alternatives/pencil-dev/"
+          "https://open-design.ai/alternatives/framer/"
         ],
         "integration_count": 0
       },
@@ -19953,6 +20646,34 @@
         "seed": "open-design",
         "signals": [
           {
+            "score": 27,
+            "keyword": "open-design skill",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "skill"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "open-design docker",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "docker"
+            ],
+            "best_position": 7,
+            "independent_sources": 2
+          },
+          {
             "score": 19,
             "keyword": "open-design github",
             "sources": [
@@ -19979,55 +20700,40 @@
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "open-design skill",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "skill"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
             "score": 16,
-            "keyword": "open-design claude",
+            "keyword": "open-design repo",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "claude"
+              "repo"
             ],
             "best_position": 4,
             "independent_sources": 1
           },
           {
-            "score": 14,
-            "keyword": "open-design appimage",
+            "score": 15,
+            "keyword": "open-design linux",
             "sources": [
               "google"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "appimage"
-            ],
-            "best_position": 6,
+            "new_concepts": [],
+            "best_position": 5,
             "independent_sources": 1
           },
           {
-            "score": 13,
-            "keyword": "open-design repo",
+            "score": 14,
+            "keyword": "open-design mcp",
             "sources": [
               "google"
             ],
             "unexpected": false,
             "new_concepts": [
-              "repo"
+              "mcp"
             ],
-            "best_position": 7,
+            "best_position": 6,
             "independent_sources": 1
           },
           {
@@ -20047,32 +20753,19 @@
           },
           {
             "score": 12,
-            "keyword": "open-design docker",
+            "keyword": "open-design dsh",
             "sources": [
-              "google"
+              "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "docker"
+              "dsh"
             ],
             "best_position": 8,
             "independent_sources": 1
           },
           {
             "score": 11,
-            "keyword": "open-design mcp",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "mcp"
-            ],
-            "best_position": 9,
-            "independent_sources": 1
-          },
-          {
-            "score": 10,
             "keyword": "open-design-main",
             "sources": [
               "bing"
@@ -20081,11 +20774,11 @@
             "new_concepts": [
               "main"
             ],
-            "best_position": 10,
+            "best_position": 9,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:13.124Z"
+        "observed_at": "2026-10-26T05:43:13.103Z"
       },
       "market_analysis": {
         "market_risk": "面临来自 Claude Design、Figma、Lovable、Bolt、v0、Framer 等成熟产品的竞争，以及用户对本地安装和 BYOK 的接受度。",
@@ -20279,7 +20972,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 6000,
-        "observed_at": "2026-09-14T05:43:17.484Z",
+        "observed_at": "2026-10-26T05:43:16.834Z",
         "path_groups": [
           {
             "count": 170,
@@ -20333,22 +21026,6 @@
         "seed": "remove.bg",
         "signals": [
           {
-            "score": 37,
-            "keyword": "remove.bg api",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 3,
-            "independent_sources": 3
-          },
-          {
             "score": 29,
             "keyword": "remove.bg free",
             "sources": [
@@ -20359,20 +21036,6 @@
             "unexpected": false,
             "new_concepts": [],
             "best_position": 1,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
-            "keyword": "remove.bg video",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "video"
-            ],
-            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -20392,6 +21055,35 @@
           },
           {
             "score": 27,
+            "keyword": "remove.bg video",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "video"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "remove.bg api",
+            "sources": [
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "remove.bg app",
             "sources": [
               "google",
@@ -20399,8 +21091,21 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
+          },
+          {
+            "score": 18,
+            "keyword": "remove.bg/upload",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "upload"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
           },
           {
             "score": 18,
@@ -20429,28 +21134,15 @@
           },
           {
             "score": 16,
-            "keyword": "remove.bg/upload",
+            "keyword": "remove.bg alternative",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "upload"
+              "alternative"
             ],
             "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "remove.bg.com",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "com"
-            ],
-            "best_position": 5,
             "independent_sources": 1
           },
           {
@@ -20468,7 +21160,7 @@
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-14T05:43:13.125Z"
+        "observed_at": "2026-10-26T05:43:13.099Z"
       },
       "last_checked_at": "2026-10-19",
       "market_analysis": {
@@ -20715,7 +21407,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-21T05:43:12.623Z",
+        "observed_at": "2026-10-26T05:43:17.452Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -20756,33 +21448,19 @@
         "seed": "rustdesk",
         "signals": [
           {
-            "score": 39,
-            "keyword": "rustdesk remote desktop",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "remote"
-            ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 34,
+            "score": 35,
             "keyword": "rustdesk server",
             "sources": [
               "google",
               "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
               "server"
             ],
-            "best_position": 6,
+            "best_position": 5,
             "independent_sources": 3
           },
           {
@@ -20798,7 +21476,7 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 27,
             "keyword": "rustdesk github",
             "sources": [
               "google",
@@ -20809,7 +21487,7 @@
             "new_concepts": [
               "github"
             ],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 2
           },
           {
@@ -20828,7 +21506,34 @@
             "independent_sources": 2
           },
           {
-            "score": 18,
+            "score": 26,
+            "keyword": "rustdesk self hosted",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "self",
+              "hosted"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 23,
+            "keyword": "rustdesk mac",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 7,
+            "independent_sources": 2
+          },
+          {
+            "score": 19,
             "keyword": "rustdesk server setup",
             "sources": [
               "youtube"
@@ -20836,6 +21541,19 @@
             "unexpected": true,
             "new_concepts": [
               "server",
+              "setup"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "rustdesk setup",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
               "setup"
             ],
             "best_position": 2,
@@ -20855,46 +21573,19 @@
           },
           {
             "score": 17,
-            "keyword": "rustdesk setup",
+            "keyword": "rustdesk remote desktop",
             "sources": [
-              "youtube"
+              "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "setup"
+              "remote"
             ],
             "best_position": 3,
             "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "rustdesk tailscale",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "tailscale"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "rustdesk self hosted",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "self",
-              "hosted"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-21T05:43:12.118Z"
+        "observed_at": "2026-10-26T05:43:16.947Z"
       },
       "market_analysis": {
         "market_risk": "远程桌面市场竞争激烈，存在TeamViewer、AnyDesk等强大对手，以及免费开源替代品，需要持续创新和差异化。",
