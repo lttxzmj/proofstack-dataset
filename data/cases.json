@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:16:55.922Z",
+  "generated_at": "2026-11-09T09:35:27.370Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
   "count": 57,
@@ -49,13 +49,17 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 0,
-        "total_urls": 498,
-        "observed_at": "2026-09-28T05:43:14.273Z",
+        "blog_count": 257,
+        "total_urls": 755,
+        "observed_at": "2026-11-09T05:43:12.855Z",
         "path_groups": [
           {
-            "count": 476,
+            "count": 481,
             "segment": "/hire"
+          },
+          {
+            "count": 258,
+            "segment": "/community"
           },
           {
             "count": 4,
@@ -64,10 +68,6 @@
           {
             "count": 3,
             "segment": "/services"
-          },
-          {
-            "count": 2,
-            "segment": "/blog"
           },
           {
             "count": 1,
@@ -81,9 +81,12 @@
         "sitemap_found": true,
         "template_count": 0,
         "comparison_pages": [
-          "https://aiomniu.top/alternatives"
+          "https://aiomniu.top/alternatives",
+          "https://aiomniu.top/community/blog/upwork-vs-fiverr-vs-freelancer-which-is-best-for-tech-31",
+          "https://aiomniu.top/community/blog/web-development-vs-mini-programs-which-is-right-for-your-23",
+          "https://aiomniu.top/community/blog/in-house-vs-freelance-vs-agency-true-cost-comparison-for-37"
         ],
-        "integration_count": 0
+        "integration_count": 4
       },
       "display_locales": {
         "en": {},
@@ -94,7 +97,7 @@
       "keyword_profile": {
         "seed": "AI Resume Optimization Tool for Specific Job Positions",
         "signals": [],
-        "observed_at": "2026-09-28T05:43:14.273Z"
+        "observed_at": "2026-11-09T05:43:12.856Z"
       },
       "market_analysis": {
         "market_risk": "市场竞争激烈，用户可能转向免费或更便宜的替代品。",
@@ -704,16 +707,16 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 99,
-        "total_urls": 181,
-        "observed_at": "2026-10-05T05:43:14.275Z",
+        "blog_count": 122,
+        "total_urls": 208,
+        "observed_at": "2026-11-09T05:43:15.645Z",
         "path_groups": [
           {
-            "count": 100,
+            "count": 123,
             "segment": "/blog"
           },
           {
-            "count": 62,
+            "count": 68,
             "segment": "/templates"
           },
           {
@@ -722,28 +725,28 @@
           },
           {
             "count": 1,
+            "segment": "/"
+          },
+          {
+            "count": 1,
             "segment": "/about"
           },
           {
             "count": 1,
             "segment": "/appflowy-blocks"
-          },
-          {
-            "count": 1,
-            "segment": "/contact"
           }
         ],
         "sitemap_found": true,
-        "template_count": 65,
+        "template_count": 72,
         "comparison_pages": [
-          "https://appflowy.com/compare/appflowy-vs-affine",
-          "https://appflowy.com/compare/appflowy-vs-confluence",
-          "https://appflowy.com/compare/appflowy-vs-docmost",
-          "https://appflowy.com/compare/appflowy-vs-outline",
-          "https://appflowy.com/compare/notion-vs-appflowy",
-          "https://appflowy.com/blog/Proprietary-vs-Open-Source-Which-Is-More-Secure-for-Teams",
-          "https://appflowy.com/blog/What-Are-The-Best-AI-powered-OneNote-Alternatives-in-2025",
-          "https://appflowy.com/blog/appflowy-vs-affine-enterprise-teams"
+          "https://appflowy.com/blog/alternatives",
+          "https://appflowy.com/blog/appflowy-vs-affine-enterprise-teams",
+          "https://appflowy.com/blog/appflowy-vs-confluence",
+          "https://appflowy.com/blog/appflowy-vs-outline",
+          "https://appflowy.com/blog/best-clickup-alternatives",
+          "https://appflowy.com/blog/best-self-hosted-clickup-alternatives",
+          "https://appflowy.com/blog/best-self-hosted-confluence-alternatives",
+          "https://appflowy.com/blog/best-self-hosted-notion-alternatives"
         ],
         "integration_count": 0
       },
@@ -778,52 +781,20 @@
         "seed": "AppFlowy",
         "signals": [
           {
-            "score": 39,
-            "keyword": "appflowy vs notion",
+            "score": 38,
+            "keyword": "appflowy self hosted",
             "sources": [
               "google",
               "youtube",
               "bing",
               "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "vs",
-              "notion"
-            ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 37,
-            "keyword": "appflowy self hosted",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
               "self",
               "hosted"
             ],
-            "best_position": 3,
-            "independent_sources": 3
-          },
-          {
-            "score": 37,
-            "keyword": "appflowy docker",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "docker"
-            ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 3
           },
           {
@@ -842,6 +813,51 @@
             "independent_sources": 2
           },
           {
+            "score": 28,
+            "keyword": "appflowy vs notion",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "vs",
+              "notion"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "appflowy mcp",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "mcp"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 27,
+            "keyword": "appflowy docker",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "docker"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
             "score": 26,
             "keyword": "appflowy vs obsidian",
             "sources": [
@@ -857,7 +873,36 @@
             "independent_sources": 2
           },
           {
-            "score": 16,
+            "score": 26,
+            "keyword": "appflowy ai",
+            "sources": [
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai"
+            ],
+            "best_position": 4,
+            "independent_sources": 2
+          },
+          {
+            "score": 21,
+            "keyword": "appflowy templates",
+            "sources": [
+              "google",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "templates"
+            ],
+            "best_position": 9,
+            "independent_sources": 2
+          },
+          {
+            "score": 17,
             "keyword": "appflowy review",
             "sources": [
               "youtube"
@@ -866,65 +911,24 @@
             "new_concepts": [
               "review"
             ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "appflowy cloud",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "cloud"
-            ],
-            "best_position": 4,
+            "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 15,
-            "keyword": "appflowy mcp",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "mcp"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
-          },
-          {
-            "score": 14,
-            "keyword": "appflowy ai",
+            "keyword": "appflowy demo",
             "sources": [
               "youtube"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
-              "ai"
+              "demo"
             ],
-            "best_position": 6,
-            "independent_sources": 1
-          },
-          {
-            "score": 14,
-            "keyword": "appflowy alternative",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "alternative"
-            ],
-            "best_position": 6,
+            "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:12.639Z"
+        "observed_at": "2026-11-09T05:43:14.012Z"
       },
       "last_checked_at": "2026-09-06T12:26:56.756Z",
       "market_analysis": {
@@ -7309,15 +7313,15 @@
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
-        "total_urls": 175,
-        "observed_at": "2026-09-28T05:43:14.795Z",
+        "total_urls": 177,
+        "observed_at": "2026-11-09T05:43:13.304Z",
         "path_groups": [
           {
             "count": 109,
             "segment": "/integrations"
           },
           {
-            "count": 26,
+            "count": 28,
             "segment": "/experts"
           },
           {
@@ -7388,22 +7392,6 @@
         "signals": [
           {
             "score": 39,
-            "keyword": "ghost of yotei",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "yotei"
-            ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 38,
             "keyword": "ghostbusters",
             "sources": [
               "google",
@@ -7413,12 +7401,12 @@
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 3
           },
           {
             "score": 38,
-            "keyword": "ghost of tsushima",
+            "keyword": "ghost rider",
             "sources": [
               "google",
               "youtube",
@@ -7427,14 +7415,44 @@
             ],
             "unexpected": true,
             "new_concepts": [
-              "tsushima"
+              "rider"
             ],
             "best_position": 2,
             "independent_sources": 3
           },
           {
+            "score": 33,
+            "keyword": "ghost of yotei",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "yotei"
+            ],
+            "best_position": 7,
+            "independent_sources": 3
+          },
+          {
             "score": 30,
-            "keyword": "ghost rider",
+            "keyword": "ghost soldier",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "soldier"
+            ],
+            "best_position": 0,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "ghost energy drink",
             "sources": [
               "google",
               "bing",
@@ -7442,27 +7460,28 @@
             ],
             "unexpected": true,
             "new_concepts": [
-              "rider"
+              "energy",
+              "drink"
             ],
-            "best_position": 0,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 24,
             "keyword": "ghost in the shell",
             "sources": [
               "google",
               "bing"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "shell"
             ],
-            "best_position": 4,
+            "best_position": 6,
             "independent_sources": 2
           },
           {
-            "score": 24,
+            "score": 22,
             "keyword": "ghost whisperer",
             "sources": [
               "google",
@@ -7472,67 +7491,50 @@
             "new_concepts": [
               "whisperer"
             ],
-            "best_position": 6,
+            "best_position": 8,
             "independent_sources": 2
           },
           {
-            "score": 24,
-            "keyword": "ghost adventures",
+            "score": 19,
+            "keyword": "ghostface",
             "sources": [
-              "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "adventures"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 23,
-            "keyword": "ghost energy drink",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "energy",
-              "drink"
-            ],
-            "best_position": 7,
-            "independent_sources": 2
-          },
-          {
-            "score": 17,
-            "keyword": "ghost rider movies",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "rider",
-              "movies"
-            ],
-            "best_position": 3,
+            "new_concepts": [],
+            "best_position": 1,
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "ghost hunting",
+            "score": 18,
+            "keyword": "ghost soldier trailer",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "hunting"
+              "soldier",
+              "trailer"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "ghostbusters song",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "song"
             ],
             "best_position": 3,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.336Z"
+        "observed_at": "2026-11-09T05:43:12.919Z"
       },
       "last_checked_at": "2026-09-27T02:46:27.076Z",
       "market_analysis": {
@@ -7754,48 +7756,48 @@
       "evidence_level": "B",
       "search_profile": {
         "llms_txt": false,
-        "blog_count": 154,
-        "total_urls": 220,
-        "observed_at": "2026-09-28T05:43:14.530Z",
+        "blog_count": 161,
+        "total_urls": 288,
+        "observed_at": "2026-11-09T05:43:11.459Z",
         "path_groups": [
           {
-            "count": 110,
+            "count": 150,
+            "segment": "/blog"
+          },
+          {
+            "count": 75,
             "segment": "/fr"
           },
           {
-            "count": 78,
-            "segment": "/blog"
+            "count": 16,
+            "segment": "/integrations"
+          },
+          {
+            "count": 5,
+            "segment": "/case-studies"
+          },
+          {
+            "count": 3,
+            "segment": "/personas"
           },
           {
             "count": 1,
             "segment": "/"
-          },
-          {
-            "count": 1,
-            "segment": "/demo"
-          },
-          {
-            "count": 1,
-            "segment": "/affiliate-program-gojiberry"
-          },
-          {
-            "count": 1,
-            "segment": "/general-terms"
           }
         ],
         "sitemap_found": true,
-        "template_count": 2,
+        "template_count": 1,
         "comparison_pages": [
-          "https://gojiberry.ai/blog/best-unify-alternatives",
-          "https://gojiberry.ai/blog/trigify-alternatives",
-          "https://gojiberry.ai/blog/heyreach-alternatives",
-          "https://gojiberry.ai/blog/alternatives-11-x",
-          "https://gojiberry.ai/blog/alternative-to-zoominfo-2f9f2",
-          "https://gojiberry.ai/blog/instantly-alternatives",
-          "https://gojiberry.ai/blog/apollo-alternatives",
-          "https://gojiberry.ai/blog/alternatives-clay"
+          "https://gojiberry.ai/blog/communitytracker.ai-alternatives",
+          "https://gojiberry.ai/blog/b2b-rocket-alternatives",
+          "https://gojiberry.ai/blog/crono-alternatives",
+          "https://gojiberry.ai/blog/zeliq-alternatives",
+          "https://gojiberry.ai/blog/humanlinker-alternatives",
+          "https://gojiberry.ai/blog/jeeva-ai-alternatives",
+          "https://gojiberry.ai/blog/persana-ai-alternatives",
+          "https://gojiberry.ai/blog/enginy-alternatives"
         ],
-        "integration_count": 0
+        "integration_count": 32
       },
       "display_locales": {
         "zh": {
@@ -7840,7 +7842,7 @@
             "independent_sources": 2
           },
           {
-            "score": 28,
+            "score": 29,
             "keyword": "gojiberry ai pricing",
             "sources": [
               "google",
@@ -7851,23 +7853,11 @@
             "new_concepts": [
               "pricing"
             ],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 2
           },
           {
-            "score": 19,
-            "keyword": "gojiberry ai tools",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
+            "score": 18,
             "keyword": "gojiberry ai features",
             "sources": [
               "bing",
@@ -7877,7 +7867,7 @@
             "new_concepts": [
               "features"
             ],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 1
           },
           {
@@ -7894,7 +7884,19 @@
             "independent_sources": 1
           },
           {
-            "score": 14,
+            "score": 15,
+            "keyword": "gojiberry ai tools",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
             "keyword": "gojiberry ai yc",
             "sources": [
               "google"
@@ -7903,38 +7905,11 @@
             "new_concepts": [
               "yc"
             ],
-            "best_position": 6,
-            "independent_sources": 1
-          },
-          {
-            "score": 13,
-            "keyword": "gojiberry ai promo code",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "promo",
-              "code"
-            ],
             "best_position": 7,
             "independent_sources": 1
           },
           {
             "score": 12,
-            "keyword": "gojiberry ai careers",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "careers"
-            ],
-            "best_position": 8,
-            "independent_sources": 1
-          },
-          {
-            "score": 11,
             "keyword": "gojiberry ai founder",
             "sources": [
               "google"
@@ -7943,11 +7918,24 @@
             "new_concepts": [
               "founder"
             ],
+            "best_position": 8,
+            "independent_sources": 1
+          },
+          {
+            "score": 11,
+            "keyword": "gojiberry ai cost",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "cost"
+            ],
             "best_position": 9,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.335Z"
+        "observed_at": "2026-11-09T05:43:11.408Z"
       },
       "last_checked_at": "2026-10-19",
       "market_analysis": {
@@ -8182,7 +8170,7 @@
         "llms_txt": true,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-28T05:43:14.868Z",
+        "observed_at": "2026-11-09T05:43:12.939Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -8197,14 +8185,14 @@
           "market_analysis.demand_signals.0": "公开定价页面",
           "market_analysis.demand_signals.1": "明确的付费功能门槛",
           "market_analysis.demand_signals.2": "可观察的品类搜索需求",
+          "sources.gumroad-founder-2019.title": "Gumroad 创始人于 2019 年回顾：2016 年 6 月营收",
           "sources.src-research-gumroad-1.title": "Sahil Lavingia：反思未能打造十亿美元公司的经历（2019 年 2 月，创始人第一手叙述，含逐月财务数据）",
           "sources.src-research-gumroad-2.title": "Show HN：Gumroad（2011 年 4 月，396 分，创始人回复 26 条评论并在讨论中调整定价）",
           "revenue_model.pricing_tiers.0.interval": "每笔销售",
           "revenue_model.pricing_tiers.0.features.0": "数字产品",
           "revenue_model.pricing_tiers.0.features.1": "结账",
           "revenue_model.pricing_tiers.0.features.2": "联盟推广工具",
-          "revenue_model.pricing_tiers.0.features.3": "受众管理",
-          "sources.gumroad-founder-2019.title": "Gumroad 创始人于 2019 年回顾：2016 年 6 月营收"
+          "revenue_model.pricing_tiers.0.features.3": "受众管理"
         },
         "en": {
           "sources.gumroad-founder-2019.title": "Gumroad founder retrospective (2019): June 2016 revenue"
@@ -8257,7 +8245,7 @@
             "independent_sources": 2
           },
           {
-            "score": 21,
+            "score": 22,
             "keyword": "gumroad discount code",
             "sources": [
               "google",
@@ -8268,11 +8256,11 @@
               "discount",
               "code"
             ],
-            "best_position": 9,
+            "best_position": 8,
             "independent_sources": 2
           },
           {
-            "score": 18,
+            "score": 19,
             "keyword": "gumroad review",
             "sources": [
               "youtube"
@@ -8280,6 +8268,19 @@
             "unexpected": true,
             "new_concepts": [
               "review"
+            ],
+            "best_position": 1,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "gumroad for beginners",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "beginners"
             ],
             "best_position": 2,
             "independent_sources": 1
@@ -8326,34 +8327,20 @@
           },
           {
             "score": 16,
-            "keyword": "gumroad for beginners",
+            "keyword": "gumroad vs payhip",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "beginners"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "gumroad vrchat avatar",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "vrchat",
-              "avatar"
+              "vs",
+              "payhip"
             ],
             "best_position": 4,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.858Z"
+        "observed_at": "2026-11-09T05:43:12.920Z"
       },
       "last_checked_at": "2026-10-19",
       "market_analysis": {
@@ -9711,7 +9698,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-28T05:43:15.439Z",
+        "observed_at": "2026-11-09T05:43:13.943Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -9762,8 +9749,7 @@
             "keyword": "instapaper chrome extension",
             "sources": [
               "google",
-              "bing",
-              "duckduckgo"
+              "bing"
             ],
             "unexpected": true,
             "new_concepts": [
@@ -9771,6 +9757,20 @@
               "extension"
             ],
             "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "instapaper kindle",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "kindle"
+            ],
+            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -9789,47 +9789,17 @@
             "independent_sources": 2
           },
           {
-            "score": 27,
-            "keyword": "instapaper kindle",
-            "sources": [
-              "google",
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "kindle"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
+            "score": 16,
             "keyword": "instapaper review",
             "sources": [
-              "google",
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "review"
             ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
-            "keyword": "instapaper vs pocket",
-            "sources": [
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "vs",
-              "pocket"
-            ],
-            "best_position": 5,
-            "independent_sources": 2
+            "best_position": 4,
+            "independent_sources": 1
           },
           {
             "score": 16,
@@ -9847,35 +9817,47 @@
             "independent_sources": 1
           },
           {
-            "score": 14,
+            "score": 15,
             "keyword": "instapaper vs readwise",
             "sources": [
               "youtube"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
               "vs",
               "readwise"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "instapaper pricing",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "pricing"
             ],
             "best_position": 6,
             "independent_sources": 1
           },
           {
             "score": 14,
-            "keyword": "instapaper edge",
+            "keyword": "instapaper premium",
             "sources": [
-              "bing",
-              "duckduckgo"
+              "youtube"
             ],
             "unexpected": false,
             "new_concepts": [
-              "edge"
+              "premium"
             ],
             "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.859Z"
+        "observed_at": "2026-11-09T05:43:13.365Z"
       },
       "market_analysis": {
         "market_risk": "",
@@ -10092,7 +10074,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-09-28T05:43:14.498Z",
+        "observed_at": "2026-11-09T05:43:13.090Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -10127,21 +10109,7 @@
         "signals": [
           {
             "score": 30,
-            "keyword": "kit connor",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "connor"
-            ],
-            "best_position": 0,
-            "independent_sources": 2
-          },
-          {
-            "score": 30,
-            "keyword": "kitco",
+            "keyword": "kitsch",
             "sources": [
               "google",
               "bing",
@@ -10154,7 +10122,7 @@
           },
           {
             "score": 29,
-            "keyword": "kith",
+            "keyword": "kitchenaid",
             "sources": [
               "google",
               "bing",
@@ -10166,11 +10134,36 @@
             "independent_sources": 2
           },
           {
+            "score": 29,
+            "keyword": "kittens",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
             "score": 28,
-            "keyword": "kitsch",
+            "keyword": "kit connor",
             "sources": [
               "google",
-              "bing",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "connor"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "kitty",
+            "sources": [
+              "youtube",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -10179,19 +10172,19 @@
             "independent_sources": 2
           },
           {
-            "score": 28,
-            "keyword": "kittens",
+            "score": 27,
+            "keyword": "kith",
             "sources": [
-              "youtube",
+              "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 2,
+            "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 26,
+            "score": 25,
             "keyword": "kit harington",
             "sources": [
               "google",
@@ -10201,47 +10194,19 @@
             "new_concepts": [
               "harington"
             ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
-            "keyword": "kitty",
-            "sources": [
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
-            "keyword": "kitchen cabinets",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "cabinets"
-            ],
             "best_position": 5,
             "independent_sources": 2
           },
           {
             "score": 23,
-            "keyword": "kitchenaid mixer",
+            "keyword": "kitchen cabinets",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
             "new_concepts": [
-              "mixer"
+              "cabinets"
             ],
             "best_position": 7,
             "independent_sources": 2
@@ -10258,9 +10223,21 @@
             ],
             "best_position": 0,
             "independent_sources": 1
+          },
+          {
+            "score": 20,
+            "keyword": "kiteworks",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 0,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.335Z"
+        "observed_at": "2026-11-09T05:43:12.919Z"
       },
       "last_checked_at": "2026-09-27T02:46:27.866Z",
       "market_analysis": {
@@ -10437,8 +10414,8 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 129,
-        "observed_at": "2026-10-05T05:43:12.573Z",
+        "total_urls": 131,
+        "observed_at": "2026-11-09T05:43:14.078Z",
         "path_groups": [
           {
             "count": 46,
@@ -10485,7 +10462,7 @@
       "keyword_profile": {
         "seed": "Latex.to",
         "signals": [],
-        "observed_at": "2026-10-05T05:43:12.573Z"
+        "observed_at": "2026-11-09T05:43:14.078Z"
       },
       "market_analysis": {
         "market_risk": "市场上有许多免费的 LaTeX 编辑器（如 Overleaf），竞争激烈，且用户可能对免费工具的可靠性存疑。",
@@ -10631,7 +10608,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 2,
-        "observed_at": "2026-10-05T05:43:12.483Z",
+        "observed_at": "2026-11-09T05:43:14.043Z",
         "path_groups": [
           {
             "count": 1,
@@ -10657,53 +10634,6 @@
         "seed": "Listmonk",
         "signals": [
           {
-            "score": 39,
-            "keyword": "listmonk demo",
-            "sources": [
-              "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "demo"
-            ],
-            "best_position": 1,
-            "independent_sources": 3
-          },
-          {
-            "score": 38,
-            "keyword": "listmonk api",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "api"
-            ],
-            "best_position": 2,
-            "independent_sources": 3
-          },
-          {
-            "score": 34,
-            "keyword": "listmonk docker",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "docker"
-            ],
-            "best_position": 6,
-            "independent_sources": 3
-          },
-          {
             "score": 29,
             "keyword": "listmonk github",
             "sources": [
@@ -10714,6 +10644,20 @@
             "unexpected": true,
             "new_concepts": [
               "github"
+            ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 29,
+            "keyword": "listmonk demo",
+            "sources": [
+              "youtube",
+              "bing"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "demo"
             ],
             "best_position": 1,
             "independent_sources": 2
@@ -10749,21 +10693,36 @@
             "independent_sources": 2
           },
           {
-            "score": 24,
+            "score": 27,
+            "keyword": "listmonk api",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 3,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
             "keyword": "listmonk review",
             "sources": [
               "google",
               "youtube"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
               "review"
             ],
-            "best_position": 6,
+            "best_position": 5,
             "independent_sources": 2
           },
           {
-            "score": 17,
+            "score": 16,
             "keyword": "listmonk setup",
             "sources": [
               "youtube"
@@ -10772,7 +10731,7 @@
             "new_concepts": [
               "setup"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 1
           },
           {
@@ -10791,19 +10750,31 @@
           },
           {
             "score": 15,
-            "keyword": "listmonk installation",
+            "keyword": "listmonk newsletter",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "installation"
+              "newsletter"
             ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "listmonk app",
+            "sources": [
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:12.406Z"
+        "observed_at": "2026-11-09T05:43:14.007Z"
       },
       "market_analysis": {
         "market_risk": "邮件营销市场竞争激烈，存在许多成熟和免费替代品。",
@@ -12665,7 +12636,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 4,
-        "observed_at": "2026-09-28T05:43:14.884Z",
+        "observed_at": "2026-11-09T05:43:13.412Z",
         "path_groups": [
           {
             "count": 1,
@@ -12699,6 +12670,22 @@
         "seed": "OpenCut",
         "signals": [
           {
+            "score": 40,
+            "keyword": "opencut ai",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai"
+            ],
+            "best_position": 0,
+            "independent_sources": 3
+          },
+          {
             "score": 39,
             "keyword": "opencut github",
             "sources": [
@@ -12729,36 +12716,7 @@
             "independent_sources": 3
           },
           {
-            "score": 38,
-            "keyword": "opencutlist",
-            "sources": [
-              "google",
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 2,
-            "independent_sources": 3
-          },
-          {
-            "score": 30,
-            "keyword": "opencut ai",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "ai"
-            ],
-            "best_position": 0,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
+            "score": 29,
             "keyword": "opencut video editor",
             "sources": [
               "google",
@@ -12769,14 +12727,53 @@
               "video",
               "editor"
             ],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
+            "keyword": "opencutlist",
+            "sources": [
+              "google",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 2,
             "independent_sources": 2
           },
           {
-            "score": 25,
-            "keyword": "opencutlist sketchup",
+            "score": 28,
+            "keyword": "opencut review",
             "sources": [
               "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "review"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 15,
+            "keyword": "opencut install",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "install"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "opencutlist sketchup",
+            "sources": [
               "bing",
               "duckduckgo"
             ],
@@ -12785,59 +12782,37 @@
               "sketchup"
             ],
             "best_position": 5,
-            "independent_sources": 2
-          },
-          {
-            "score": 22,
-            "keyword": "opencut-app/opencut",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 8,
-            "independent_sources": 2
-          },
-          {
-            "score": 15,
-            "keyword": "opencut review",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "review"
-            ],
-            "best_position": 5,
             "independent_sources": 1
           },
           {
-            "score": 14,
-            "keyword": "opencutlist 7.0",
+            "score": 13,
+            "keyword": "opencut vs capcut",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "vs",
+              "capcut"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "opencut editor",
             "sources": [
               "youtube"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 6,
-            "independent_sources": 1
-          },
-          {
-            "score": 12,
-            "keyword": "opencutlist plugin",
-            "sources": [
-              "bing"
-            ],
-            "unexpected": false,
             "new_concepts": [
-              "plugin"
+              "editor"
             ],
-            "best_position": 8,
+            "best_position": 7,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-09-28T05:43:14.859Z"
+        "observed_at": "2026-11-09T05:43:13.374Z"
       },
       "market_analysis": {
         "market_risk": "视频编辑市场已有众多成熟产品，新进入者难以获得市场份额。",
@@ -19286,22 +19261,34 @@
       },
       "evidence_level": "Unknown",
       "search_profile": {
-        "llms_txt": false,
+        "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 3,
-        "observed_at": "2026-09-28T05:43:13.709Z",
+        "total_urls": 79,
+        "observed_at": "2026-11-09T05:43:11.638Z",
         "path_groups": [
+          {
+            "count": 73,
+            "segment": "/skills"
+          },
           {
             "count": 1,
             "segment": "/"
           },
           {
             "count": 1,
-            "segment": "/skills"
+            "segment": "/pricing"
           },
           {
             "count": 1,
             "segment": "/challenges"
+          },
+          {
+            "count": 1,
+            "segment": "/legal"
+          },
+          {
+            "count": 1,
+            "segment": "/terms-of-service"
           }
         ],
         "sitemap_found": true,
@@ -19318,7 +19305,7 @@
       "keyword_profile": {
         "seed": "Vimgolf.ai",
         "signals": [],
-        "observed_at": "2026-09-28T05:43:13.709Z"
+        "observed_at": "2026-11-09T05:43:11.638Z"
       },
       "market_analysis": {
         "market_risk": "Vim 学习市场可能较小，且存在许多免费资源。",
@@ -19851,14 +19838,14 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 44,
-        "observed_at": "2026-10-05T05:43:12.423Z",
+        "observed_at": "2026-11-09T05:43:13.433Z",
         "path_groups": [
           {
-            "count": 19,
+            "count": 20,
             "segment": "/admin"
           },
           {
-            "count": 7,
+            "count": 6,
             "segment": "/orgs"
           },
           {
@@ -19912,7 +19899,24 @@
             "independent_sources": 3
           },
           {
-            "score": 28,
+            "score": 35,
+            "keyword": "hoppscotch browser extension",
+            "sources": [
+              "google",
+              "youtube",
+              "bing",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "browser",
+              "extension"
+            ],
+            "best_position": 5,
+            "independent_sources": 3
+          },
+          {
+            "score": 29,
             "keyword": "hoppscotch api",
             "sources": [
               "google",
@@ -19923,11 +19927,11 @@
             "new_concepts": [
               "api"
             ],
-            "best_position": 2,
+            "best_position": 1,
             "independent_sources": 2
           },
           {
-            "score": 27,
+            "score": 28,
             "keyword": "hoppscotch comic",
             "sources": [
               "google",
@@ -19937,20 +19941,7 @@
             "new_concepts": [
               "comic"
             ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "hoppscotch desktop",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 3,
+            "best_position": 2,
             "independent_sources": 2
           },
           {
@@ -19969,33 +19960,28 @@
             "independent_sources": 2
           },
           {
-            "score": 23,
-            "keyword": "hoppscotch browser extension",
+            "score": 21,
+            "keyword": "hoppscotch desktop app",
             "sources": [
               "google",
               "bing"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "browser",
-              "extension"
-            ],
-            "best_position": 7,
+            "new_concepts": [],
+            "best_position": 9,
             "independent_sources": 2
           },
           {
-            "score": 21,
-            "keyword": "hoppscotch docker",
+            "score": 17,
+            "keyword": "hoppscotch desktop",
             "sources": [
-              "youtube",
-              "bing"
+              "bing",
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "docker"
-            ],
-            "best_position": 9,
-            "independent_sources": 2
+            "new_concepts": [],
+            "best_position": 3,
+            "independent_sources": 1
           },
           {
             "score": 16,
@@ -20012,19 +19998,6 @@
           },
           {
             "score": 15,
-            "keyword": "hoppscotch setup",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "setup"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
             "keyword": "hoppscotch extension",
             "sources": [
               "bing",
@@ -20036,9 +20009,22 @@
             ],
             "best_position": 5,
             "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "hoppscotch setup",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "setup"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:12.395Z"
+        "observed_at": "2026-11-09T05:43:13.364Z"
       },
       "last_checked_at": "2026-09-27T02:46:33.724Z",
       "market_analysis": {
