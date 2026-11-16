@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T09:35:27.370Z",
+  "generated_at": "2026-11-16T09:24:07.499Z",
   "source": "https://proof-stack-lake.vercel.app/cases",
   "license": "CC BY 4.0",
-  "count": 57,
+  "count": 58,
   "cases": [
     {
       "id": "ai-resume-optimization-tool-for-specific-job-positions",
@@ -1512,7 +1512,7 @@
           "source_type": "official",
           "collected_at": "2026-07-29T00:00:00.000Z",
           "evidence_level": "C",
-          "notes": "Current no-code and API integration surface supporting the template-plus-automation workflow."
+          "notes": "Current no-code and API integration surface supporting the template-plus-automation workflow. 2026-11-16: URL returned 404 (variants probed); the page is gone. Revenue sources for this case are unaffected."
         }
       ],
       "category": "Developer Tools",
@@ -1521,7 +1521,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Bannerbear serves teams that need automated social images, marketing graphics, and ecommerce assets. It packages design templates, APIs, and no-code integrations into recurring subscriptions, helped by founder build-in-public distribution.",
       "summary_zh": "Bannerbear 服务需要自动生成社交图、营销图和电商素材的团队。它把设计模板、API、Zapier/无代码集成打包成稳定订阅，创始人长期公开建设过程带来第一批高信任用户。",
-      "updated_at": "2026-10-14T07:20:56.574Z",
+      "updated_at": "2026-11-16T04:45:58.218Z",
       "launch_year": 2019,
       "website_url": "https://www.bannerbear.com",
       "founder_name": "Jon Yongfook",
@@ -1798,6 +1798,15 @@
         "localization_opportunity": "可切入中文市场的合规、本地支付、本地模板和本地内容分发需求。",
         "localization_opportunity_en": "Localization opportunities include compliance, local payments, templates, and regional content distribution."
       },
+      "observation_log": [
+        {
+          "en": "Founder blog (2023-07-26, read first-hand today): reached $50K MRR.",
+          "zh": "创始人博客（2023-07-26，本日实读）：到达 $50K MRR。",
+          "date": "2023-07",
+          "kind": "reported",
+          "source_url": "https://www.bannerbear.com/blog/7-lessons-growing-a-bootstrapped-saas-to-50k-mrr/"
+        }
+      ],
       "product_breakdown": {
         "core_job": "把一个重复、高频或商业关键的线上工作流变得更快、更可靠。",
         "data_moat": "数据壁垒不强，主要来自用户配置、历史记录、模板和工作流上下文。",
@@ -2337,7 +2346,7 @@
         {
           "id": "src-beehiiv-3",
           "url": "https://www.beehiiv.com/features/monetize",
-          "notes": "Documents paid subscriptions, ad network, and monetization features.",
+          "notes": "Documents paid subscriptions, ad network, and monetization features. 2026-11-16: URL returned 404 (variants probed); page is gone. This source no longer backs its claims; revenue sources for this case are unaffected.",
           "title": "Beehiiv Monetization Feature Page",
           "source_type": "official",
           "collected_at": "2026-07-09",
@@ -2365,7 +2374,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Beehiiv bundles newsletter writing, websites, referrals, ads, and paid subscriptions. It contrasts with Substack through a 0% subscription take rate while monetizing through SaaS plans and ad-network products.",
       "summary_zh": "Beehiiv 把 邮件通讯 写作、网站、推荐增长、广告变现和付费订阅放在一个系统里。它用“0% 订阅抽成”对比 Substack，用 SaaS 套餐和广告网络收费。",
-      "updated_at": "2026-10-14T07:20:56.990Z",
+      "updated_at": "2026-11-16T04:45:59.116Z",
       "launch_year": 2021,
       "website_url": "https://www.beehiiv.com",
       "founder_name": "Tyler Denk, Benjamin Hargett, and Jake Hurd",
@@ -2411,7 +2420,7 @@
         ],
         "gross_margin_estimate": "80%+"
       },
-      "evidence_level": "B",
+      "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
         "blog_count": 1,
@@ -2627,7 +2636,7 @@
         ],
         "observed_at": "2026-10-26T05:43:16.946Z"
       },
-      "last_checked_at": "2026-09-27T02:46:25.452Z",
+      "last_checked_at": "2026-11-16T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -2653,6 +2662,22 @@
         "localization_opportunity": "可切入中文市场的合规、本地支付、本地模板和本地内容分发需求。",
         "localization_opportunity_en": "Localization opportunities include compliance, local payments, templates, and regional content distribution."
       },
+      "observation_log": [
+        {
+          "en": "Sacra estimates $30M annualized revenue ($20M software subscriptions, $10M ads and Boosts; public page read first-hand today). An estimate, not a company disclosure.",
+          "zh": "Sacra 估算年化收入达 $30M（软件订阅 $20M、广告与 Boosts $10M；公开页本日实读）。估算不是公司披露。",
+          "date": "2025-06",
+          "kind": "estimated",
+          "source_url": "https://sacra.com/c/beehiiv/"
+        },
+        {
+          "en": "Sacra estimates $19.8M annualized revenue at the end of 2024 (same public page).",
+          "zh": "Sacra 估算 2024 年末年化收入 $19.8M（同一公开页）。",
+          "date": "2024-12",
+          "kind": "estimated",
+          "source_url": "https://sacra.com/c/beehiiv/"
+        }
+      ],
       "product_breakdown": {
         "core_job": "把一个重复、高频或商业关键的线上工作流变得更快、更可靠。",
         "data_moat": "数据壁垒不强，主要来自用户配置、历史记录、模板和工作流上下文。",
@@ -3190,15 +3215,24 @@
           "source_type": "official",
           "collected_at": "2026-10-19",
           "evidence_level": "C"
+        },
+        {
+          "id": "buffer-open-202611",
+          "url": "https://buffer.com/open",
+          "title": "Buffer official dashboard: observed November 16, 2026",
+          "source_type": "official",
+          "collected_at": "2026-11-16",
+          "evidence_level": "B",
+          "notes": "Observed 2026-11-16: $28.5M ARR, $2.4M MRR, 343,719 monthly active users, $27.35 ARPU; the December 2025 shareholder update on the same page reports $2.008M December revenue (an all-time high) and $22.462M FY25 revenue (+31% YoY). Self-published by the company, not third-party verified."
         }
       ],
       "category": "Creator Tools",
       "logo_url": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=128&h=128&fit=crop",
       "team_size": 80,
       "created_at": "2026-07-07T12:00:00.000Z",
-      "summary_en": "Buffer provides social media scheduling and management. Its public dashboard displayed about $27.3M ARR when observed on October 19, 2026. This is an observation-date snapshot, not an audit or proof that transparency alone caused growth. Test the relevance of disclosure, distribution and user tasks separately.",
-      "summary_zh": "Buffer 提供社交媒体内容排期与管理。官方公开看板在 2026 年 10 月 19 日读取时显示约 2730 万美元 ARR；这是观测日快照，不是审计结果，也不证明透明运营单独造成增长。借鉴时应把公开信息、内容分发和用户实际任务分别验证。",
-      "updated_at": "2026-10-14T07:20:57.407Z",
+      "summary_en": "Buffer provides social media scheduling and management. Its public dashboard displayed about $28.5M ARR and $2.4M MRR when observed on November 16, 2026; the same dashboard read $27.3M ARR on October 19, 2026. These are observation-date snapshots, not an audit or proof that transparency alone caused growth. Test the relevance of disclosure, distribution and user tasks separately.",
+      "summary_zh": "Buffer 提供社交媒体内容排期与管理。官方公开看板在 2026 年 11 月 16 日读取时显示约 2850 万美元 ARR、月经常性收入约 240 万美元；同一看板 2026 年 10 月 19 日读数为 2730 万美元 ARR。这些是观测日快照，不是审计结果，也不证明透明运营单独造成增长。借鉴时应把公开信息、内容分发和用户实际任务分别验证。",
+      "updated_at": "2026-11-16T04:42:56.532Z",
       "launch_year": 2010,
       "website_url": "https://www.buffer.com",
       "founder_name": "Joel Gascoigne",
@@ -3243,9 +3277,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$27.3M ARR · dashboard observed 2026-10-19",
+        "revenue_range": "$28.5M ARR · live public dashboard observed 2026-11-16",
         "renewal_reason": "社交媒体发布属于刚性、日常、繁重的工作，一旦团队将发布计划与 Buffer 绑定，其高昂的迁移成本（重设发布账号、导入团队排班）使得用户极少主动退订。",
-        "revenue_amount": 2275000,
+        "revenue_amount": 2400000,
         "paid_trigger_en": "Free users face limits on total social profiles (3) and queued posts (10). Professional queuing, analytics, and agency workflows trigger essentials/team tiers.",
         "renewal_reason_en": "Social publishing is a daily, critical routine. Once teams wire editorial calendars and log secure agency tokens into Buffer, the friction to switch holds them secure.",
         "monetization_model": [
@@ -3253,7 +3287,7 @@
         ],
         "gross_margin_estimate": "80%"
       },
-      "evidence_level": "A",
+      "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
@@ -3296,6 +3330,7 @@
         "zh": {
           "sources.src-buffer-1.title": "Buffer 透明收入看板",
           "sources.buffer-open-202610.title": "Buffer 官方公开看板：2026 年 10 月 19 日快照",
+          "sources.buffer-open-202611.title": "Buffer 官方公开看板：2026 年 11 月 16 日快照",
           "sources.src-research-buffer-1.title": "Buffer 透明度看板（官方实时收入指标）",
           "sources.src-research-buffer-2.title": "Buffer：从零到 100 万用户（联合创始人第一手叙述）",
           "revenue_model.pricing_tiers.1.features.0": "不限排期数量",
@@ -3304,7 +3339,8 @@
           "revenue_model.pricing_tiers.2.features.2": "高级自定义报告"
         },
         "en": {
-          "sources.buffer-open-202610.title": "Buffer official dashboard: observed October 19, 2026"
+          "sources.buffer-open-202610.title": "Buffer official dashboard: observed October 19, 2026",
+          "sources.buffer-open-202611.title": "Buffer official dashboard: observed November 16, 2026"
         }
       },
       "keyword_profile": {
@@ -3453,7 +3489,7 @@
         ],
         "observed_at": "2026-11-02T05:43:12.307Z"
       },
-      "last_checked_at": "2026-10-19",
+      "last_checked_at": "2026-11-16",
       "market_analysis": {
         "market_risk": "各大社交平台原生排程功能（如 Twitter 网页版自带排程、Instagram 自带排程）不断完善，免费分流了大量单账号轻度用户的付费需求。",
         "alternatives": [
@@ -3479,6 +3515,36 @@
         "localization_opportunity": "设计专门针对国内社交生态（如同时一键排程小红书、抖音、B站、公众号、视频号并做自动剪裁和敏感词物理自查）的多合一管理工具。",
         "localization_opportunity_en": "Build a localized suite focusing on domestic channels, managing simultaneous scheduling for Xiaohongshu, Bilibili, WeChat, and Douyin with native formats."
       },
+      "observation_log": [
+        {
+          "en": "Official public dashboard read first-hand: $28.5M ARR, $2.4M MRR, 343,719 monthly active users, $27.35 ARPU.",
+          "zh": "官方公开看板实测：$28.5M ARR、$2.4M MRR、月活跃用户 343,719、ARPU $27.35。",
+          "date": "2026-11-16",
+          "kind": "observed",
+          "source_url": "https://buffer.com/open"
+        },
+        {
+          "en": "The same dashboard read $27.3M ARR at the time (this site's October 19, 2026 observation label).",
+          "zh": "同一看板当时读数为 $27.3M ARR（本站 2026 年 10 月 19 日观测口径标签）。",
+          "date": "2026-10-19",
+          "kind": "observed",
+          "source_url": "https://buffer.com/open"
+        },
+        {
+          "en": "Public shareholder update: December revenue of $2.008M was an all-time high, bringing FY25 revenue to $22.462M (+31% YoY).",
+          "zh": "公开股东月报：12 月营收 $2.008M 创历史新高，FY25 全年营收 $22.462M（同比 +31%）。",
+          "date": "2025-12",
+          "kind": "reported",
+          "source_url": "https://buffer.com/open"
+        },
+        {
+          "en": "Dashboard history timeline: surpassed $10M ARR.",
+          "zh": "看板历史时间线：跨过 $10M ARR。",
+          "date": "2016-05",
+          "kind": "reported",
+          "source_url": "https://buffer.com/open"
+        }
+      ],
       "product_breakdown": {
         "core_job": "帮助个人与企业极速地将一周的社交媒体发布计划集中在 10 分钟内排程完毕，实现各大社交平台的多端全自动后台托管发布。",
         "data_moat": "沉淀了十几年全网几百万社媒账号的点击、发帖数据与最佳发布时间预测模型，构成了极深的数据分析与智能算法护城河。",
@@ -3678,16 +3744,16 @@
       "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 665,
-        "total_urls": 856,
-        "observed_at": "2026-10-19T05:43:12.217Z",
+        "blog_count": 675,
+        "total_urls": 865,
+        "observed_at": "2026-11-16T05:43:14.869Z",
         "path_groups": [
           {
-            "count": 666,
+            "count": 676,
             "segment": "/blog"
           },
           {
-            "count": 63,
+            "count": 62,
             "segment": "/features"
           },
           {
@@ -3719,7 +3785,7 @@
           "https://buttondown.com/alternatives/bento",
           "https://buttondown.com/alternatives/brevo"
         ],
-        "integration_count": 39
+        "integration_count": 38
       },
       "display_locales": {
         "en": {
@@ -3756,7 +3822,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -3772,7 +3837,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -3783,11 +3847,10 @@
             "independent_sources": 3
           },
           {
-            "score": 27,
+            "score": 26,
             "keyword": "buttondown ai news",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -3795,38 +3858,37 @@
               "ai",
               "news"
             ],
-            "best_position": 3,
+            "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 16,
+            "score": 23,
             "keyword": "buttondown vs substack",
             "sources": [
-              "google"
+              "google",
+              "duckduckgo"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
               "vs",
               "substack"
             ],
-            "best_position": 4,
-            "independent_sources": 1
+            "best_position": 7,
+            "independent_sources": 2
           },
           {
-            "score": 12,
-            "keyword": "buttondown reviews",
+            "score": 14,
+            "keyword": "buttondownfcn",
             "sources": [
-              "google"
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "reviews"
-            ],
-            "best_position": 8,
+            "new_concepts": [],
+            "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-19T05:43:12.171Z"
+        "observed_at": "2026-11-16T05:43:14.830Z"
       },
       "last_checked_at": "2026-10-15T10:00:00.000Z",
       "market_analysis": {
@@ -4432,6 +4494,7 @@
         {
           "id": "src-research-carrd-2",
           "url": "https://usefathom.com/blog/bootstrapped-to-venture-capital",
+          "notes": "2026-11-16: read first-hand; the article covers the funding decision and user counts but contains no revenue figure. None of the four listed sources supports the previous $1M+ ARR claim.",
           "title": "Fathom blog: Kim Kardashian turned a small business into a VC-backed company (2021-08 interview-based account of Carrd)"
         }
       ],
@@ -4441,7 +4504,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Carrd stays tightly scoped around one-page sites. The free tier drives distribution while low-priced Pro tiers unlock domains, forms, embeds, and more sites. It is a classic compounding indie software case.",
       "summary_zh": "Carrd 把“只做单页网站”做得非常彻底，免费层负责传播，低价 Pro 层解锁自定义域名、表单、嵌入和更多站点。它是独立开发者长期复利的经典案例。",
-      "updated_at": "2026-10-14T07:20:58.047Z",
+      "updated_at": "2026-11-16T04:43:03.741Z",
       "launch_year": 2016,
       "website_url": "https://carrd.co",
       "founder_name": "AJ",
@@ -4452,7 +4515,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "用户需要去品牌、自定义域名、表单、嵌入组件或管理多个站点时付费。",
-        "revenue_type": "ARR",
+        "revenue_type": "Not verified",
         "pricing_tiers": [
           {
             "name": "Pro Lite",
@@ -4486,9 +4549,9 @@
             "interval": "year"
           }
         ],
-        "revenue_range": "$1M+ ARR · reported 2021-08 (interview-based)",
+        "revenue_range": "Revenue not verified",
         "renewal_reason": "持续使用核心工作流和历史数据，迁移成本随时间提高。",
-        "revenue_amount": 83334,
+        "revenue_amount": 0,
         "paid_trigger_en": "Users pay when they need no branding, custom domains, forms, embeds, or multiple sites.",
         "renewal_reason_en": "Ongoing workflow usage and retained historical data increase switching costs over time.",
         "monetization_model": [
@@ -4674,7 +4737,7 @@
         ],
         "observed_at": "2026-10-26T05:43:17.054Z"
       },
-      "last_checked_at": "2026-09-27T02:46:32.956Z",
+      "last_checked_at": "2026-11-16T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "大型平台可能内置相同功能，价格和分发优势会压缩小团队空间。",
         "alternatives": [
@@ -4905,48 +4968,39 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 1000,
-        "total_urls": 1083,
-        "observed_at": "2026-10-05T05:43:12.791Z",
+        "blog_count": 0,
+        "total_urls": 12,
+        "observed_at": "2026-11-16T05:43:12.400Z",
         "path_groups": [
           {
-            "count": 1001,
-            "segment": "/blog"
-          },
-          {
-            "count": 31,
-            "segment": "/computer-use"
-          },
-          {
-            "count": 14,
-            "segment": "/compare"
-          },
-          {
-            "count": 14,
-            "segment": "/use-cases"
-          },
-          {
-            "count": 2,
-            "segment": "/docs"
+            "count": 7,
+            "segment": "/guides"
           },
           {
             "count": 1,
             "segment": "/"
+          },
+          {
+            "count": 1,
+            "segment": "/platform"
+          },
+          {
+            "count": 1,
+            "segment": "/privacy"
+          },
+          {
+            "count": 1,
+            "segment": "/terms"
+          },
+          {
+            "count": 1,
+            "segment": "/credits"
           }
         ],
         "sitemap_found": true,
         "template_count": 0,
-        "comparison_pages": [
-          "https://coasty.ai/compare",
-          "https://coasty.ai/blog/onboarding-new-hire-vs-deploying-ai-agent",
-          "https://coasty.ai/blog/v3-vs-v4-choosing-a-computer-use-model",
-          "https://coasty.ai/blog/buy-vs-build-synthetic-data-pipeline",
-          "https://coasty.ai/blog/rpa-vs-ai-agents-2026",
-          "https://coasty.ai/blog/rip-and-replace-vs-run-in-parallel-migrating-off-rpa-safely",
-          "https://coasty.ai/blog/power-automate-desktop-vs-computer-use-agents-when-to-switch",
-          "https://coasty.ai/blog/rpa-vs-computer-use-ai-agents-an-honest-enterprise-comparison"
-        ],
-        "integration_count": 7
+        "comparison_pages": [],
+        "integration_count": 0
       },
       "display_locales": {
         "en": {},
@@ -4971,46 +5025,43 @@
         "seed": "Coasty",
         "signals": [
           {
-            "score": 29,
+            "score": 28,
             "keyword": "coasty swim",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
               "swim"
             ],
-            "best_position": 1,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
-            "keyword": "coasty ai",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "ai"
-            ],
             "best_position": 2,
             "independent_sources": 2
           },
           {
-            "score": 23,
-            "keyword": "coastyreef",
+            "score": 24,
+            "keyword": "coastyle",
             "sources": [
               "google",
-              "youtube"
+              "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 7,
+            "best_position": 6,
             "independent_sources": 2
+          },
+          {
+            "score": 20,
+            "keyword": "coastyle weddings",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "weddings"
+            ],
+            "best_position": 0,
+            "independent_sources": 1
           },
           {
             "score": 20,
@@ -5027,23 +5078,8 @@
           },
           {
             "score": 19,
-            "keyword": "coastyiii name your sorrows",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "name",
-              "sorrows"
-            ],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 19,
             "keyword": "coasty catering",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -5055,6 +5091,19 @@
           },
           {
             "score": 18,
+            "keyword": "coasty ai",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
             "keyword": "coasty carts",
             "sources": [
               "google"
@@ -5063,47 +5112,44 @@
             "new_concepts": [
               "carts"
             ],
-            "best_position": 2,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "coasty picker",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "picker"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 17,
-            "keyword": "coastyle",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
             "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 16,
-            "keyword": "coastyexplores",
+            "keyword": "coastyn",
             "sources": [
-              "youtube"
+              "google"
             ],
             "unexpected": false,
             "new_concepts": [],
             "best_position": 4,
             "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "coastymc",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "coastyreef",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 6,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:12.639Z"
+        "observed_at": "2026-11-16T05:43:12.276Z"
       },
       "last_checked_at": "2026-09-06T12:26:56.720Z",
       "market_analysis": {
@@ -7211,7 +7257,10 @@
         {
           "id": "src-research-ghost-1",
           "url": "https://ghost.org/about/",
-          "title": "Ghost official live dashboard: ARR, customers, churn, monthly ARR history"
+          "notes": "Observed 2026-11-15 on the company's live financial feed: $11,140,013 annual run rate, $928,334 monthly run rate, 2.9% net churn, 30,316 active customers, 9B requests/month, 100M+ installs, 55,729 GitHub stars. Founded April 2013 by John O'Nolan and Hannah Wolfe; constituted as a non-profit foundation whose charter prevents sale and reinvests all revenue. Self-published, not third-party verified.",
+          "title": "Ghost official live dashboard: ARR, customers, churn, monthly ARR history",
+          "collected_at": "2026-11-15T00:00:00.000Z",
+          "evidence_level": "B"
         },
         {
           "id": "src-research-ghost-2",
@@ -7235,10 +7284,10 @@
       "created_at": "2026-08-06T06:52:42.194Z",
       "summary_en": "Ghost is an open-source content publishing platform offering website building, newsletters, and membership subscriptions. Its business model primarily relies on subscription fees for Ghost(Pro) managed hosting, with tiers like Starter, Publisher, Business, and Custom, starting at $18/month. The platform emphasizes no transaction fees, custom domains, advanced analytics, and claims to generate over $100 million in revenue annually for publications.",
       "summary_zh": "Ghost是一个开源的内容发布平台，提供网站建设、新闻通讯、会员订阅等功能。其商业模式主要是通过Ghost(Pro)托管服务收取订阅费，分为Starter、Publisher、Business和Custom等不同层级，价格从每月18美元起。平台强调无交易费用、自定义域名、高级分析等功能，并声称每年为出版物创造超过1亿美元的收入。",
-      "updated_at": "2026-10-14T07:20:59.189Z",
-      "launch_year": 0,
+      "updated_at": "2026-11-16T04:43:20.282Z",
+      "launch_year": 2013,
       "website_url": "https://ghost.org/",
-      "founder_name": "",
+      "founder_name": "John O'Nolan & Hannah Wolfe",
       "founder_type": "small team",
       "product_name": "Ghost",
       "product_type": "SaaS",
@@ -7297,9 +7346,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$11.1M ARR · live public dashboard 2026-09",
+        "revenue_range": "$11.1M ARR · live public dashboard observed 2026-11-15",
         "renewal_reason": "",
-        "revenue_amount": 924970,
+        "revenue_amount": 928334,
         "paid_trigger_en": "14-day free trial, after which a paid plan is required to continue.",
         "renewal_reason_en": "",
         "monetization_model": [
@@ -7309,7 +7358,7 @@
         ],
         "gross_margin_estimate": ""
       },
-      "evidence_level": "C",
+      "evidence_level": "B",
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
@@ -7356,8 +7405,17 @@
         "integration_count": 109
       },
       "display_locales": {
-        "en": {},
+        "en": {
+          "market_analysis.demand_signals.0": "The company's live public dashboard reports $11,140,013 annual run rate and $928,334 monthly run rate (observed 2026-11-15)",
+          "market_analysis.demand_signals.1": "The same dashboard reports 30,316 active customers and 2.9% net churn (observed 2026-11-15)",
+          "market_analysis.demand_signals.2": "Operating scale stated alongside it: 9B requests per month, 100M+ installs to date and 55,729 GitHub stars (observed 2026-11-15)",
+          "market_analysis.demand_signals.3": "Figures are published by the company itself as a live feed; no third-party billing verification was obtained in this review"
+        },
         "zh": {
+          "market_analysis.demand_signals.0": "公司实时公开看板显示年化运营收入 $11,140,013、月度运营收入 $928,334（观测于 2026-11-15）",
+          "market_analysis.demand_signals.1": "同一看板显示 30,316 个活跃客户、净流失率 2.9%（观测于 2026-11-15）",
+          "market_analysis.demand_signals.2": "同页列出的经营规模：每月 90 亿次请求、累计安装超过 1 亿次、GitHub 收藏 55,729（观测于 2026-11-15）",
+          "market_analysis.demand_signals.3": "这些数字由公司自行以实时数据源公布；本次未取得第三方账单核验",
           "sources.src-research-ghost-1.title": "Ghost 官方实时看板：年度经常性收入、客户、流失率及月度收入历史",
           "sources.src-research-ghost-2.title": "John O'Nolan：Ghost 的 12 年（创始人第一手叙述）",
           "sources.src-research-ghost-3.title": "John O'Nolan：被 YC 拒绝十年之后",
@@ -7536,7 +7594,7 @@
         ],
         "observed_at": "2026-11-09T05:43:12.919Z"
       },
-      "last_checked_at": "2026-09-27T02:46:27.076Z",
+      "last_checked_at": "2026-11-15T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "市场上有许多免费或低成本的替代品，如WordPress、Substack等，可能影响付费转化。",
         "alternatives": [
@@ -7548,7 +7606,12 @@
         "buyer_intent": "",
         "market_stage": "Mature",
         "timing_reason": "",
-        "demand_signals": [],
+        "demand_signals": [
+          "The company's live public dashboard reports $11,140,013 annual run rate and $928,334 monthly run rate (observed 2026-11-15)",
+          "The same dashboard reports 30,316 active customers and 2.9% net churn (observed 2026-11-15)",
+          "Operating scale stated alongside it: 9B requests per month, 100M+ installs to date and 55,729 GitHub stars (observed 2026-11-15)",
+          "Figures are published by the company itself as a live feed; no third-party billing verification was obtained in this review"
+        ],
         "market_risk_en": "Many free or low-cost alternatives like WordPress, Substack may impact paid conversion.",
         "buyer_intent_en": "",
         "differentiation": "开源、无交易费用、专注于创作者和出版商的工具，以及强大的集成和主题市场。",
@@ -7559,6 +7622,22 @@
         "localization_opportunity": "",
         "localization_opportunity_en": ""
       },
+      "observation_log": [
+        {
+          "en": "Live official financial dashboard read first-hand: $11,140,013 annual run rate, $928,334 monthly run rate, 30,316 active customers, 2.9% net churn.",
+          "zh": "官方实时财务看板实测：年化 $11,140,013、月度 $928,334、活跃客户 30,316、净流失 2.9%。",
+          "date": "2026-11-15",
+          "kind": "observed",
+          "source_url": "https://ghost.org/about/"
+        },
+        {
+          "en": "The same dashboard read $11.1M ARR at the time (this site's September 2026 observation label).",
+          "zh": "同一看板当时读数为 $11.1M ARR（本站 2026 年 9 月的观测口径标签）。",
+          "date": "2026-09",
+          "kind": "observed",
+          "source_url": "https://ghost.org/about/"
+        }
+      ],
       "product_breakdown": {
         "core_job": "帮助创作者和出版商建立网站、发布内容、发送新闻通讯并管理付费订阅，从而将受众转化为业务。",
         "data_moat": "积累的会员数据、内容库和社区互动。",
@@ -8129,7 +8208,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Gumroad lets creators sell ebooks, courses, templates, memberships, and files from a link. It starts without monthly fees and monetizes when creators make sales, aligning platform revenue with seller revenue.",
       "summary_zh": "Gumroad 让创作者用链接销售电子书、课程、模板和会员产品。它不靠月费起步，而是在创作者实际成交时抽成，把平台收入和卖家收入绑定。",
-      "updated_at": "2026-10-14T05:43:59.400Z",
+      "updated_at": "2026-11-16T04:43:16.713Z",
       "launch_year": 2011,
       "website_url": "https://gumroad.com",
       "founder_name": "Sahil Lavingia",
@@ -8368,6 +8447,15 @@
         "localization_opportunity": "可切入中文市场的合规、本地支付、本地模板和本地内容分发需求。",
         "localization_opportunity_en": "Localization opportunities include compliance, local payments, templates, and regional content distribution."
       },
+      "observation_log": [
+        {
+          "en": "Founder retrospective (read first-hand today) disclosed the full month: $176,000 revenue, $42,000 gross profit, $32,000 operating expenses, +$10,000 net profit.",
+          "zh": "创始人复盘文（本日实读）披露当月全口径：营收 $176,000、毛利 $42,000、运营费用 $32,000、净利 +$10,000。",
+          "date": "2016-06",
+          "kind": "reported",
+          "source_url": "https://sahillavingia.com/reflecting"
+        }
+      ],
       "product_breakdown": {
         "core_job": "把一个重复、高频或商业关键的线上工作流变得更快、更可靠。",
         "data_moat": "数据壁垒不强，主要来自用户配置、历史记录、模板和工作流上下文。",
@@ -9023,7 +9111,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-10-05T05:43:12.644Z",
+        "observed_at": "2026-11-16T05:43:12.299Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -9113,19 +9201,45 @@
           },
           {
             "score": 15,
-            "keyword": "jeol hyperprobe",
+            "keyword": "hyperprobe ai",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "jeol"
+              "ai"
             ],
             "best_position": 5,
             "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "hyperprobe linkedin",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "linkedin"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "jeol hyperprobe",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "jeol"
+            ],
+            "best_position": 7,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:12.639Z"
+        "observed_at": "2026-11-16T05:43:12.281Z"
       },
       "last_checked_at": "2026-09-06T12:25:34.176Z",
       "market_analysis": {
@@ -9985,7 +10099,7 @@
         {
           "id": "src-kit-convertkit-3",
           "url": "https://www.nathanbarry.com/convertkit-story/",
-          "notes": "Founder-published company story and revenue milestones.",
+          "notes": "Founder-published company story and revenue milestones. 2026-11-16: URL returned 404 (variants probed); page is gone. This source no longer backs its claims; revenue sources for this case are unaffected.",
           "title": "Nathan Barry ConvertKit Story",
           "source_type": "third-party",
           "collected_at": "2026-07-09",
@@ -10023,7 +10137,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Kit started with creator email list management and expanded into an operating system for creator businesses. The free tier lowers migration friction while paid tiers gate automations, support, referrals, and analytics.",
       "summary_zh": "Kit 从创作者邮件列表管理切入，逐步扩展为“创作者经营系统”。免费层降低迁移门槛，付费层把自动化、支持、推荐网络和高级数据作为升级触发。",
-      "updated_at": "2026-10-14T07:21:00.099Z",
+      "updated_at": "2026-11-16T04:46:00.087Z",
       "launch_year": 2013,
       "website_url": "https://kit.com",
       "founder_name": "Nathan Barry",
@@ -10265,6 +10379,15 @@
         "localization_opportunity": "可切入中文市场的合规、本地支付、本地模板和本地内容分发需求。",
         "localization_opportunity_en": "Localization opportunities include compliance, local payments, templates, and regional content distribution."
       },
+      "observation_log": [
+        {
+          "en": "Founder's 2024 year in review (read first-hand today): a $45 million per year platform.",
+          "zh": "创始人 2024 年度回顾（本日实读）：平台年收入 $45M。",
+          "date": "2024",
+          "kind": "reported",
+          "source_url": "https://nathanbarry.com/2024-review/"
+        }
+      ],
       "product_breakdown": {
         "core_job": "把一个重复、高频或商业关键的线上工作流变得更快、更可靠。",
         "data_moat": "数据壁垒不强，主要来自用户配置、历史记录、模板和工作流上下文。",
@@ -11246,7 +11369,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 112,
-        "observed_at": "2026-10-05T05:43:14.722Z",
+        "observed_at": "2026-11-16T05:43:13.829Z",
         "path_groups": [
           {
             "count": 92,
@@ -11293,7 +11416,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -11303,23 +11425,9 @@
           },
           {
             "score": 30,
-            "keyword": "matterport",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 0,
-            "independent_sources": 2
-          },
-          {
-            "score": 30,
             "keyword": "mattermost",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -11328,48 +11436,83 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
-            "keyword": "matterhorn disneyland",
+            "score": 29,
+            "keyword": "matterport",
             "sources": [
               "google",
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 25,
+            "keyword": "matter of haav",
+            "sources": [
+              "google",
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "haav"
+            ],
+            "best_position": 5,
+            "independent_sources": 2
+          },
+          {
+            "score": 18,
+            "keyword": "matterhorn disneyland",
+            "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "disneyland"
             ],
-            "best_position": 4,
-            "independent_sources": 2
+            "best_position": 2,
+            "independent_sources": 1
           },
           {
-            "score": 26,
+            "score": 17,
+            "keyword": "matter melon",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "melon"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
             "keyword": "matterhackers",
             "sources": [
-              "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 4,
-            "independent_sources": 2
+            "best_position": 3,
+            "independent_sources": 1
           },
           {
-            "score": 23,
-            "keyword": "matter of fact",
+            "score": 16,
+            "keyword": "matter of factly",
             "sources": [
-              "google",
-              "bing"
+              "google"
             ],
-            "unexpected": false,
+            "unexpected": true,
             "new_concepts": [
-              "fact"
+              "factly"
             ],
-            "best_position": 7,
-            "independent_sources": 2
+            "best_position": 4,
+            "independent_sources": 1
           },
           {
-            "score": 18,
+            "score": 16,
             "keyword": "matter of time",
             "sources": [
               "youtube"
@@ -11378,53 +11521,24 @@
             "new_concepts": [
               "time"
             ],
-            "best_position": 2,
+            "best_position": 4,
             "independent_sources": 1
           },
           {
-            "score": 17,
-            "keyword": "matter of time laufey",
+            "score": 15,
+            "keyword": "matter daddy",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "time",
-              "laufey"
-            ],
-            "best_position": 3,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "matters of opinion crossword clue",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "opinion",
-              "crossword",
-              "clue"
-            ],
-            "best_position": 5,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "matter salish",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "salish"
+              "daddy"
             ],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.339Z"
+        "observed_at": "2026-11-16T05:43:13.446Z"
       },
       "market_analysis": {
         "market_risk": "市场已饱和，用户可能难以从现有应用迁移。",
@@ -11580,7 +11694,7 @@
         "llms_txt": false,
         "blog_count": 38,
         "total_urls": 73,
-        "observed_at": "2026-10-05T05:43:15.529Z",
+        "observed_at": "2026-11-16T05:43:14.165Z",
         "path_groups": [
           {
             "count": 39,
@@ -11638,7 +11752,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -11653,7 +11766,6 @@
             "keyword": "metriqe",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -11665,7 +11777,6 @@
             "score": 20,
             "keyword": "metriq cancer registry",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -11690,26 +11801,13 @@
             "independent_sources": 1
           },
           {
-            "score": 19,
-            "keyword": "metrique",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
             "score": 17,
-            "keyword": "metriqe accounting",
+            "keyword": "metriq software",
             "sources": [
               "google"
             ],
-            "unexpected": true,
-            "new_concepts": [
-              "accounting"
-            ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 3,
             "independent_sources": 1
           },
@@ -11717,7 +11815,6 @@
             "score": 17,
             "keyword": "metriques",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -11727,22 +11824,8 @@
           },
           {
             "score": 16,
-            "keyword": "metrique rust",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "rust"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
             "keyword": "metriq valuation",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -11754,18 +11837,43 @@
           },
           {
             "score": 15,
+            "keyword": "metrique rust",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "rust"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "metriqe accounting",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "accounting"
+            ],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
             "keyword": "metriquin",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [],
-            "best_position": 5,
+            "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.781Z"
+        "observed_at": "2026-11-16T05:43:13.889Z"
       },
       "market_analysis": {
         "market_risk": "平台集成",
@@ -12918,7 +13026,7 @@
         {
           "id": "src-photoroom-1",
           "url": "https://www.photoroom.com/blog/photoroom-raises-series-a-for-ai-commerce-photography",
-          "notes": "Official release sheet detailed their ARR trajectory crossing $20M and active designer volume.",
+          "notes": "Official release sheet detailed their ARR trajectory crossing $20M and active designer volume. 2026-11-16: URL returned 404 and no Wayback snapshot exists; the revenue claim can no longer be re-verified from this source. 2026-11-16: URL returned 404 and no Wayback snapshot exists; the revenue claim can no longer be re-verified from this source.",
           "title": "PhotoRoom Series A Funding & ARR Milestones",
           "source_type": "official",
           "collected_at": "2026-07-07",
@@ -12931,7 +13039,7 @@
       "created_at": "2026-07-07T12:00:00.000Z",
       "summary_en": "PhotoRoom is an AI visual editor built for e-commerce sellers and designers. It provides millisecond-level background cutouts on mobile, integrated with realistic AI shadows and product layout templates. This complete, friction-free listing pipe converted millions of active micro-sellers into high-retention yearly subscribers.",
       "summary_zh": "PhotoRoom 是一款专为电商卖家、海报设计者设计的 AI 创意编辑和背景替换工具。平台不仅在手机端提供了极为强劲、媲美桌面级显卡的毫秒级抠图性能，而且在抠图基础上深度融合了 AI 阴影生成、自动套入电商促销模板等“一条龙”产品图编辑工作流，迅速收割了全球数千万小卖家的年度订阅付费。",
-      "updated_at": "2026-10-14T07:21:00.740Z",
+      "updated_at": "2026-11-16T04:43:00.324Z",
       "launch_year": 2019,
       "website_url": "https://www.photoroom.com",
       "founder_name": "Matthieu Rouif",
@@ -12941,7 +13049,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "免费用户下载的图片会带有‘PhotoRoom’的水印。当需要清除水印、批量编辑多张图片（Batch Mode）、或使用先进的 AI 背景自动融合与阴影匹配时，必须升级到 Pro 会员。",
-        "revenue_type": "ARR",
+        "revenue_type": "Not verified",
         "pricing_tiers": [
           {
             "name": "Free",
@@ -12965,9 +13073,9 @@
             "interval": "month"
           }
         ],
-        "revenue_range": "$20M+ ARR",
+        "revenue_range": "Revenue not verified",
         "renewal_reason": "电商卖家（eBay、Shopify、Etsy等平台商户）每天都有海量的新品图片需要上线，批量无水印出图是其赖以生存的每日必用功能，其付费续费极其稳固。",
-        "revenue_amount": 1800000,
+        "revenue_amount": 0,
         "paid_trigger_en": "Free outputs contain a visual watermark. Removing watermarks, running bulk batch processing, and accessing proprietary AI shadows and instant backdrops requires Pro membership.",
         "renewal_reason_en": "Online merchants list new items continuously. Bulk waterless product processing is standard operating routine, rendering the yearly Pro subscription highly sticky.",
         "monetization_model": [
@@ -12976,22 +13084,32 @@
         ],
         "gross_margin_estimate": "80%"
       },
-      "evidence_level": "A",
+      "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 144,
-        "observed_at": "2026-10-05T05:43:14.968Z",
+        "total_urls": 153,
+        "observed_at": "2026-11-16T05:43:14.749Z",
         "path_groups": [
           {
-            "count": 144,
-            "segment": "/pt-pt"
+            "count": 110,
+            "segment": "/inside-photoroom"
+          },
+          {
+            "count": 34,
+            "segment": "/api"
+          },
+          {
+            "count": 9,
+            "segment": "/legal"
           }
         ],
         "sitemap_found": true,
-        "template_count": 1,
-        "comparison_pages": [],
-        "integration_count": 0
+        "template_count": 0,
+        "comparison_pages": [
+          "https://www.photoroom.com/api/photoroom-vs-removebg"
+        ],
+        "integration_count": 1
       },
       "display_locales": {
         "en": {},
@@ -13010,7 +13128,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -13024,7 +13141,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -13035,79 +13151,19 @@
             "independent_sources": 3
           },
           {
-            "score": 33,
-            "keyword": "photoroom ai photo editor",
+            "score": 29,
+            "keyword": "photoroom remove background",
             "sources": [
               "google",
-              "youtube",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "ai",
-              "editor"
-            ],
-            "best_position": 7,
-            "independent_sources": 3
-          },
-          {
-            "score": 26,
-            "keyword": "photoroom sas",
-            "sources": [
-              "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
-            "new_concepts": [
-              "sas"
-            ],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 25,
-            "keyword": "photoroom background",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "background"
-            ],
-            "best_position": 5,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "photoroom remove bg",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
             "new_concepts": [
               "remove",
-              "bg"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 19,
-            "keyword": "photoroom background remover",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "background",
-              "remover"
+              "background"
             ],
             "best_position": 1,
-            "independent_sources": 1
+            "independent_sources": 2
           },
           {
             "score": 18,
@@ -13123,7 +13179,49 @@
             "independent_sources": 1
           },
           {
+            "score": 18,
+            "keyword": "photoroom background remover",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "background",
+              "remover"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
             "score": 16,
+            "keyword": "photoroom ai photo editor review",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "ai",
+              "editor",
+              "review"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "photoroom background",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "background"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
             "keyword": "photoroom ghost mannequin",
             "sources": [
               "youtube"
@@ -13133,27 +13231,38 @@
               "ghost",
               "mannequin"
             ],
-            "best_position": 4,
+            "best_position": 5,
             "independent_sources": 1
           },
           {
-            "score": 15,
-            "keyword": "photoroom ai model",
+            "score": 14,
+            "keyword": "photoroom remove bg",
             "sources": [
-              "youtube"
+              "google"
             ],
-            "unexpected": true,
+            "unexpected": false,
             "new_concepts": [
-              "ai",
-              "model"
+              "remove",
+              "bg"
             ],
-            "best_position": 5,
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 14,
+            "keyword": "photoroom pc",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 6,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.779Z"
+        "observed_at": "2026-11-16T05:43:13.891Z"
       },
-      "last_checked_at": "2026-07-07T12:00:00.000Z",
+      "last_checked_at": "2026-11-16T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "手机厂商（如苹果、三星）正在系统底层自带抠图和基本的物体分离算法，未来可能会逐渐压缩单一移动端工具的生态份额。",
         "alternatives": [
@@ -13321,7 +13430,7 @@
       "created_at": "2026-07-09T00:00:00.000Z",
       "summary_en": "Plausible Analytics is a privacy-friendly Google Analytics alternative offering a lightweight script, no cookie banners, open source code, and EU hosting. Its business model is subscription-based with tiers based on monthly pageviews, offering a free trial and multiple paid plans. The company is self-funded, profitable, with over 20,000 paying subscribers.",
       "summary_zh": "Plausible Analytics 是一款隐私友好的 Google Analytics 替代品，提供轻量级脚本、无需 cookie 横幅、开源代码和欧盟托管。其商业模式为基于月浏览量的订阅制，提供免费试用和多个付费层级。公司自筹资金、盈利，拥有超过 20,000 名付费订阅者。",
-      "updated_at": "2026-10-14T05:44:04.039Z",
+      "updated_at": "2026-11-16T04:43:21.487Z",
       "launch_year": 2018,
       "website_url": "https://plausible.io",
       "founder_name": "",
@@ -13377,7 +13486,7 @@
         ],
         "gross_margin_estimate": "Not disclosed"
       },
-      "evidence_level": "C",
+      "evidence_level": "B",
       "search_profile": {
         "llms_txt": false,
         "blog_count": 108,
@@ -13600,6 +13709,43 @@
         "localization_opportunity": "",
         "localization_opportunity_en": ""
       },
+      "observation_log": [
+        {
+          "en": "Company-reported: $1M ARR reached ($83,637 MRR, 7,000+ paying subscribers).",
+          "zh": "公司披露：到达 $1M 年化（月经常性收入 $83,637、7,000+ 付费订阅者）。",
+          "date": "2022-06",
+          "kind": "reported",
+          "source_url": "https://plausible.io/blog/open-source-saas"
+        },
+        {
+          "en": "Company-reported: $500K ARR reached ($42,624 MRR that month).",
+          "zh": "公司披露：到达 $500K 年化（当月月经常性收入 $42,624）。",
+          "date": "2021-10",
+          "kind": "reported",
+          "source_url": "https://plausible.io/blog/open-source-saas"
+        },
+        {
+          "en": "Company-reported: $11,303 MRR, described by the team as finally sustainable.",
+          "zh": "公司披露：月经常性收入 $11,303，团队自述「终于可持续」。",
+          "date": "2021-01",
+          "kind": "reported",
+          "source_url": "https://plausible.io/blog/open-source-saas"
+        },
+        {
+          "en": "Company-reported: $400 MRR reached 324 days after launch ($403 that month).",
+          "zh": "公司披露：上线 324 天后到达 $400 月经常性收入（当月 $403）。",
+          "date": "2020-02",
+          "kind": "reported",
+          "source_url": "https://plausible.io/blog/open-source-saas"
+        },
+        {
+          "en": "Company-reported: paid subscriptions launched at $64 MRR.",
+          "zh": "公司披露：付费订阅上线，首月月经常性收入 $64。",
+          "date": "2019-05",
+          "kind": "reported",
+          "source_url": "https://plausible.io/blog/open-source-saas"
+        }
+      ],
       "product_breakdown": {
         "core_job": "帮助网站所有者了解其网站流量和用户行为，同时保护访客隐私。",
         "data_moat": "随着时间积累的网站流量数据，以及用户对历史数据的依赖。",
@@ -13981,8 +14127,8 @@
         },
         {
           "id": "pristmax-deployment",
-          "url": "https://jiangchenghehe.top/docs.html",
-          "notes": "Pre-release wording, no formal package claim, demo statistics disclosure, recovery and net-storage acceptance criteria.",
+          "url": "https://jiangchenghehe.top/docs",
+          "notes": "Pre-release wording, no formal package claim, demo statistics disclosure, recovery and net-storage acceptance criteria. 2026-11-16: site moved to extension-less paths; docs.html now 404, content served at /docs (verified 200). URL updated.",
           "title": "Pristmax deployment notes",
           "source_type": "official",
           "collected_at": "2026-10-10T00:00:00.000Z",
@@ -13991,7 +14137,7 @@
         {
           "id": "pristmax-download",
           "url": "https://jiangchenghehe.top/download.html",
-          "notes": "Windows v1.2.0 and release download link observed; binary availability and execution not verified.",
+          "notes": "Windows v1.2.0 and release download link observed; binary availability and execution not verified. 2026-11-16: URL returned 404 and /download also 404; the download page is gone, consistent with the release-state contradictions this case already documents.",
           "title": "Pristmax download page",
           "source_type": "official",
           "collected_at": "2026-10-10T00:00:00.000Z",
@@ -14013,7 +14159,7 @@
       "created_at": "2026-10-10T00:00:00.000Z",
       "summary_en": "As of October 10, 2026, the website and public repository position Pristmax as local enterprise storage optimization with analysis, duplicate detection, CLI, REST API and MCP integration. The README describes an Apache 2.0 open core and separately licensed H.265 and video-analysis components, while the website still says MIT; component licenses need checking. The transferable hypothesis is to prove net savings and recovery in a small read-only pilot before selling licenses, deployment or support; the latter two are recommendations, not confirmed offerings. Release messages conflict: the homepage announces an API beta, deployment notes say no formal package is available, and the download page lists Windows v1.2.0. No software was downloaded or executed, and production readiness is unverified. Documentation acknowledges demo statistics. Revenue, customers, pricing and real net savings remain unverified; the team count is unknown. This is an early commercialization and trust-building observation, not a validated profitable business.",
       "summary_zh": "截至 2026-10-10，官网和公开仓库将 Pristmax 定位为本地运行的企业存储优化工具，展示存储分析、重复文件检测、CLI、REST API 与 MCP 集成。仓库 README 声明开源核心采用 Apache 2.0，H.265 编码与视频分析为独立授权的商业组件；官网仍出现 MIT 字样，具体权利须按组件许可证核对。商业启示是先用只读扫描和可恢复试点证明净节省，再销售授权、部署或支持（后两项为建议，并非已确认业务）。官网发布状态相互矛盾：主页称 API 公测发布，部署文档称正式安装包未发布，下载页列 Windows v1.2.0；未下载或执行软件，不确认生产就绪。文档承认部分统计为演示数据。未发现可核验营收、客户、定价或真实净节省率；团队人数未知。该案例适合观察开源商业化与信任建设，不宜当作已验证的盈利成功案例。",
-      "updated_at": "2026-10-14T07:21:01.025Z",
+      "updated_at": "2026-11-16T04:46:01.056Z",
       "launch_year": 2026,
       "website_url": "https://jiangchenghehe.top/",
       "founder_name": "Not disclosed; repository owner: chunchengzheng58-ctrl",
@@ -14041,7 +14187,7 @@
         "llms_txt": false,
         "blog_count": 0,
         "total_urls": 0,
-        "observed_at": "2026-10-12T05:43:15.128Z",
+        "observed_at": "2026-11-16T05:43:17.003Z",
         "path_groups": [],
         "sitemap_found": false,
         "template_count": 0,
@@ -14081,7 +14227,7 @@
       "keyword_profile": {
         "seed": "Pristmax",
         "signals": [],
-        "observed_at": "2026-10-12T05:43:15.128Z"
+        "observed_at": "2026-11-16T05:43:17.003Z"
       },
       "last_checked_at": "2026-10-10T00:00:00.000Z",
       "market_analysis": {
@@ -14360,13 +14506,17 @@
       "evidence_level": "C",
       "search_profile": {
         "llms_txt": true,
-        "blog_count": 1,
-        "total_urls": 37,
-        "observed_at": "2026-10-05T05:43:14.518Z",
+        "blog_count": 9,
+        "total_urls": 131,
+        "observed_at": "2026-11-16T05:43:13.560Z",
         "path_groups": [
           {
-            "count": 33,
+            "count": 109,
             "segment": "/docs"
+          },
+          {
+            "count": 10,
+            "segment": "/blog"
           },
           {
             "count": 1,
@@ -14378,19 +14528,26 @@
           },
           {
             "count": 1,
-            "segment": "/comparison"
+            "segment": "/sandboxes"
           },
           {
             "count": 1,
-            "segment": "/blog"
+            "segment": "/claude-code"
           }
         ],
         "sitemap_found": true,
-        "template_count": 0,
+        "template_count": 1,
         "comparison_pages": [
-          "https://prized.dev/comparison"
+          "https://prized.dev/comparison",
+          "https://prized.dev/blog/codex-cloud-alternatives",
+          "https://prized.dev/docs/boxes-vs-codespaces-coder-devpod",
+          "https://prized.dev/docs/codespaces-alternatives",
+          "https://prized.dev/docs/conductor-cloud-alternatives",
+          "https://prized.dev/docs/daytona-alternatives",
+          "https://prized.dev/docs/e2b-alternatives",
+          "https://prized.dev/docs/gitpod-ona-alternatives"
         ],
-        "integration_count": 0
+        "integration_count": 1
       },
       "display_locales": {
         "en": {},
@@ -14426,132 +14583,86 @@
         "seed": "Prized",
         "signals": [
           {
-            "score": 40,
+            "score": 39,
             "keyword": "prized possession",
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
               "possession"
             ],
-            "best_position": 0,
+            "best_position": 1,
             "independent_sources": 3
           },
           {
-            "score": 29,
-            "keyword": "prized health",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "health"
-            ],
-            "best_position": 1,
-            "independent_sources": 2
-          },
-          {
-            "score": 28,
-            "keyword": "prized pig",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pig"
-            ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
             "score": 27,
-            "keyword": "prized wear",
+            "keyword": "prized synonym",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
-              "wear"
+              "synonym"
             ],
             "best_position": 3,
             "independent_sources": 2
           },
           {
-            "score": 21,
-            "keyword": "prized pelt mhr",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "pelt",
-              "mhr"
-            ],
-            "best_position": 9,
-            "independent_sources": 2
-          },
-          {
             "score": 20,
-            "keyword": "prized health reston va",
+            "keyword": "prized health",
             "sources": [
-              "bing",
-              "duckduckgo"
+              "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "health",
-              "reston",
-              "va"
+              "health"
             ],
             "best_position": 0,
             "independent_sources": 1
           },
           {
-            "score": 19,
-            "keyword": "prizedice",
-            "sources": [
-              "google"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 1
-          },
-          {
-            "score": 19,
-            "keyword": "prized possession isley brothers",
+            "score": 20,
+            "keyword": "prized possession latto",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "possession",
-              "isley",
-              "brothers"
+              "latto"
             ],
-            "best_position": 1,
+            "best_position": 0,
             "independent_sources": 1
           },
           {
             "score": 18,
-            "keyword": "prized possession latto instrumental",
+            "keyword": "prized health reston",
+            "sources": [
+              "google"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health",
+              "reston"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 18,
+            "keyword": "prized possessions viet cuong",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "possession",
-              "latto",
-              "instrumental"
+              "possessions",
+              "viet",
+              "cuong"
             ],
             "best_position": 2,
             "independent_sources": 1
@@ -14560,7 +14671,6 @@
             "score": 18,
             "keyword": "prized violins crossword",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -14570,9 +14680,55 @@
             ],
             "best_position": 2,
             "independent_sources": 1
+          },
+          {
+            "score": 17,
+            "keyword": "prized shadow fisch",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "shadow",
+              "fisch"
+            ],
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "prized possession (feat. teezo touchdown) latto",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "possession",
+              "feat",
+              "teezo",
+              "touchdown",
+              "latto"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "prized health reston va",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "health",
+              "reston",
+              "va"
+            ],
+            "best_position": 4,
+            "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.335Z"
+        "observed_at": "2026-11-16T05:43:13.474Z"
       },
       "last_checked_at": "2026-09-06T12:25:33.376Z",
       "market_analysis": {
@@ -15207,24 +15363,32 @@
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
-        "total_urls": 5,
-        "observed_at": "2026-10-05T05:43:15.185Z",
+        "total_urls": 40,
+        "observed_at": "2026-11-16T05:43:14.173Z",
         "path_groups": [
           {
-            "count": 2,
-            "segment": "/pro"
+            "count": 4,
+            "segment": "/de"
           },
           {
-            "count": 1,
-            "segment": "/"
+            "count": 4,
+            "segment": "/ja"
           },
           {
-            "count": 1,
-            "segment": "/download"
+            "count": 4,
+            "segment": "/fr"
           },
           {
-            "count": 1,
-            "segment": "/unsubscribe"
+            "count": 4,
+            "segment": "/es"
+          },
+          {
+            "count": 4,
+            "segment": "/nl"
+          },
+          {
+            "count": 4,
+            "segment": "/pt"
           }
         ],
         "sitemap_found": true,
@@ -15242,26 +15406,36 @@
         "seed": "Raindrop.io",
         "signals": [
           {
-            "score": 38,
+            "score": 29,
+            "keyword": "raindrop.io app",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 1,
+            "independent_sources": 2
+          },
+          {
+            "score": 28,
             "keyword": "raindrop.io review",
             "sources": [
               "google",
-              "youtube",
-              "bing"
+              "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
               "review"
             ],
             "best_position": 2,
-            "independent_sources": 3
+            "independent_sources": 2
           },
           {
             "score": 28,
             "keyword": "raindrop.io extension",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -15274,7 +15448,6 @@
             "keyword": "raindrop.io alternatives",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -15285,21 +15458,23 @@
             "independent_sources": 2
           },
           {
-            "score": 19,
-            "keyword": "raindrop.io app",
+            "score": 23,
+            "keyword": "raindrop.io api",
             "sources": [
-              "google"
+              "google",
+              "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [],
-            "best_position": 1,
-            "independent_sources": 1
+            "new_concepts": [
+              "api"
+            ],
+            "best_position": 7,
+            "independent_sources": 2
           },
           {
             "score": 19,
             "keyword": "raindrop.io edge",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -15324,36 +15499,21 @@
           },
           {
             "score": 17,
-            "keyword": "raindrop.io vs pocket",
+            "keyword": "raindrop.io obsidian",
             "sources": [
               "youtube"
             ],
             "unexpected": true,
             "new_concepts": [
-              "vs",
-              "pocket"
+              "obsidian"
             ],
             "best_position": 3,
             "independent_sources": 1
           },
           {
             "score": 16,
-            "keyword": "raindrop.io pro",
-            "sources": [
-              "youtube"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "pro"
-            ],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
             "keyword": "raindrop.io shfwz",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -15365,20 +15525,19 @@
           },
           {
             "score": 15,
-            "keyword": "raindrop.io vs readwise",
+            "keyword": "raindrop.io mcp",
             "sources": [
-              "youtube"
+              "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "vs",
-              "readwise"
+              "mcp"
             ],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.785Z"
+        "observed_at": "2026-11-16T05:43:13.888Z"
       },
       "market_analysis": {
         "market_risk": "书签管理市场竞争激烈，用户可能转向免费替代品。",
@@ -15638,8 +15797,8 @@
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
-        "total_urls": 9,
-        "observed_at": "2026-10-05T05:43:14.416Z",
+        "total_urls": 15,
+        "observed_at": "2026-11-16T05:43:13.541Z",
         "path_groups": [
           {
             "count": 2,
@@ -15655,15 +15814,15 @@
           },
           {
             "count": 1,
+            "segment": "/books"
+          },
+          {
+            "count": 1,
             "segment": "/cli"
           },
           {
             "count": 1,
             "segment": "/mcp"
-          },
-          {
-            "count": 1,
-            "segment": "/openclaw"
           }
         ],
         "sitemap_found": true,
@@ -15732,7 +15891,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -15748,7 +15906,6 @@
             "sources": [
               "google",
               "youtube",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -15758,93 +15915,61 @@
           },
           {
             "score": 28,
+            "keyword": "readwise mcp",
+            "sources": [
+              "google",
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "mcp"
+            ],
+            "best_position": 2,
+            "independent_sources": 2
+          },
+          {
+            "score": 26,
             "keyword": "readwise pricing",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
             "new_concepts": [
               "pricing"
             ],
-            "best_position": 2,
-            "independent_sources": 2
-          },
-          {
-            "score": 27,
-            "keyword": "readwise obsidian",
-            "sources": [
-              "youtube",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "obsidian"
-            ],
-            "best_position": 3,
-            "independent_sources": 2
-          },
-          {
-            "score": 26,
-            "keyword": "readwise mcp",
-            "sources": [
-              "google",
-              "bing"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "mcp"
-            ],
             "best_position": 4,
             "independent_sources": 2
           },
           {
-            "score": 25,
-            "keyword": "readwise extension",
-            "sources": [
-              "google",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "extension"
-            ],
-            "best_position": 5,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
-            "keyword": "readwise alternative",
-            "sources": [
-              "google",
-              "youtube"
-            ],
-            "unexpected": false,
-            "new_concepts": [
-              "alternative"
-            ],
-            "best_position": 6,
-            "independent_sources": 2
-          },
-          {
-            "score": 24,
+            "score": 23,
             "keyword": "readwise api",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
             "new_concepts": [
               "api"
             ],
-            "best_position": 6,
+            "best_position": 7,
             "independent_sources": 2
           },
           {
             "score": 18,
+            "keyword": "readwise obsidian",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "obsidian"
+            ],
+            "best_position": 2,
+            "independent_sources": 1
+          },
+          {
+            "score": 17,
             "keyword": "readwise review",
             "sources": [
               "youtube"
@@ -15853,25 +15978,50 @@
             "new_concepts": [
               "review"
             ],
-            "best_position": 2,
+            "best_position": 3,
+            "independent_sources": 1
+          },
+          {
+            "score": 16,
+            "keyword": "readwise notion",
+            "sources": [
+              "youtube"
+            ],
+            "unexpected": true,
+            "new_concepts": [
+              "notion"
+            ],
+            "best_position": 4,
             "independent_sources": 1
           },
           {
             "score": 15,
-            "keyword": "readwise chrome extension",
+            "keyword": "readwise cost",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "chrome",
+              "cost"
+            ],
+            "best_position": 5,
+            "independent_sources": 1
+          },
+          {
+            "score": 15,
+            "keyword": "readwise extension",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": true,
+            "new_concepts": [
               "extension"
             ],
             "best_position": 5,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-05T05:43:14.334Z"
+        "observed_at": "2026-11-16T05:43:13.445Z"
       },
       "last_checked_at": "2026-09-02T00:00:00.000Z",
       "market_analysis": {
@@ -16007,6 +16157,321 @@
       "replication_difficulty": "High"
     },
     {
+      "id": "simple-analytics",
+      "slug": "simple-analytics",
+      "market": "Global",
+      "status": "published",
+      "sources": [
+        {
+          "id": "sa-open-metrics",
+          "url": "https://www.simpleanalytics.com/open",
+          "notes": "Observed 2026-11-15: about $48.9k MRR ($45.2k unified currency), 1,284 paying customers, $587.5k ARR, Stripe-based MRR methodology with sample code. The detailed revenue/profit/expense chart's final data point is February 2024 ($30,833 MRR, $31,418 revenue, $23,316 profit; hosting $2,018, freelancers $3,670, services $950, banking $1,464, marketing $0). Aggregate customer traffic for October 2026: 629,844,614 pageviews, 286,204,476 visitors, 151,294,146 events. Self-published by the company, not third-party verified. The traffic series begins September 2018, which is the basis for the launch year recorded here.",
+          "title": "Simple Analytics open-metrics page: MRR, paying customers and expense breakdown",
+          "source_type": "official",
+          "collected_at": "2026-11-15T00:00:00.000Z",
+          "evidence_level": "B"
+        },
+        {
+          "id": "sa-pricing",
+          "url": "https://www.simpleanalytics.com/pricing",
+          "notes": "Observed 2026-11-15: free forever with 1 user, 5 websites and 1 month of history, described as free for hobby sites; $20/month entry with a datapoint slider from 100k to 2.5M; each extra user $20/month; annual billing shown as two months free; 14-day trial without a credit card; enterprise quoted on request with a 30-day proof of concept alongside GA4; bills from $500 payable by bank transfer with 10% additional fees.",
+          "title": "Simple Analytics pricing page: free-plan limits, $20/month entry and enterprise quotes",
+          "source_type": "official",
+          "collected_at": "2026-11-15T00:00:00.000Z",
+          "evidence_level": "B"
+        },
+        {
+          "id": "sa-homepage",
+          "url": "https://www.simpleanalytics.com/",
+          "notes": "Observed 2026-11-15: the page description positions the product as running alongside GA4 to compare observed website traffic, with a demo booking for a free 30-day proof of concept; a site-wide banner states the company does not run Black Friday promotions and offers one fair price for everyone. Marketing statements, not audited outcomes.",
+          "title": "Simple Analytics homepage: run-alongside-GA4 positioning and pricing stance",
+          "source_type": "official",
+          "collected_at": "2026-11-15T00:00:00.000Z",
+          "evidence_level": "C"
+        }
+      ],
+      "category": "Analytics",
+      "logo_url": "https://www.simpleanalytics.com/favicon.ico",
+      "team_size": 0,
+      "created_at": "2026-11-15T00:00:00.000Z",
+      "summary_en": "As rechecked on November 15, 2026, the Simple Analytics open-metrics page shows about $48.9k in monthly recurring revenue (the page also states $45.2k in unified currency), 1,284 paying customers and $587.5k ARR. The company publishes these figures itself and documents its method, including sample code for computing MRR from Stripe subscriptions, but no third-party billing verification was obtained, so this case is graded Evidence B rather than A. The paid boundary is explicit: the free plan is free forever but limited to 1 user, 5 websites and the latest month of history, positioned for hobby sites; paid starts at $20/month and follows datapoint usage, with the pricing slider running from 100k to 2.5M, each extra user adding $20/month, and annual billing presented as two months free; enterprise is quoted on request with a 30-day proof of concept run alongside GA4, and bills from $500 can be paid by bank transfer with 10% additional fees. The homepage states plainly that the company does not run Black Friday discounts and offers one fair price to everyone. What indie builders should notice is the mixed basis on that single page: the headline MRR is live, while the detailed revenue-and-expense chart ends in February 2024 ($30,833 MRR, $31,418 revenue, $23,316 profit, with $2,018 hosting, $3,670 freelancers, $950 services, $1,464 banking and $0 marketing that month). Public transparency does not mean every metric refreshes together, so each figure needs its own observation date when cited. Founder name, team size, acquisition attribution and retention were not obtained in this review and remain unknown.",
+      "summary_zh": "截至 2026-11-15 复核，Simple Analytics 的公开指标页显示约 4.89 万美元月经常性收入（页面同时标注按统一币种折算为 4.52 万美元）、1,284 个付费客户、年化 58.75 万美元。这些数字由公司自行公布，页面还附上了基于 Stripe 订阅计算月经常性收入的方法说明与代码示例，但没有第三方账单核验，因此本案例定为证据分级 B，不是 A。定价边界清楚：免费档长期免费但限 1 名用户、5 个网站、只保留最近 1 个月历史，定位个人站点；付费自 20 美元/月起，月费随数据点用量变动，定价页滑块覆盖 10 万到 250 万，每增加 1 名用户加收 20 美元/月，按年付费相当于免费两个月；企业档按需报价，并提供与 GA4 并行比对的 30 天概念验证，金额自 500 美元起可银行转账但另收 10% 手续费。官网首页明确写不参加黑色星期五、不给折扣，只给所有人同一个公道价格。值得独立开发者注意的是同一页上的两类口径差异：头部月经常性收入是实时的，而更详细的收支与成本明细图最后一个数据点停在 2024 年 2 月（当月月经常性收入 30,833 美元、营收 31,418 美元、利润 23,316 美元，托管 2,018 美元、外包 3,670 美元、服务 950 美元、银行 1,464 美元、营销 0 美元）。公开透明并不等于全部指标同步更新，引用时必须分别标注观测日期。本次未取得创始人姓名、团队人数、获客归因与留存数据，这些仍为未知，不做推断。",
+      "updated_at": "2026-11-15T00:00:00.000Z",
+      "launch_year": 2018,
+      "publication": {
+        "key": "fe849b030149cea52a88a62a728fccbd1629f80713ede46e3ef99c051d0ad8e6",
+        "publish_at": "2026-11-16T02:23:24.611Z",
+        "approved_at": "2026-11-16T02:23:24.610Z",
+        "content_hash": "4ebdf2e4fdd3edf8ed3434a9d3bee49aad0c9b533a07fa699ac531b768191684"
+      },
+      "reviewed_at": "2026-11-16T02:23:24.610Z",
+      "reviewed_by": "session-review-2026-11-15",
+      "website_url": "https://www.simpleanalytics.com/",
+      "founder_name": "Not disclosed in reviewed sources",
+      "founder_type": "small team",
+      "product_name": "Simple Analytics",
+      "product_type": "Privacy-first website analytics SaaS",
+      "revenue_model": {
+        "free_plan": true,
+        "paid_trigger": "免费档长期可用，但限 1 名用户、5 个网站、只保留最近 1 个月历史；当站点数、协作者或数据点用量超过这条线，就必须进入 20 美元/月起的按量档。",
+        "revenue_type": "ARR",
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": "0",
+            "features": [
+              "1 user",
+              "5 websites",
+              "Latest 1 month of history retained",
+              "Free forever, positioned for hobby sites"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Self-serve",
+            "price": "20",
+            "features": [
+              "Includes 1 user; each extra user adds $20/month",
+              "Monthly fee follows datapoint usage (pricing slider runs from 100k to 2.5M)",
+              "14-day free trial, no credit card",
+              "Annual billing is presented as two months free"
+            ],
+            "interval": "month"
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Priced on request for stated requirements",
+              "30-day proof of concept run alongside GA4",
+              "Bills from $500 payable by bank transfer with 10% additional fees"
+            ],
+            "interval": "quoted"
+          }
+        ],
+        "revenue_range": "$587.5K ARR · live open-metrics page observed 2026-11-15",
+        "renewal_reason": "推断：分析数据的价值随历史长度增长，而免费档只保留一个月，续费才能留住可对比的历史；本次未取得留存或续费数据，不作为已验证结论。",
+        "revenue_amount": 48900,
+        "paid_trigger_en": "The free plan stays available but caps 1 user, 5 websites and one month of history; once sites, collaborators or datapoint volume exceed that line, usage-based paid plans start at $20/month.",
+        "renewal_reason_en": "Hypothesis: analytics value grows with history length while the free plan keeps only one month, so renewal preserves comparable history; no retention or renewal data was obtained, so this is not a verified conclusion.",
+        "monetization_model": [
+          "Subscription",
+          "Freemium",
+          "Usage-based"
+        ],
+        "gross_margin_estimate": "Not disclosed; the public expense chart ends in February 2024 and cannot establish current margin"
+      },
+      "reviewed_hash": "4ebdf2e4fdd3edf8ed3434a9d3bee49aad0c9b533a07fa699ac531b768191684",
+      "evidence_level": "B",
+      "display_locales": {
+        "en": {
+          "founder_name": "Founder name is not disclosed in the reviewed sources",
+          "sources.sa-pricing.title": "Simple Analytics pricing page: free-plan limits, $20/month entry and enterprise quotes",
+          "sources.sa-homepage.title": "Simple Analytics homepage: run-alongside-GA4 positioning and pricing stance",
+          "sources.sa-open-metrics.title": "Simple Analytics open-metrics page: MRR, paying customers and expense breakdown",
+          "market_analysis.demand_signals.0": "The open-metrics page shows 1,284 paying customers, about $48.9k MRR and $587.5k ARR (observed 2026-11-15)",
+          "market_analysis.demand_signals.1": "The same page aggregates all customer traffic: 629,844,614 pageviews, 286,204,476 visitors and 151,294,146 events in October 2026",
+          "market_analysis.demand_signals.2": "The revenue-and-expense chart on that page ends in February 2024, a different basis from the live MRR headline, so the two must not be mixed",
+          "market_analysis.demand_signals.3": "Paying-customer and revenue figures are self-published by the company; no third-party billing verification was obtained in this review",
+          "revenue_model.monetization_model.0": "Subscription",
+          "revenue_model.monetization_model.1": "Freemium",
+          "revenue_model.monetization_model.2": "Usage-based",
+          "revenue_model.gross_margin_estimate": "Gross margin is not disclosed; the public chart's last data point is February 2024 ($31,418 monthly revenue, $23,316 monthly profit), which cannot be extrapolated to current margin",
+          "acquisition_operations.primary_channel": "Observed public entry points: website, pricing page and open-metrics page (acquisition attribution unknown)",
+          "revenue_model.pricing_tiers.0.interval": "month",
+          "revenue_model.pricing_tiers.1.interval": "month",
+          "revenue_model.pricing_tiers.2.interval": "quoted",
+          "revenue_model.pricing_tiers.0.features.0": "1 user",
+          "revenue_model.pricing_tiers.0.features.1": "5 websites",
+          "revenue_model.pricing_tiers.0.features.2": "Latest 1 month of history retained",
+          "revenue_model.pricing_tiers.0.features.3": "Free forever, positioned for hobby sites",
+          "revenue_model.pricing_tiers.1.features.0": "Includes 1 user; each extra user adds $20/month",
+          "revenue_model.pricing_tiers.1.features.1": "Monthly fee follows datapoint usage (pricing slider runs from 100k to 2.5M)",
+          "revenue_model.pricing_tiers.1.features.2": "14-day free trial, no credit card",
+          "revenue_model.pricing_tiers.1.features.3": "Annual billing is presented as two months free",
+          "revenue_model.pricing_tiers.2.features.0": "Priced on request for stated requirements",
+          "revenue_model.pricing_tiers.2.features.1": "30-day proof of concept run alongside GA4",
+          "revenue_model.pricing_tiers.2.features.2": "Bills from $500 payable by bank transfer with 10% additional fees"
+        },
+        "zh": {
+          "founder_name": "本次审阅的来源未披露创始人姓名",
+          "sources.sa-pricing.title": "Simple Analytics 定价页：免费档限制、$20/月起与企业报价",
+          "sources.sa-homepage.title": "Simple Analytics 官网：与 GA4 并行比对的定位与定价立场",
+          "sources.sa-open-metrics.title": "Simple Analytics 公开指标页：月经常性收入、付费客户数与收支明细",
+          "market_analysis.demand_signals.0": "公开指标页显示 1,284 个付费客户、月经常性收入约 $48.9 千美元、年化 $58.75 万美元（观测于 2026-11-15）",
+          "market_analysis.demand_signals.1": "公开指标页汇总全部客户流量：2026 年 10 月页面浏览 629,844,614、访客 286,204,476、事件 151,294,146",
+          "market_analysis.demand_signals.2": "同一页的收支明细图最后一个数据点是 2024 年 2 月，与实时月经常性收入口径不同，不能混用",
+          "market_analysis.demand_signals.3": "付费客户数与收入由公司自行公布，本次未取得第三方账单核验",
+          "revenue_model.monetization_model.0": "订阅",
+          "revenue_model.monetization_model.1": "免费增值",
+          "revenue_model.monetization_model.2": "按用量计费",
+          "revenue_model.gross_margin_estimate": "未披露毛利率；公开图表的最后一个数据点为 2024 年 2 月（月营收 $31,418、月利润 $23,316），据此不能推算当前毛利",
+          "acquisition_operations.primary_channel": "已观察到的公开入口：官网、定价页与公开指标页（获客归因未知）",
+          "revenue_model.pricing_tiers.0.interval": "月",
+          "revenue_model.pricing_tiers.1.interval": "月",
+          "revenue_model.pricing_tiers.2.interval": "按需报价",
+          "revenue_model.pricing_tiers.0.features.0": "1 名用户",
+          "revenue_model.pricing_tiers.0.features.1": "5 个网站",
+          "revenue_model.pricing_tiers.0.features.2": "保留最近 1 个月历史数据",
+          "revenue_model.pricing_tiers.0.features.3": "面向个人站点，长期免费",
+          "revenue_model.pricing_tiers.1.features.0": "含 1 名用户，每增加 1 名用户加收 $20/月",
+          "revenue_model.pricing_tiers.1.features.1": "月费随数据点用量变动（定价页滑块从 10 万到 250 万）",
+          "revenue_model.pricing_tiers.1.features.2": "14 天免费试用，无需信用卡",
+          "revenue_model.pricing_tiers.1.features.3": "按年付费相当于免费两个月",
+          "revenue_model.pricing_tiers.2.features.0": "按客户需求单独报价",
+          "revenue_model.pricing_tiers.2.features.1": "可申请 30 天概念验证，与 GA4 并行比对",
+          "revenue_model.pricing_tiers.2.features.2": "金额自 $500 起可银行转账，另收 10% 手续费"
+        }
+      },
+      "last_checked_at": "2026-11-15T00:00:00.000Z",
+      "market_analysis": {
+        "market_risk": "免费的 GA4 与同类隐私分析（Plausible、Fathom）以及可自托管的 Umami、Matomo 同时挤压上下两端；公开收入也让竞争对手能直接对标其规模。",
+        "alternatives": [
+          "Google Analytics 4",
+          "Plausible Analytics",
+          "Fathom Analytics",
+          "Self-hosted Umami or Matomo"
+        ],
+        "buyer_intent": "推断：需要向法务或客户解释数据去向、又不愿维护自托管的团队，可能为合规叙述和可读报表付费；本次未取得买家访谈证据。",
+        "market_stage": "Growth",
+        "timing_reason": "推断：隐私监管与同意弹窗带来的数据缺口，使「观测到的流量」口径受到关注；这是公开页面可见的叙述，不是已核验的市场数据。",
+        "demand_signals": [
+          "The open-metrics page shows 1,284 paying customers, about $48.9k MRR and $587.5k ARR (observed 2026-11-15)",
+          "The same page aggregates all customer traffic: 629,844,614 pageviews, 286,204,476 visitors and 151,294,146 events in October 2026",
+          "The revenue-and-expense chart on that page ends in February 2024, a different basis from the live MRR headline, so the two must not be mixed",
+          "Paying-customer and revenue figures are self-published by the company; no third-party billing verification was obtained in this review"
+        ],
+        "market_risk_en": "Free GA4, peer privacy analytics such as Plausible and Fathom, and self-hostable Umami or Matomo squeeze both ends at once; publishing revenue also lets competitors benchmark its scale directly.",
+        "buyer_intent_en": "Hypothesis: teams that must explain where data goes to legal or clients, yet do not want to maintain self-hosting, may pay for the compliance story and readable reports; no buyer-interview evidence was obtained.",
+        "differentiation": "定价页把定位写成与 GA4 并行比对、而不是立即替换，并提供 30 天概念验证；公司同时把自己的收入与成本长期公开，用经营透明度支撑隐私主张。",
+        "market_category": "Privacy-first website analytics",
+        "timing_reason_en": "Hypothesis: privacy regulation and consent banners created gaps in measured traffic, drawing attention to an observed-traffic basis; this is the narrative visible on public pages, not verified market data.",
+        "competitor_density": "High",
+        "differentiation_en": "The pricing page frames the product as running alongside GA4 for comparison rather than an immediate replacement, and offers a 30-day proof of concept; the company also publishes its own revenue and costs, backing its privacy claim with operating transparency.",
+        "localization_opportunity": "推断：中文市场同样面临数据出境与合规解释问题，可先用一种合规叙述和一份可交给法务的报表验证需求，而不是先做全功能本地化。",
+        "localization_opportunity_en": "Hypothesis: Chinese-market teams face the same cross-border and compliance-explanation problem, so validate demand with one compliance narrative and one legal-ready report before full localization."
+      },
+      "observation_log": [
+        {
+          "en": "Open-metrics page read first-hand: about $48.9K MRR ($45.2K in unified currency), 1,284 paying customers, $587.5K ARR.",
+          "zh": "公开指标页实测：月经常性收入约 $48.9K（统一币种 $45.2K）、1,284 个付费客户、年化 $587.5K。",
+          "date": "2026-11-15",
+          "kind": "observed",
+          "source_url": "https://www.simpleanalytics.com/open"
+        },
+        {
+          "en": "Final data point of the public revenue-and-expense chart: $30,833 MRR, $31,418 revenue and $23,316 profit for that month.",
+          "zh": "公开收支明细图的最后一个数据点：当月月经常性收入 $30,833、营收 $31,418、利润 $23,316。",
+          "date": "2024-02",
+          "kind": "reported",
+          "source_url": "https://www.simpleanalytics.com/open"
+        }
+      ],
+      "product_breakdown": {
+        "core_job": "让网站运营者在不部署同意弹窗、不自建数据管道的前提下，看懂访客与页面表现，并能向法务或客户解释数据怎么处理。",
+        "data_moat": "没有已核验的数据壁垒；隐私优先定位本身就限制了可积累的个人级数据，聚合流量规模不等于可用于训练的数据资产。",
+        "aha_moment": "推断的价值时刻：与现有分析工具并行跑一段时间后，看到两套口径的差额，从而知道自己此前漏掉了多少流量。",
+        "onboarding": "公开路径是注册即开始 14 天试用、无需信用卡，再按需选择套餐；企业路径先预约演示并约定 30 天概念验证范围。本次未注册账号，未验证实际安装体验。",
+        "core_job_en": "Let site owners understand visitors and page performance without deploying consent banners or building a data pipeline, while being able to explain to legal or clients how the data is handled.",
+        "data_moat_en": "No verified data moat; a privacy-first position itself limits what person-level data can accumulate, and aggregate traffic scale is not a trainable data asset.",
+        "product_risk": "口径风险最直接：公开页上实时月经常性收入与停在 2024 年 2 月的成本明细并存，读者容易混用；产品侧还要持续应对浏览器与拦截器变化对观测口径的影响。",
+        "aha_moment_en": "Hypothesised value moment: after running alongside an existing analytics tool, seeing the gap between the two bases and learning how much traffic was previously missed.",
+        "onboarding_en": "The public path signs up into a 14-day trial with no credit card and picks a plan afterwards; the enterprise path books a demo and agrees the scope of a 30-day proof of concept. No account was created in this review, so the installed experience is unverified.",
+        "paid_features": [
+          "超过免费档 5 个网站后的额外网站",
+          "额外协作者，每人 $20/月",
+          "超过最近 1 个月的历史数据",
+          "企业报价与 30 天概念验证"
+        ],
+        "product_risk_en": "The most immediate risk is mixed bases: a live MRR headline sits next to an expense breakdown that stops in February 2024, which readers can easily conflate; the product also has to keep absorbing browser and blocker changes that shift the measurement basis.",
+        "usage_frequency": "weekly",
+        "workflow_lockin": "推断：历史数据与报表习惯形成迁移成本；免费档只保留一个月，意味着停止付费会先失去历史对比能力。",
+        "paid_features_en": [
+          "Additional websites beyond the free five",
+          "Additional users at $20/month each",
+          "History beyond the latest month",
+          "Enterprise quote with a 30-day proof of concept"
+        ],
+        "must_have_features": [
+          "页面浏览与访客报表",
+          "事件与目标跟踪",
+          "历史数据保留时长分档",
+          "面向通用数据保护条例的数据处理方式",
+          "可与现有分析工具并行比对"
+        ],
+        "workflow_lockin_en": "Hypothesis: history and reporting habits create switching costs, and because the free plan keeps only one month, stopping payment first costs the ability to compare against history.",
+        "must_have_features_en": [
+          "Pageview and visitor reporting",
+          "Events and goals",
+          "History retention tiers",
+          "GDPR-oriented data handling",
+          "Comparison runs alongside an existing analytics tool"
+        ]
+      },
+      "reusable_patterns": {
+        "best_for": "卖「可信数据」或合规相关产品、愿意长期公开经营数据的小团队；不适合不能承受公开收入被竞争对手对标的团队。",
+        "best_for_en": "Small teams selling trustworthy data or compliance-adjacent products who are willing to publish operating data long term; unsuitable for teams that cannot accept competitors benchmarking their revenue.",
+        "mvp_version": "建议：先做一个脚本加一张报表，覆盖页面浏览与访客两项，免费档限 1 个站点与 1 个月历史；同时公开一页指标与计算方法。先验证有人愿意为第二个站点付费，再扩展功能。",
+        "pattern_name": "公开经营数据换信任 → 免费档够个人用 → 按用量跨线收费",
+        "risk_warning": "公开收入是不可逆动作：既吸引信任也暴露规模与下滑。若要公开，先确定更新节奏与口径定义，并对每个数字标注观测日期，否则透明本身会变成误导来源。",
+        "what_to_copy": "① 把免费档限制写成可数的硬线（人数、站点数、历史长度），而不是模糊的「公平使用」；② 公开一个指标就连带公开它的计算方法，让读者能复核；③ 面向替换风险高的买家，提供「与现有工具并行比对」的试用方式，而不是要求立刻切换。",
+        "why_it_works": "假设：当产品卖的就是「数据可被信任」，公开自己的收入与成本是成本最低的一致性证明；再把免费档的边界写成用户能自己数清的三条硬线，付费决定就不需要销售解释。本案例未验证该组合的转化率。",
+        "mvp_version_en": "Recommendation: start with one script and one report covering pageviews and visitors, with a free plan limited to one site and one month of history, plus a single public page of metrics and methodology. Validate that someone will pay for a second site before expanding features.",
+        "pattern_name_en": "Publish operating data for trust -> hobby-sized free plan -> charge when usage crosses the line",
+        "risk_warning_en": "Publishing revenue is irreversible: it attracts trust but also exposes scale and decline. If you publish, first fix the refresh cadence and the definition of each basis, and date every figure, or the transparency itself becomes a source of misleading claims.",
+        "what_to_copy_en": "First, express free-plan limits as countable lines (users, sites, history length) instead of a vague fair-use clause. Second, whenever a metric is published, publish how it is calculated so readers can check it. Third, for buyers who fear replacement risk, offer a run-alongside comparison trial instead of demanding an immediate switch.",
+        "why_it_works_en": "Hypothesis: when the product sells trustworthiness of data, publishing its own revenue and costs is the cheapest proof of consistency; writing the free-plan boundary as three limits a user can count themselves then removes the need for a salesperson to explain upgrading. This case does not verify the conversion rate of that combination.",
+        "what_not_to_copy": "不要以为「公开透明」可以一次性做完：这家公司的实时月经常性收入与停更两年多的成本明细同在一页，正是口径混用的来源。也不要把公司自报数字当成第三方核验，更不要照搬别人的价格而不先算自己的交付成本。",
+        "suggested_channel": "建议先用一页公开指标与一份方法说明承接「这个数字可信吗」的搜索与转介；本次未取得该公司的渠道归因，不能断言此渠道有效。",
+        "suggested_pricing": "建议按可数的用量维度（站点数、协作者、历史长度）分层，入门价需由自己的托管与支持成本验证；本案例观测到的 20 美元/月与 10% 银行手续费是该公司当前报价，不是推荐值。",
+        "what_not_to_copy_en": "Do not assume transparency is a one-off project: this company's live MRR sits on the same page as an expense breakdown that has not updated in over two years, which is exactly where mixed bases come from. Do not treat self-published figures as third-party verification, and do not copy someone else's price before computing your own delivery cost.",
+        "suggested_channel_en": "Recommendation: start with one page of public metrics and one methodology note to catch the \"can I trust this number\" search and referral intent; this review obtained no channel attribution for the company, so channel effectiveness cannot be asserted.",
+        "suggested_pricing_en": "Recommendation: tier on countable usage dimensions (sites, collaborators, history length) and validate the entry price against your own hosting and support costs; the $20/month and 10% bank fee observed here are this company's current terms, not a recommendation."
+      },
+      "one_line_insight_en": "Simple Analytics publishes its own MRR, paying-customer count and cost structure on its site, trading verifiable operating data for trust, then charges at a usage boundary where a hobby-sized free plan stops being enough.",
+      "one_line_insight_zh": "Simple Analytics 把自己的月经常性收入、付费客户数与成本结构长期公开在站内，用隐私合规和可核对的经营数据换取信任，再以「免费档够个人用、按数据点用量收费」的边界变现。",
+      "acquisition_operations": {
+        "seo_strategy": "已观察到定价页用大量常见问题承接搜索意图（免费档如何工作、流量增长后怎么收费、是否符合通用数据保护条例等）；排名与搜索流量未测量。",
+        "content_format": [
+          "Documentation",
+          "Open metrics page",
+          "Pricing FAQ"
+        ],
+        "conversion_path": "已观察到两条入口：自助路径是注册 14 天试用（无需信用卡）→ 超出免费档限制 → 按数据点用量付费；企业路径是预约演示 → 与 GA4 并行跑 30 天概念验证 → 按需报价。实际转化率未知。",
+        "primary_channel": "Observed public entry points: website, pricing and open-metrics pages (attribution unknown)",
+        "seo_strategy_en": "The pricing page answers search intent with an extensive FAQ (how the free plan works, what happens when traffic grows, GDPR compliance); rankings and search traffic were not measured.",
+        "social_strategy": "本次未核验社交账号或社交获客效果。",
+        "operation_tactics": [
+          "长期公开月经常性收入、付费客户数与成本明细（已观察）",
+          "公布月经常性收入的计算方法与代码示例，让读者能复核口径（已观察）",
+          "用定价页常见问题直接回答免费档边界与涨价逻辑（已观察）",
+          "明确声明不做黑色星期五折扣、对所有人同一价格（已观察）"
+        ],
+        "affiliate_strategy": "未发现已核验的联盟计划。",
+        "community_strategy": "未核验社区运营；公开指标页提供方法说明与代码示例，属于面向开发者的公开资料。",
+        "conversion_path_en": "Two observed funnels: self-serve signs up for a 14-day trial with no credit card, outgrows the free plan, then pays by datapoint usage; enterprise books a demo, runs a 30-day proof of concept alongside GA4, then receives a quote. Actual conversion rates are unknown.",
+        "publishing_cadence": "Unknown",
+        "secondary_channels": [],
+        "social_strategy_en": "No social account or social acquisition result was verified in this review.",
+        "retention_mechanism": "推断：历史数据长度与报表习惯构成留存；免费档只留一个月，使续费与历史保留直接绑定。未取得留存数据。",
+        "first_traffic_source": "未知；本次只观察到公开页面入口，没有首批客户来源的证据。",
+        "free_to_paid_trigger": "免费档的三条硬线（1 名用户、5 个网站、1 个月历史）就是付费触发点，用户自己能数清楚什么时候该付费。",
+        "operation_tactics_en": [
+          "Publish MRR, paying-customer count and expense detail continuously (observed)",
+          "Publish the MRR calculation method and sample code so readers can check the basis (observed)",
+          "Answer free-plan boundaries and price scaling directly in the pricing FAQ (observed)",
+          "State plainly that there are no Black Friday discounts and one price for everyone (observed)"
+        ],
+        "affiliate_strategy_en": "No verified affiliate program was found.",
+        "community_strategy_en": "Community operations were not verified; the open-metrics page provides methodology and sample code, which is public material aimed at developers.",
+        "retention_mechanism_en": "Hypothesis: history length and reporting habits drive retention, and because the free plan keeps only one month, renewal is tied directly to retaining history. No retention data was obtained.",
+        "first_traffic_source_en": "Unknown; this review observed public page entry points only, with no evidence of where the first customers came from.",
+        "free_to_paid_trigger_en": "The free plan's three hard limits (1 user, 5 websites, 1 month of history) are the paid trigger, so users can count for themselves when it is time to pay.",
+        "founder_brand_dependency": false
+      },
+      "replication_difficulty": "Medium"
+    },
+    {
       "id": "speko",
       "slug": "speko",
       "market": "Global",
@@ -16121,9 +16586,17 @@
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
-        "total_urls": 24,
-        "observed_at": "2026-10-19T05:43:13.633Z",
+        "total_urls": 61,
+        "observed_at": "2026-11-16T05:43:17.652Z",
         "path_groups": [
+          {
+            "count": 17,
+            "segment": "/solutions"
+          },
+          {
+            "count": 8,
+            "segment": "/integrations"
+          },
           {
             "count": 3,
             "segment": "/docs"
@@ -16138,26 +16611,22 @@
           },
           {
             "count": 1,
-            "segment": "/voice-agent-infrastructure"
-          },
-          {
-            "count": 1,
-            "segment": "/models"
-          },
-          {
-            "count": 1,
-            "segment": "/pricing"
+            "segment": "/agents"
           }
         ],
         "sitemap_found": true,
         "template_count": 0,
         "comparison_pages": [
-          "https://speko.ai/speko-vs-bland",
+          "https://speko.ai/retell-alternatives",
+          "https://speko.ai/speko-vs-livekit",
+          "https://speko.ai/speko-vs-pipecat",
           "https://speko.ai/speko-vs-retell",
+          "https://speko.ai/speko-vs-synthflow",
+          "https://speko.ai/speko-vs-twilio",
           "https://speko.ai/speko-vs-vapi",
-          "https://speko.ai/vapi-alternatives"
+          "https://speko.ai/synthflow-alternatives"
         ],
-        "integration_count": 0
+        "integration_count": 8
       },
       "display_locales": {
         "en": {
@@ -16219,7 +16688,6 @@
             "keyword": "spekond",
             "sources": [
               "google",
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
@@ -16240,36 +16708,22 @@
             "independent_sources": 2
           },
           {
-            "score": 26,
-            "keyword": "spekol",
-            "sources": [
-              "youtube",
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
-            "independent_sources": 2
-          },
-          {
-            "score": 19,
-            "keyword": "speko ai",
+            "score": 18,
+            "keyword": "spekon connector",
             "sources": [
               "google"
             ],
             "unexpected": true,
             "new_concepts": [
-              "ai"
+              "connector"
             ],
-            "best_position": 1,
+            "best_position": 2,
             "independent_sources": 1
           },
           {
             "score": 17,
             "keyword": "spekond technologies",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -16281,45 +16735,19 @@
           },
           {
             "score": 16,
-            "keyword": "spekon",
+            "keyword": "spekok",
             "sources": [
-              "google"
+              "youtube"
             ],
             "unexpected": false,
             "new_concepts": [],
             "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 16,
-            "keyword": "spekom",
-            "sources": [
-              "bing",
-              "duckduckgo"
-            ],
-            "unexpected": false,
-            "new_concepts": [],
-            "best_position": 4,
-            "independent_sources": 1
-          },
-          {
-            "score": 15,
-            "keyword": "spekon connector",
-            "sources": [
-              "google"
-            ],
-            "unexpected": true,
-            "new_concepts": [
-              "connector"
-            ],
-            "best_position": 5,
             "independent_sources": 1
           },
           {
             "score": 15,
             "keyword": "spekove knedliky recept",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": true,
@@ -16331,21 +16759,53 @@
             "independent_sources": 1
           },
           {
-            "score": 13,
-            "keyword": "spekon seifhennersdorf",
+            "score": 14,
+            "keyword": "spekol",
             "sources": [
-              "bing",
               "duckduckgo"
             ],
             "unexpected": false,
-            "new_concepts": [
-              "seifhennersdorf"
+            "new_concepts": [],
+            "best_position": 6,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "spekoo",
+            "sources": [
+              "youtube"
             ],
+            "unexpected": false,
+            "new_concepts": [],
             "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 13,
+            "keyword": "spekom",
+            "sources": [
+              "duckduckgo"
+            ],
+            "unexpected": false,
+            "new_concepts": [],
+            "best_position": 7,
+            "independent_sources": 1
+          },
+          {
+            "score": 12,
+            "keyword": "speko yc",
+            "sources": [
+              "google"
+            ],
+            "unexpected": false,
+            "new_concepts": [
+              "yc"
+            ],
+            "best_position": 8,
             "independent_sources": 1
           }
         ],
-        "observed_at": "2026-10-19T05:43:12.170Z"
+        "observed_at": "2026-11-16T05:43:14.826Z"
       },
       "last_checked_at": "2026-10-13T08:44:17.852Z",
       "market_analysis": {
@@ -16475,7 +16935,7 @@
         {
           "id": "src-starter-story-1",
           "url": "https://www.hubspot.com/hubspot-media-network",
-          "notes": "HubSpot investor relation and network page lists Starter Story as a core acquisition.",
+          "notes": "HubSpot investor relation and network page lists Starter Story as a core acquisition. 2026-11-16: URL returned 404 and no Wayback snapshot exists; the revenue claim can no longer be re-verified from this source. 2026-11-16: URL returned 404 and no Wayback snapshot exists; the revenue claim can no longer be re-verified from this source.",
           "title": "HubSpot Media Network Overview",
           "source_type": "official",
           "collected_at": "2026-07-07",
@@ -16488,7 +16948,7 @@
       "created_at": "2026-07-07T12:00:00.000Z",
       "summary_en": "Starter Story is a structured database documenting verified business breakdowns, acquisition playbooks, and startup costs. Founder Pat Walls scaled content production using automated email interviews, building a library of 4,500+ real startup case studies. Acquired by HubSpot Media, it proves that verified structured business databases are high-value digital assets.",
       "summary_zh": "Starter Story 是一款专注于记录真实商业项目和独立创业者收入、获客打法、启动成本的案例数据库平台。创始人 Pat Walls 通过自动化邮件访谈，积累了超过 4500 个真实项目的结构化故事，成功建立起高客单价会员数据库。平台于近期被 HubSpot Media 收购，证实了真实收入商业数据库在流量分发和商业化层面的巨大资产价值。",
-      "updated_at": "2026-10-14T07:21:02.453Z",
+      "updated_at": "2026-11-16T04:43:01.537Z",
       "launch_year": 2017,
       "website_url": "https://www.starterstory.com",
       "founder_name": "Pat Walls",
@@ -16498,7 +16958,7 @@
       "revenue_model": {
         "free_plan": true,
         "paid_trigger": "免费用户可以看前几段创始人访谈故事，但核心干货（具体的获客渠道详情、使用的底层 SaaS 工具链、启动阶段的经验及具体营销支出数据）被付费墙锁定。",
-        "revenue_type": "ARR",
+        "revenue_type": "Not verified",
         "pricing_tiers": [
           {
             "name": "Free Newsletter",
@@ -16522,9 +16982,9 @@
             "interval": "year"
           }
         ],
-        "revenue_range": "$1.5M ARR",
+        "revenue_range": "Revenue not verified",
         "renewal_reason": "独立开发者和创业团队在启动新项目、做竞品研究、挖掘利基产品方向时，需要持续寻找可信数据作为决策依据。",
-        "revenue_amount": 125000,
+        "revenue_amount": 0,
         "paid_trigger_en": "Free users can view basic introductory summaries, but critical details (channel distribution data, exact SaaS tooling, startup cost spreadsheets) are gated under the paywall.",
         "renewal_reason_en": "Indie builders and startup marketing leads require ongoing competitor research and verified case benchmarks for strategic product decisions.",
         "monetization_model": [
@@ -16534,7 +16994,7 @@
         ],
         "gross_margin_estimate": "90%"
       },
-      "evidence_level": "A",
+      "evidence_level": "C",
       "search_profile": {
         "llms_txt": false,
         "blog_count": 0,
@@ -16699,7 +17159,7 @@
         ],
         "observed_at": "2026-10-19T05:43:13.706Z"
       },
-      "last_checked_at": "2026-07-07T12:00:00.000Z",
+      "last_checked_at": "2026-11-16T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "人工智能可以直接通过网络抓取并总结出泛泛的创业商业模式，如果没有独特、一手、不可替代的创始人访谈，容易被替代。",
         "alternatives": [
@@ -17632,7 +18092,7 @@
       "created_at": "2026-07-08T06:57:42.702Z",
       "summary_en": "Tally is a document-style form builder. On September 22, 2026, its founder reported about $6M ARR, $501K MRR and a team of 10. These are company-reported historical figures, not an independent audit. The $100K MRR milestone was in February 2024. Free usage is subject to fair-use rules, with paid plans serving commercial needs.",
       "summary_zh": "Tally 是文档式表单工具。2026 年 9 月 22 日创始人披露约 600 万美元 ARR、50.1 万美元 MRR，团队 10 人；这些是公司自报的历史截面，不是独立审计。早期 2024 年 2 月的 10 万美元 MRR 不能当作当前规模。免费方案受公平使用规则约束，商业需求由付费方案承接。",
-      "updated_at": "2026-10-14T07:21:02.997Z",
+      "updated_at": "2026-11-16T04:42:57.900Z",
       "launch_year": 2020,
       "website_url": "https://tally.so",
       "founder_name": "Marie Martens & Filip Minev",
@@ -17679,7 +18139,7 @@
         ],
         "gross_margin_estimate": "90%"
       },
-      "evidence_level": "C",
+      "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
@@ -17932,6 +18392,22 @@
         "localization_opportunity": "针对特定区域（如亚洲或欧洲特定国家）进行本地化，集成当地主流支付网关（如微信支付、支付宝、M-Pesa）以及本地协同工具（如飞书、钉钉），并提供符合当地数据合规（如特定国家的数据驻留要求）的表单服务。",
         "localization_opportunity_en": "Localizing for specific regions by integrating local payment gateways (e.g., WeChat Pay, Alipay, M-Pesa) and local collaboration tools (e.g., Lark, DingTalk), while ensuring compliance with regional data residency laws."
       },
+      "observation_log": [
+        {
+          "en": "Founder blog (read first-hand today): crossed $6M ARR with 2.5 million users and a team of 10.",
+          "zh": "创始人博客（本日实读原文）：跨过 $6M ARR、250 万用户、团队 10 人。",
+          "date": "2026-09-22",
+          "kind": "reported",
+          "source_url": "https://blog.tally.so/6-years-in-6-million-far/"
+        },
+        {
+          "en": "Founder blog: reached $5M ARR (per this site's existing review record of 'The road from $4M to $5M ARR').",
+          "zh": "创始人博客：到达 $5M ARR（本站既有审阅记录口径，原文《The road from $4M to $5M ARR》）。",
+          "date": "2026-04",
+          "kind": "reported",
+          "source_url": "https://blog.tally.so/the-road-from-4m-to-5m-arr/"
+        }
+      ],
       "product_breakdown": {
         "core_job": "帮助创作者、初创公司和市场营销人员以最快、最美观、成本最低的方式创建在线表单，收集结构化数据并无缝同步到其现有的工作流工具中。",
         "data_moat": "虽然表单工具本身的数据壁垒较低，但 Tally 通过积累用户的历史表单提交数据、部分提交的流失分析数据，以及与用户 Notion/Airtable 数据库之间建立的复杂映射关系来构建数据粘性。",
@@ -18053,6 +18529,15 @@
           "source_type": "official",
           "collected_at": "2026-07-07",
           "evidence_level": "B"
+        },
+        {
+          "id": "trustmrr-self-listing",
+          "url": "https://www.trustmrr.com/startup/trustmrr",
+          "notes": "Observed 2026-11-16: the page shows 'TrustMRR revenue: $26,664 in the last 30 days'. The platform states figures are pulled from connected payment providers, but the listing is displayed by the company itself, so this is graded B, not A.",
+          "title": "TrustMRR's own listing on its marketplace: 30-day revenue",
+          "source_type": "official",
+          "collected_at": "2026-11-16T00:00:00.000Z",
+          "evidence_level": "B"
         }
       ],
       "category": "Marketplace",
@@ -18061,7 +18546,7 @@
       "created_at": "2026-07-07T12:00:00.000Z",
       "summary_en": "TrustMRR is a verified startup MRR database and acquisition marketplace connected via read-only Stripe and Paddle API endpoints. By eliminating self-reported metric fraud, all listed startups feature real-time physical audit data. It leverages 'absolute revenue integrity' to secure premium buyer and seller placements, monetizing deal matches.",
       "summary_zh": "TrustMRR 是一款基于真实支付数据流（Stripe、Paddle 等）进行实时在线验证的初创企业 MRR 数据库及并购交易平台。用户无需信任创始人的口头描述，所有上榜和挂牌交易的项目的财务报表都经过了只读 API 的物理校验。该产品成功地将‘收入真实性’作为最强的信任溢价，吸引了大量高净值买家与卖家的入驻。",
-      "updated_at": "2026-10-14T07:21:03.265Z",
+      "updated_at": "2026-11-16T04:42:59.170Z",
       "launch_year": 2023,
       "website_url": "https://www.trustmrr.com",
       "founder_name": "Daniel Vassallo",
@@ -18071,7 +18556,7 @@
       "revenue_model": {
         "free_plan": false,
         "paid_trigger": "查看挂牌出售项目的真实 Stripe 月度账单、核心流量比率以及联系创始人发送收购邀约时，必须持有 $199/year 的 Premium 账号。",
-        "revenue_type": "MRR",
+        "revenue_type": "30-day revenue",
         "pricing_tiers": [
           {
             "name": "Startup Signal Database",
@@ -18094,9 +18579,9 @@
             "interval": "one-off"
           }
         ],
-        "revenue_range": "$10k–50k MRR",
+        "revenue_range": "$26.7K/30d · marketplace self-listing observed 2026-11-16",
         "renewal_reason": "机构买家、数字资产投资机构和职业并购客，需要常年订阅以最快捕获市场上新上架且数据干净的标的项目。",
-        "revenue_amount": 42000,
+        "revenue_amount": 26664,
         "paid_trigger_en": "Full inspection of Stripe subscription telemetry, growth trends, and initiating direct buyer-to-seller contact requires a $199/yr Premium pass.",
         "renewal_reason_en": "Professional web-asset acquirers and micro-funds require continuous annual access to jump on high-integrity listings before they enter broad markets.",
         "monetization_model": [
@@ -18105,7 +18590,7 @@
         ],
         "gross_margin_estimate": "92%"
       },
-      "evidence_level": "A",
+      "evidence_level": "B",
       "search_profile": {
         "llms_txt": true,
         "blog_count": 0,
@@ -18149,9 +18634,12 @@
         "integration_count": 0
       },
       "display_locales": {
-        "en": {},
+        "en": {
+          "sources.trustmrr-self-listing.title": "TrustMRR's own listing on its marketplace: 30-day revenue"
+        },
         "zh": {
           "sources.src-trustmrr-1.title": "TrustMRR 验证常见问题及 Stripe 政策",
+          "sources.trustmrr-self-listing.title": "TrustMRR 在自家平台的挂牌页：近 30 日收入",
           "revenue_model.pricing_tiers.1.interval": "一次性",
           "revenue_model.pricing_tiers.0.features.0": "每周经验证的收入报告",
           "revenue_model.pricing_tiers.1.features.0": "通过 Stripe 验证初创企业"
@@ -18302,7 +18790,7 @@
         ],
         "observed_at": "2026-10-26T05:43:11.399Z"
       },
-      "last_checked_at": "2026-07-07T12:00:00.000Z",
+      "last_checked_at": "2026-11-16T00:00:00.000Z",
       "market_analysis": {
         "market_risk": "大型交易平台（如 Acquire.com）直接依靠其巨大的技术资源开发原生 Stripe 验证并全免上架费，对小平台形成生态挤压。",
         "alternatives": [
@@ -18328,6 +18816,15 @@
         "localization_opportunity": "国内目前几乎没有专注于微信小程序、出海独立站、APP Store 订阅 APP 并支持接入支付服务验证的微并购平台，处于绝对蓝海状态。",
         "localization_opportunity_en": "Create a localized verified micro-deal board focusing on Chinese-built, global-facing Shopify stores or iOS subscription apps."
       },
+      "observation_log": [
+        {
+          "en": "Own-marketplace listing read first-hand: $26,664 revenue in the last 30 days (provider-verified basis per the platform's own policy).",
+          "zh": "自家平台挂牌页实测：近 30 日收入 $26,664（平台自述为支付方核验口径）。",
+          "date": "2026-11-16",
+          "kind": "observed",
+          "source_url": "https://www.trustmrr.com/startup/trustmrr"
+        }
+      ],
       "product_breakdown": {
         "core_job": "帮助数字资产买家在不面对造假欺诈和高昂DD成本的前提下，快速买到真实、健康的初创业务；帮助卖家用极速和保密的方式变现项目。",
         "data_moat": "直连 Stripe 获得的数据由于其权威性，构成了全网极其坚实、不可篡改、最具商业公信力的 SaaS 项目大盘运行报告。",

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-09T09:35:27.370Z",
+  "generated_at": "2026-11-16T09:24:07.499Z",
   "source": "https://proof-stack-lake.vercel.app/benchmarks",
   "license": "CC BY 4.0",
   "method": "Counted from the published pricing pages of audited cases; products without a public price are excluded, never estimated.",
   "overall": {
-    "sample_size": 57,
-    "paid_sample_size": 41,
-    "free_tier_count": 46,
+    "sample_size": 58,
+    "paid_sample_size": 42,
+    "free_tier_count": 47,
     "first_paid_median": 20,
     "first_paid_min": 0.09,
     "first_paid_max": 149,
     "gate_tallies": [
       {
         "label": "Team seats and permissions",
-        "count": 22
+        "count": 23
       },
       {
         "label": "Usage limits (items, runs, storage)",
-        "count": 20
+        "count": 21
       },
       {
         "label": "Automation and workflows",
@@ -223,6 +223,35 @@
           },
           {
             "label": "API and integrations",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "category": "Analytics",
+      "benchmark": {
+        "sample_size": 3,
+        "paid_sample_size": 2,
+        "free_tier_count": 1,
+        "first_paid_median": 32.5,
+        "first_paid_min": 20,
+        "first_paid_max": 45,
+        "gate_tallies": [
+          {
+            "label": "Usage limits (items, runs, storage)",
+            "count": 2
+          },
+          {
+            "label": "Team seats and permissions",
+            "count": 2
+          },
+          {
+            "label": "API and integrations",
+            "count": 1
+          },
+          {
+            "label": "Advanced analytics",
             "count": 1
           }
         ]
